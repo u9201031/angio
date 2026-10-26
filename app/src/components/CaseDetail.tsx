@@ -13,6 +13,12 @@ interface Props {
   onClose: () => void
 }
 
+function formatMrn(raw: string) {
+  const value = raw.replace(/^⚠️/, '').trim()
+  if (!value || value.includes('（無）')) return '未記載'
+  return value
+}
+
 const FIELDS: { key: keyof CaseRecord; label: string }[] = [
   { key: 'date', label: '日期' },
   { key: 'mrn', label: '病歷號' },
@@ -80,12 +86,23 @@ export function CaseDetail({
 
       <dl className="detail__fields">
         {FIELDS.map(({ key, label }) => {
-          const value = caseRecord[key]
-          if (typeof value !== 'string' || !value) return null
+          const raw = caseRecord[key]
+          if (typeof raw !== 'string' || !raw) {
+            if (key === 'mrn') {
+              return (
+                <div key={key}>
+                  <dt>{label}</dt>
+                  <dd className="detail__mrn">未記載</dd>
+                </div>
+              )
+            }
+            return null
+          }
+          const value = key === 'mrn' ? formatMrn(raw) : raw
           return (
             <div key={key}>
               <dt>{label}</dt>
-              <dd>{value}</dd>
+              <dd className={key === 'mrn' ? 'detail__mrn' : undefined}>{value}</dd>
             </div>
           )
         })}

@@ -18,6 +18,12 @@ import { MediaGrid } from './components/MediaGrid'
 import { MediaLightbox } from './components/MediaLightbox'
 import './App.css'
 
+function formatMrn(raw: string) {
+  const value = raw.replace(/^⚠️/, '').trim()
+  if (!value || value === '（無）' || value.includes('（無）')) return '未記載'
+  return value
+}
+
 export default function App() {
   const [cases, setCases] = useState<CaseRecord[]>([])
   const [pearls, setPearls] = useState<Pearl[]>([])
@@ -27,7 +33,7 @@ export default function App() {
 
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState<CategoryId | 'all'>('all')
-  const [tab, setTab] = useState<ViewTab>('pearls')
+  const [tab, setTab] = useState<ViewTab>('cases')
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   const [lightbox, setLightbox] = useState<{
@@ -113,7 +119,7 @@ export default function App() {
         <p className="brand">Angio Notes</p>
         <h1>神經介入學習筆記</h1>
         <p className="lede">
-          先看教學筆記，再對照病例；也可搜尋診斷、器材與代號。
+          病例列表會顯示病歷號；也可切到教學筆記，或用病歷號搜尋。
         </p>
         <div className="search">
           <input
@@ -130,8 +136,8 @@ export default function App() {
         <div className="tabs">
           {(
             [
-              ['pearls', `教學筆記 ${filteredPearls.length}`],
               ['cases', `病例 ${filteredCases.length}`],
+              ['pearls', `教學筆記 ${filteredPearls.length}`],
               ['media', `媒體 ${filteredMedia.length}`],
             ] as const
           ).map(([id, label]) => (
@@ -182,11 +188,15 @@ export default function App() {
                   >
                     <div className="case-card__meta">
                       <span>{c.date || '—'}</span>
-                      <span className="case-card__mrn">
-                        {c.mrn && !c.mrn.includes('（無）') ? c.mrn : '病歷號未記載'}
-                      </span>
+                      <span className="case-card__id">{c.id.toUpperCase()}</span>
                     </div>
-                    <strong>{c.diagnosis || '（未記載診斷）'}</strong>
+                    <p className="case-card__mrn">
+                      病歷號{' '}
+                      <strong>
+                        {formatMrn(c.mrn)}
+                      </strong>
+                    </p>
+                    <strong className="case-card__dx">{c.diagnosis || '（未記載診斷）'}</strong>
                     <p>{c.treatment || '—'}</p>
                     <div className="chip-row">
                       {c.categories.map((cat) => (

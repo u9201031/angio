@@ -189,16 +189,24 @@
   gap: 0.75rem;
   color: var(--muted);
   font-size: 0.8rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
 }
 
 .case-card__mrn {
-  font-weight: 700;
+  margin: 0 0 0.35rem;
+  font-size: 0.92rem;
   color: var(--accent-deep);
-  font-variant-numeric: tabular-nums;
 }
 
-.case-card strong {
+.case-card__mrn strong {
+  display: inline;
+  font-size: 1.05rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.case-card__dx,
+.case-card strong.case-card__dx {
   display: block;
   font-size: 1.02rem;
   line-height: 1.35;
@@ -278,6 +286,13 @@
 
 .detail__fields dd {
   margin: 0;
+}
+
+.detail__mrn {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent-deep);
+  font-variant-numeric: tabular-nums;
 }
 
 .detail__notes,
