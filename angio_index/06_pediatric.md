@@ -4,10 +4,10 @@
 
 ## 病例（2）
 
-| 日期 | 病例代號 | 匿名備註 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
+| 日期 | 病歷號 | 匿名備註 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
 |---|---|---|---|---|---|---|---|
-| ⚠️2026-06-29 | A16 | Pediatric | Basilar artery stenosis | 經股動脈血管攝影；FD；必要時 PTA | Phenom Plus 0045（中繼管）；.035 wire；Marathon + .010 wire / Headway 17；RHV 鎖在 4F 上 | — | Angio flow diverter for BA Stenosis (att=11) |
-| ⚠️2026-07-20 | A17 | Pediatric | （未記載，推測為眼部腫瘤） | SOAI（選擇性 ophthalmic artery 給藥） | Phenom Plus 當 guiding；Headway 17 | — | Angio (2026-07-20, att=1) |
+| ⚠️2026-06-29 | ⚠️（無） | Pediatric | Basilar artery stenosis | 經股動脈血管攝影；FD；必要時 PTA | Phenom Plus 0045（中繼管）；.035 wire；Marathon + .010 wire / Headway 17；RHV 鎖在 4F 上 | — | Angio flow diverter for BA Stenosis (att=11) |
+| ⚠️2026-07-20 | ⚠️（無） | Pediatric | （未記載，推測為眼部腫瘤） | SOAI（選擇性 ophthalmic artery 給藥） | Phenom Plus 當 guiding；Headway 17 | — | Angio (2026-07-20, att=1) |
 
 ## 教學筆記 / Pearls
 
