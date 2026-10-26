@@ -1,18 +1,18 @@
-﻿日期,病例代號,匿名備註,診斷,治療,器材,結果,來源筆記,分類
-2024-12-02,A01,,未記載,FD？（筆記寫「FD DFT 64」，疑為 p64）,,只有號碼；日期依筆記建立日,#angio 2024/12/02 (att=11),07_unclassified_general;01_aneurysm
-2024-12-02,A02,,未記載,血管攝影（推測）,,只有號碼；日期依筆記建立日,#angio 2024/12/02 (att=11),07_unclassified_general
-2024-12-02,A03,,未記載,血管攝影（推測）,,只有號碼；日期依筆記建立日,#angio 2024/12/02 (att=11),07_unclassified_general
-⚠️2024-12-09,A04,,Distal BA→SCA occlusion,IA thrombectomy（aspiration）,Aspiration catheter + pump,,#angio 2024/12/09 (att=5),02_stroke_thrombectomy
-⚠️2024-12-09,A05,,Left M1 occlusion,IA thrombectomy,,,#angio 2024/12/09 (att=5),02_stroke_thrombectomy
-2025-02-26,A06,Adult/F（外院轉入）,Left ICA occlusion，NIHSS 21,IA thrombectomy，3 passes（distal ICA → proximal M2；第 3 pass distal M2 未做）,R femoral；Infinity LS；Red 72 + Red 43,1st pass 部分移除；併發 SDH 合併中線偏移；穿刺 12:10 → 再灌流 12:33,"Report (created 2025-03-18, att=0)",02_stroke_thrombectomy
-2025-03-31,A07,72/F,L ophthalmic 未破裂 aneurysm；R paraclinoid ICA 未破裂 aneurysm,DSA+3D → R ICA PED Shield 4.5×20mm,6F Shuttle 80cm；H1；Navien 058；Phenom 21；Synchro2 .014,FD proximal 4.5 / distal 3.7mm；術後 CT 無 ICH；Angio-Seal,#angio 3/31 (att=15),01_aneurysm
-2025-04-21,A08,59/F,Basilar tip giant aneurysm + 雙側 MCA bifurcation aneurysm；曾做 R Pcom coiling,重做 DSA + BA BOT；pConus 輔助 coiling；L MCA stent-assisted coiling,AXS Infinity 80cm；H1；兩支 Navien 72（雙側 VA）；兩支 Phenom 21；Synchro2/Transcend2；pConus 2；Scepter,BA aneurysm 共 27 顆 coil；L MCA trifurcation aneurysm 仍在 → 接著做 SAC,#angio 2025/04/21 10:37 (att=27),01_aneurysm
-2025-04-21,A09,Adult/F,R cavernous ICA aneurysm（未破裂），朝內側，neck 3.0mm,Stent-assisted coiling（jailing）,Shuttle；Navien 72；H1；Headway 17（蒸汽塑 J 形）+ Excelsior XT-17；Synchro；Target coils；Neuroform Atlas 4.5×21mm,術後做 DSA,"#angio 2025/04/21 12:19 (att=25) / Right cavernous segment ICA aneurysm, unruptured (att=20)",01_aneurysm
-⚠️2025-05-05,A10,,Cervical ICA pseudo-occlusion；tandem lesion（CCA + ophthalmic 段 ICAD）,Aspiration thrombectomy → EPD + stent / angioplasty,Neuron Max 088；6F Heart care DAC；Red 72 → Red 43；Headway 21；PT2 .014；Ryurei PTA,抽吸後打通,#angio 2025/05/05 (att=12),02_stroke_thrombectomy;03_stenosis_ICAD_carotid
-⚠️2025-09-01,A11,,R ophthalmic 段大型 aneurysm；L A1 aneurysm,計畫：左側 coil + FD；右側 FD,,只有治療計畫,#angio 2025/09/01 (att=2),01_aneurysm
-⚠️2025-11-10,A12,,R cavernous ICA aneurysm,FD p64 4×18,Phenom 21,,#angio 2025/11/10 (att=4),01_aneurysm
-⚠️2026-02-24,A13,,Pcom aneurysm,Pcom embolization,,,Embolization (att=7),01_aneurysm
-⚠️2026-05-25,A14,,（未記載，推測為 CSDH）,MMA embolization，balloon 輔助,6F Cerebase；Navien 58；Headway 21；.014 wire；換 6F DAC；Scepter 4×10mm,,MMA Embolization (att=11),05_MMA_embolization
-⚠️2026-06-01,A15,,Dural AVF Cognard IIa（無 CVR）；另提到 BA 慢性 dissection 或 stenosis,經動脈 coil + Onyx,R femoral 5F 短 sheath；R neck 6F 短 sheath + 5F pigtail 或 6F DAC；Target/Axium coils；Marathon/Echelon,,TO3KIBA (att=3),04_dAVF_CCF
-⚠️2026-06-29,A16,Pediatric,Basilar artery stenosis,經股動脈血管攝影；FD；必要時 PTA,Phenom Plus 0045（中繼管）；.035 wire；Marathon + .010 wire / Headway 17；RHV 鎖在 4F 上,,Angio flow diverter for BA Stenosis (att=11),03_stenosis_ICAD_carotid;06_pediatric
-⚠️2026-07-20,A17,Pediatric,（未記載，推測為眼部腫瘤）,SOAI（選擇性 ophthalmic artery 給藥）,Phenom Plus 當 guiding；Headway 17,,"Angio (2026-07-20, att=1)",06_pediatric
+﻿日期,病歷號,匿名備註,診斷,治療,器材,結果,來源筆記,分類
+2024-12-02,⚠️1293526,,未記載,FD？（筆記寫「FD DFT 64」，疑為 p64）,,只有號碼；日期依筆記建立日,#angio 2024/12/02 (att=11),07_unclassified_general;01_aneurysm
+2024-12-02,⚠️3942186,,未記載,血管攝影（推測）,,只有號碼；日期依筆記建立日,#angio 2024/12/02 (att=11),07_unclassified_general
+2024-12-02,⚠️20314311,,未記載,血管攝影（推測）,,只有號碼；日期依筆記建立日,#angio 2024/12/02 (att=11),07_unclassified_general
+⚠️2024-12-09,2235482,,Distal BA→SCA occlusion,IA thrombectomy（aspiration）,Aspiration catheter + pump,,#angio 2024/12/09 (att=5),02_stroke_thrombectomy
+⚠️2024-12-09,22721377,,Left M1 occlusion,IA thrombectomy,,,#angio 2024/12/09 (att=5),02_stroke_thrombectomy
+2025-02-26,⚠️（無）,Adult/F（外院轉入）,Left ICA occlusion，NIHSS 21,IA thrombectomy，3 passes（distal ICA → proximal M2；第 3 pass distal M2 未做）,R femoral；Infinity LS；Red 72 + Red 43,1st pass 部分移除；併發 SDH 合併中線偏移；穿刺 12:10 → 再灌流 12:33,"Report (created 2025-03-18, att=0)",02_stroke_thrombectomy
+2025-03-31,⚠️44814（只有 5 碼）,72/F,L ophthalmic 未破裂 aneurysm；R paraclinoid ICA 未破裂 aneurysm,DSA+3D → R ICA PED Shield 4.5×20mm,6F Shuttle 80cm；H1；Navien 058；Phenom 21；Synchro2 .014,FD proximal 4.5 / distal 3.7mm；術後 CT 無 ICH；Angio-Seal,#angio 3/31 (att=15),01_aneurysm
+2025-04-21,1458408,59/F,Basilar tip giant aneurysm + 雙側 MCA bifurcation aneurysm；曾做 R Pcom coiling,重做 DSA + BA BOT；pConus 輔助 coiling；L MCA stent-assisted coiling,AXS Infinity 80cm；H1；兩支 Navien 72（雙側 VA）；兩支 Phenom 21；Synchro2/Transcend2；pConus 2；Scepter,BA aneurysm 共 27 顆 coil；L MCA trifurcation aneurysm 仍在 → 接著做 SAC,#angio 2025/04/21 10:37 (att=27),01_aneurysm
+2025-04-21,22380567,Adult/F,R cavernous ICA aneurysm（未破裂），朝內側，neck 3.0mm,Stent-assisted coiling（jailing）,Shuttle；Navien 72；H1；Headway 17（蒸汽塑 J 形）+ Excelsior XT-17；Synchro；Target coils；Neuroform Atlas 4.5×21mm,術後做 DSA,"#angio 2025/04/21 12:19 (att=25) / Right cavernous segment ICA aneurysm, unruptured (att=20)",01_aneurysm
+⚠️2025-05-05,⚠️（無）,,Cervical ICA pseudo-occlusion；tandem lesion（CCA + ophthalmic 段 ICAD）,Aspiration thrombectomy → EPD + stent / angioplasty,Neuron Max 088；6F Heart care DAC；Red 72 → Red 43；Headway 21；PT2 .014；Ryurei PTA,抽吸後打通,#angio 2025/05/05 (att=12),02_stroke_thrombectomy;03_stenosis_ICAD_carotid
+⚠️2025-09-01,⚠️（無）,,R ophthalmic 段大型 aneurysm；L A1 aneurysm,計畫：左側 coil + FD；右側 FD,,只有治療計畫,#angio 2025/09/01 (att=2),01_aneurysm
+⚠️2025-11-10,⚠️（無）,,R cavernous ICA aneurysm,FD p64 4×18,Phenom 21,,#angio 2025/11/10 (att=4),01_aneurysm
+⚠️2026-02-24,92378329,,Pcom aneurysm,Pcom embolization,,,Embolization (att=7),01_aneurysm
+⚠️2026-05-25,⚠️（無）,,（未記載，推測為 CSDH）,MMA embolization，balloon 輔助,6F Cerebase；Navien 58；Headway 21；.014 wire；換 6F DAC；Scepter 4×10mm,,MMA Embolization (att=11),05_MMA_embolization
+⚠️2026-06-01,⚠️（無）,,Dural AVF Cognard IIa（無 CVR）；另提到 BA 慢性 dissection 或 stenosis,經動脈 coil + Onyx,R femoral 5F 短 sheath；R neck 6F 短 sheath + 5F pigtail 或 6F DAC；Target/Axium coils；Marathon/Echelon,,TO3KIBA (att=3),04_dAVF_CCF
+⚠️2026-06-29,⚠️（無）,Pediatric,Basilar artery stenosis,經股動脈血管攝影；FD；必要時 PTA,Phenom Plus 0045（中繼管）；.035 wire；Marathon + .010 wire / Headway 17；RHV 鎖在 4F 上,,Angio flow diverter for BA Stenosis (att=11),03_stenosis_ICAD_carotid;06_pediatric
+⚠️2026-07-20,⚠️（無）,Pediatric,（未記載，推測為眼部腫瘤）,SOAI（選擇性 ophthalmic artery 給藥）,Phenom Plus 當 guiding；Headway 17,,"Angio (2026-07-20, att=1)",06_pediatric

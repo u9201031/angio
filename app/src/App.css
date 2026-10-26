@@ -186,9 +186,16 @@
 .case-card__meta {
   display: flex;
   justify-content: space-between;
+  gap: 0.75rem;
   color: var(--muted);
   font-size: 0.8rem;
   margin-bottom: 0.25rem;
+}
+
+.case-card__mrn {
+  font-weight: 700;
+  color: var(--accent-deep);
+  font-variant-numeric: tabular-nums;
 }
 
 .case-card strong {

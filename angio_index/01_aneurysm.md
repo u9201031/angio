@@ -4,15 +4,15 @@
 
 ## 病例（7）
 
-| 日期 | 病例代號 | 匿名備註 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
+| 日期 | 病歷號 | 匿名備註 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
 |---|---|---|---|---|---|---|---|
-| 2024-12-02 | A01 | — | 未記載 | FD？（筆記寫「FD DFT 64」，疑為 p64） | — | 只有號碼；日期依筆記建立日 | #angio 2024/12/02 (att=11) |
-| 2025-03-31 | A07 | 72/F | L ophthalmic 未破裂 aneurysm；R paraclinoid ICA 未破裂 aneurysm | DSA+3D → R ICA PED Shield 4.5×20mm | 6F Shuttle 80cm；H1；Navien 058；Phenom 21；Synchro2 .014 | FD proximal 4.5 / distal 3.7mm；術後 CT 無 ICH；Angio-Seal | #angio 3/31 (att=15) |
-| 2025-04-21 | A08 | 59/F | Basilar tip giant aneurysm + 雙側 MCA bifurcation aneurysm；曾做 R Pcom coiling | 重做 DSA + BA BOT；pConus 輔助 coiling；L MCA stent-assisted coiling | AXS Infinity 80cm；H1；兩支 Navien 72（雙側 VA）；兩支 Phenom 21；Synchro2/Transcend2；pConus 2；Scepter | BA aneurysm 共 27 顆 coil；L MCA trifurcation aneurysm 仍在 → 接著做 SAC | #angio 2025/04/21 10:37 (att=27) |
-| 2025-04-21 | A09 | Adult/F | R cavernous ICA aneurysm（未破裂），朝內側，neck 3.0mm | Stent-assisted coiling（jailing） | Shuttle；Navien 72；H1；Headway 17（蒸汽塑 J 形）+ Excelsior XT-17；Synchro；Target coils；Neuroform Atlas 4.5×21mm | 術後做 DSA | #angio 2025/04/21 12:19 (att=25) / Right cavernous segment ICA aneurysm, unruptured (att=20) |
-| ⚠️2025-09-01 | A11 | — | R ophthalmic 段大型 aneurysm；L A1 aneurysm | 計畫：左側 coil + FD；右側 FD | — | 只有治療計畫 | #angio 2025/09/01 (att=2) |
-| ⚠️2025-11-10 | A12 | — | R cavernous ICA aneurysm | FD p64 4×18 | Phenom 21 | — | #angio 2025/11/10 (att=4) |
-| ⚠️2026-02-24 | A13 | — | Pcom aneurysm | Pcom embolization | — | — | Embolization (att=7) |
+| 2024-12-02 | ⚠️1293526 | — | 未記載 | FD？（筆記寫「FD DFT 64」，疑為 p64） | — | 只有號碼；日期依筆記建立日 | #angio 2024/12/02 (att=11) |
+| 2025-03-31 | ⚠️44814（只有 5 碼） | 72/F | L ophthalmic 未破裂 aneurysm；R paraclinoid ICA 未破裂 aneurysm | DSA+3D → R ICA PED Shield 4.5×20mm | 6F Shuttle 80cm；H1；Navien 058；Phenom 21；Synchro2 .014 | FD proximal 4.5 / distal 3.7mm；術後 CT 無 ICH；Angio-Seal | #angio 3/31 (att=15) |
+| 2025-04-21 | 1458408 | 59/F | Basilar tip giant aneurysm + 雙側 MCA bifurcation aneurysm；曾做 R Pcom coiling | 重做 DSA + BA BOT；pConus 輔助 coiling；L MCA stent-assisted coiling | AXS Infinity 80cm；H1；兩支 Navien 72（雙側 VA）；兩支 Phenom 21；Synchro2/Transcend2；pConus 2；Scepter | BA aneurysm 共 27 顆 coil；L MCA trifurcation aneurysm 仍在 → 接著做 SAC | #angio 2025/04/21 10:37 (att=27) |
+| 2025-04-21 | 22380567 | Adult/F | R cavernous ICA aneurysm（未破裂），朝內側，neck 3.0mm | Stent-assisted coiling（jailing） | Shuttle；Navien 72；H1；Headway 17（蒸汽塑 J 形）+ Excelsior XT-17；Synchro；Target coils；Neuroform Atlas 4.5×21mm | 術後做 DSA | #angio 2025/04/21 12:19 (att=25) / Right cavernous segment ICA aneurysm, unruptured (att=20) |
+| ⚠️2025-09-01 | ⚠️（無） | — | R ophthalmic 段大型 aneurysm；L A1 aneurysm | 計畫：左側 coil + FD；右側 FD | — | 只有治療計畫 | #angio 2025/09/01 (att=2) |
+| ⚠️2025-11-10 | ⚠️（無） | — | R cavernous ICA aneurysm | FD p64 4×18 | Phenom 21 | — | #angio 2025/11/10 (att=4) |
+| ⚠️2026-02-24 | 92378329 | — | Pcom aneurysm | Pcom embolization | — | — | Embolization (att=7) |
 
 ## 教學筆記 / Pearls
 

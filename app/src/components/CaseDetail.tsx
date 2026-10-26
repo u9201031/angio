@@ -15,7 +15,7 @@ interface Props {
 
 const FIELDS: { key: keyof CaseRecord; label: string }[] = [
   { key: 'date', label: '日期' },
-  { key: 'mrn', label: '病例代號' },
+  { key: 'mrn', label: '病歷號' },
   { key: 'patient', label: '匿名備註' },
   { key: 'diagnosis', label: '診斷' },
   { key: 'treatment', label: '治療' },

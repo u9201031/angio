@@ -118,7 +118,7 @@ export default function App() {
         <div className="search">
           <input
             type="search"
-            placeholder="搜尋診斷、器材、病例代號、pearl…"
+            placeholder="搜尋病歷號、診斷、器材、pearl…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             autoFocus
@@ -182,7 +182,9 @@ export default function App() {
                   >
                     <div className="case-card__meta">
                       <span>{c.date || '—'}</span>
-                      <span>{c.mrn || c.id.toUpperCase()}</span>
+                      <span className="case-card__mrn">
+                        {c.mrn && !c.mrn.includes('（無）') ? c.mrn : '病歷號未記載'}
+                      </span>
                     </div>
                     <strong>{c.diagnosis || '（未記載診斷）'}</strong>
                     <p>{c.treatment || '—'}</p>
