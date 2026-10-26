@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "note": "把圖片/影片放進對應 case 資料夾，並在此列出檔名。資料夾命名可用 cases.csv 的列序 id（c01、c02…）或自訂 slug。",
+  "cases": {
+    "c01": { "folder": "c01", "files": [] },
+    "c02": { "folder": "c02", "files": [] },
+    "c03": { "folder": "c03", "files": [] },
+    "c04": { "folder": "c04", "files": [] },
+    "c05": { "folder": "c05", "files": [] },
+    "c06": { "folder": "c06", "files": [] },
+    "c07": { "folder": "c07", "files": [] },
+    "c08": { "folder": "c08", "files": [] },
+    "c09": { "folder": "c09", "files": [] },
+    "c10": { "folder": "c10", "files": [] },
+    "c11": { "folder": "c11", "files": [] },
+    "c12": { "folder": "c12", "files": [] },
+    "c13": { "folder": "c13", "files": [] },
+    "c14": { "folder": "c14", "files": [] },
+    "c15": { "folder": "c15", "files": [] },
+    "c16": { "folder": "c16", "files": [] },
+    "c17": { "folder": "c17", "files": [] }
+  }
+}
