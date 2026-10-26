@@ -1,5 +1,5 @@
 import { useCallback, useRef, useState } from 'react'
-import type { CaseRecord, MediaItem } from '../types'
+import type { CaseRecord, MediaItem, Pearl } from '../types'
 import { categoryShort } from '../data/categories'
 import { mediaKind } from '../data/load'
 import { MediaGrid } from './MediaGrid'
@@ -7,6 +7,7 @@ import { MediaGrid } from './MediaGrid'
 interface Props {
   caseRecord: CaseRecord
   media: MediaItem[]
+  pearls: Pearl[]
   onOpenMedia: (items: MediaItem[], index: number) => void
   onAddMedia: (caseId: string, items: MediaItem[]) => void
   onClose: () => void
@@ -26,12 +27,16 @@ const FIELDS: { key: keyof CaseRecord; label: string }[] = [
 export function CaseDetail({
   caseRecord,
   media,
+  pearls,
   onOpenMedia,
   onAddMedia,
   onClose,
 }: Props) {
   const inputRef = useRef<HTMLInputElement>(null)
   const [dragging, setDragging] = useState(false)
+  const relatedPearls = pearls.filter((p) =>
+    caseRecord.categories.includes(p.category),
+  )
 
   const ingestFiles = useCallback(
     (files: FileList | File[]) => {
@@ -85,6 +90,22 @@ export function CaseDetail({
           )
         })}
       </dl>
+
+      <section className="detail__notes">
+        <h3>相關教學筆記（{relatedPearls.length}）</h3>
+        {relatedPearls.length === 0 ? (
+          <p className="empty-hint">此分類尚無 pearls。</p>
+        ) : (
+          <ul className="pearl-list detail__pearl-list">
+            {relatedPearls.map((p) => (
+              <li key={p.id} className="pearl-card">
+                <span className="chip">{categoryShort(p.category)}</span>
+                <p>{p.text}</p>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
 
       <section className="detail__media">
         <div className="detail__media-head">

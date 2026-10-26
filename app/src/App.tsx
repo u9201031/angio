@@ -27,7 +27,7 @@ export default function App() {
 
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState<CategoryId | 'all'>('all')
-  const [tab, setTab] = useState<ViewTab>('cases')
+  const [tab, setTab] = useState<ViewTab>('pearls')
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   const [lightbox, setLightbox] = useState<{
@@ -113,7 +113,7 @@ export default function App() {
         <p className="brand">Angio Notes</p>
         <h1>神經介入學習筆記</h1>
         <p className="lede">
-          搜尋病例、教學 pearls，並檢視對應圖片與影片。
+          先看教學筆記，再對照病例；也可搜尋診斷、器材與代號。
         </p>
         <div className="search">
           <input
@@ -130,8 +130,8 @@ export default function App() {
         <div className="tabs">
           {(
             [
+              ['pearls', `教學筆記 ${filteredPearls.length}`],
               ['cases', `病例 ${filteredCases.length}`],
-              ['pearls', `Pearls ${filteredPearls.length}`],
               ['media', `媒體 ${filteredMedia.length}`],
             ] as const
           ).map(([id, label]) => (
@@ -182,7 +182,7 @@ export default function App() {
                   >
                     <div className="case-card__meta">
                       <span>{c.date || '—'}</span>
-                      <span>{c.id.toUpperCase()}</span>
+                      <span>{c.mrn || c.id.toUpperCase()}</span>
                     </div>
                     <strong>{c.diagnosis || '（未記載診斷）'}</strong>
                     <p>{c.treatment || '—'}</p>
@@ -231,6 +231,7 @@ export default function App() {
           <CaseDetail
             caseRecord={selected}
             media={selectedMedia}
+            pearls={pearls}
             onOpenMedia={openMedia}
             onAddMedia={addMedia}
             onClose={() => setSelectedId(null)}

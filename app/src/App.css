@@ -273,10 +273,21 @@
   margin: 0;
 }
 
+.detail__notes,
 .detail__media {
   margin-top: 1.35rem;
   padding-top: 1.1rem;
   border-top: 1px solid var(--line);
+}
+
+.detail__notes h3,
+.detail__media-head h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+}
+
+.detail__pearl-list {
+  gap: 0.55rem;
 }
 
 .detail__media-head {
