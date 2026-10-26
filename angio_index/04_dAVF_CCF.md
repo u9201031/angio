@@ -4,9 +4,9 @@
 
 ## 病例（1）
 
-| 日期 | 病歷號 | 病人簡稱 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
+| 日期 | 病例代號 | 匿名備註 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
 |---|---|---|---|---|---|---|---|
-| ⚠️2026-06-01 | ⚠️（無） | — | Dural AVF Cognard IIa（無 CVR）；另提到 BA 慢性 dissection 或 stenosis | 經動脈 coil + Onyx | R femoral 5F 短 sheath；R neck 6F 短 sheath + 5F pigtail 或 6F DAC；Target/Axium coils；Marathon/Echelon | — | TO3KIBA (att=3) |
+| ⚠️2026-06-01 | A15 | — | Dural AVF Cognard IIa（無 CVR）；另提到 BA 慢性 dissection 或 stenosis | 經動脈 coil + Onyx | R femoral 5F 短 sheath；R neck 6F 短 sheath + 5F pigtail 或 6F DAC；Target/Axium coils；Marathon/Echelon | — | TO3KIBA (att=3) |
 
 ## 教學筆記 / Pearls
 

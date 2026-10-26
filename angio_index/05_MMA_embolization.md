@@ -4,9 +4,9 @@
 
 ## 病例（1）
 
-| 日期 | 病歷號 | 病人簡稱 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
+| 日期 | 病例代號 | 匿名備註 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
 |---|---|---|---|---|---|---|---|
-| ⚠️2026-05-25 | ⚠️（無） | — | （未記載，推測為 CSDH） | MMA embolization，balloon 輔助 | 6F Cerebase；Navien 58；Headway 21；.014 wire；換 6F DAC；Scepter 4×10mm | — | MMA Embolization (att=11) |
+| ⚠️2026-05-25 | A14 | — | （未記載，推測為 CSDH） | MMA embolization，balloon 輔助 | 6F Cerebase；Navien 58；Headway 21；.014 wire；換 6F DAC；Scepter 4×10mm | — | MMA Embolization (att=11) |
 
 ## 教學筆記 / Pearls
 

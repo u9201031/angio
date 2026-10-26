@@ -4,12 +4,12 @@
 
 ## 病例（4）
 
-| 日期 | 病歷號 | 病人簡稱 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
+| 日期 | 病例代號 | 匿名備註 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
 |---|---|---|---|---|---|---|---|
-| ⚠️2024-12-09 | 2235482 | — | Distal BA→SCA occlusion | IA thrombectomy（aspiration） | Aspiration catheter + pump | — | #angio 2024/12/09 (att=5) |
-| ⚠️2024-12-09 | 22721377 | — | Left M1 occlusion | IA thrombectomy | — | — | #angio 2024/12/09 (att=5) |
-| 2025-02-26 | ⚠️（無） | 80歲/女（外院轉入） | Left ICA occlusion，NIHSS 21 | IA thrombectomy，3 passes（distal ICA → proximal M2；第 3 pass distal M2 未做） | R femoral；Infinity LS；Red 72 + Red 43 | 1st pass 部分移除；併發 SDH 合併中線偏移；穿刺 12:10 → 再灌流 12:33 | Report (created 2025-03-18, att=0) |
-| ⚠️2025-05-05 | ⚠️（無） | — | Cervical ICA pseudo-occlusion；tandem lesion（CCA + ophthalmic 段 ICAD） | Aspiration thrombectomy → EPD + stent / angioplasty | Neuron Max 088；6F Heart care DAC；Red 72 → Red 43；Headway 21；PT2 .014；Ryurei PTA | 抽吸後打通 | #angio 2025/05/05 (att=12) |
+| ⚠️2024-12-09 | A04 | — | Distal BA→SCA occlusion | IA thrombectomy（aspiration） | Aspiration catheter + pump | — | #angio 2024/12/09 (att=5) |
+| ⚠️2024-12-09 | A05 | — | Left M1 occlusion | IA thrombectomy | — | — | #angio 2024/12/09 (att=5) |
+| 2025-02-26 | A06 | Adult/F（外院轉入） | Left ICA occlusion，NIHSS 21 | IA thrombectomy，3 passes（distal ICA → proximal M2；第 3 pass distal M2 未做） | R femoral；Infinity LS；Red 72 + Red 43 | 1st pass 部分移除；併發 SDH 合併中線偏移；穿刺 12:10 → 再灌流 12:33 | Report (created 2025-03-18, att=0) |
+| ⚠️2025-05-05 | A10 | — | Cervical ICA pseudo-occlusion；tandem lesion（CCA + ophthalmic 段 ICAD） | Aspiration thrombectomy → EPD + stent / angioplasty | Neuron Max 088；6F Heart care DAC；Red 72 → Red 43；Headway 21；PT2 .014；Ryurei PTA | 抽吸後打通 | #angio 2025/05/05 (att=12) |
 
 ## 教學筆記 / Pearls
 
