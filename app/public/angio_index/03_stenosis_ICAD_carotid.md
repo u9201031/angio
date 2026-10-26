@@ -4,10 +4,10 @@
 
 ## 病例（2）
 
-| 日期 | 病歷號 | 病人簡稱 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
+| 日期 | 病例代號 | 匿名備註 | 診斷 | 治療 | 器材 | 結果 | 來源筆記 |
 |---|---|---|---|---|---|---|---|
-| ⚠️2025-05-05 | ⚠️（無） | — | Cervical ICA pseudo-occlusion；tandem lesion（CCA + ophthalmic 段 ICAD） | Aspiration thrombectomy → EPD + stent / angioplasty | Neuron Max 088；6F Heart care DAC；Red 72 → Red 43；Headway 21；PT2 .014；Ryurei PTA | 抽吸後打通 | #angio 2025/05/05 (att=12) |
-| ⚠️2026-06-29 | ⚠️（無） | （小朋友） | Basilar artery stenosis | 經股動脈血管攝影；FD；必要時 PTA | Phenom Plus 0045（中繼管）；.035 wire；Marathon + .010 wire / Headway 17；RHV 鎖在 4F 上 | — | Angio flow diverter for BA Stenosis (att=11) |
+| ⚠️2025-05-05 | A10 | — | Cervical ICA pseudo-occlusion；tandem lesion（CCA + ophthalmic 段 ICAD） | Aspiration thrombectomy → EPD + stent / angioplasty | Neuron Max 088；6F Heart care DAC；Red 72 → Red 43；Headway 21；PT2 .014；Ryurei PTA | 抽吸後打通 | #angio 2025/05/05 (att=12) |
+| ⚠️2026-06-29 | A16 | Pediatric | Basilar artery stenosis | 經股動脈血管攝影；FD；必要時 PTA | Phenom Plus 0045（中繼管）；.035 wire；Marathon + .010 wire / Headway 17；RHV 鎖在 4F 上 | — | Angio flow diverter for BA Stenosis (att=11) |
 
 ## 教學筆記 / Pearls
 

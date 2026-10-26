@@ -118,7 +118,7 @@ export default function App() {
         <div className="search">
           <input
             type="search"
-            placeholder="搜尋診斷、器材、病歷號、pearl…"
+            placeholder="搜尋診斷、器材、病例代號、pearl…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             autoFocus
