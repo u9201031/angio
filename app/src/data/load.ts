@@ -1,6 +1,10 @@
 import type { CaseRecord, CategoryId, MediaItem, Pearl } from '../types'
 import { categoryLabel } from './categories'
 
+/** Works on local `/` and GitHub Pages `/angio/` */
+const assetUrl = (path: string) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
+
 function parseCsvLine(line: string): string[] {
   const cells: string[] = []
   let cur = ''
@@ -26,7 +30,8 @@ function parseCsvLine(line: string): string[] {
 }
 
 export async function loadCases(): Promise<CaseRecord[]> {
-  const res = await fetch('/angio_index/cases.csv')
+  const res = await fetch(assetUrl('angio_index/cases.csv'))
+  if (!res.ok) throw new Error(`無法載入病例資料（${res.status}）`)
   const text = await res.text()
   const lines = text.trim().split(/\r?\n/)
   const rows = lines.slice(1)
@@ -78,7 +83,8 @@ export async function loadPearls(): Promise<Pearl[]> {
 
   const pearls: Pearl[] = []
   for (const file of files) {
-    const res = await fetch(`/angio_index/${file}.md`)
+    const res = await fetch(assetUrl(`angio_index/${file}.md`))
+    if (!res.ok) throw new Error(`無法載入 ${file}.md（${res.status}）`)
     const md = await res.text()
     const section = md.split(/##\s*教學筆記\s*\/\s*Pearls/)[1] ?? ''
     const bullets = section
@@ -116,7 +122,7 @@ interface Manifest {
 }
 
 export async function loadManifestMedia(): Promise<MediaItem[]> {
-  const res = await fetch('/media/manifest.json')
+  const res = await fetch(assetUrl('media/manifest.json'))
   if (!res.ok) return []
   const manifest = (await res.json()) as Manifest
   const items: MediaItem[] = []
@@ -128,7 +134,7 @@ export async function loadManifestMedia(): Promise<MediaItem[]> {
         id: `${caseId}:${file}`,
         caseId,
         name: file,
-        url: `/media/${entry.folder}/${encodeURIComponent(file)}`,
+        url: assetUrl(`media/${entry.folder}/${encodeURIComponent(file)}`),
         kind,
       })
     }
