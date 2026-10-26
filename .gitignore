@@ -4,3 +4,11 @@ dist/
 *.local
 .env
 .env.*
+
+# local-only patient data
+private/
+attachments/
+small/
+small.zip
+public_repo/
+export_att.applescript

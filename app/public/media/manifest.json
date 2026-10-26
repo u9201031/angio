@@ -1,23 +1,146 @@
 {
-  "version": 1,
-  "note": "把圖片/影片放進對應 case 資料夾，並在此列出檔名。資料夾命名可用 cases.csv 的列序 id（c01、c02…）或自訂 slug。",
-  "cases": {
-    "c01": { "folder": "c01", "files": [] },
-    "c02": { "folder": "c02", "files": [] },
-    "c03": { "folder": "c03", "files": [] },
-    "c04": { "folder": "c04", "files": [] },
-    "c05": { "folder": "c05", "files": [] },
-    "c06": { "folder": "c06", "files": [] },
-    "c07": { "folder": "c07", "files": [] },
-    "c08": { "folder": "c08", "files": [] },
-    "c09": { "folder": "c09", "files": [] },
-    "c10": { "folder": "c10", "files": [] },
-    "c11": { "folder": "c11", "files": [] },
-    "c12": { "folder": "c12", "files": [] },
-    "c13": { "folder": "c13", "files": [] },
-    "c14": { "folder": "c14", "files": [] },
-    "c15": { "folder": "c15", "files": [] },
-    "c16": { "folder": "c16", "files": [] },
-    "c17": { "folder": "c17", "files": [] }
+ "version": 1,
+ "note": "Images de-identified: patient names (Chinese/English) black-boxed; chart numbers not masked per owner. Images showing a different patient than the case were moved to 'general'. Verified by OCR (eng+chi_tra) against mapping/schedule names plus visual review.",
+ "cases": {
+  "c01": {
+   "folder": "c01",
+   "files": [
+    "01_report_carotid_angiography.jpg"
+   ]
+  },
+  "c02": {
+   "folder": "c02",
+   "files": []
+  },
+  "c03": {
+   "folder": "c03",
+   "files": []
+  },
+  "c04": {
+   "folder": "c04",
+   "files": []
+  },
+  "c05": {
+   "folder": "c05",
+   "files": []
+  },
+  "c06": {
+   "folder": "c06",
+   "files": []
+  },
+  "c07": {
+   "folder": "c07",
+   "files": [
+    "01_dsa_lao70.jpg",
+    "02_3d_rotational.jpg",
+    "03_device_ied_coil.jpg"
+   ]
+  },
+  "c08": {
+   "folder": "c08",
+   "files": [
+    "01_3d_ba_tip_aneurysm.jpg",
+    "02_3d_pacs.jpg",
+    "03_3d_pacs_lateral.jpg",
+    "04_3d_pacs_oblique.jpg",
+    "05_roadmap.jpg",
+    "06_coiling_unsub_ap.jpg",
+    "07_coiling_unsub.jpg",
+    "08_dsa_post_stent.jpg",
+    "09_dsa_screens_post_coil.jpg",
+    "10_sketch_pconus_coiling.jpg",
+    "11_device_axs_infinity.jpg"
+   ]
+  },
+  "c09": {
+   "folder": "c09",
+   "files": [
+    "01_mra_pacs.jpg",
+    "02_3d_cavernous_ica.jpg",
+    "03_dsa_screens.jpg",
+    "04_dsa_screens_room.jpg",
+    "05_dsa_lateral.jpg",
+    "06_device_excelsior_xt17.jpg"
+   ]
+  },
+  "c10": {
+   "folder": "c10",
+   "files": [
+    "01_device_ryurei_balloon.jpg"
+   ]
+  },
+  "c11": {
+   "folder": "c11",
+   "files": [
+    "01_device_log.jpg"
+   ]
+  },
+  "c12": {
+   "folder": "c12",
+   "files": [
+    "01_cta_sagittal.jpg"
+   ]
+  },
+  "c13": {
+   "folder": "c13",
+   "files": []
+  },
+  "c14": {
+   "folder": "c14",
+   "files": [
+    "01_dsa_screens.jpg",
+    "02_3d.jpg",
+    "03_device_scepter_c.jpg",
+    "04_device_eclipse_2l.jpg"
+   ]
+  },
+  "c15": {
+   "folder": "c15",
+   "files": [
+    "01_3d.jpg"
+   ]
+  },
+  "c16": {
+   "folder": "c16",
+   "files": []
+  },
+  "c17": {
+   "folder": "c17",
+   "files": []
+  },
+  "general": {
+   "folder": "general",
+   "files": [
+    "01_dsa_pacs_ica.jpg",
+    "02_dsa_pacs_4up.jpg",
+    "03_dsa_series_list_cca_stent.jpg",
+    "04_dsa_mechanical_thrombectomy.jpg",
+    "05_dsa_pacs_4up.jpg",
+    "06_3d_aneurysm.jpg",
+    "07_dsa_coiling.jpg",
+    "08_dsa_screens.jpg",
+    "09_3d_flow_diverter_case.jpg",
+    "10_dsa_3d_pacs.jpg",
+    "11_dsa_lateral.jpg",
+    "12_3d_indirect_ccf.jpg",
+    "13_dsa_screens_indirect_ccf.jpg",
+    "14_3d_icad.jpg",
+    "15_device_gateway_balloon.jpg",
+    "16_3d.jpg",
+    "17_dsa_pacs.jpg",
+    "18_dsa_lateral.jpg",
+    "19_dsa_pacs.jpg",
+    "20_3d_mpr_screens.jpg",
+    "21_device_enterprise2.jpg",
+    "22_device_micropuncture_pedal.jpg",
+    "23_dsa_pacs_coil_series.jpg",
+    "24_dsa_screens_ap_lat.jpg",
+    "25_dsa_ap.jpg",
+    "26_dsa_screens.jpg",
+    "27_3d_vessel_analysis.jpg",
+    "28_dsa_mma.jpg",
+    "29_dsa_mma_catheter.jpg"
+   ]
   }
+ }
 }
