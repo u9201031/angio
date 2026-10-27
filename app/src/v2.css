@@ -65,3 +65,6 @@ pre{white-space:pre-wrap;word-break:break-word;font-family:inherit;font-size:14p
 .plist__table{width:100%;border-collapse:collapse;font-size:13px;background:#fff}.plist__table td,.plist__table th{border-bottom:1px solid #e5ecea;padding:4px 6px;text-align:left;vertical-align:top}
 .cv .plist__table{margin-top:4px}
 @media (max-width:760px){.plist__table thead{display:none}.plist__table tr{display:block;border-bottom:1px solid #dde5e3;padding:4px 0}.plist__table td{display:inline-block;border:0;padding:2px 4px}}
+.stack{display:flex;flex-wrap:wrap;gap:4px 10px;margin:6px 0;align-items:center}
+.stk{display:inline-flex;gap:3px;align-items:center;flex-wrap:wrap}.stk i{font-style:normal;font-size:11px;color:#888}
+.tblwrap{overflow-x:auto}.ctbl{border-collapse:collapse;font-size:12px;width:100%}.ctbl td,.ctbl th{border:1px solid #ddd;padding:3px 5px;vertical-align:top;text-align:left}

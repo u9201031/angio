@@ -35,6 +35,8 @@ function Md({ text }: { text: string }) {
   )
 }
 
+const STK: Record<string, string> = { sheath: '鞘', guide: '導引/中間', micro: '微導管', wire: '導絲', implant: '植入', embolic: '栓塞', balloon: '球囊', closure: '止血' }
+
 function Summary({ c }: { c: Case2 }) {
   const out = c.impression || c.outcome || c.merged[0]?.outcome || ''
   return (
@@ -51,6 +53,9 @@ function Summary({ c }: { c: Case2 }) {
         {c.approach.length > 0 && <span>途徑：{c.approach.join('、')}</span>}
       </div>
       {c.devices.length > 0 && <div className="chips">{c.devices.map((d) => <span key={d} className="dchip">{short(d)}</span>)}</div>}
+      {c.stack && <div className="stack">{c.loc && <span className="small">位置：{c.loc}{c.ap2 ? '｜' + c.ap2 : ''}</span>}
+        {Object.entries(STK).map(([k, lab]) => { const v = c.stack![k]; return Array.isArray(v) && v.length > 0 ? <span key={k} className="stk"><i>{lab}</i>{v.map((d) => <button key={d} className="dchip link" title="篩選使用此器材的病例" onClick={() => window.dispatchEvent(new CustomEvent('angio-dev', { detail: d }))}>{d}</button>)}</span> : null })}
+        {c.stack.size && <span className="small">尺寸：{c.stack.size}</span>}</div>}
       {out && <div className="sum__out"><b>結果/IMP：</b>{out}</div>}
     </div>
   )
@@ -125,10 +130,13 @@ export default function App() {
   const [cmp, setCmp] = useState<string[]>([])
   const [cmpMode, setCmpMode] = useState(false)
   const [q, setQ] = useState('')
+  const [combos, setCombos] = useState<Record<string, { top: { stack: string; n: number; ids: string }[]; rows: { loc: string; n: number; ap: string; stack: string; ids: string }[]; pairs: string[] }>>({})
   const [lb, setLb] = useState<{ items: MediaItem[]; index: number } | null>(null)
 
   useEffect(() => {
-    loadCases2().then((c) => { setCases(c); const h = decodeURIComponent(location.hash.slice(1)); if (h.startsWith('case=')) { const x = c.find((y) => y.id === h.slice(5)); if (x) { setSel(x.id); setTab(x.disease) } } }); loadManifestMedia().then(setMedia); loadNotes().then(setNotes); loadPearls().then(setPearls); loadRules().then(setRules)
+    loadCases2().then((c) => { setCases(c); const h = decodeURIComponent(location.hash.slice(1)); if (h.startsWith('case=')) { const x = c.find((y) => y.id === h.slice(5)); if (x) { setSel(x.id); setTab(x.disease) } } }); loadManifestMedia().then(setMedia); loadNotes().then(setNotes); loadPearls().then(setPearls); loadRules().then(setRules); fetch(import.meta.env.BASE_URL + 'angio_index/device_cards.json').then((r) => r.json()).then(setCombos)
+    const onDev = (e: Event) => { setQ('dev:' + (e as CustomEvent).detail); setTab('search'); setSel(null); window.scrollTo(0, 0) }
+    window.addEventListener('angio-dev', onDev)
     fetch(`${import.meta.env.BASE_URL}angio_index/patient_list.json`).then((r) => r.json()).then((d) => setPlist(d.rows))
   }, [])
   const mediaMap = useMemo(() => new Map(media.map((m) => [m.key ?? m.id, m])), [media])
@@ -136,7 +144,7 @@ export default function App() {
   const ruleSecs = useMemo(() => Object.fromEntries(rules.split('\n## ').slice(1).map((s) => [s.split('\n')[0], s.slice(s.indexOf('\n') + 1)])), [rules])
   const byDis = (d: DiseaseId) => cases.filter((c) => c.disease === d)
   const ql = q.trim().toLowerCase()
-  const hits = useMemo(() => !ql ? [] : cases.filter((c) => [c.id, c.mrn, c.date, c.dx, c.impression, c.treatment, c.devices.join(' '), c.text, ...c.merged.map((m) => m.dx + m.tx + m.devices + m.mrnRaw)].join(' ').toLowerCase().includes(ql)), [cases, ql])
+  const hits = useMemo(() => !ql ? [] : ql.startsWith('dev:') ? cases.filter((c) => c.stack && Object.values(c.stack).some((v) => Array.isArray(v) && v.some((d) => d.toLowerCase() === ql.slice(4)))) : cases.filter((c) => [c.id, c.mrn, c.date, c.dx, c.impression, c.treatment, c.devices.join(' '), c.text, ...c.merged.map((m) => m.dx + m.tx + m.devices + m.mrnRaw)].join(' ').toLowerCase().includes(ql)), [cases, ql])
   const isDis = DISEASES.some((d) => d.id === tab)
   const list = tab === 'search' ? hits : isDis ? byDis(tab as DiseaseId) : []
   const selected = cases.find((c) => c.id === sel) ?? null
@@ -184,8 +192,13 @@ export default function App() {
         ) : (tab === 'search' || isDis) ? (
           <>
             {ruleKey && <details className="rules" open><summary>規則歸納：{ruleKey}</summary><Md text={ruleSecs[ruleKey]} /></details>}
+            {isDis && combos[tab] && <details className="rules combos"><summary>器材組合：{ruleKey || tab}</summary>
+              <b>最常見核心組合</b><ul>{combos[tab].top.map((t) => <li key={t.stack}><b>{t.stack}</b> — {t.n} 例（{t.ids.split('、').map((id, i) => <span key={id}>{i ? '、' : ''}<a href={'#case=' + id} onClick={(e) => { e.preventDefault(); go(id) }}>{id}</a></span>)}）</li>)}</ul>
+              <b>位置 × 典型組合</b><div className="tblwrap"><table className="ctbl"><thead><tr><th>位置</th><th>n</th><th>途徑</th><th>典型組合</th><th>病例</th></tr></thead><tbody>{combos[tab].rows.map((r) => <tr key={r.loc}><td>{r.loc}</td><td>{r.n}</td><td>{r.ap}</td><td>{r.stack}</td><td className="mono small">{r.ids}</td></tr>)}</tbody></table></div>
+              {combos[tab].pairs.length > 0 && <><b>配對（n/N）</b><ul>{combos[tab].pairs.map((p) => <li key={p}>{p.replace(/\*\*/g, '')}</li>)}</ul></>}
+              <p className="hint">n 小，僅反映本批病例習慣；決策式規則見「學習技巧」。點病例頁器材 chip 可篩選。</p></details>}
             {isDis && !ruleKey && <p className="hint">此類別目前只有舊筆記病例，沒有掃描報告，所以沒有規則歸納。</p>}
-            {tab === 'search' && <p className="hint">搜尋「{q}」：{hits.length} 例</p>}
+            {tab === 'search' && <p className="hint">{q.startsWith('dev:') ? `使用器材「${q.slice(4)}」` : `搜尋「${q}」`}：{hits.length} 例</p>}
             {isDis && <p className="hint">病人清單中此類 {plist.filter((r) => r.disease === tab).length} 筆 <button className="dchip link" onClick={() => { setTab('plist'); setPlDis(tab) }}>查看</button></p>}
             {isDis && list.length > 1 && (
               <div className="cmpbar">比較模式：勾選 2–3 例（已選 {cmp.length}）
@@ -219,9 +232,9 @@ export default function App() {
               if (!ps.length && !ns.length) return null
               return (
                 <section key={cat.id}><h3>{cat.label}</h3>
-                  {ns.filter((n) => n.id.startsWith('R')).map((n) => <details key={n.id} className="rules" open><summary>{n.title}</summary><Md text={n.text} /></details>)}
+                  {ns.filter((n) => (n.id.startsWith('R') || n.id.startsWith('D'))).map((n) => <details key={n.id} className="rules" open><summary>{n.title}</summary><Md text={n.text} /></details>)}
                   {ps.map((p) => <p key={p.id} className="pearl">• {p.text}</p>)}
-                  {ns.filter((n) => !n.id.startsWith('R')).map((n) => <details key={n.id} className="note"><summary>{n.title}（{n.date}）</summary><pre>{n.text}</pre></details>)}
+                  {ns.filter((n) => !(n.id.startsWith('R') || n.id.startsWith('D'))).map((n) => <details key={n.id} className="note"><summary>{n.title}（{n.date}）</summary><pre>{n.text}</pre></details>)}
                 </section>)
             })}
           </div>
