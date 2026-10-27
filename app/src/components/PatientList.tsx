@@ -6,7 +6,7 @@ type Row = {
 }
 const url = (p: string) => `${import.meta.env.BASE_URL}${p.replace(/^\//, '')}`
 
-export function PatientList({ query, onOpenCase, onOpenImage }: {
+export function PatientList({ query, onOpenCase }: {
   query: string
   onOpenCase: (id: string) => void
   onOpenImage: (src: string) => void
@@ -39,7 +39,7 @@ export function PatientList({ query, onOpenCase, onOpenImage }: {
               <td>{r.date}</td><td className="detail__mrn">{r.mrn}</td>
               <td><span className="chip">{r.category}</span></td>
               <td>{r.code} {r.procedure}</td><td>{r.note}</td><td>{r.attending}</td>
-              <td>{r.image ? <button type="button" className="chip" onClick={() => onOpenImage(r.image)}>{r.source} 圖</button> : r.source}</td>
+              <td>{r.source}</td>
               <td>{r.cases.map((c) => <button key={c} type="button" className="chip" onClick={() => onOpenCase(c)}>{c.toUpperCase()}</button>)}</td>
             </tr>
           ))}

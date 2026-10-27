@@ -9,7 +9,7 @@
    "note": "DSA",
    "attending": "0457",
    "category": "其他",
-   "image": "media/general/119_patient_list_n54_a8.jpg",
+   "image": "",
    "source": "n54_a8",
    "cases": []
   },
@@ -21,7 +21,7 @@
    "note": "DSA-本院醫生",
    "attending": "",
    "category": "其他",
-   "image": "media/general/119_patient_list_n54_a8.jpg",
+   "image": "",
    "source": "n54_a8",
    "cases": [
     "c01"
@@ -35,7 +35,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/119_patient_list_n54_a8.jpg",
+   "image": "",
    "source": "n54_a8",
    "cases": []
   },
@@ -47,7 +47,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/119_patient_list_n54_a8.jpg",
+   "image": "",
    "source": "n54_a8",
    "cases": [
     "c03"
@@ -61,7 +61,7 @@
    "note": "取消",
    "attending": "",
    "category": "其他",
-   "image": "media/general/119_patient_list_n54_a8.jpg",
+   "image": "",
    "source": "n54_a8",
    "cases": []
   },
@@ -73,7 +73,7 @@
    "note": "取消",
    "attending": "",
    "category": "其他",
-   "image": "media/general/119_patient_list_n54_a8.jpg",
+   "image": "",
    "source": "n54_a8",
    "cases": []
   },
@@ -85,7 +85,7 @@
    "note": "Angiography of Brain",
    "attending": "",
    "category": "其他",
-   "image": "media/general/113_patient_list_n52_a3.jpg",
+   "image": "",
    "source": "n52_a3",
    "cases": []
   },
@@ -97,7 +97,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/113_patient_list_n52_a3.jpg",
+   "image": "",
    "source": "n52_a3",
    "cases": []
   },
@@ -109,7 +109,7 @@
    "note": "tae",
    "attending": "0457",
    "category": "TAE",
-   "image": "media/general/113_patient_list_n52_a3.jpg",
+   "image": "",
    "source": "n52_a3",
    "cases": []
   },
@@ -121,7 +121,7 @@
    "note": "DSA",
    "attending": "0457",
    "category": "其他",
-   "image": "media/general/54_patient_list_n12_a1.jpg",
+   "image": "",
    "source": "n12_a1",
    "cases": []
   },
@@ -133,7 +133,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/54_patient_list_n12_a1.jpg",
+   "image": "",
    "source": "n12_a1",
    "cases": []
   },
@@ -145,7 +145,7 @@
    "note": "TAE",
    "attending": "0457",
    "category": "TAE",
-   "image": "media/general/54_patient_list_n12_a1.jpg",
+   "image": "",
    "source": "n12_a1",
    "cases": []
   },
@@ -157,7 +157,7 @@
    "note": "STENT+PTA",
    "attending": "",
    "category": "其他",
-   "image": "media/general/54_patient_list_n12_a1.jpg",
+   "image": "",
    "source": "n12_a1",
    "cases": []
   },
@@ -169,7 +169,7 @@
    "note": "Angiography Others; L tongue SCC with bleeding",
    "attending": "",
    "category": "其他",
-   "image": "media/general/55_xray_slip_n12_a2.jpg",
+   "image": "",
    "source": "n12_a2",
    "cases": []
   },
@@ -181,7 +181,7 @@
    "note": "DSA",
    "attending": "0457",
    "category": "其他",
-   "image": "media/general/100_patient_list_n50_a1.jpg",
+   "image": "",
    "source": "n50_a1",
    "cases": []
   },
@@ -193,7 +193,7 @@
    "note": "TAE",
    "attending": "0457",
    "category": "TAE",
-   "image": "media/general/100_patient_list_n50_a1.jpg",
+   "image": "",
    "source": "n50_a1",
    "cases": []
   },
@@ -205,7 +205,7 @@
    "note": "TAE",
    "attending": "0457",
    "category": "TAE",
-   "image": "media/general/100_patient_list_n50_a1.jpg",
+   "image": "",
    "source": "n50_a1",
    "cases": []
   },
@@ -241,7 +241,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/94_patient_list_n48_a4.jpg",
+   "image": "",
    "source": "n48_a4",
    "cases": []
   },
@@ -253,7 +253,7 @@
    "note": "Angiography of Brain",
    "attending": "",
    "category": "其他",
-   "image": "media/general/94_patient_list_n48_a4.jpg",
+   "image": "",
    "source": "n48_a4",
    "cases": []
   },
@@ -265,7 +265,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/94_patient_list_n48_a4.jpg",
+   "image": "",
    "source": "n48_a4",
    "cases": []
   },
@@ -277,7 +277,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/94_patient_list_n48_a4.jpg",
+   "image": "",
    "source": "n48_a4",
    "cases": []
   },
@@ -289,7 +289,7 @@
    "note": "PTA",
    "attending": "",
    "category": "其他",
-   "image": "media/general/94_patient_list_n48_a4.jpg",
+   "image": "",
    "source": "n48_a4",
    "cases": []
   },
@@ -301,7 +301,7 @@
    "note": "取消",
    "attending": "",
    "category": "其他",
-   "image": "media/general/82_patient_list_n31_a2.jpg",
+   "image": "",
    "source": "n31_a2",
    "cases": []
   },
@@ -313,7 +313,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/82_patient_list_n31_a2.jpg",
+   "image": "",
    "source": "n31_a2",
    "cases": []
   },
@@ -325,7 +325,7 @@
    "note": "TAE of Others",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/82_patient_list_n31_a2.jpg",
+   "image": "",
    "source": "n31_a2",
    "cases": []
   },
@@ -337,7 +337,7 @@
    "note": "TAE",
    "attending": "0457",
    "category": "TAE",
-   "image": "media/general/82_patient_list_n31_a2.jpg",
+   "image": "",
    "source": "n31_a2",
    "cases": []
   },
@@ -349,7 +349,7 @@
    "note": "L parietal AVM, A2/3 flow-related aneurysm rupture ICH/SDH",
    "attending": "",
    "category": "其他",
-   "image": "media/general/90_xray_slip_n44_a6.jpg",
+   "image": "",
    "source": "n44_a6",
    "cases": []
   },
@@ -361,7 +361,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/89_patient_list_n44_a3.jpg",
+   "image": "",
    "source": "n44_a3",
    "cases": [
     "c07"
@@ -375,7 +375,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/89_patient_list_n44_a3.jpg",
+   "image": "",
    "source": "n44_a3",
    "cases": []
   },
@@ -387,7 +387,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/88_patient_list_n37_a1.jpg",
+   "image": "",
    "source": "n37_a1",
    "cases": []
   },
@@ -399,7 +399,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/88_patient_list_n37_a1.jpg",
+   "image": "",
    "source": "n37_a1",
    "cases": []
   },
@@ -411,7 +411,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/88_patient_list_n37_a1.jpg",
+   "image": "",
    "source": "n37_a1",
    "cases": []
   },
@@ -423,7 +423,7 @@
    "note": "DSA",
    "attending": "",
    "category": "其他",
-   "image": "media/general/88_patient_list_n37_a1.jpg",
+   "image": "",
    "source": "n37_a1",
    "cases": []
   },
@@ -435,7 +435,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/88_patient_list_n37_a1.jpg",
+   "image": "",
    "source": "n37_a1",
    "cases": []
   },
@@ -447,7 +447,7 @@
    "note": "手寫 IA ER",
    "attending": "",
    "category": "其他",
-   "image": "media/general/88_patient_list_n37_a1.jpg",
+   "image": "",
    "source": "n37_a1",
    "cases": []
   },
@@ -459,7 +459,7 @@
    "note": "劃掉",
    "attending": "",
    "category": "其他",
-   "image": "media/general/86_patient_list_n33_a2.jpg",
+   "image": "",
    "source": "n33_a2",
    "cases": [
     "c03"
@@ -473,7 +473,7 @@
    "note": "劃掉",
    "attending": "",
    "category": "其他",
-   "image": "media/general/86_patient_list_n33_a2.jpg",
+   "image": "",
    "source": "n33_a2",
    "cases": []
   },
@@ -485,7 +485,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/86_patient_list_n33_a2.jpg",
+   "image": "",
    "source": "n33_a2",
    "cases": []
   },
@@ -497,7 +497,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/86_patient_list_n33_a2.jpg",
+   "image": "",
    "source": "n33_a2",
    "cases": []
   },
@@ -509,7 +509,7 @@
    "note": "急",
    "attending": "",
    "category": "其他",
-   "image": "media/general/86_patient_list_n33_a2.jpg",
+   "image": "",
    "source": "n33_a2",
    "cases": []
   },
@@ -521,7 +521,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/80_patient_list_n29_a1.jpg",
+   "image": "",
    "source": "n29_a1",
    "cases": []
   },
@@ -533,7 +533,7 @@
    "note": "TAE+STENT+PTA",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/80_patient_list_n29_a1.jpg",
+   "image": "",
    "source": "n29_a1",
    "cases": []
   },
@@ -545,7 +545,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/79_patient_list_n27_a1.jpg",
+   "image": "",
    "source": "n27_a1",
    "cases": []
   },
@@ -557,7 +557,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/79_patient_list_n27_a1.jpg",
+   "image": "",
    "source": "n27_a1",
    "cases": []
   },
@@ -569,7 +569,7 @@
    "note": "PTA",
    "attending": "",
    "category": "其他",
-   "image": "media/general/79_patient_list_n27_a1.jpg",
+   "image": "",
    "source": "n27_a1",
    "cases": []
   },
@@ -581,7 +581,7 @@
    "note": "PTA",
    "attending": "",
    "category": "其他",
-   "image": "media/general/79_patient_list_n27_a1.jpg",
+   "image": "",
    "source": "n27_a1",
    "cases": []
   },
@@ -593,7 +593,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/60_patient_list_n15_a3.jpg",
+   "image": "",
    "source": "n15_a3",
    "cases": []
   },
@@ -605,7 +605,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/60_patient_list_n15_a3.jpg",
+   "image": "",
    "source": "n15_a3",
    "cases": []
   },
@@ -617,7 +617,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/60_patient_list_n15_a3.jpg",
+   "image": "",
    "source": "n15_a3",
    "cases": []
   },
@@ -629,7 +629,7 @@
    "note": "SPINE",
    "attending": "",
    "category": "其他",
-   "image": "media/general/60_patient_list_n15_a3.jpg",
+   "image": "",
    "source": "n15_a3",
    "cases": []
   },
@@ -641,7 +641,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/60_patient_list_n15_a3.jpg",
+   "image": "",
    "source": "n15_a3",
    "cases": []
   },
@@ -653,7 +653,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/73_patient_list_n22_a1.jpg",
+   "image": "",
    "source": "n22_a1",
    "cases": []
   },
@@ -665,7 +665,7 @@
    "note": "PTA",
    "attending": "",
    "category": "其他",
-   "image": "media/general/73_patient_list_n22_a1.jpg",
+   "image": "",
    "source": "n22_a1",
    "cases": []
   },
@@ -677,7 +677,7 @@
    "note": "DSA（標記）",
    "attending": "0457",
    "category": "其他",
-   "image": "media/general/71_patient_list_n20_a1.jpg",
+   "image": "",
    "source": "n20_a1",
    "cases": []
   },
@@ -689,7 +689,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/71_patient_list_n20_a1.jpg",
+   "image": "",
    "source": "n20_a1",
    "cases": []
   },
@@ -701,7 +701,7 @@
    "note": "TAE",
    "attending": "0457",
    "category": "TAE",
-   "image": "media/general/71_patient_list_n20_a1.jpg",
+   "image": "",
    "source": "n20_a1",
    "cases": []
   },
@@ -713,7 +713,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/71_patient_list_n20_a1.jpg",
+   "image": "",
    "source": "n20_a1",
    "cases": []
   },
@@ -725,7 +725,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/71_patient_list_n20_a1.jpg",
+   "image": "",
    "source": "n20_a1",
    "cases": []
   },
@@ -737,7 +737,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/71_patient_list_n20_a1.jpg",
+   "image": "",
    "source": "n20_a1",
    "cases": []
   },
@@ -749,7 +749,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/71_patient_list_n20_a1.jpg",
+   "image": "",
    "source": "n20_a1",
    "cases": []
   },
@@ -761,7 +761,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/69_patient_list_n17_a1.jpg",
+   "image": "",
    "source": "n17_a1",
    "cases": []
   },
@@ -773,7 +773,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/69_patient_list_n17_a1.jpg",
+   "image": "",
    "source": "n17_a1",
    "cases": []
   },
@@ -785,7 +785,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/69_patient_list_n17_a1.jpg",
+   "image": "",
    "source": "n17_a1",
    "cases": []
   },
@@ -797,7 +797,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/36_patient_list_n3_a1.jpg",
+   "image": "",
    "source": "n3_a1",
    "cases": []
   },
@@ -809,7 +809,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/36_patient_list_n3_a1.jpg",
+   "image": "",
    "source": "n3_a1",
    "cases": []
   },
@@ -821,7 +821,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/36_patient_list_n3_a1.jpg",
+   "image": "",
    "source": "n3_a1",
    "cases": []
   },
@@ -833,7 +833,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/45_patient_list_n11_a2.jpg",
+   "image": "",
    "source": "n11_a2",
    "cases": []
   },
@@ -845,7 +845,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/45_patient_list_n11_a2.jpg",
+   "image": "",
    "source": "n11_a2",
    "cases": []
   },
@@ -857,7 +857,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/45_patient_list_n11_a2.jpg",
+   "image": "",
    "source": "n11_a2",
    "cases": []
   },
@@ -869,7 +869,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/45_patient_list_n11_a2.jpg",
+   "image": "",
    "source": "n11_a2",
    "cases": []
   },
@@ -881,7 +881,7 @@
    "note": "Ruptured L cerebellar dural AVF/AVM with ICH",
    "attending": "",
    "category": "其他",
-   "image": "media/general/50_xray_slip_n11_a10.jpg",
+   "image": "",
    "source": "n11_a10",
    "cases": []
   },
@@ -893,7 +893,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/43_patient_list_n10_a9.jpg",
+   "image": "",
    "source": "n10_a9",
    "cases": []
   },
@@ -905,7 +905,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/43_patient_list_n10_a9.jpg",
+   "image": "",
    "source": "n10_a9",
    "cases": []
   },
@@ -917,7 +917,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/43_patient_list_n10_a9.jpg",
+   "image": "",
    "source": "n10_a9",
    "cases": []
   },
@@ -929,7 +929,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/43_patient_list_n10_a9.jpg",
+   "image": "",
    "source": "n10_a9",
    "cases": []
   },
@@ -941,7 +941,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/42_patient_list_n9_a2.jpg",
+   "image": "",
    "source": "n9_a2",
    "cases": []
   },
@@ -953,7 +953,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/42_patient_list_n9_a2.jpg",
+   "image": "",
    "source": "n9_a2",
    "cases": []
   },
@@ -965,7 +965,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/42_patient_list_n9_a2.jpg",
+   "image": "",
    "source": "n9_a2",
    "cases": []
   },
@@ -977,7 +977,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/42_patient_list_n9_a2.jpg",
+   "image": "",
    "source": "n9_a2",
    "cases": []
   },
@@ -989,7 +989,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/41_patient_list_n8_a1.jpg",
+   "image": "",
    "source": "n8_a1",
    "cases": []
   },
@@ -1001,7 +1001,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/41_patient_list_n8_a1.jpg",
+   "image": "",
    "source": "n8_a1",
    "cases": []
   },
@@ -1013,7 +1013,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/41_patient_list_n8_a1.jpg",
+   "image": "",
    "source": "n8_a1",
    "cases": []
   },
@@ -1025,7 +1025,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/41_patient_list_n8_a1.jpg",
+   "image": "",
    "source": "n8_a1",
    "cases": []
   },
@@ -1037,7 +1037,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/40_patient_list_n7_a1.jpg",
+   "image": "",
    "source": "n7_a1",
    "cases": []
   },
@@ -1049,7 +1049,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/40_patient_list_n7_a1.jpg",
+   "image": "",
    "source": "n7_a1",
    "cases": []
   },
@@ -1061,7 +1061,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/40_patient_list_n7_a1.jpg",
+   "image": "",
    "source": "n7_a1",
    "cases": []
   },
@@ -1073,7 +1073,7 @@
    "note": "",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/40_patient_list_n7_a1.jpg",
+   "image": "",
    "source": "n7_a1",
    "cases": []
   },
@@ -1085,7 +1085,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/39_patient_list_n5_a3.jpg",
+   "image": "",
    "source": "n5_a3",
    "cases": []
   },
@@ -1097,7 +1097,7 @@
    "note": "",
    "attending": "",
    "category": "其他",
-   "image": "media/general/39_patient_list_n5_a3.jpg",
+   "image": "",
    "source": "n5_a3",
    "cases": []
   },
@@ -1109,7 +1109,7 @@
    "note": "TAE of Brain",
    "attending": "",
    "category": "TAE",
-   "image": "media/general/39_patient_list_n5_a3.jpg",
+   "image": "",
    "source": "n5_a3",
    "cases": []
   },
@@ -1121,7 +1121,7 @@
    "note": "TAE",
    "attending": "0457",
    "category": "TAE",
-   "image": "media/general/30_patient_list_n1_a2.jpg",
+   "image": "",
    "source": "n1_a2",
    "cases": []
   }
