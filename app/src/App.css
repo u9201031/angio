@@ -543,3 +543,6 @@
     margin-top: 1.35rem;
   }
 }
+.plist { overflow-x: auto; }
+.plist__table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 0.5rem; }
+.plist__table th, .plist__table td { border-bottom: 1px solid rgba(128,128,128,.25); padding: 4px 6px; text-align: left; vertical-align: top; }

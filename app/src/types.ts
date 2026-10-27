@@ -37,4 +37,4 @@ export interface MediaItem {
   ephemeral?: boolean
 }
 
-export type ViewTab = 'cases' | 'pearls' | 'media'
+export type ViewTab = 'cases' | 'pearls' | 'media' | 'plist'

@@ -16,6 +16,7 @@ import type {
 import { CaseDetail } from './components/CaseDetail'
 import { MediaGrid } from './components/MediaGrid'
 import { MediaLightbox } from './components/MediaLightbox'
+import { PatientList } from './components/PatientList'
 import './App.css'
 
 function formatMrn(raw: string) {
@@ -129,6 +130,7 @@ export default function App() {
               ['cases', `病例 ${filteredCases.length}`],
               ['pearls', `教學筆記 ${filteredPearls.length}`],
               ['media', `媒體 ${filteredMedia.length}`],
+              ['plist', '病人清單'],
             ] as const
           ).map(([id, label]) => (
             <button
@@ -219,6 +221,18 @@ export default function App() {
                 <p className="empty-hint">沒有符合的 pearls。</p>
               )}
             </ul>
+          )}
+
+          {!loading && !error && tab === 'plist' && (
+            <PatientList
+              query={query}
+              onOpenCase={(id) => { setTab('cases'); setSelectedId(id) }}
+              onOpenImage={(src) => {
+                const i = media.findIndex((m) => m.url.endsWith(src))
+                if (i >= 0) openMedia(media, i)
+                else window.open(`${import.meta.env.BASE_URL}${src}`, '_blank')
+              }}
+            />
           )}
 
           {!loading && !error && tab === 'media' && (
