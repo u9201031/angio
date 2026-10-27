@@ -1129,7 +1129,7 @@
 "全身麻醉"
 ],
 "flags": [
-"病歷號 OCR 兩種讀法 39251209/39251269（另一份同號 39251269）"
+"病歷號 39251269（已確認）（另一份同號 39251269）"
 ],
 "text": "<A>\n\n4 <P>\n| -X75-896 名稱 : TAE of Others\n\n<BEAN > 收件號 : 26062931013\n*  A2Y/O male;\n\nClinical Information:\nRetinoblastoma (OD))\n\nRadiography of TAE of Others Show:\n\n_  SOAI treatment of orbital retinoblastoma is performed after having the informed\n| consent from patient\"s family.\n\n‘ Patient under general anesthesia.\n\nA4/SF arterial sheath and a 4F intermediate catheter (Phenom Plus) to right\n“ICA.\n\n__ Superslective catheterization of the ophthalmic artery with mirocatheter\n\n_ (Headway 17) at the ophthalmic artery ostium.\n\n。 SOAT (Melphalan 4mg, Topotecan Img, Carboplatin 40mg), within 15mL normal\n| saline was pulsatile infused to the ophthalmic artery within 10 minutes\nsubseugently.\n\nThe procedure is smooth and patient was sent to POR after hemostasis of the\narteriotomy with manual compression and immobolization with splint.\n\nIMP: Right orbital retinoblastoma S/P 5th SOAI",
 "pages": 1,
@@ -7277,7 +7277,7 @@
 "disease": "aneurysm",
 "category": "01_aneurysm",
 "date": "2024-12-09",
-"mrn": "3083090",
+"mrn": "3083690",
 "dx": "sequest medical certificate",
 "impression": "1) Right MCA (bifurcation) aneursym S/P FD (p64-MW); OKM grade 0 on 6",
 "treatment": "Flow diverter + Coiling + Stent-assisted",
@@ -7293,7 +7293,7 @@
 ],
 "approach": [],
 "flags": [
-"病歷號 OCR 兩種讀法 3083090/3083690"
+"病歷號 3083690（已確認）"
 ],
 "text": "<A>\n571 CEREBRAL ANEURYSM : NONRUPTURED\n\n<P>\n‘75-852 名稱 : Carotid Arteriography (Both Side)\n\n< REAR > 收件號 : 24120930272 ©\n‘adiography of Carotid Arteriography (Both Side)\n\nhow:\n\nsil. MCA aneurysms; Lt MCAA S/P SAC and Rt MCAA S/P FD (p64-MW) respectively.\ntationary size of right MCA aneurysm without regression. (OKM grade 0)\n\n)cclusion of left MCA aneruysm with small residual neck (Raymond 2)\n\nJormal perfusion of bilateral carotid arteries.\n\nurteriotomy with closure device. (AngioSeal)\n\nMP: 1) Right MCA (bifurcation) aneursym S/P FD (p64-MW); OKM grade 0 on 6\n1onths f/u. 2) Left MCA bifurcation aneurysm S/P Stent assisted coiling; Raymond\non 6 months f/u.",
 "pages": 1,
