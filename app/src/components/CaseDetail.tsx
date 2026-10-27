@@ -1,4 +1,4 @@
-import type { CaseRecord, MediaItem, Pearl } from '../types'
+import type { CaseRecord, MediaItem, NoteText, Pearl } from '../types'
 import { categoryShort } from '../data/categories'
 import { MediaGrid } from './MediaGrid'
 
@@ -6,6 +6,7 @@ interface Props {
   caseRecord: CaseRecord
   media: MediaItem[]
   pearls: Pearl[]
+  notes: NoteText[]
   onOpenMedia: (items: MediaItem[], index: number) => void
   onClose: () => void
 }
@@ -31,6 +32,7 @@ export function CaseDetail({
   caseRecord,
   media,
   pearls,
+  notes,
   onOpenMedia,
   onClose,
 }: Props) {
@@ -82,6 +84,13 @@ export function CaseDetail({
           )
         })}
       </dl>
+
+      {notes.filter((n) => n.case === caseRecord.id).map((n) => (
+        <section key={n.id} className="detail__section">
+          <h3>筆記原文：{n.title}（{n.date}）</h3>
+          <pre className="note-text">{n.text}</pre>
+        </section>
+      ))}
 
       <section className="detail__notes">
         <h3>相關教學筆記（{relatedPearls.length}）</h3>

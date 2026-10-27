@@ -1,0 +1,530 @@
+[
+ {
+  "id": "N1",
+  "title": "#angio",
+  "date": "2026-10-27",
+  "case": null,
+  "text": "Aneurysm flow diverter or coiling",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N2",
+  "title": "#angio",
+  "date": "2026-10-27",
+  "case": null,
+  "text": "Tumor",
+  "category": "06_pediatric"
+ },
+ {
+  "id": "N4",
+  "title": "#angio",
+  "date": "2026-10-27",
+  "case": null,
+  "text": "DuralAVF",
+  "category": "04_dAVF_CCF"
+ },
+ {
+  "id": "N5",
+  "title": "#angio 2026/10/19",
+  "date": "2026-10-19",
+  "case": null,
+  "text": "2026/10/19\n\n4Fr sheath 可進5F r Pheno plus",
+  "category": "07_unclassified_general"
+ },
+ {
+  "id": "N6",
+  "title": "#angio 2026/10/05",
+  "date": "2026-10-05",
+  "case": null,
+  "text": "2026/10/05\n\n在神經介入領域，Flow Diverter (FD) 的順應性（Conformability）與徑向張力（Radial / Opening Force）是一對典型的力學取捨（Trade-off）。材料的本質（鈷鉻合金 vs 鎳鈦合金）、編織架構（單層 vs 雙層、股數多寡、DFT 複合絲）決定了這兩項特性的平衡點。\n主流 Flow Diverter 力學特性綜合比較\n\n兩大力學維度的臨床影響分析\n1. 順應性（Conformability）主導的情境\n代表器械： Pipeline Flex、Silk Vista Baby\n結構特點： 通常採用較低股數、較細絲徑或鈷鉻合金（Co-Cr）。由於材料沒有強烈的超彈性「形狀復原記憶」，它順著血管走形彎折時，不易對大彎處的外側產生過度的伸直張力（Straightening Force）。\n臨床優勢： 在頸內動脈虹吸段（Siphon）的膝彎（Knee curve）或髮夾彎結構中，不容易將彎曲血管強行「拉直」，能有效避免因血管形變導致遠近端著陸區（Landing zone）的撕扯或扭結（Kinking）。\n操作代價： 缺乏自發彈開的力量，術者必須頻繁使用推拉技術（Push-Pull maneuver）累積軸向壓縮（Compaction），否則在彎曲內側容易出現貼壁不良（Malapposition）。\n2. 徑向張力（Radial / Opening Force）主導的情境\n代表器械： p64、FRED\n結構特點： 採用全 Nitinol 或雙層設計（如 FRED 具備外層 16 股較粗的支撐骨架）。\n臨床優勢：\n自展性（Self-opening capability）極佳： 出微導管後幾乎不需要過多手動壓縮，便會自行彈開並緊貼血管壁，大幅降低因推力不足導致的魚嘴現象（Fish-mouthing）或塌陷。\n在大動脈瘤頸部不易凹陷： 當經過寬頸動脈瘤口（Wide-necked aneurysm defect）時，較強的徑向張力能維持圓柱狀橫截面，防止網格往瘤腔內部下陷（Sagging）。\n操作代價： 在極度扭曲的血管中，較強的形狀記憶會使支架力圖維持筆直圓柱，容易產生「伸直效應」，迫使血管走向變直，可能造成支架兩端邊緣應力集中或血管痙攣。\n3. 新一代 DFT 與細徑化技術的平衡點\n代表器械： Pipeline Vantage、Silk Vista Baby、p48\n透過 DFT（外層 Nitinol + 內芯 Platinum），器械克服了傳統 Nitinol 需要較粗金屬絲才能兼具顯影與強度的限制。這類新一代器械能夠在維持高密度（如 64 股）與充足開展彈力的同時，大幅縮小金屬絲徑，成功相容於 0.021\" 甚至 0.017\" 微導管，在「高徑向均勻度」與「高迂曲通過/順應性」之間取得了較佳的力學折衷。",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N7",
+  "title": "#angio 2026/08/17",
+  "date": "2026-08-17",
+  "case": null,
+  "text": "2026/08/17\n\nSOAI\nIA +stent\nIndirect CCF\n\nIA 先 stent over ICA Due to tandem lesion\n  suction 吸不到東西 PTA  -stent retrieval \n\nMicro wire 用 PT2 185cm\n放carotid stent 直接用guiding 不用短sheath\n\nSterling balloon 用3way 兩頭接稀釋顯影劑\n把air 抽掉就可以\nLateral oblique 可以由下往上照 左邊 左下往右上",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N8",
+  "title": "#angio 2026/09/07",
+  "date": "2026-09-07",
+  "case": null,
+  "text": "2026/09/07\n\nThe branch of the Meningohypophyseal Trunk (MHT) that extends toward the hypoglossal canal is the dorsal meningeal artery (specifically its lateral clival/marginal extension).\nAnatomical Course & Anastomotic Network\nOrigin & Course: The dorsal meningeal artery arises from the MHT within the cavernous segment of the internal carotid artery (ICA, C4). It travels posteriorly and inferiorly over the clivus.\nHypoglossal Canal Anastomosis: Its lateral extension runs toward the foramen magnum and hypoglossal canal, where it forms an anastomosis with the hypoglossal branch of the neuromeningeal trunk (derived from the Ascending Pharyngeal Artery, APA).\nCollateral Network: In this region, it also contributes to the anterior condylar confluence/dural network, communicating with branches of the:\nVertebral artery (anterior meningeal branches and odontoid arcade)\nOccipital artery (mastoid/transmassoid branches)\nClinical Significance\nDangerous Anastomoses: During endovascular embolization of the ascending pharyngeal artery (e.g., for dural arteriovenous fistulas, glomus tumors, or meningiomas), particulate or liquid embolic reflux into the hypoglossal branch can track retrogradely through the dorsal meningeal artery into the cavernous ICA, risking distal embolic stroke.\nCranial Nerve Supply: The hypoglossal branch of the APA runs within the canal to supply CN XII; dangerous anastomoses and inadvertent ischemia in this territory can result in hypoglossal nerve palsy.\nFlow diverter (FD) 發生 torsion（扭轉 / \"twisting\" / \"hourglass deformity\"） 或 incomplete expansion 時，最核心的危險在於 stent 腔內血流受阻、急性血栓形成（acute in-stent thrombosis），以及無法達到原本的 flow diversion 效果。\n處理原則需依據 FD 扭轉發生的階段（未完全釋放 vs. 已完全脫離） 以及 扭轉的解剖位置與嚴重度 採取階梯式 rescue 策略：\n第一階段：若 FD 尚未完全釋放（Still Attached / Partially Deployed）\nRe-sheathing & Re-deployment（最優先且最安全）\n若使用的 FD 具備 recapture / resheathing 功能（例如 Pipeline Flex 在標記限制範圍內、Surpass Evolve、FRED 等）：\n固定 delivery wire，順著血管軸線將 delivery microcatheter 往前推，小心將 FD 重新收回微導管內。\n注意： 重新釋放前，先旋轉 microcatheter 或調整 delivery wire 張力消除 residual torque，微調 landing zone 後再重新推擠展開（push-pull technique）。\nTorque Relief / Axial Manipulation\n在未脫離前，輕微調整 delivery microcatheter 的推力（forward push）與張力，使支架網眼（braided mesh）受力均勻，有時可自行解開微小的扭折。\n第二階段：若 FD 已完全釋放 / 脫離（Fully Deployed & Detached）\n一旦脫離，無法 resheath，必須採取 腔內機械擴張（Endoluminal Angioplasty） 或 補救支架（Stent-in-Stent）。\n1. Microcatheter / Microwire Recrossing & \"Dotter\" Technique\n選用微導線與微導管：\n使用 0.014\" 軟頭微導線（如 Synchro-14, Traxcess, Hybrid）搭配小口徑微導管（0.0165\" ~ 0.021\"，如 Headway 17, SL-10, Marksman）。\n關鍵技巧： 必須確認 microwire 從 FD 真正的 central lumen 穿過扭轉處（可在多角度/roadmap 或 High-resolution VasoCT 確認），切勿穿入 strut 網眼與血管壁之間的夾縫。\nDotter Effect：\n穿過後，嘗試用微導管或甚至 intermediate catheter 順著導線跨過扭轉狹窄段，藉由導管本身的支撐力與外徑將扭轉段「頂開」（Dotter dilation）。\n2. Balloon Angioplasty（氣囊成形術——最主要手段）\n選用適當氣囊：\nNon-compliant / Semi-compliant coronary/neuro balloon（如 Scepter C/XC, Transform, Eclipse, HyperForm/HyperGlide，或 1.5–2.5 mm 冠狀動脈小氣囊如 Sprinter Legend/Emerge）。\n氣囊直徑建議為正常血管管徑的 80%–100%（Undersized），嚴禁過度充氣（over-inflation），避免造成血管夾層（dissection）或破裂。\n分段逐步擴張：\n將氣囊置於扭轉最嚴重的 \"waist / hourglass\" 處，低壓、緩慢充氣（Slow inflation with nominal pressure）。\n觀察扭轉是否被撐開；若未完全打開，可微調位置後重複進行。\n3. Loop / J-Wire Technique（以導線圈頂開）\n若微導線穿過扭轉段後，在遠端塑形一個 small J-loop 或 loop，緩慢往回拉或旋轉，利用 loop 的橫向張力去撐開塌陷扭轉的 mesh（需極度溫和，避免 wire 鉤住 strut 造成整支 FD 位移）。\n4. Telescoping / Stent-in-Stent（架設第二層支架）\n若 Balloon angioplasty 後仍無法維持開通（elastic recoil 或 mesh 嚴重絞死），或扭轉處造成嚴重的血流減慢：\nSelf-expanding open-cell / closed-cell stent： 在 FD 腔內跨過扭轉段置入 Neuroform Atlas 或 Enterprise 支架，利用支架的徑向支撐力（radial outward force）將扭轉的 FD 撐開並貼壁。\n第二支 Flow Diverter： 在腔內 telescoping 另一支 FD，以第二層的膨脹力重塑管徑（需評估穿支動脈與血栓風險）。\n第三階段：藥物保護與血栓預防（Medical / Antithrombotic Rescue）\n扭轉段血流淤滯（stasis）與反覆 manipulation 極易誘發急性原位血栓：\nMaintain Strict ACT / Anticoagulation：\n術中監測 ACT（維持在 250–300 秒），必要時追加 Heparin。\nGlycoprotein IIb/IIIa Inhibitors（急性血栓第一線救命藥）：\n若造影見到扭轉處開始有 thrombus formation 或 distal flow 變慢：\nTirofiban (Aggrastat) 或 Eptifibatide (Integrilin)：\n先給予 Intra-arterial (IA) 或 Intravenous (IV) bolus，接著以 IV 滴注維持。\nVasodilator Injection：\n經導管給予 intra-arterial Nimodipine / Verapamil / Milrinone，緩解因 catheter/balloon 刺激引起的血管痙攣（vasospasm）。\nRescue 流程速查\nFD 發生 Torsion\n   │\n   ├── 尚未完全脫離 (Not detached) ──► Re-sheathing ──► 調整 Torque / Tension ──► 重新釋放\n   │\n   └── 已完全脫離 (Detached)\n         │\n         ├── 1. 0.014\" Microwire 小心 Recross (確認位於 Central Lumen)\n         │\n         ├── 2. Balloon Angioplasty (使用 Undersized compliant/semi-compliant balloon 緩慢充氣撐開)\n         │       │\n         │       ├── 成功開通 ──► 結束並確認貼壁 (VasoCT / Angio)\n         │       │\n         │       └── 仍有 Recoil / 嚴重扭折 ──► 3. Stent-in-Stent (Neuroform Atlas / Enterprise 撐開)\n         │\n         └── 全程配合：Tirofiban (預防/溶解原位急性血栓) + 充足 Heparinization\n```<FollowUp label=\"Want to look into balloon selection and sizing strategies for flow diverter rescue?\" query=\"What are the specific balloon selection criteria, sizing rules, and pressure titration protocols for angioplasty rescue of a twisted flow diverter?\"/>",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N10",
+  "title": "#angio 2026/03/02",
+  "date": "2026-09-03",
+  "case": null,
+  "text": "2026/03/02\n2921371 \n\nAcom flow diverter 注意事項\n用pheno 17 21 deployments 的差別\n17比較不會讓血管變型 跟原本roadmap一樣。因為比較軟\n21deplyment 容易把血管拉直\n\n如果不確定aneurysm 位置 再打一組roadmap\n\n盡量deploy 在A 2多A 1少 因為A 1有比較多的perforators",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N12",
+  "title": "#angio 2026/01/31",
+  "date": "2026-09-03",
+  "case": null,
+  "text": "2026/01/31\n打onyx前 要test run 怕管子破。漏到proximal 就不好\n\nPost auricular artery 不要去塞會 facial palsy\nAscending pharyngeal 也不能亂塞\n\nOnyx一定要全麻做\n\nCCF Anterior compartments 先  SOV\n         superior lateral Com 中   CVR\n        再來是posterior com. \n您說的順序是完全正確的，這是在經靜脈途徑（Transvenous Approach）治療 Indirect CCF 時最標準的操作邏輯。\n這個順序（Anterior \\rightarrow Superior/Lateral \\rightarrow Posterior）背後有兩個主要的考量：「導管操作的物理限制」與「阻斷危險引流的臨床需求」。\n這裡為您詳細解析為什麼必須依照這個順序：\n1. 導管操作邏輯：由遠而近，邊退邊塞 (Backing-out Technique)\n絕大多數的 Indirect CCF 都是經由 下岩竇 (Inferior Petrosal Sinus, IPS) 進入海綿竇（Cavernous Sinus, CS）。\n * 入口在後方 (Posterior)： 導管是從後方的 IPS 進入海綿竇。\n * 目標在前方 (Anterior)： 導管必須一路推到最前端（眼靜脈 SOV 開口附近）。\n * 操作順序： 如果您先塞了後方腔室 (Posterior compartment)，導管就會被彈簧圈 (Coils) 卡住或擋住，無法再前進到前方腔室。這就像拖地一樣，必須從房間最裡面（前方）往門口（後方）拖，才不會把自己困住。\n2. 臨床病理考量：先救眼睛 (Protect the Eye)\nIndirect CCF 最危險的併發症通常是眼部症狀（紅腫、凸眼、視力受損）。這些症狀是因為動脈血經由海綿竇逆流進入 上眼靜脈 (Superior Ophthalmic Vein, SOV)。\n * Anterior Compartment (前方腔室)： 這是海綿竇與 SOV 連接的地方。優先填塞這裡，可以直接阻斷逆流至眼靜脈的壓力，迅速緩解眼部症狀，並防止皮質靜脈逆流（Cortical Reflux）造成的腦出血風險。\n * Superior/Lateral Compartment： 這裡是大多數供血動脈（Feeders）匯入的地方。通常來自 ICA 的腦膜垂體幹 (MHT) 或 ECA 的分支。塞這裡是為了封堵瘻管口 (Fistulous points)。\n * Posterior Compartment (後方腔室)： 這是連接 IPS 的出口。最後塞這裡是為了完成整個竇的閉塞（Complete occlusion），並在撤出導管時做最後的封尾。\n詳細步驟解析\n * Anterior Compartment (最優先)\n   * 將微導管（如 SL-10 或 Echelon）儘可能送到海綿竇的最前端，甚至稍微進入 SOV 一點點再拉回來。\n   * 在此處建立一個穩固的 \"Frame\" (框架)。\n   * 目的： 切斷 \"Dangerous drainage\" (往眼睛和腦部的逆流)。\n * Superior / Lateral Compartment (中間)\n   * 當前方被阻斷後，血流速度通常會減慢。\n   * 這時候重點轉向填塞瘻管匯入點。由於 Indirect CCF 的供血支通常很細且多（Rete mirabile 網狀結構），很難單獨抓出來塞，所以通常採用 \"Dense Packing\" (緻密填塞) 策略，把這個空間塞滿，讓血流無法進入。\n   * Onyx 的角色： 如果彈簧圈塞完還有殘餘血流，或者為了節省彈簧圈，有些醫師會在這個階段配合打 Onyx（但要小心 Onyx 跑到 ICA 或腦神經孔）。\n * Posterior Compartment (最後)\n   * 這是您的「逃生門」。\n   * 當前方和中間都塞滿後，慢慢將微導管退回 IPS 入口處，做最後的填塞。\n   * 注意： 如果太早把這裡塞死，萬一前面沒塞好，您就再也進不去了（除非改穿刺眼靜脈 SOV 或走 Superior Petrosal Sinus，這都會增加手術難度與風險）。\n總結\n這個順序是基於IPS 入路的標準做法：\n> Target the SOV connection first (Safety) \\rightarrow Pack the fistula body (Cure) \\rightarrow Seal the exit (Closure).\n> \n如果您是採取 經上眼靜脈 (Trans-SOV) 直接穿刺 或切開進入，順序就會完全相反（因為入口變成了 Anterior，所以要先去塞 Posterior），但這種情況較少見。\n\n5。8\n7。11",
+  "category": "04_dAVF_CCF"
+ },
+ {
+  "id": "N13",
+  "title": "#angio  2026/01/26",
+  "date": "2026-09-03",
+  "case": null,
+  "text": "2026/01/26\nAcandis FLOW diverter 有7mm-8mm\n\nFusiform dilation 放flow diverter",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N14",
+  "title": "#angio 2026/01/05",
+  "date": "2026-09-03",
+  "case": null,
+  "text": "2026/01/05\n\nSpontaneous CCF High flow 要想到aneurysm rupture over the cavernous ICA\n\nNeck IVJ 用 short sheath and 5For 4F  H1 \n先extension the neck for puncture the neck\n\n即使是 direct CCF 還是要 trans A 跟V \nA先塞好 如果塞不好再從V\n\n結論先講（很重要）：\n👉 Direct CCF 做 trans-arterial embolization：\n「大多數情況」要先 balloon inflate 再放 coil\n👉 「直接放 coil」只適合非常少數、嚴格條件的情況\n\n為什麼「先 balloon 再 coil」幾乎是標準？\n核心原因：\nhigh-flow shunt\nDirect CCF = ICA → CS 高速噴射  \n沒 flow control：  \n第一顆 coil 還沒成形就被吸走  \n可能 被沖進 ICA distal → stroke  \n👉 Balloon 的功能不是治療，是「安全鎖」\n\n標準實務流程（你在 angio room 真正會做的）\n✅ 常規、安全作法\nBalloon catheter 放在 ICA cavernous segment  \nInflate balloon（暫時 occlusion / flow reduction）  \nMicrocatheter 穿過 fistula → cavernous sinus  \n先放 framing coil  \n視穩定度補 coils  \nDeflate balloon  \nCheck ICA patency + fistula closure  \n👉 這是 最安全、最可預期 的方式\n\n那「可以不打 balloon 直接放 coil」嗎？\n⚠️ 可以，但必須「全部都符合」以下條件：\n\n👉 少一個條件，就不建議\n\n什麼時候「絕對不要」直接放 coil？\n❌ 高流量 traumatic CCF\n❌ 大 opening、short segment\n❌ fistula 直通 ICA 主流\n❌ 第一顆就想用小 coil\n👉 這些情況直接放 = 高風險操作\n\nTrans-arterial vs Trans-venous（再提醒一次）\n\n一句話臨床記憶點\n「Direct CCF + trans-arterial = balloon first, coil later」\n「No balloon = you’re gambling」\n\n如果你願意，我可以再幫你做：\n📋 Angio room checklist（step-by-step）  \n🎯 哪些 CCF 可以 safely no-balloon  \n🧠 coil migration 當下怎麼 rescue",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N15",
+  "title": "#angio 08/31",
+  "date": "2026-08-31",
+  "case": null,
+  "text": "08/31\n\nOnyx vs NBCA  embolization\nIf safe margin too short choose NBCA\nONYX will easy reflex \n\nP4 splenic artery is safe",
+  "category": "07_unclassified_general"
+ },
+ {
+  "id": "N16",
+  "title": "#angio",
+  "date": "2026-07-06",
+  "case": null,
+  "text": "2026/07/06\n\nChronic SDH Stage \nT1 T2 亮",
+  "category": "05_MMA_embolization"
+ },
+ {
+  "id": "N17",
+  "title": "#angio",
+  "date": "2026-08-03",
+  "case": null,
+  "text": "08/03\n\n打embosphere 打完記得用 N/S flush\n用Pheno 27打 在IMA Distal 打 300micro",
+  "category": "07_unclassified_general"
+ },
+ {
+  "id": "N18",
+  "title": "#angio",
+  "date": "2026-08-10",
+  "case": null,
+  "text": "2026/08/10\n\n 放flow diverter 在 cavernous ICA Aneurysm 要放 distal to Ophthalmic artery 避免ledge effect",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N19",
+  "title": "#angio",
+  "date": "2026-07-13",
+  "case": null,
+  "text": "ICAD 病人 FD 不要用 DFT的\n\nDural AVF \n先把內側的中心deepfeeders 的 fistula 關起來 再把周邊的fistula 關起來 trapping\n\n先把small feeders 用NBCA \n主要危險大feeder 用 pressure cooker\n\nMeningohypophyseal trunk（膜垂體幹，簡稱 MHT）是內頸動脈（Internal Carotid Artery, ICA）在海綿竇段（C4 / Cavernous segment）所發出的第一個重要小分支。\nMHT 主要是負責海綿竇區、硬腦膜以及腦下垂體後葉的血液供應。它通常會分出 3 個主要分支：\nMHT 的 3 大主要分支\nTentorial Artery（帳幕動脈）\n別稱：Artery of Bernasconi-Cassinari（Bernasconi-Cassinari 動脈）\n走向與供應：沿著小腦帳幕（Tentorium cerebelli）游離緣向後走行，主要供應**小腦帳幕（Tentorium）**及周圍的硬腦膜（Dura mater）。\n臨床意義：當發生腦膜瘤（Meningioma）或動靜脈瘻管（AVF）時，這條血管常會異常充血擴張。\nInferior Hypophyseal Artery（下腦下垂體動脈）\n走向與供應：向內側走行，主要供應**腦下垂體後葉（Posterior Pituitary / Neurohypophysis）**及部分漏斗部。\n臨床意義：與對側的同名動脈吻合，形成網狀吻合（Inferior hypophyseal arterial circle）。\nDorsal Meningeal Artery（背側腦膜動脈）\n別稱：Meningeal branch / Clival branch\n走向與供應：向後下走向斜坡（Clivus），主要供應斜坡處的硬腦膜，並延伸發出小分支供應外展神經（CN VI）附近的硬膜構造。\n口訣記憶法（BAIT / BHD）\n臨床上常用 B-H-D 來記憶其三大分支：\nBernasconi-Cassinari (Tentorial)\nHypophyseal (Inferior hypophyseal)\nDorsal meningeal\n補充： 在某些解剖變異中，這三條分支可能會直接從內頸動脈分開發出，而非共用一個 MHT 主幹；但 standard pattern 仍是以 MHT 共同發出這三條為主。",
+  "category": "04_dAVF_CCF"
+ },
+ {
+  "id": "N20",
+  "title": "Angio",
+  "date": "2026-07-20",
+  "case": "c17",
+  "text": "Angio\nSOAI 小朋友 用pheno plus  當guiding\nHeadway17去勾opthalmic artery",
+  "category": "06_pediatric"
+ },
+ {
+  "id": "N21",
+  "title": "Angio flow diverter for BA Stenosis",
+  "date": "2026-06-29",
+  "case": "c16",
+  "text": "Angio flow diverter for BA Stenosis\n\n做femoral artery angio\nPheno plus 0045 當中繼管\n小朋友 用RHV鎖在4F上 可以不要讓guiding 頂出來\n用phenom plus and .035wire 直接去勾ICA\nMarathon 打藥 .010wire勾oph 比較軟\nHeadway17 打藥也可以 比較硬\nAccessary MCA no perforator \n\nFD 放完。如果要PTA 需要300cm exchange \n再放balloon",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N22",
+  "title": "TO3KIBA",
+  "date": "2026-06-01",
+  "case": "c15",
+  "text": "Bailar artery chronic dissection vs stenosis\n\nDural AVF \nR femoral puncture \nRight neck 6F 短sheath 5F pigtail or 6F DAC\n\nRight femoral 5F 短sheath\n\nCOGNARD Type IIa  no CVR\nTarget coil 比較硬 跟 Axium 比較好推\n打onyx 可以等2-3分鐘 solidified 再打\n\n**原則上不建議，仿單（IFU）也明文列為禁忌。**\n雖然 **Marathon**（Medtronic 家族）和前面提到的 Echelon 一樣，都具備 DMSO 相容性、可以安全地施打 Onyx，但它**不適合、也不應該拿來放 Coil（彈簧圈）**。主要原因有以下三個致命傷：\n### 1. 內徑太小，Coil 根本過不去（最嚴重的物理限制）\n * **Marathon 的遠端內徑（ID）只有 0.013 英吋。**\n * 臨床上絕大多數的神經介入 Coil（例如 Target、Axium、MicroPlex 等 10 系統），要求的微導管遠端內徑至少要 **0.0165 到 0.017 英吋**（例如 SL-10 或 Echelon-10）。\n * 把 10 系統的 Coil 推進 0.013 英吋的 Marathon 裡，會因為摩擦力過大而**直接卡死（Coil jamming）**在導管內，進退兩難。\n### 2. 管身設計不同：血流導向（Flow-directed）vs. 鋼絲導向（Over-the-wire）\n * Marathon 是一款專門為了走遠端極細血管（如 AVM 的 feeding artery）而設計的**血流導向（Flow-directed）微導管**。\n * 為了順著血流漂流，它的遠端（Distal shaft）設計得極度柔軟，且沒有不銹鋼或鎳鈦合金的編織層（Braid）支撐。\n * 當你在推送有張力的 Coil 時，這種軟綿綿的管身無法提供足夠的**抗折改道性（Pushability）與支撐力**，導管會在血管內劇烈「踢回」（Kick-out），甚至直接折損（Kink）。\n### 3. 沒有專屬的抗靜電/PTFE 特殊內襯\n放 Coil 的微導管（如 SL-10、Echelon）內壁都有經過特殊調校，能將 Coil 的摩擦力降到最低。Marathon 內壁的設計主戰場是讓液态的 Onyx 或不透光的導引鋼絲（Mirage 0.008 等）通過，並不是為了金屬 Coil 的滑動而優化。\n### 臨床上的交叉對比\n| 微導管 | 遠端內徑 (ID) | 打 Onyx (DMSO) | 放 Coil (彈簧圈) | 核心臨床角色 |\n|---|---|---|---|---|\n| **SL-10** | 0.0165\" | ❌ **絕對禁忌** | **首選** | aneurysm 栓塞、放小支架 |\n| **Echelon-10** | 0.017\" | **可以** | **可以** | 萬用型、AVM打膠、Aneurysm |\n| **Marathon** | **0.013\"** | **首選** | ❌ **無法通過** | 極遠端 AVM / dAVF 深入打 Onyx |\n> 💡 **手術室備料心法：**\n> 如果這台刀的策略是 **「先放幾顆 Coil 擋住大血流，最後再補 Onyx」**（也就是 PPA 術式或複雜 AVM/動靜脈廔管），這時候檯面上應該拆 **Echelon-10**，因為它同時具備「夠大的內徑（0.017\"）放 Coil」與「DMSO 相容性打 Onyx」。千萬別開 Marathon 來放 Coil。\n> \n\nSceptor balloon 直接用syringe 打就可以\nGateway 才需壓力槍\n\nFlow diverter放完有fish mouth 可以angioplasty  先軟Sceptor撐再用gateway",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N23",
+  "title": "MMA Embolization",
+  "date": "2026-05-25",
+  "case": "c14",
+  "text": "MMA Embolization\n6F cerebase /Navien 58 /Headway 21 /.014 wire\n\n換6Fr DAC 比較軟 sceptor balloon assisted 4mmx10mm",
+  "category": "05_MMA_embolization"
+ },
+ {
+  "id": "N24",
+  "title": "DuralAVF",
+  "date": "2026-05-04",
+  "case": null,
+  "text": "DuralAVF\n\nVenous occlusion or protection",
+  "category": "04_dAVF_CCF"
+ },
+ {
+  "id": "N25",
+  "title": "Flow diverter",
+  "date": "2026-04-13",
+  "case": null,
+  "text": "Flow diverter\n\n這題是 flow diverter（FD）力學 + 臨床效果的核心，而且在 sizing 時非常關鍵。直接幫你抓住本質👇\n\n⸻\n\n🧠 一、先講結論（最重要）\n\n👉 編織角（braid angle）會隨著血管直徑改變：\n\t•\tUndersized（FD 比血管小）\n→ 被撐開 → angle ↑（變大）\n→ metal coverage ↓\n→ porosity ↑（孔洞變大）\n\t•\tOversized（FD 比血管大）\n→ 被壓縮 → angle ↓（變小）\n→ metal coverage ↑\n→ porosity ↓（孔洞變小）\n\n⸻\n\n🔬 二、什麼是 braid angle（編織角）？\n\n👉 可以想像 FD 是一個「編織網」\n\n👉 編織角 = 金屬絲與血管長軸的夾角\n\n⸻\n\n📐 視覺理解（很重要）\n\t•\tangle 大（接近 90°）\n→ mesh 被拉開 → 網變稀\n\t•\tangle 小（接近 0°）\n→ mesh 被壓縮 → 網變密\n\n⸻\n\n⚙️ 三、不同 sizing 對 FD 性能的影響\n\n🔵 1️⃣ Undersized（小尺寸 FD）\n\n機械變化：\n\t•\tFD 被撐開\n\t•\tbraid angle ↑\n\t•\tmesh 變鬆\n\n結果：\n\t•\t❗ metal coverage ↓\n\t•\t❗ flow diversion ↓\n\t•\taneurysm thrombosis 變差\n\n但優點：\n\t•\t✔ 比較容易貼壁（apposition 好）\n\t•\t✔ 比較不會 kink\n\n⸻\n\n🔴 2️⃣ Oversized（大尺寸 FD）\n\n機械變化：\n\t•\tFD 被壓縮\n\t•\tbraid angle ↓\n\t•\tmesh 變密\n\n結果：\n\t•\t✔ metal coverage ↑\n\t•\t✔ flow diversion ↑\n\n但代價👇\n\t•\t❗ porosity 太低 → perforator occlusion risk ↑\n\t•\t❗ 容易 malapposition（貼壁不好）\n\t•\t❗ shortening 控制困難\n\n⸻\n\n🧩 四、臨床上最關鍵的 trade-off\n\n👉 你其實在平衡兩件事：\n\n1️⃣ Flow diversion 效果\n\nvs\n\n2️⃣ 安全性（branch / perforator）\n\n⸻\n\n📊 簡化理解：\n\nsizing\tbraid angle\tmetal coverage\tflow diversion\t風險\nundersized\t↑\t↓\t↓\t治療失敗\nappropriate\toptimal\toptimal\toptimal\t✔\noversized\t↓\t↑\t↑\tinfarct / malapposition\n\n⸻\n\n⚠️ 五、臨床實戰重點（很重要）\n\n🔥 1. “過度 oversizing” 很危險\n\n特別是在：\n\t•\tbasilar artery\n\t•\tperforator-rich 區域\n\n👉 metal coverage 疊太高 → infarction\n\n⸻\n\n🔥 2. tapering vessel（ICA siphon）\n\n👉 常見問題：\n\t•\tproximal 大、distal 小\n\n👉 結果：\n\t•\tdistal → oversizing\n\t•\tproximal → undersizing\n\n👉 同一支 FD，兩端效果完全不同\n\n⸻\n\n🔥 3. FD 設計差異（重要）\n\n不同 device 對 angle 變化敏感度不同：\n\t•\tPipeline（較柔軟） → angle 變化明顯\n\t•\tFRED（dual layer） → 外層支撐較穩\n\t•\tSurpass（wire 多） → metal coverage 較穩定\n\n⸻\n\n🧠 六、超實用臨床心法\n\n👉 sizing 原則：\n\n✔ 以 distal vessel 為準（最小直徑）\n✔ 避免 distal 過度 oversizing\n✔ overlap 可以增加 coverage（比 oversize 安全）\n\n⸻\n\n✨ 一句話總結\n\n👉 “Bigger device → smaller braid angle → denser mesh → stronger flow diversion but higher risk.”\n\n⸻\n\n如果你想，我可以幫你進一步整理：\n✅  不同 FD（Pipeline / FRED / Surpass）在 sizing 上的策略差異\n✅  如何用 angio 預測「實際 deployed diameter」\n✅  什麼情況要 intentionally oversize（其實有！）\n\n在神經介入中，使用兩個 flow diverter（FD）（例如串接或 telescoping）時，置放順序與策略其實非常關鍵，會直接影響：\n\t•\taneurysm 的流體改變效果\n\t•\tdevice apposition（貼壁性）\n\t•\tside branch 保留\n\t•\t以及 thrombosis / ischemic risk\n\n下面用臨床邏輯幫你整理👇\n\n⸻\n\n🧠 一、基本原則：Distal → Proximal\n\n👉 幾乎所有情況都是：\n\n先放 distal FD，再放 proximal FD（往近端疊）\n\n原因\n\t1.\t避免卡關（jailing / trapping）\n\t•\t如果先放 proximal FD\n\t•\tmicrocatheter 可能無法再進 distal → 無法 deploy 第二支\n\t2.\t確保 distal landing zone 精準\n\t•\tdistal 比較細、比較難控制\n\t•\t一定要先處理好\n\t3.\t減少 device foreshortening 誤差\n\t•\tFD 會縮短（foreshortening）\n\t•\tdistal 放好後，proximal 比較好調整 overlap\n\n⸻\n\n🧩 二、兩支 FD 使用情境（為什麼要用兩支）\n\n1️⃣ 長段病變（fusiform / dissecting aneurysm）\n\n👉 需要長 coverage\n\n策略：\n\t•\tdistal FD → 覆蓋遠端 healthy segment\n\t•\tproximal FD → 延伸 coverage + overlap（通常 overlap 5–10 mm）\n\n⸻\n\n2️⃣ 提高 flow diversion 效果（layering）\n\n👉 特別是：\n\t•\tgiant aneurysm\n\t•\tpreviously failed FD\n\t•\thigh-flow lesion\n\n策略：\n\t•\t第一支 FD（scaffold）\n\t•\t第二支 FD（增加 metal coverage density）\n\n📌 類似 “double layer flow diversion”\n\n⸻\n\n3️⃣ neck 太寬 / 不規則\n\n👉 用第二支 FD 做：\n\t•\tneck coverage 強化\n\t•\t修正第一支貼壁不良\n\n⸻\n\n⚠️ 三、關鍵技術考量\n\n🔹 1. Overlap 長度\n\t•\t建議：5–10 mm\n\t•\t太短 → 可能 migration / endoleak\n\t•\t太長 → thrombosis risk ↑\n\n⸻\n\n🔹 2. Metal coverage 疊加效應\n\n兩支 FD 疊加：\n\n👉 metal coverage ≈ 30% → 可變成 50–60%\n\n✔ 優點：\n\t•\tflow diversion 更強\n\t•\taneurysm thrombosis ↑\n\n❗風險：\n\t•\tperforator infarct ↑（特別是 basilar artery）\n\n⸻\n\n🔹 3. Wall apposition（貼壁性）\n\n👉 第二支 FD 常用來：\n\t•\t“press” 第一支貼壁\n\t•\t修正 malapposition（尤其在 carotid siphon）\n\n⸻\n\n🔹 4. 分支血管（branch preservation）\n\n要特別注意：\n\t•\tophthalmic artery\n\t•\tposterior communicating artery\n\t•\tanterior choroidal artery\n\n👉 FD 疊太多層 → branch occlusion 風險↑\n\n⸻\n\n🔹 5. Microcatheter strategy\n\n常見技巧：\n\t•\tjailing technique（較少用於 FD）\n\t•\tre-cross technique（較常見）\n\n👉 放完第一支 FD\n→ 再穿過 strut 放第二支\n\n⸻\n\n⚠️ 四、什麼情況要小心用兩支 FD？\n\n🚫 高風險區域\n\t•\tposterior circulation（尤其 basilar trunk）\n\t•\tperforator-rich segment\n\n👉 疊兩層 → infarct 風險明顯上升\n\n⸻\n\n🚫 抗血小板反應不佳\n\n👉 metal 多 → thrombosis risk ↑\n\n⸻\n\n🧠 五、臨床 decision flow（實用版）\n\n👉 你可以用這個思考：\n\t1.\t長度不夠？\n→ 用兩支（distal → proximal）\n\t2.\tflow diversion 不夠？\n→ 疊第二支（layering）\n\t3.\t貼壁不好？\n→ 第二支修正\n\t4.\t在 posterior circulation？\n→ ❗盡量避免雙層\n\n⸻\n\n✨ 核心一句話\n\n👉 “Distal first, then proximal overlap — scaffold → reinforce → optimize flow diversion.”\n\n⸻\n\n如果你想，我可以幫你做：\n✅  Pipeline vs FRED vs Surpass 在「雙支使用策略」差異\n✅  什麼情況改用 FD + coiling 比較好\n✅  complication（例如 delayed rupture）預測整理\n\n這些在發 paper 或臨床 decision 很有用\n\n這兩條血管在臨床（尤其做 flow diverter 或 ACOM / PCA 區 aneurysm）確實很容易混淆，但其實解剖位置 + 供應區域 + 來源可以幫你很快分清。\n\n⸻\n\n🔍 一句話先記\n\t•\tPerisplenial artery = distal PCA（P4）→ 繞 splenium 的 cortical branch\n\t•\tPosterior choroidal artery = deep perforator → 供應 deep structures（thalamus / choroid plexus）\n\n⸻\n\n🧠 1️⃣ Perisplenial artery（= distal PCA branch）\n\n👉 本質：\n是 Posterior Cerebral Artery 的 P4 segment distal cortical branch\n\n📍 位置特徵\n\t•\t沿著 corpus callosum 的 splenium（胼胝體後部）繞行\n\t•\t在 angiography 上：\n\t•\t很「外側 / 表面」\n\t•\t呈現 cortical branch pattern（像樹枝分布）\n\n🧠 供應區域\n\t•\tOccipital lobe（視覺皮質）\n\t•\tPosterior corpus callosum\n\n🧩 關鍵辨識\n\n✔ 在 brain surface 跑\n✔ 有 cortical branching pattern\n✔ 跟 PCA distal continuity 很明顯\n\n⸻\n\n🧠 2️⃣ Posterior choroidal artery（後脈絡膜動脈）\n\n👉 分成：\n\t•\tMedial posterior choroidal artery\n\t•\tLateral posterior choroidal artery\n\n👉 本質：\n是 Posterior Cerebral Artery 的 deep perforator branches（通常 P2 segment 出來）\n\n⸻\n\n📍 位置特徵\n\t•\t往 ventricle（第三腦室 / 側腦室）方向走\n\t•\tangiography 上：\n\t•\t比較「內側」\n\t•\t沒有典型 cortical branching\n\t•\t常看到進入 choroid plexus region\n\n⸻\n\n🧠 供應區域\n\t•\tThalamus（重要！）\n\t•\tMidbrain\n\t•\tChoroid plexus\n\n👉 臨床意義：\n👉 是 eloquent perforator（不能亂蓋）\n\n⸻\n\n⚡ 臨床快速分辨（實戰）\n\n👉 在 angiography 判讀：\n\n特徵\tPerisplenial artery\tPosterior choroidal artery\n位置\t外側 / cortical surface\t內側 / deep\n走向\t繞 splenium\t進 ventricle\n分支型態\ttree-like cortical branches\t細小 perforators\n來源\tPCA distal (P4)\tPCA P2\n是否危險（FD）\t相對安全\t⚠️ 高風險（不能 cover）\n\n⸻\n\n🚨 Flow diverter 重點（你這題最關鍵）\n\n👉 如果你在 PCA / basilar apex 放 FD：\n\n❗ Posterior choroidal artery\n\t•\t一旦被 cover →\n👉 thalamic infarct / coma risk\n\t•\t👉 通常要避免\n\n👍 Perisplenial artery\n\t•\tcortical branch\n\t•\tcollateral 多\n\t•\t👉 通常可以接受被 cover（視情況）\n\n⸻\n\n🧠 進階小技巧（高手用）\n\n👉 看「是否進 ventricle」\n\t•\t有 → posterior choroidal\n\t•\t沒有 → 多半是 perisplenial\n\n👉 看「是不是貼著 corpus callosum 繞」\n\t•\t是 → perisplenial\n\n⸻\n\n🎯 臨床一句話總結\n\n👉 “Deep = choroidal（不能動），Surface = perisplenial（比較安全）”\n\n⸻\n\n如果你有 angiography 圖（像你前面 flow diverter case），我可以幫你直接在圖上標出哪一條是哪一條，這個用影像學練一次會很快內化。",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N26",
+  "title": "#angio",
+  "date": "2025-01-13",
+  "case": null,
+  "text": "Embolization Envoy 6F 打D10W先再用 NBCA \n\nOpen cell vs close cell stent \nXact 亞培 是close stent post-dilation 相對安全  用在? 比較穩 uniform radial force\nAcculink 亞培 open cell stent \n用在很彎的血管\nBalloon monorail\nProtection device",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N27",
+  "title": "Embolization",
+  "date": "2026-02-24",
+  "case": "c13",
+  "text": "Embolization\n92378329 pcom embolization",
+  "category": "07_unclassified_general"
+ },
+ {
+  "id": "N28",
+  "title": "#angio",
+  "date": "2025-08-04",
+  "case": null,
+  "text": "A 2.5/50 稀釋 30% 做3D 看stent 外觀結構\nB 術後 不打藥比較結構的變化\nC 3/15 打藥不稀釋 看ㄧ開始沒有內皮化\nD 3/15 有內皮化\n\n1 10\n2 5ml\n3 3ml\nNBCA 20%\n\n這段YouTube影片的內容是關於一場名為「BANANAZ MMA Embo New Fellows Welcome」的會議，主要討論了**中腦膜動脈 (Middle Meningeal Artery, MMA) 的解剖學知識和栓塞術的技術**，特別是為新進研究員提供指導，並透過一個詳細的病例進行講解 [1]。\n\n以下是內容的整理與分析：\n\n*   **會議安排與宗旨**\n    *   會議頻率將從此次起調整為每月一次，於每個月的第一個星期二舉行，每次約兩小時 [1]。\n    *   此次會議旨在歡迎新進研究員，並以一個臨床病例為基礎，探討MMA的解剖學與栓塞術，這是一個許多人感興趣且日益普及的基本栓塞手術 [1, 2]。\n\n*   **中腦膜動脈 (MMA) 的解剖學與胚胎學**\n    *   **起源與供應**：MMA通常是外頸動脈的分支，從內上頜動脈的近端分出，負責供應硬腦膜凸面，並與前、後腦膜動脈有許多吻合連接 [3]。\n    *   **吻合與重建**：即使MMA因手術（如開顱術）而被犧牲或失效，其他動脈也能重新供應其區域 [3]。\n    *   **重要連接與風險點**：\n        *   **近端 MMA 位置**：當MMA穿過棘孔進入顱腔後，通常會分出岩骨支 (petrosal branch)，此分支參與供應硬腦膜和面神經，因此在該位置進行栓塞術有**面神經受損的風險** [3, 4]。\n        *   **遠端 MMA 位置**：MMA不時會與眼動脈系統（ophthalmic system）形成連接，這是需要特別注意的，因為有**導致失明的潛在風險** [4]。\n        *   **胚胎期連接**：MMA與眼動脈系統之間存在胚胎期連接，這是一個連續的光譜：\n            *   **腦膜-眼動脈變異 (Meningo-ophthalmic variant)**：極端情況下，整個眼動脈系統由MMA供應 [4, 5]。這種情況下，若內頸動脈 (ICA) 注射未見眼動脈，則應懷疑其來自MMA/外頸動脈 (ECA) [5, 6]。\n            *   **腦膜-淚腺變異 (Meningo-lacrimal variant)**：MMA供應限於淚腺 [4, 7]。在額面觀的外頸動脈注射中，任何位於眼眶上方的分支，都可能是與眼眶相關的MMA分支貢獻 [7]。\n            *   **復發性腦膜變異 (Recurrent meningeal variant)**：比腦膜-眼動脈變異更常見，同樣會影響MMA栓塞術 [7, 8]。\n\n*   **MMA 栓塞術的技術與考量**\n    *   **栓塞位置**：\n        *   若不確定是否有與眼動脈系統的連接，**應盡可能向遠端進行栓塞**，因為大多數與眼動脈系統的連接位於近端，遠離蝶骨脊 (sphenoid ridge) 的位置遇到這種連接的可能性極低，因此遠端栓塞被認為是更安全的做法 [9]。\n    *   **栓塞材料**：\n        *   **Onyx (液態栓塞劑)**：\n            *   在**非常遠端**的位置（特別是當導管楔入且順向血流不明顯時）使用 Onyx 是合理的，因為其滲透性較強 [10, 11]。\n            *   在注射過程中，有時會觀察到Onyx填充了一些不像是正常動脈空間的「小腔隙」或「湖狀空間」，這被認為不是外滲，可能是微小動脈破裂或流入毛細血管前動靜脈分流/小靜脈 [11-15]。這種現象通常是自限性的，不會導致出血 [11]。\n        *   **顆粒 (Particles)**：\n            *   當栓塞位置相對**近端**，且存在腦膜-淚腺分支時，**顆粒是很好的選擇**，因為可以更好地控制反流，降低失明風險 [10, 16, 17]。\n            *   通常使用小尺寸的顆粒 (如 45-150 微米的 Contours 顆粒)，以實現遠端滲透 [18-20]。Contours 顆粒因其形狀和效果而被推薦 [21]。\n            *   **風險**：即使是小顆粒，若進入視網膜中央動脈（直徑約100納米），也可能導致失明，因此必須非常小心 [20, 22]。\n            *   在沒有足夠順向血流的極遠端或楔入位置，顆粒效果可能不佳 [11]。\n    *   **麻醉方式**：對於顱底的手術，通常建議使用全身麻醉，因為這有助於患者保持靜止，獲得更好的影像質量；但對於其他區域，局部麻醉也可以 [22]。\n    *   **栓塞時機**：對於硬腦膜下血腫 (SDH) 的栓塞時機，目前尚無明確的最佳指導 [23]。理論上，越早栓塞越好，以防止SDH進一步發展或復發 [23]。有些研究方案甚至要求在外科手術前進行栓塞 [23]。目前看來，在安全性或有效性方面，顆粒和液體栓塞劑之間沒有重大臨床差異 [24, 25]。\n    *   **費用編碼**：MMA栓塞術的 CPT 編碼為 61624（頭部或頸部的血管內栓塞或閉塞術），並可能包括血管造影術相關編碼和 36180 附加碼 [26]。\n\n*   **病例分享：硬腦膜下血腫合併創傷性假性動脈瘤**\n    *   一位男性患者，之前有缺血性梗塞和顱內動脈粥樣硬化 [27, 28]。\n    *   因輕微頭部創傷導致面部撞擊後，出現意識混亂，CT顯示**硬腦膜下血腫**，範圍廣泛 [27, 28]。\n    *   意外發現一個**創傷性假性動脈瘤**，其在一個月前的MRI和CTA中並不存在，被認為是此次硬腦膜下血腫的可能病因 [29-32]。\n    *   **右側 MMA 栓塞**：\n        *   為限制來自對側的側枝循環，決定雙側栓塞 [33, 34]。\n        *   右側MMA顯示有淚腺分支投射到眼眶上方 [34-36]。\n        *   導管深入至淚腺分支遠端，使用Onyx進行注射 [10, 36]。\n        *   Onyx填充了動脈分支和一些「湖狀空間」，並觀察到腦膜靜脈的「電車軌道」影像 [12, 36, 37]。\n        *   栓塞成功，淚腺分支未受影響 [37]。\n    *   **左側 MMA 栓塞**：\n        *   左側MMA同樣有顯著的眼眶分支 [30]。\n        *   導管無法像右側那樣深入 [16]。\n        *   由於位置較近端且存在腦膜-淚腺分支，為控制反流並避免視力風險，**選擇使用顆粒** (45-150 微米) 進行栓塞 [10, 16, 17]。\n        *   腦膜得到很好的滲透，最終用少量Onyx封閉血管 [18, 38]。\n        *   腦膜-淚腺分支保持開放，硬腦膜凸面分支被栓塞 [18]。\n    *   **假性動脈瘤栓塞**：\n        *   假性動脈瘤來自胼周分支 (pericallosal branch) [18, 31]。\n        *   **選擇彈簧圈 (coils) 而非液體栓塞劑**，以避免遠端分支閉塞，並保留可能來自側枝的逆行供血 [39]。\n        *   造影劑從動脈瘤滲漏到蛛網膜下腔，證實了它導致SDH [31]。\n        *   彈簧圈栓塞成功，患者預後良好，無臨床症狀性梗塞 [32]。\n\n*   **血管造影基本技術指導 (為研究員提供)**\n    *   強調自動化以獲得良好血管造影影像：包括患者**體位擺放、頭部靜止**和**像素移位** [40-42]。\n    *   關注**輻射劑量**：理解機器設定，如每秒幀數 (frame rate)，在不影響診斷的前提下，選擇較低的幀率可顯著降低輻射劑量 [43, 44]。\n    *   強調正確的血管造影技術，即使是診斷性血管造影，也能顯著影響診斷結果 [44, 45]。\n\n總而言之，這段影片提供了一個**深入的MMA栓塞術課程**，不僅詳細介紹了MMA的複雜解剖學和潛在風險，還通過一個真實案例展示了不同栓塞材料的應用原則和策略，特別強調了**遠端栓塞的重要性**以及在有眼動脈連接風險時**顆粒栓塞的優勢**。同時，會議還討論了栓塞後Onyx的特殊影像表現及其可能的原因，並對血管造影的基本技術進行了指導 [1, 9, 10, 40]。\n\n血流导向（Flow Diversion，简称FD）技术代表了颅内动脉瘤治疗理念的一次重大转变，从传统的瘤体栓塞转向重建病变血管 [1, 2]。本次讨论深入探讨了FD的历史演变、作用机制、临床证据、器械特性、治疗策略、特殊应用及并发症管理，并分享了多位专家的宝贵经验。\n\n### 历史与发展\n血流导向技术的发展，得益于血管腔内重建（Endoluminal Reconstruction）理念的兴起 [1, 3, 4]。\n\n*   **早期探索**：在FD问世之前，介入医生尝试使用球囊技术进行血管解构或重建 [5]，以及使用可脱弹簧圈治疗动脉瘤 [6, 7]。然而，弹簧圈在治疗大颈动脉瘤或复杂动脉瘤（如梭形、蛇形、囊泡、巨大或部分血栓化动脉瘤）时，效果并不稳定，常出现再通 [2, 6, 8]。\n*   **支架辅助技术**：为了解决弹簧圈的不足，医生开始尝试使用支架。最初是冠状动脉球囊扩张支架 [9, 10]，但因其刚性大、操作风险高（可能导致血管破裂）且难以适应颅内血管的曲度，效果有限 [10]。随后，自膨胀镍钛合金支架（如Neuroform）的出现，提供了更好的输送性、柔韧性和径向力，并可与弹簧圈联用 [11-13]。然而，这些低覆盖率支架的动脉瘤闭塞率并不理想（约61%） [14]。\n*   **血流导向器械诞生**：最终，辫织（Braided）支架因其独特的几何特性（在导管内拉长，扩张时缩短，从而提供更高的金属覆盖率）被选中 [15]。**Pipeline栓塞装置**（最初称为Berlin）应运而生，并于2006年进行了首次有效治疗 [16]。\n\n### 作用机制与核心理念\nFD的作用机制主要通过两个方面实现动脉瘤闭塞 [17]：\n*   **血流动力学效应（Hemodynamic Effects）**：FD通过改变动脉瘤颈部的血流动力学，降低瘤内的血流速度，从而促进瘤内血栓形成和组织化 [17-19]。\n*   **生物诱导效应（Bioinductive Effects）**：FD作为生物诱导支架，能促进动脉瘤颈部和支架表面的内皮化，最终实现对动脉瘤的血管再铺平（Vessel Repaving）或重建 [3, 17, 20, 21]。\n*   **关键要素**：实现成功闭塞的两个必要条件是**器械的最佳植入位置**（Optimal Implantation）和**动脉瘤颈部的最佳金属覆盖率**（Optimal Neck Metal Coverage） [22-24]。\n\n### 临床证据与主要研究\nFD器械的有效性和安全性得到了多项临床试验和注册研究的验证 [1]。\n*   **Pipeline系列**：\n    *   **Peta研究**（2007-2011）：首个针对颅内动脉瘤的Pipeline研究，主要评估安全性，并显示出93%的6个月闭塞率，导致Pipeline于2011年获批用于治疗大型和巨大型颈内动脉瘤 [16, 25]。\n    *   **Puffs研究**（2008-2014）：一项前瞻性、多中心、单臂研究，针对无法弹簧圈栓塞或治疗失败的动脉瘤。五年数据显示闭塞率高达95.2%，显著改变了动脉瘤治疗格局 [26, 27]。\n    *   **Premier研究**（2014-2015）：专注于治疗小型动脉瘤，进一步拓展了Pipeline的适应症，将其批准范围扩展到蝶骨岩部至终末段的所有大小动脉瘤 [28-30]。\n    *   **Pedestrian注册研究**：最大规模的真实世界数据之一，覆盖2006-2019年，涉及1000例动脉瘤，显示出96.4%的五年闭塞率 [31, 32]。\n    *   **Pipeline Shield**（第三代）：表面磷酸胆碱修饰，旨在降低血栓形成，显示出更低的并发症率（2.4% vs. 5.8%） [33]。\n    *   **Pipeline Vantage**（第四代）：采用21微导管输送系统，提供更精确的输送控制，早期数据显示出良好的安全性 [34, 35]。\n*   **Fred device**：Fred pivotal试验显示一年完全闭塞率为57.6%，但后续的Meta分析显示其闭塞率可达75.1%-86.6% [36, 37]。Fred是目前美国唯一可通过21微导管输送的FD [37]。\n*   **Surpass Streamline**：Scent研究显示一年闭塞率为66.7%，但神经系统并发症率相对较高（11.1%） [38]。其第二代设备Evolve目前正在进行临床试验 [38]。\n*   **表面修饰FD**：这类器械旨在减少血栓形成，并在特定情况下（如破裂动脉瘤）提供单抗血小板治疗的可能性 [33, 34, 39]。\n\n### 器械特性与工程考量\n工程师在FD设计中面临多种权衡与挑战 [40]。\n*   **材料与结构**：FD通常由钴铬合金和铂金丝辫织而成 [41, 42]。辫织方式决定了器械的孔隙率、密度、金属覆盖率和螺距，这些都影响其性能 [18, 43]。\n*   **径向力与柔韧性**：器械的弹性模量影响其径向力和打开力。较硬的材料（如钴铬合金）提供更高的径向力，但也可能导致支架在弯曲血管中难以贴壁或使血管变直 [44-47]。\n*   **壁贴合度（Wall Apposition）**：最佳的壁贴合度对减少血栓形成和促进内皮化至关重要 [22, 48]。器械尺寸、辫织角度、线材直径等都会影响壁贴合度 [49, 50]。\n*   **表面修饰**：为降低血栓形成，FD表面常进行修饰，如Pipeline Shield的磷酸胆碱涂层。这些修饰可以是被动性的（减少细胞粘附）或主动性的（释放抗凝剂），甚至促进内皮化 [33, 51, 52]。\n*   **新一代器械的争议**：一些欧洲经验表明，新款FD（如Silk Vista Baby, Evolve, Vantage）可能因其更高的刚性而导致**贴壁不良（Malapposition）**、**鱼嘴样畸形（Fishmouthing）**或**血管变直**，这可能与更高的丝线数量、不同的金属成分和设计有关，从而影响长期疗效 [44, 45, 53-58]。\n\n### 治疗策略与特殊应用\nFD治疗策略的演变，体现了医生对器械理解的深化和对复杂病例的驾驭能力。\n\n*   **抗血小板治疗（Antiplatelet Therapy）**：\n    *   **常规方案**：通常采用阿司匹林和氯吡格雷双联抗血小板治疗 [59]。\n    *   **药物选择**：更倾向于使用新型、更可靠的药物，如普拉格雷（Prasugrel）或替格瑞洛（Ticagrelor），并结合血小板功能检测（如PRU值） [59-61]。\n    *   **特殊情况**：对于破裂动脉瘤，抗血小板策略需更谨慎，以平衡血栓风险和出血风险 [39, 62]。\n\n*   **器械选择与置入**：\n    *   **尺寸与长度**：器械选择需考虑血管直径、动脉瘤颈部大小和器械的预短效应（Foreshortening） [49, 63-66]。通常推荐选择比血管直径大0.25-0.5毫米的器械以促进重塑 [67]。\n    *   **多器械置入（Multi-device Constructs）**：对于复杂动脉瘤或为增加金属覆盖率，常需要植入多枚FD。这包括**套叠（Telescoping）**和**平行（Kissing）**置入 [68-72]。多枚器械置入时，应尽量**同时释放**以避免单枚器械过度扩张和另一枚器械受压贴壁不良 [72-74]。\n    *   **球囊扩张**：术中可使用球囊进行血管成形术（Angioplasty），以确保支架充分贴壁 [75]。\n    *   **高级影像技术**：术中利用DynaCT、SuperDyna或OCT等高级影像技术，可以实时评估支架贴壁和内皮化情况 [48, 76]。\n\n*   **特定动脉瘤类型与部位**：\n    *   **巨大/大型动脉瘤**：传统治疗困难，FD可促进瘤体萎缩，缓解压迫症状 [25, 26, 77-79]。对于部分血栓化动脉瘤，常需联用弹簧圈来稳定血栓，减少术后破裂风险 [80-84]。\n    *   **后交通动脉瘤（PCOM Aneurysms）**：关键在于评估后交通动脉（PCOM）的大小和P1段（大脑后动脉P1段）的发育情况。对于PCOM细小或缺失、或PCOM较大但P1段存在的情况，FD治疗效果良好；对于真正的“胎儿型PCOM”（Fetal PCOM），即PCOM作为主要供血动脉且无P1段或P1段非常细小，则不建议首选FD治疗，因其血流需求可能导致闭塞失败或需要分期治疗 [85-88]。血管重塑可使PCOM闭塞，由对侧P1段或小穿支代偿供血 [89-91]。\n    *   **MCA 分叉动脉瘤（MCA Bifurcation Aneurysms）**：FD治疗这类动脉瘤，核心理念是将其视为带有侧支的侧壁动脉瘤 [92, 93]。尽管存在闭塞分支血管的风险，但多项研究显示，在充分抗血小板治疗下，这类动脉瘤的FD治疗是安全有效的，可实现**血流重塑（Flow Remodeling）**，即使动脉瘤未完全闭塞，只要其保持稳定且无症状，亦可视为成功的“Class 5 闭塞” [94-102]。强调**耐心等待**，不要过早判断失败或立即再治疗 [61, 100]。\n    *   **前交通动脉瘤（ACOM Aneurysms）**：由于其复杂的胚胎学变异，ACOM动脉瘤形态多样 [103]。对于A1段共显性或一侧优势的情况，FD治疗是可行的，常采用**H-pipe技术**（两侧同时置入FD，覆盖动脉瘤颈部） [104, 105]。导管化技巧（如使用Aristotle 24导丝）是关键 [106, 107]。破裂ACOM动脉瘤可考虑先栓塞止血，再择期FD治疗 [108]。\n    *   **椎基底动脉瘤（Vertebrobasilar Aneurysms）**：这类动脉瘤复杂且风险高，通常是剥离性或动脉粥样硬化性，常累及穿支血管 [109, 110]。多项研究结果不一，部分显示高死亡率 [111-113]。有研究尝试**三联疗法**（阿司匹林+新型抗血小板药+口服抗凝剂），旨在维持穿支血管通畅，为侧支循环建立争取时间，尽管闭塞率可能略低，但患者功能预后更好 [114-118]。**年轻患者**预后通常优于老年动脉粥样硬化性动脉瘤患者 [119-121]。\n    *   **远端动脉瘤（Distal Aneurysms）**：包括M3/M4段、胼周动脉和A1段梭形动脉瘤。这类动脉瘤的FD治疗通常因**可见性极佳**而操作相对容易 [122]。常使用单枚器械，小型器械展开完全。O24导丝的引入极大简化了导管化过程 [123, 124]。一些案例显示，即使是纤细血管中的剥离性动脉瘤，FD也能成功治疗，但需注意支架可能随着时间推移**过度扩张**导致血管直径异常增大 [125-127]。\n    *   **医源性颅内动脉瘤（Iatrogenic Intracranial Aneurysms）**：常由外科手术或介入操作损伤血管引起，表现为假性动脉瘤或剥离性动脉瘤，其结构不稳定，需**尽早介入治疗** [128, 129]。关键在于**术后立即进行血管造影**以确认损伤部位，若未发现则需早期重复检查 [130, 131]。治疗方案包括多枚FD重叠置入以有效重建血管，并在跨越损伤部位后**再开始加载抗血小板药物** [131-133]。\n\n*   **多器械/平行置入（Kissing Flow Diverters）**：\n    *   对于某些复杂分叉动脉瘤或巨大动脉瘤，单枚FD可能不足以实现完全闭塞。雷内·沙波（Rene Chapot）教授展示了将两枚FD平行置入同一段血管的“Kissing Flow Diverters”技术，以确保充分覆盖和血流导向 [71, 72, 134, 135]。\n    *   该技术对操作要求极高，需**同时释放**以平衡径向力，避免一枚器械过度扩张而另一枚贴壁不良 [72-74]。并发症风险较高，通常在常规治疗无效的极端复杂病例中使用 [136, 137]。\n    *   还尝试了**“Onyx三明治技术”**，即将微导管置入瘤内，先放置一层FD，然后通过微导管注入液体栓塞剂Onyx，再放置另一层FD，以增强栓塞效果，尤其适用于非萎缩性动脉瘤 [138-140]。\n\n### 并发症及其管理\nFD的并发症率因研究类型和动脉瘤大小而异，通常在5%左右 [141, 142]。\n\n*   **破裂（Rupture）**：\n    *   可能发生在术前、术中或术后早期/晚期 [143]。术前大型颅内动脉瘤本身就存在破裂风险 [144]。\n    *   术后早期破裂罕见但致命，可能与瘤内血栓形成和压迫效应导致瘤壁张力改变有关 [80, 145]。\n    *   对于大型/巨大动脉瘤，术中可能考虑**辅助弹簧圈**来减少早期破裂风险，但这仍有争议 [80, 81]。\n*   **缺血性卒中/血栓形成（Ischemic Stroke/Thrombosis）**：\n    *   是FD最常见的并发症，可能发生在术中、术后早期或延迟发生 [146-148]。\n    *   与抗血小板治疗不足、器械贴壁不良、侧支血管闭塞或器械损伤血管壁有关 [48, 147, 149-151]。\n    *   **患者教育**至关重要，强调抗血小板药物的依从性 [151]。\n*   **支架内再狭窄/内膜增生（In-stent Stenosis/Intimal Hyperplasia）**：\n    *   轻度内膜增生常见，但导致狭窄并引起血流动力学问题的严重内膜增生罕见 [152]。\n    *   有专家认为，新一代FD可能因其刚性导致更高的内膜增生率 [53-55]。\n*   **支架分离（Stent Separation）**：多层支架套叠时可能发生，需要增加重叠长度 [153, 154]。\n*   **迟发性颅内出血（Delayed Intracranial Hemorrhage）**：过去较常见，现在有所减少，可能与器械冲洗技术改进或亲水涂层有关 [155, 156]。\n*   **鱼嘴样畸形（Fishmouthing）**：FD末端未完全贴壁，可能与器械设计或置入技术有关 [55, 157, 158]。\n\n### 总结与展望\n血流导向技术彻底改变了颅内动脉瘤的治疗，特别是对过去被认为无法治愈的复杂、宽颈、巨大或梭形动脉瘤 [1, 159, 160]。尽管该技术已取得巨大成功，但仍有许多未解之谜和挑战：\n*   **个体化治疗**：需要更深入理解患者个体差异（如内皮反应、凝血倾向）对治疗结果的影响 [161, 162]。\n*   **器械优化**：新一代FD的性能仍需进一步验证，工程师需在柔韧性、径向力、壁贴合度之间找到更好的平衡 [40, 44, 55, 163]。\n*   **最佳抗血小板策略**：仍在不断探索中，尤其是在破裂动脉瘤和单抗血小板治疗方面 [39, 164]。\n*   **长期随访**：部分动脉瘤的内皮化和萎缩过程可能非常缓慢，需要耐心和长期随访 [100, 165]。\n*   **高风险病例**：对于极高风险的椎基底动脉瘤，FD仍是探索性治疗，需要更精准的患者选择和更成熟的策略 [166, 167]。\n\n尽管挑战犹存，但FD的持续发展及其在复杂病例中的成功应用，预示着颅内动脉瘤治疗将更加安全、有效和微创 [40, 168]。医生与工程师的紧密合作是推动这一领域进步的关键 [40]。\n\n本次演講由 Kim Nelson 博士和 Max Shapiro 博士主持，他們作為 Dr. Sheelof 的嘉賓，旨在闡述動脈瘤血管內治療的一些重要概念框架 [1]。演講強調了血管內治療的**哲學觀念**，而非僅僅專注於可用的新技術和工具 [1]。\n\n以下是演講的內容整理與分析：\n\n### 核心理念與歷史背景\n*   **哲學優先於技術**：儘管新工具不斷湧現，但演講者強調了對疾病的看法以及治療框架的哲學層面至關重要 [1]。\n*   **血流導向的歷史根源**：早期的血管內治療方法，例如**閉塞病變動脈**（parent vessel occlusion），實際上可以被視為一種血流導向，因為它通過改變血管內的血流來治療動脈瘤 [1]。這表明血流導向的概念由來已久 [1]。\n*   **傳統與創新**：工具在變革，但解剖學和疾病概念保持不變，這使得舊有和新技術都能應用相同的概念 [2]。\n\n### 血流導向的定義與機制\n*   **直接與間接血流導向**：歷史上，血流導向主要集中在頸動脈虹吸管和內頸動脈的特定解剖區域（如 Petro-s segment 到 Opthalmic segment 或 Carotid Terminus）[2]。然而，演講鼓勵聽眾**從血管解剖學的角度而非僅僅解剖位置來思考**，因為動脈瘤周圍血管的組織方式更能決定血流導向的治療效果 [3, 4]。\n*   **機械原理**：血流導向器通過減弱動脈瘤的對流流入成分，使血流交換偏向於擴散 [3]。添加更多裝置會進一步加強這種偏向 [3]。\n*   **結構厚度的重要性**：單個裝置的透壁阻力可忽略不計，但**使用三個或更多支架可以顯著增加器械壁的厚度**，從而測量出跨結構的阻力，這對閉塞動脈瘤的交換具有生理影響 [5]。\n\n### 療效的定義與挑戰\n*   **療效的兩種視角**：\n    *   **影像學/解剖學療效**：動脈瘤是否完全閉合，或橫斷面影像顯示動脈瘤是否縮小 [5]。在臨床試驗中，完全閉合是成功的純粹定義，任何殘留都被視為不完全 [5, 6]。\n    *   **臨床療效**：保護動脈瘤免於破裂，或消除占位效應 [5, 6]。對於小型動脈瘤，主要目標是防止破裂或再破裂 [6]。\n*   **“充分閉塞” vs. “完全閉塞”**： “充分閉塞”是一個臨床術語，意指達到特定治療目標（如未破裂），但可能並非影像學上的完全閉塞 [6]。\n*   **治療占位效應的挑戰**：由於這類動脈瘤通常更大、更具侵襲性，且已表現出更激進的生物學行為，因此**減小其尺寸和占位效應通常更具挑戰性**，可能需要使用多個裝置或不同的策略 [6]。\n*   **“堵塞-導流”技術 (Plug and Pipe)**：對於破裂動脈瘤，急性期通常使用彈簧圈或其他腔內治療手段固定，待患者從蛛網膜下腔出血恢復後，再使用血流導向器來防止再通和復發 [6-8]。\n\n### 治療失敗與血管重塑\n*   **常見的失敗原因**：**動脈瘤內分支血管的納入**是導致血流導向治療失敗的最常見原因 [4]。當動脈瘤袋有流出道時，其血流動力學行為由壓力梯度和阻力決定，而非僅僅動量交換 [4]。\n*   **血管重塑/血流再分配 (Vascular Rearrangement/Remodeling)**：血流導向治療不僅改變了動脈瘤的血流動力學，還可能影響動脈瘤周圍或被裝置覆蓋的血管床 [9-11]。這意味著一個區域的供血可能會通過另一個區域來完成，從而改變血管的發育模式，例如顳深動脈反向供血眼動脈，最終治癒動脈瘤 [9]。\n    *   這是一個**關鍵的治療目標和先決條件**，一些醫生更願意接受這種血管重塑，而另一些則傾向於保留所有分支 [10]。\n*   **技術的重要性**：裝置放置不當，如未充分擴張並緊貼血管壁，可能導致原本不包含分支的動脈瘤變成包含分支的動脈瘤，從而影響治療效果 [12, 13]。\n\n### 特定動脈瘤的應用與考量\n*   **後交通動脈 (PCOM) 動脈瘤**：\n    *   治療效果主要取決於**P1段與後交通動脈的狀態**，即是否存在“胎兒型 PCOM” [13, 14]。\n    *   在**胎兒型 PCOM**中，由於流入後交通動脈的血流維持動脈瘤通暢，療效會降低 [14]。\n    *   如果存在功能正常的 P1 段，血流導向後 PCOM 可能會關閉，由 P1 段接管後大腦動脈的供血 [14, 15]。\n    *   通過分階段治療，可以促使胚胎血管（如小而未發育的 P1 段）隨著時間增大，從而重新分配血流 [15]。\n*   **前交通動脈 (ACOM) 動脈瘤**：\n    *   ACOM 血管變異性極大，使得傳統治療複雜 [16]。\n    *   血流導向的優勢在於**無需精確關注 ACOM 的複雜解剖結構**，而是側重於血流的重新分配 [7]。\n    *   通常將血流導向器從 A1 段延伸至 A2 段 [16]。在某些情況下，單側放置足夠；在其他情況下，可能需要進行**H 型或 X 型導流**（雙側 A1-A2 或交叉導流）[11, 16]。\n    *   即使有大的或複雜的 ACOM 動脈瘤，一個裝置也能使之閉合，因為它促使**雙側大腦前動脈領域的血流通過前交通動脈前部（AOP）重新分配** [7]。\n    *   對於破裂的 ACOM 動脈瘤，可採用“堵塞-導流”策略 [7, 8]。\n*   **巨大動脈瘤的處理**：\n    *   對於伴有占位效應的巨大動脈瘤，即使影像學上已閉合，也必須**結合橫斷面影像（如 CT/MRI）來確認其是否縮小**，因為已血栓化的動脈瘤仍可能繼續增大甚至破裂 [17, 18]。\n    *   血栓化的動脈瘤本質上是一種不同形式的流體，仍與血管內的血流進行交換 [5, 18]。只有當發生內膜過度生長，完全封閉交換時，動脈瘤才會開始退化 [5]。\n    *   對伴有占位效應的複雜巨大動脈瘤，可能需要考慮**血管的去建構性處理**（如閉塞特定血管段）或結合**搭橋手術** [18-20]。\n*   **Vasa Vasorum 的作用**：在某些大型、複雜、部分血栓化的動脈瘤中，動脈瘤壁本身可能形成**Vasa Vasorum（滋養血管）**，這些血管為動脈瘤壁提供血液供應 [21]。這些血管的存在可能影響治療，有時需要選擇性栓塞這些滋養血管以確保動脈瘤最終閉合 [21]。\n\n### 安全考量與證據基礎\n*   **抗血小板藥物的關鍵性**：在進行高級血流導向治療時，**確保患者有足夠的抗血小板狀態至關重要**，以防止裝置網格上形成血栓導致血管閉塞 [15, 22]。常規藥物如氯吡格雷可能存在耐藥性，需要進行測試或使用替代藥物，並準備靜脈給藥的 2B3A 抑制劑以應對急性血栓形成 [22]。\n*   **臨床試驗與實際應用**：\n    *   **PUFS 試驗**：這是一個非常嚴謹的試驗，定義為“完全閉塞或未閉塞”，並且失訪患者也計為失敗，這使得該試驗結果非常穩健，並最終導致 Pipeline 裝置在美國獲批 [17, 23]。\n    *   **證據的演進**：雖然針對頸內動脈虹吸部的 Pipeline 裝置有充分的臨床數據（如 PUFS 和 Premiere 試驗），但對於其他部位（如 ACOM、PCA）的使用，缺乏類似的隨機對照試驗數據 [24, 25]。然而，一旦裝置在美國通過 FDA 的 PMA 途徑批准（包含安全性和有效性評估），醫生便有權進行“超適應症”使用 [25]。\n    *   **實踐的演變驅動**：演講者認為，**醫學的進步和治療方法的接受度，更多地是通過治療社群內部的“演化壓力”和醫生們在實踐中證明其有效性來實現的**，而非所有應用都必須等待昂貴的隨機對照試驗 [25, 26]。例如，血流導向在治療夾層性動脈瘤和水泡樣動脈瘤方面的成功，使其被廣泛採用 [26]。\n\n### 合作與傳承\n*   **Co-pilot 計劃**：演講者參與的“Co-pilot”計劃，旨在分享經驗、傳承知識，並培養下一代的神經介入醫生，以確保該領域的持續發展 [26, 27]。\n*   **國際合作與學習**：演講者感謝烏克蘭方面的接待，並提到了在當地醫院與醫生合作、處理創傷病例的經驗，認為這對他們而言也是一次寶貴的學習經歷 [27]。",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N29",
+  "title": "#angio",
+  "date": "2025-12-15",
+  "case": null,
+  "text": "Below is a practical, step-by-step approach to temporary coiling after incidental microwire perforation of M2, written the way we actually manage it in the angio suite.\n\n⸻\n\n1️⃣ Immediate priorities (first 60 seconds)\n\nGoal: stop bleeding without sacrificing M2\n\t1.\tSTOP all forward manipulation\n\t2.\tKeep the wire exactly where it is\n\t•\tDo NOT pull back immediately\n\t•\tThe wire itself may be tamponading\n\t3.\tCheck roadmap / DSA\n\t•\tContrast extravasation?\n\t•\tSubarachnoid vs intraparenchymal pattern\n\t4.\tReverse heparin (if given)\n\t•\tProtamine promptly\n\n⸻\n\n2️⃣ When to choose temporary coil tamponade\n\nTemporary coiling is ideal when:\n\t•\tPerforation is distal M2 / M3\n\t•\tVessel is not expendable\n\t•\tBleeding is focal and wire-related\n\t•\tYou want flow preservation\n\nAvoid jumping directly to glue/Onyx unless:\n\t•\tOngoing brisk extravasation\n\t•\tVery distal, non-salvageable branch\n\n⸻\n\n3️⃣ Technical concept (important)\n\nThe coil is not for embolization — it is a “pressure plug”\n\nYou are using:\n\t•\tMechanical tamponade\n\t•\tTransient flow reduction\n\t•\tEndothelial sealing\n\n⸻\n\n4️⃣ Step-by-step: Temporary coil technique\n\nStep 1 – Microcatheter position\n\t•\tAdvance microcatheter just proximal to perforation\n\t•\tDo NOT enter the perforation tract\n\t•\tKeep position stable\n\n⸻\n\nStep 2 – Coil selection\n\nUse the smallest, softest coil possible\n\t•\tDiameter: slightly larger than vessel (1.5–2 mm)\n\t•\tLength: short\n\t•\tType:\n\t•\tExtra-soft coil\n\t•\tDetachable preferred (for control)\n\n❌ Avoid:\n\t•\tLarge framing coils\n\t•\tStiff coils\n\n⸻\n\nStep 3 – Partial deployment\n\t•\tGently deploy coil across the injured segment\n\t•\tDo NOT detach\n\t•\tGoal:\n\t•\tSlow flow\n\t•\tStop extravasation\n\t•\tConfirm with gentle DSA\n\n⸻\n\nStep 4 – Wait\n\t•\t5–10 minutes\n\t•\tMaintain:\n\t•\tNormotension (avoid hypertension)\n\t•\tNo anticoagulation\n\t•\tRepeat angiography\n\n⸻\n\nStep 5 – Decision point\n\nAfter waiting:\n\n✅ If no more extravasation\n\t•\tCarefully retrieve the coil\n\t•\tConfirm:\n\t•\tVessel patency\n\t•\tNo re-bleeding\n\n❌ If bleeding recurs\n\t•\tOptions:\n\t•\tRe-deploy and detach coil (sacrifice branch)\n\t•\tEscalate to Onyx / glue\n\t•\tBalloon proximal flow arrest (if anatomy allows)\n\n⸻\n\n5️⃣ Adjunctive measures (often combined)\n\t•\tLower BP transiently\n\t•\tMild hyperventilation\n\t•\tExternal ventricular drainage if IVH / acute hydrocephalus\n\t•\tAvoid restarting antiplatelet/anticoagulation early\n\n⸻\n\n6️⃣ Common pitfalls (important)\n\nPitfall\tWhy dangerous\nPulling wire immediately\tRemoves tamponade → massive bleed\nDetaching coil too early\tUnnecessary vessel sacrifice\nOversized coil\tPermanent occlusion\nAdvancing into perforation\tExtends rupture\n\n⸻\n\n7️⃣ Outcomes & experience-based pearl\n\t•\tMost microwire perforations seal with:\n\t•\tTime\n\t•\tGentle tamponade\n\t•\tTemporary coil works surprisingly well in M2/M3\n\t•\tFinal infarct often smaller than expected\n\n⸻\n\nTeaching pearl (one-liner)\n\nIn wire perforation, time + gentle pressure beats aggressive embolization\n\n⸻\n\nIf you want, I can also cover:\n\t•\tTemporary balloon vs temporary coil (when to choose which)\n\t•\tHow antiplatelet status changes your decision\n\t•\tWhat to do if this happens during thrombectomy\n\t•\tPost-procedure BP & imaging protocol\n\nJust tell me the scenario you want to go deeper into.",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N30",
+  "title": "Angio",
+  "date": "2025-12-15",
+  "case": null,
+  "text": "Angio",
+  "category": "07_unclassified_general"
+ },
+ {
+  "id": "N31",
+  "title": "#angio",
+  "date": "2025-12-08",
+  "case": null,
+  "text": "從手取栓 6F sheath \nSimmon2 勾到CCA OR ICA \n300cm exchange with 抽吸管",
+  "category": "02_stroke_thrombectomy"
+ },
+ {
+  "id": "N33",
+  "title": "#angio",
+  "date": "2025-11-24",
+  "case": null,
+  "text": "Carotid stenosis\nTight stenosis 就不用filter \n大部分不用300公分0.014transcend \n用一般0.014trancend 怕在plaque 附近搓來搓去\n安全起見還是用一般的micro catheter 勾跟trancend勾完換成300公分\n直接predilation 後 放stent",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N34",
+  "title": "#angio",
+  "date": "2025-09-06",
+  "case": null,
+  "text": "Carotid stent \nOpen cell 要 pre dilation \nClose cell 只需後擴\n增1mm axa的flow\n2變 4倍\n\nPost fistula venous sac packing\n\nAggrastat\n2cc > 10ml, then slow push in 5 min\n\n做取栓的時候\nIf 懷疑dissecting 用stent去撐開就好 不要拉",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N35",
+  "title": "#angio",
+  "date": "2025-11-10",
+  "case": "c12",
+  "text": "4*18 right cavernous ICA ,R\nPheno 21 來放p64\n\n這是一個非常臨床實用的問題 👍\n以下是 VerifyNow 與 P2Y12（或稱 P2Y function test） 在評估 Plavix (Clopidogrel) 功能時的比較與重點解析：\n\n⸻\n\n🧪 一、檢測目的\n\n兩者皆用於評估 抗血小板藥物（特別是 P2Y12 receptor inhibitor，如 clopidogrel、prasugrel、ticagrelor） 的抑制效果。\n但方法與報告指標略有不同。\n\n⸻\n\n⚙️ 二、原理比較\n\n項目\tVerifyNow P2Y12 assay\tLight Transmission Aggregometry (LTA)（傳統P2Y12功能測試）\n檢測原理\t以全血為樣本；測量血小板在 ADP 刺激下的聚集程度，透過光學或比濁法轉換成反應單位。\t以血漿測試血小板對 ADP 刺激的反應，為經典“gold standard”方法。\n報告單位\tPRU（P2Y12 Reaction Units）\t% inhibition 或 aggregation percentage\n樣本需求\t全血，立即分析（快速、床邊可用）\t需處理血漿，操作繁瑣\n操作時間\t約5–10分鐘\t約45–60分鐘\n再現性\t高，受操作者影響小\t操作者依賴性高\n\n⸻\n\n📊 三、結果解讀（以 VerifyNow 為例）\n\n結果區間\t解釋\t臨床意義\nPRU > 208–230\t抑制不足（低反應者）\t表示 Clopidogrel resistance，血栓風險較高\nPRU 95–208\t抑制適中\t理想範圍\nPRU < 95\t抑制過強（高反應者）\t出血風險上升\n\n各中心 cut-off 可能略有不同；部分文獻採用 PRU 208 為 resistance 門檻。\n\n⸻\n\n🧬 四、其他P2Y12功能測試\n\n測試名稱\t原理\t備註\nVASP (Vasodilator-Stimulated Phosphoprotein) assay\t測量血小板內cAMP途徑活化程度；以 flow cytometry 分析。\t高度特異，但昂貴、研究用途多。\nMultiplate Analyzer\t電極偵測血小板聚集導致的電阻變化。\t歐洲常用，可同時測多藥效應。\n\n⸻\n\n🩸 五、臨床應用建議\n\t•\tVerifyNow 是目前最廣泛應用的 臨床即時檢測（point-of-care）方法，\n適合在 介入性手術（如CAS、PCI、EVT）前評估Clopidogrel反應性。\n\t•\t若PRU高（>230），可考慮：\n\t•\t加強劑量（如clopidogrel 150 mg/day），或\n\t•\t改用其他P2Y12抑制劑（如 ticagrelor、prasugrel）。\n\t•\t若PRU過低（<95），需留意出血風險，特別是腦部介入治療患者。\n\n⸻\n\n📚 六、重點摘要\n\n項目\tVerifyNow\t傳統P2Y檢測（LTA/VASP等）\n檢體\t全血\t血漿\n檢測時間\t5–10 分鐘\t45–60 分鐘\n臨床可用性\t高（床邊可用）\t研究或特檢\n報告指標\tPRU\t% inhibition\n評估藥物\tClopidogrel, Prasugrel, Ticagrelor\t同上\n用途\t快速術前評估、抗血小板反應監測\t精細研究分析\n\n⸻\n\n是否希望我幫你整理一個臨床決策流程圖（flowchart）\n說明 「PRU值 → 如何調整抗血小板策略（加量、換藥、延後手術）」？\n這對神經血管介入（例如 Pipeline、stent-assisted coiling）特別實用。\n\nHere’s a structured differential diagnosis (D/Dx) list for non-aneurysmal subarachnoid hemorrhage (SAH):\n\n⸻\n\n🧠 1. Perimesencephalic Non-Aneurysmal SAH (PNSAH)\n\t•\tMost common type of non-aneurysmal SAH (≈30–40% of angiogram-negative SAH).\n\t•\tBleeding pattern: centered anterior to the midbrain/pons, confined to the perimesencephalic cisterns, minimal or no extension into sylvian/interhemispheric fissures.\n\t•\tEtiology: likely venous rupture (e.g., basal vein of Rosenthal).\n\t•\tCourse: benign — low rebleed risk, usually no vasospasm or hydrocephalus.\n\n⸻\n\n🩸 2. Non-Perimesencephalic (Diffuse) Angiogram-Negative SAH\n\t•\tBleeding pattern: extends into interhemispheric fissure, sylvian cisterns, convexity, or ventricles.\n\t•\tPossible causes:\n\t•\tSmall or thrombosed aneurysm missed on initial CTA/DSA.\n\t•\tDissection (vertebral, basilar, or intracranial carotid).\n\t•\tVascular malformation (AVM, dural AV fistula, cavernoma).\n\t•\tReversible cerebral vasoconstriction syndrome (RCVS).\n\t•\tCerebral venous sinus thrombosis (CVST).\n\t•\tCoagulopathy or drug-related bleeding (e.g., anticoagulants, sympathomimetics).\n\n⸻\n\n⚡ 3. Vascular and Structural Lesions\n\nEtiology\tImaging / Clues\nArteriovenous malformation (AVM)\tParenchymal + subarachnoid components; may need repeat DSA.\nDural arteriovenous fistula (DAVF)\tCortical venous reflux; suspect if convexity SAH or temporal pattern.\nCavernous malformation\tMay rupture superficially; MRI (T2*/SWI) helpful.\nIntracranial arterial dissection\t“Pear-and-string” or pseudoaneurysm on CTA/DSA; often vertebral or carotid.\nMycotic aneurysm\tInfective endocarditis background; irregular distal vessel outpouching.\n\n⸻\n\n💊 4. Coagulopathy / Drug-Induced\n\t•\tAnticoagulants (warfarin, DOACs)\n\t•\tAntiplatelets (dual therapy)\n\t•\tSympathomimetics (cocaine, amphetamines)\n\t•\tVasculitis (SLE, PAN, Behçet’s)\n\t•\tRCVS (thunderclap headache, multifocal vasoconstriction, often postpartum or after serotonergic drugs)\n\n⸻\n\n🧬 5. Other Rare Causes\n\t•\tPituitary apoplexy with extension into SAH space.\n\t•\tNeoplasm-related hemorrhage (metastasis, choroid plexus papilloma).\n\t•\tTraumatic SAH (often convexity pattern).\n\t•\tSpinal SAH (AVM/dissection, with blood tracking cranially).\n\t•\tPeri-procedural or iatrogenic (e.g., LP, surgery, endovascular intervention).\n\n⸻\n\n🔍 Diagnostic Approach\n\t1.\tInitial CTA or DSA: to exclude aneurysm.\n\t2.\tIf negative: repeat DSA at 7–14 days (10–15% reveal source later).\n\t3.\tMRI/MRV: to detect dissection, venous thrombosis, or cavernoma.\n\t4.\tClinical pattern clues:\n\t•\tBenign course, confined basal cistern blood → PNSAH.\n\t•\tDiffuse or thick SAH → repeat angiography strongly recommended.\n\n⸻\n\nWould you like me to make a summary table comparing aneurysmal vs non-aneurysmal SAH (pattern, prognosis, imaging, and rebleed risk) for teaching or presentation use?\n\nType3 arch us Simon 2 5Fr or JR4\n\nIf type3  可以用 125cm navian or DAC Heart care 軟一點且長一點 with roadrunner把他換下來\n或是balloon anchoring\n\n非常專業的問題 👏（這個場景非常常見在右側路徑，尤其是 type III arch 或 bovine arch 結構時）。\n你提到的情況是 brachiocephalic trunk 過於彎曲，guiding catheter 無法上到右 CCA / ICA，\n這時確實可以考慮用 0.035” wire + balloon anchoring technique 來穩定 guiding。\n下面是完整的操作邏輯與建議👇\n\n⸻\n\n🧭 一、臨床背景與問題\n\n在右側進路時，brachiocephalic trunk + subclavian + ICA origin 的角度很銳，\n導致 guiding 或 intermediate catheter（Neuron MAX / Neuron 088 / Sofia / Navien）\n難以穩定進入 ICA。\n👉 此時「balloon anchoring」可以提供反推力（counter support），讓 guiding 深入。\n\n⸻\n\n⚙️ 二、原理\n\n用一支 0.035” guidewire（通常為 Amplatz Super Stiff, Lunderquist, 或 Glidewire Advantage），\n將其遠端固定在右側 ECA 或 ICA proximal segment，\n然後在 wire distal 端用一顆 球囊（4–6 mm） 輕輕膨脹作為錨點，\n提供 guiding catheter 的 anchor 支點，讓 guiding 可順利「前推」。\n\n⸻\n\n🔧 三、實際操作步驟\n\n1️⃣ Step 1：放 guiding catheter 到 brachiocephalic trunk 入口\n\t•\t通常是 Neuron MAX 088 或 Envoy 6F。\n\t•\t若 arch 太低，可以搭配 Simmons 2 or 3 預成型導管。\n\n2️⃣ Step 2：導入 0.035” wire 到右 ICA / ECA\n\t•\t常用 wire：Amplatz Super Stiff 0.035” (260 cm)\n\t•\t有時用 Glidewire (0.035”, angled tip) 先導入再換成 stiff wire。\n\n3️⃣ Step 3：沿 wire 放入 balloon catheter\n\n若是用 balloon anchoring technique（非 neuro microballoon，而是 peripheral balloon）：\n\t•\t可用 5×20 mm PTA balloon 或 Coyote / Sterling balloon。\n\t•\t通常使用 135 cm 長度（足夠 reach 到 neck）。\n\t•\tBalloon 內腔對應 0.035” wire（非 microballoon）。\n\t•\t將球囊定位於右 CCA 或 ICA 起始部。\n\n4️⃣ Step 4：輕微充氣 anchoring\n\t•\t低壓充氣（2–4 atm），只要 balloon 接觸 vessel wall 提供 friction 即可。\n\t•\t目的不是 occlusion，而是「穩定 wire + guiding」。\n\t•\t在 balloon 膨脹後，輕推 guiding catheter往上。\n\t•\t當 guiding 進到 target 位置後，deflate balloon，然後拔除。\n\n⸻\n\n🧠 四、與 Neuro Balloon (Scepter) 的差別\n\n項目\t0.035” balloon anchoring\tScepter balloon anchoring\nBalloon 尺寸\t大（4–6 mm）\t小（2–4 mm）\nWire 相容\t0.035”\t0.014”\n主要位置\tCCA / proximal ICA\tdistal ICA / M1\nCatheter 類型\tPTA balloon (Coyote, Sterling)\tNeuro balloon (Scepter C/XC)\n優點\t支撐力大，可對抗 arch 彎曲\t精細控制，可 DMSO 相容\n缺點\t比較笨重，不適合遠端\t不適合 proximal anchor\n\n➡️ 因此：\n在 right brachiocephalic trunk 太彎時，\n✅ 用 0.035” wire + PTA balloon (4–6 mm) anchoring 是最佳解。\nScepter 不適合這種 proximal anchoring，因為它 lumen 太小、管身太軟。\n\n⸻\n\n⚠️ 五、臨床小技巧\n\t1.\t若 guiding 不容易前進，可用 double-wire technique：\n一根進 ICA，一根進 ECA，形成「rail」。\n\t2.\t若 balloon anchoring 仍不夠，可先進 intermediate catheter（如 Sofia 6F）再過 microcatheter。\n\t3.\t記得 deflate balloon 前不要退 guiding，以免吸入氣體或造成 dissection。\n\t4.\t建議配合 roadmap 或 biplane 下操作，避免誤進 subclavian branch。\n\n⸻\n\n✅ 總結\n\n當 right brachiocephalic trunk 過彎，\n可使用 0.035” stiff wire + 5 mm PTA balloon 作為 proximal anchoring，\n充氣輕固定後推進 guiding catheter，\n然後 deflate、撤除 balloon。\n\n這比用 Scepter 安全且支撐力強。\n\n⸻\n\n是否要我幫你畫一張「右側 balloon anchoring for tortuous brachiocephalic trunk」的示意圖？\n我可以畫出 wire、balloon、guiding 三者的相對位置與力學方向（臨床教學時很清楚）。",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N36",
+  "title": "#angio",
+  "date": "2025-11-03",
+  "case": null,
+  "text": "10 ml/s total 30 psi 600 for abdomen pigtail injection\n\nIf VA 開口很細。可以在subclavian 打 6 / 12 or 5/8\n\n看 CCA and bifurcation AP view打同側10度\n看 MCA M1 可以 Lateral view 打 20度",
+  "category": "02_stroke_thrombectomy"
+ },
+ {
+  "id": "N37",
+  "title": "#angio",
+  "date": "2025-10-27",
+  "case": null,
+  "text": "Dural AVF  venous approach with coil\nFrom neck first\n用6F sheath for neck IVJ. 5F JB1當guidesheath then SL10",
+  "category": "04_dAVF_CCF"
+ },
+ {
+  "id": "N38",
+  "title": "#angio",
+  "date": "2025-10-20",
+  "case": null,
+  "text": "R MCA Inferior trunk MCA aneurysm unruptured\nL anterior Cho aneurysm\nUse 2 FD P64\nUse headway21 \nMicrocather always use 3 way RHV\n\n小朋友 9 years old 診斷 用4Fr short sheath \nor 5Fr sheath 配 4 H1",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N40",
+  "title": "#angio",
+  "date": "2025-09-01",
+  "case": "c11",
+  "text": "right opth seg aneurysm large\nLeft A1 seg aneurysm\nPlan: coil with FD on left\n          FD on the right\n\n外) 住院醫師NS-102蔡秉叡醫師(院外) 外) 住A1 aneurysm 如果要stent assisted coil\nStent 要怎麼放 \n\nGood question — this gets into the hemodynamics and anatomy of stent-assisted coiling across the ICA bifurcation.\n\n1. Coverage from ICA → ACA\n\nIf a stent is deployed from the ICA terminus into the A1 segment (ICA→ACA), the stent struts will necessarily cross over the MCA origin (M1 ostium). That means the MCA inflow could be “jailed” behind the stent.\n\n2. Risk of MCA Stroke\n\t•\tFlow compromise: Modern intracranial stents (LVIS, Neuroform, Enterprise, etc.) are designed with open-cell or braided structures. Their porosity is usually sufficient to maintain antegrade MCA flow. So occlusion by stent metal alone is very rare.\n\t•\tThromboembolic risk: The bigger danger is platelet aggregation or thrombus formation on jailed MCA ostium, especially if dual antiplatelet therapy (DAPT) is inadequate or if flow is turbulent. This can cause MCA stroke.\n\t•\tTechnical factors: If the stent is malapposed, oversized, or if coils protrude into the MCA ostium, the risk increases. Also, if an additional flow-diverter (like Pipeline) is used across MCA origin, the chance of MCA hypoperfusion/occlusion is higher.\n\n3. Clinical Practice\n\t•\tIt is common in ACA/Acom aneurysms: stent from ICA to contralateral A1 or ipsilateral A1 crosses M1. In most reports, MCA stroke rate is low but not zero.\n\t•\tProper DAPT (aspirin + clopidogrel/ticagrelor), meticulous coil packing, and attention to stent positioning minimize the risk.\n\t•\tSome operators prefer Y-stenting (ICA→MCA and ICA→ACA) to avoid excessive jailing, though it is technically more complex.\n\n✅ Summary: Covering ICA→ACA with a stent usually does not mechanically block MCA flow, but it does carry a risk of MCA stroke, mainly from thromboembolic events at the jailed ostium. Careful technique and antiplatelet management are essential.\n\nWould you like me to also show you a diagram of ICA bifurcation with stent paths (ICA→ACA vs ICA→MCA) to visualize how the MCA ostium gets “jailed”?",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N41",
+  "title": "indirect CCF",
+  "date": "2025-08-18",
+  "case": null,
+  "text": "indirect CCF\n看 facial vein 的位置\n\nFlow diverter\nPlavix的resistance 比例高嗎？在亞洲人\nShuttle 6Fr\nNavian 58\nPheno21\n\nFD Vantage 用pheno21\n\n這是一個非常臨床、實務的問題 👍。\n在 flow diverter (FD) 部署過程中，選擇 working view（主要透視角度） 很重要，因為它會直接影響 覆蓋率判斷、stent 展開狀態、與分支保護。\n\n⸻\n\n🔑 原則\n\t1.\t血管最長軸展開 (straightening the parent artery)\n\t•\tWorking view 應該讓 目標血管從 proximal 到 distal segment 呈現最直、最少 foreshortening。\n\t•\t這樣可以最清楚看到 FD 的 landing zone 與完整長度。\n\t2.\t動脈瘤頸清楚 (for aneurysm coverage)\n\t•\t必須能同時清楚看到 aneurysm neck 與 parent artery，以確認覆蓋情形。\n\t3.\t避免分支重疊 (avoid overlapping branch arteries)\n\t•\t若重要分支（如 OphA, AChA, PCom, MCA 分支）與 parent artery 重疊，要調整角度，避免誤判 branch occlusion。\n\t4.\t佈放 + follow-up 可能需要兩種 view\n\t•\t主 working view：部署 FD 時，以血管軸最直為優先。\n\t•\t輔助 view：確認 aneurysm coverage、branch patency。常在術中交替檢查。\n\n⸻\n\n🧭 常用部位的 working view 選擇\n\n部位\t建議 working view\t重點\nICA paraclinoid/ophthalmic segment\tRAO 20–30° + cranial 10–15°\tICA C2–C3 成直線，避免 OphA 重疊\nICA cavernous segment\tLAO 20–30° ± cranial\t讓 cavernous loop 拉直，便於 FD 部署\nICA terminus → MCA M1\tRAO/LAO 5–15° ± cranial\t讓 ICA–MCA 軸線筆直，分支分開\nBasilar artery\tAP + cranial\t確保 BA trunk 筆直，避免 PCA overlap\nVertebral artery (V4)\tLAO 20–30° ± cranial\t讓 V4–BA junction 清楚可見\n\n⸻\n\n🛠 實務技巧\n\t•\troadmap 與 3D rotational angiography (3DRA) → 先在 3D 模式下選擇最佳 projection，再套用到 DSA。\n\t•\t長度測量：盡量在 blood vessel 最直的 view 下測量，避免低估/高估。\n\t•\t部署時：在主 working view 控制 FD release；但在疑難位置（e.g. wide-neck aneurysm），可輔助切換另一個角度。\n\t•\t術後確認：至少用 2 個互補角度確認 wall apposition 與 branch flow。\n\n⸻\n\n✅ 總結\n\t•\t主要原則：working view = 血管長軸最直、aneurysm neck 清楚、避免分支重疊。\n\t•\t不同部位有常用角度（例如 ICA paraclinoid 用 RAO cranial，BA trunk 用 AP cranial）。\n\t•\t部署與 follow-up 要交替多角度檢查，避免誤判。\n\n⸻\n\n要不要我幫你做一張 「常見顱內動脈位置 → 建議 working view」的表格/圖示，讓你在臨床操作時快速查？",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N42",
+  "title": "#angio",
+  "date": "2025-08-12",
+  "case": null,
+  "text": "Angio seal \n84-280-800000",
+  "category": "07_unclassified_general"
+ },
+ {
+  "id": "N43",
+  "title": "#angio",
+  "date": "2025-02-24",
+  "case": null,
+  "text": "BTO  不用 self paid 需要兩邊puncture\n\nGuiding 要在ICA \nballoon需在petrous seg 才可以\n注意contrast要看到stasis\n\nNBCA lipiodol 1:2 (33%)or 1:4(20%)\nD50W 5cc water 45 cc 變成D5W",
+  "category": "07_unclassified_general"
+ },
+ {
+  "id": "N44",
+  "title": "#angio",
+  "date": "2025-06-23",
+  "case": null,
+  "text": "Pcom infundibulum 3mm以上當aneurysm治療\n\nDuplication vs fenestration\n\nAngioplasty balloon選 旁邊正常管徑的0.7",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N45",
+  "title": "#angio 6/16",
+  "date": "2025-06-16",
+  "case": null,
+  "text": "6/16\n\nThe Type III variant of a Persistent Trigeminal Artery (PTA) refers to a rare anatomical situation where the PTA does not connect directly to the basilar artery, but instead terminates in a cerebellar artery, typically:\n\t•\tSuperior cerebellar artery (SCA)\n\t•\tAnterior inferior cerebellar artery (AICA)\n\t•\tPosterior inferior cerebellar artery (PICA) (less common)\n\n⸻\n\n🔄 Type III PTA – Flow Characteristics\n\n💡 Definition:\n\t•\tThe persistent trigeminal artery arises from the intracavernous segment of the internal carotid artery (ICA) and terminates in a cerebellar artery without connecting to the basilar artery.\n\n🩸 Flow Pattern:\n\t•\tBlood flows from the ICA → PTA → isolated cerebellar branch (e.g., SCA, AICA).\n\t•\tThe basilar artery remains separate or poorly developed.\n\t•\tThe PTA essentially acts as a direct carotid-cerebellar supply route.\n\n🔁 Hemodynamic Impact:\n\t•\tThis variant does not contribute to basilar artery flow, so it doesn’t function as a true carotid–basilar anastomosis.\n\t•\tMay cause focal flow overload in the target cerebellar territory.\n\t•\tIf the vertebrobasilar system is hypoplastic, this PTA variant may be the primary source of blood supply to the affected cerebellar artery.\n\n⸻\n\n🧠 Clinical Relevance of Type III PTA\n\nConcern\tImpact\nStroke/TIA\tMay influence perfusion of specific cerebellar territories; infarcts can occur if PTA flow is compromised.\nAneurysms\tAbnormal flow and vascular connections may increase local aneurysm risk.\nSurgical risk\tImportant to identify in skull base or posterior fossa surgery (unexpected arterial source).\nTrigeminal neuralgia\tRarely associated if the artery courses near CN V root entry zone.\n\n⸻\n\n🧬 Summary Table – PTA Types and Flow\n\nType\tPTA Connection\tFlow Direction\tPosterior Supply\nI\tICA → PTA → proximal basilar\tCarotid to full basilar\tNo PCoAs\nII\tICA → PTA → distal basilar\tCarotid to rostral BA\tPCoAs intact\nIII\tICA → PTA → cerebellar artery\tCarotid to SCA/AICA/PICA\tNo basilar connection\n\n⸻\n\nThe Allcock maneuver and the Heuber test are both techniques used during angiography or endovascular procedures to assess collateral circulation or cross-flow in the cerebral circulation, particularly within the circle of Willis. Here’s a clear comparison:\n\n⸻\n\n🔍 1. Allcock Maneuver\n\t•\tPurpose: To assess posterior-to-anterior cross-flow via the posterior communicating arteries (PCoAs).\n\t•\tHow it’s performed:\n\t•\tA vertebral artery (typically one side) is injected with contrast.\n\t•\tThe carotid arteries are manually compressed (or not opacified).\n\t•\tIf contrast flows from the posterior circulation (vertebrobasilar system) into the anterior circulation (via PCoA), this demonstrates good collateral flow.\n\t•\tUsed to evaluate:\n\t•\tPatency and caliber of the posterior communicating arteries.\n\t•\tIntegrity of the circle of Willis.\n\t•\tClinical implication: Helps determine if the posterior circulation can support the anterior in case of ICA occlusion or balloon test occlusion (BTO).\n\n⸻\n\n🔍 2. Heuber Test (a.k.a. Heuber maneuver)\n\t•\tPurpose: To assess anterior-to-anterior cross-flow via the anterior communicating artery (ACoA).\n\t•\tHow it’s performed:\n\t•\tA unilateral internal carotid artery (ICA) is injected with contrast.\n\t•\tThe contralateral carotid artery is compressed.\n\t•\tThe test shows whether contrast crosses over to supply the opposite hemisphere via the ACoA.\n\t•\tUsed to evaluate:\n\t•\tPatency and adequacy of the anterior communicating artery.\n\t•\tAnterior collateralization capability.\n\t•\tClinical implication: Useful in pre-operative assessment (e.g., before ICA sacrifice or balloon occlusion tests) to see if the opposite ICA can compensate.\n\n⸻\n\n🧠 Summary Table:\n\nFeature\tAllcock Maneuver\tHeuber Test\nDirection of flow\tPosterior → Anterior\tAnterior → Contralateral Anterior\nAssesses which artery\tPosterior Communicating Artery (PCoA)\tAnterior Communicating Artery (ACoA)\nInjection site\tVertebral artery\tOne ICA\nCompression site\tCarotid arteries (or not injected)\tContralateral ICA\nPurpose\tPosterior collateral circulation\tAnterior cross-flow\nCommon context\tCircle of Willis evaluation, BTO\tICA occlusion planning, aneurysm surgery eval\n\n⸻",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N46",
+  "title": "#angio",
+  "date": "2025-06-02",
+  "case": null,
+  "text": "indirect CCF\nTrans veinal approach \nBarrow type D\n\nIntracranial PTA.  Balloon 需要6Fr. Red 43過不去",
+  "category": "04_dAVF_CCF"
+ },
+ {
+  "id": "N47",
+  "title": "#angio ICAD wingspan",
+  "date": "2025-03-24",
+  "case": null,
+  "text": "ICAD wingspan \n\n放intracranial stent \nGuiding 用80cm\nNavian 115 cm\nRHV選嗎短頭\n要不然wingspan會無法deployed \nMicro wire 300 cm for angioplasty \n\nSnare technique for  break down SL-10 retrieval \n\nwaffle-cone technique\n\nComplicated aneurysm\n\nAtlas 1.7Fr  open stent \n\nAtlas stent 網孔密 micro wire穿不過\n\nPcom \nEnvoy 6F 只能進  petrous portion\n\n6F shuttle \nnavian 72/58\nSL-10 \n\nMicro catheter steam後的curve 長度大約是aneurysm到parent vessel的長度\n放coil時候比較不會被頂出來\n放coil時 wire 先pass aneurysm再拉回來\n讓wire卡進aneurysm",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N48",
+  "title": "#angio",
+  "date": "2024-12-23",
+  "case": null,
+  "text": "Subclavian steal\n洗腎病人 有時候會\n\nVA Osteal occlusion if progression\n\nIA 2185793\n\nAneurysm with SDH Etiology\nBalloon contrast 1:1(C:N)",
+  "category": "05_MMA_embolization"
+ },
+ {
+  "id": "N49",
+  "title": "#angio",
+  "date": "2025-05-26",
+  "case": null,
+  "text": "C spine tumor embolization \nVA trapping 的選擇\n\nVA trapping（椎動脈截斷術，Vertebral Artery Trapping）是否需要進行 Balloon Occlusion Test（BOT），以及如何判斷這樣的手術是安全可行的，取決於以下幾個關鍵因素：\n\n⸻\n\n一、是否需要 BOT？\n\n情況一：需要做 BOT 的情形\n\t•\t對側 VA 發育不良或細小（例如 <2 mm）\n\t•\t對側 VA 無法提供完整 posterior circulation\n\t•\t後交通動脈（Pcom）太小，無法補足 basilar flow\n\t•\t截斷位置接近 PICA 或 PICA 已經為末端分支供血\n\n情況二：可以不做 BOT 的情況（可直接 trapping）\n\t•\t對側 VA 發育良好（>3 mm），而且從對側走路徑確認 basilar flow 沒有 delay 或反流現象\n\t•\tDSA 顯示 充分的跨側供血（cross-filling）\n\t•\tVA trapping 區段不包含 PICA origin，而且 distal flow 透過對側 VA 可以完全供應 basilar 和 PICA\n\t•\t患者無 posterior circulation ischemic symptom 且 perfusion MRI 正常\n\n⸻\n\n二、如何判斷是否安全？\n\n可以從下列幾個方向評估：\n\n評估項目\t重點說明\nDSA 評估對側 VA\t對側 VA 是否能順利填滿 basilar、SCAs、PCAs\n跨側供血觀察\t從右 VA 注射是否能看到左 VA distal segment retrograde opacification\nPerfusion study\tMRI perfusion 或 CT perfusion，看是否有 posterior circulation hypoperfusion\nBalloon occlusion test（如執行）\t可在 proximal VA 暫時充氣 10–30 分鐘，觀察有無神經學變化、SSEP/MEP 改變\n術中測試（若非 BOT）\tMicrocatheter 暫時 occlude VA，觀察術中 perfusion 和血壓變化\n\n⸻\n\n三、實務考量\n\t•\t即使對側 VA 發育良好，若截斷區段在 dominant PICA origin 近端，應謹慎評估（risk of lateral medullary syndrome）\n\t•\t若做 BOT，需密切監測神經學變化與腦電監測（如有）\n\n⸻\n\n結論：\n\n是否需要 BOT 是 case-by-case 判斷。\n當對側 VA 完整且血流補償明確，trapping 可在不進行 BOT 的情況下進行。但若有任何不確定因素或解剖異常，進行 BOT 是一個更安全的選擇。\n\n若你有影像想一起判讀，我可以協助進一步分析。\n\nThe Gateway balloon refers to a balloon catheter system commonly used in neurointerventional procedures, particularly for angioplasty in the brain’s intracranial or extracranial vessels. It’s often used with stents like Wingspan in cases such as intracranial atherosclerotic stenosis.\n\n⸻\n\nFull Name:\n\nGateway PTA Balloon Catheter\n(PTA = Percutaneous Transluminal Angioplasty)\n\n⸻\n\nManufacturer:\n\nStryker Neurovascular (previously Boston Scientific)\n\n⸻\n\nKey Features:\n\nFeature\tDescription\nType\tOver-the-wire PTA balloon catheter\nUse\tPre-dilation of stenotic lesions before stent deployment\nCompatible guidewires\tUsually 0.014” microwire (like Synchro)\nBalloon sizes\tDiameter: 1.5 mm to 4.5 mm; Length: 9 mm to 15 mm\nApplications\tIntracranial stenosis (e.g. MCA, ICA, VA); sometimes vertebral artery origin or basilar artery stenosis\nStiffness\tDesigned to have flexible shaft for navigation through tortuous neurovascular anatomy\n\n⸻\n\nCommon Usage Scenario:\n\t1.\tLesion is crossed with microwire (e.g. Synchro 14)\n\t2.\tGateway balloon is advanced over the wire to the stenosis\n\t3.\tAngioplasty is performed (usually low-pressure, slow inflation to reduce risk of dissection)\n\t4.\tA stent (often Wingspan) is then deployed\n\n⸻\n\nClinical Considerations:\n\t•\tUsed in the SAMMPRIS trial for patients with symptomatic intracranial atherosclerosis.\n\t•\tRisk of perforator stroke if used in basilar artery or MCA without caution.\n\t•\tSlow inflation and deflation help minimize vessel injury.\n\t•\tNot intended for coronary or peripheral use—designed specifically for neurovascular vessels.\n\n⸻\n\nLet me know if you want comparison with Scepter balloon, or usage examples like in vertebral artery stenosis, or want images.\n\nStent assisted coil \nMicrocatheter SL10 /headway 21\n如果jailed technique 塞一半 SL10壞了\n拉出來 從stent 穿出來塞也可",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N50",
+  "title": "#angio peripheral ethanol",
+  "date": "2025-05-19",
+  "case": null,
+  "text": "peripheral ethanol \n打酒精for peripheral AVM 一定要用Spector balloon for reflex prevention \n\nBOT\nBalloon 先定位。之後勾對側 ICA\nBalloon occlusion 後",
+  "category": "02_stroke_thrombectomy"
+ },
+ {
+  "id": "N51",
+  "title": "#angio 5/12",
+  "date": "2025-05-12",
+  "case": null,
+  "text": "5/12\n\nTandem lesion or pseudo-occlusion \n\n\t1.\t**CANADAPT 手術步驟（A、B、C、X）：**CANADAPT 採用階段式的抽吸術，在一次取栓嘗試中依序執行 A、B、C 三個操作步驟，若均未成功則記為 X 。\n\t•\t**CANADAPT A：**將大口徑抽吸導管頂至血栓前方緊貼介面處，接通持續抽吸泵進行抽吸。此位置主要產生負壓「牽引」作用，需要完全克服血栓大小/形態的阻力才能成功取出，而來自心動周期的正向「推力」很小 。這相當於傳統的ADAPT抽吸方法，單純依靠負壓吸引血栓。\n\t•\tCANADAPT B：在保持抽吸的同時，將導管和已吸附的血栓緩慢後撤至近端已知暢通的血管段（例如從遠端M1段撤至近端M1段） 。此時血栓周圍360度暴露於血液的收縮壓正向推力，可幫助將血栓推入導管內，加上持續的負壓拉力，提高取栓成功率  。如果在B步驟見到導管有回血（表示血流恢復），則暫停抽吸並直接從指導導管造影評估再通情況 ；成功的則標記為「CANADAPT 1B」，若仍需進一步處理則進行下一步。由於若能在此步驟取栓成功，無需將抽吸導管完全拔出即可直接造影確認，因而節省時間 。\n\t•\tCANADAPT C：在持續抽吸下進一步將抽吸導管整根撤回至指導導管內並完全取出。撤出過程中由指導導管側管路以手動注射方式輔助抽吸，以增加血栓周圍的正壓推力 。當抽吸導管完全退出後，通過指導導管造影觀察血流恢復情況：若再通則標記為「CANADAPT 1C」 ；若仍未再通，則表示經過A、B、C序貫操作後仍無效果（CANADAPT 1X） 。出現1X時，術者可考慮再嘗試第二次CANADAPT流程（從A步驟重複）或改用支架取栓輔助（SOLUMBRA）作為補救 。通常在最多兩輪CANADAPT失敗後會轉換為支架取栓 。\n\t2.\t使用的導管與器材：本術式採用大內徑的抽吸導管及同軸導管系統 。具體包括：8F的遠端指導導管（如BMX 96 90cm，或Penumbra NeuronMax）經股動脈送至患側頸內動脈遠端 ；再通過6F、125cm的選擇性導管（Berenstein或Simmons導管）和0.035吋指引導絲（Terumo Glidewire）進入主動脈弓並選擇目標動脈 。在指導導管到位後，使用同軸系統將抽吸導管推至血栓前界：常用直徑為0.062～0.072吋內腔的Penumbra RED系列抽吸導管，內置一條微導管（如Phenom 21或Penumbra Velocity）和0.014吋微導絲（Traxcess 14EX），一併緩慢前送至接近血栓但避免穿透栓子 。確認抽吸導管前端被栓子阻塞（無主動回血）後，接上持續抽吸泵（Penumbra Engine）開始抽吸 。若抽吸未成功且需轉為支架取栓（即SOLUMBRA策略），則準備支架取栓裝置（本研究使用Medtronic公司的Solitaire或強生的EmboTrap）配合抽吸導管一同取栓 。\n\t3.\t再通成功率（首次、再次及總體）：在22例患者中，首次CANADAPT取栓的 一次再通成功率為約50%（11例達到mTICI 2B-3） 。另外有4例患者在第二次CANADAPT通過後取得再灌流成功，使純抽吸技術的累計成功率提高到約68% 。其餘未成功者中有7例改用支架取栓補救，其中5例達成再通（佔總患者數22%的5例） 。最終整體的良好再灌流成功率約為90%（即22例中20例在經抽吸±支架後達到mTICI 2B-3），這與其它文獻報導的標準化取栓策略成功率相當 。\n\t4.\t轉換為SOLUMBRA（支架取栓輔助）情況與結果：若兩輪CANADAPT抽吸後仍未成功再通（即出現“X”狀況），便轉為SOLUMBRA技術（支架聯合抽吸)作為救援措施 。本研究22例中有7例（約32%）在抽吸失敗後轉用了支架取栓 。救援的支架取栓裝置包括Solitaire或EmboTrap等自膨式支架 ，通常在持續抽吸泵配合下取栓。這7例救援病例中有5例（佔總數22%）成功再灌流 。透過抽吸優先的CANADAPT再加上必要時的支架救援，最終總再通率達約90%，顯示僅有少數頑固病例需要依賴支架技術 。需注意的是，儘管CANADAPT成效良好，但支架結合抽吸的傳統方法仍是重要的備選方案，在部分病例中不可或缺 。\n\t5.\t手術時間與成本比較：CANADAPT術式顯著縮短了取栓時間和降低耗材成本。本中心應用CANADAPT的整體操作時間中位數約為23分鐘即可達成首次再通，若包括需要後續額外步驟（第二次抽吸或支架救援）的病例，最後完全再通的時間中位數約30分鐘 。相比之下，傳統支架取栓往往程序更複雜耗時。本研究對直接抽吸法與支架法的耗材費用進行了分析：單純CANADAPT每例平均費用約為6,630加元，而一旦需要改用SOLUMBRA支架技術，總成本幾乎增加一倍至約13,530加元  。因此，優先採用CANADAPT可節省大量成本（約節省50%）並減少器材使用量 。\n\t6.\tCANADAPT的物理機制（推–拉壓力原理）：該技術基於對抽吸力學的優化，強調同時利用負壓吸引和正壓推動兩種作用以提高取栓效率  。在CANADAPT A階段，導管僅抵住血栓前方，主要依靠抽吸泵提供的負壓將血栓“拉”向導管，但血栓後方來自心臟收縮的正壓“推”力極小（僅作用於血栓前表面狹小區域），因此僅靠A步驟取栓成功率較低 。CANADAPT B、C步驟通過逐步後撤導管，將血栓移至更近心端的暢通血管段甚至指導導管內，使血栓上下游重新連通血流 。此時動脈的收縮壓可以從血栓遠端周圍360度推動血栓向前移動，而導管前端持續負壓吸引，形成“前拉後推”合力，有助於血栓脫離附著並被吸入導管  。作者推測，正是由於引入了這種正壓推力，CANADAPT B和C步驟的成功率明顯高於僅靠界面負壓的A步驟 。另外一項觀察印證了推力的重要性：與持續開放前向血流的操作相比，使用球囊阻斷導管（阻斷近端動脈流以增加吸引力）的取栓策略反而再灌流率較低、首次取栓成功率下降，手術時間更長 。這佐證了在抽吸過程中**保留一定的動脈灌注壓（推力）**有助於提高清除血栓的效率 。基於此物理原理，CANADAPT在設計上強調了各步驟中導管位置與血流推力的配合，以實現最佳的抽吸效果。\n\t7.\tCANADAPT的優點與限制：\n\t•\t優點：作為一種標準化、基於物理機制的抽吸優先策略，CANADAPT展現出多方面的臨床優勢。首先，安全有效：本研究中直接抽吸＋必要時支架救援的總再灌流率約90%，與其他現有標準取栓方案相當 ；而在這22例中多達68%可僅靠抽吸技術達成再通，避免使用支架 。其次，效率高：再通所需時間短（中位數僅23～30分鐘）且成本低，單純抽吸法的耗材花費約為傳統支架法的一半  。第三，減少器械操作風險：抽吸導管的使用相對簡便，不需反覆穿過栓子部署支架，降低了對血管內膜損傷或栓子碎裂遠栓的風險；本組唯一出現的術中併發症是一例在支架救援過程中發生的頸動脈海綿竇瘻，顯示純抽吸步驟本身並未出現重大併發症 。最後，CANADAPT提供了統一的操作框架，便於培訓和執行，在幾乎所有大血管/近端中等血管閉塞患者中都可考慮首先應用  。這種先抽吸再視需要轉換的策略簡化了以往術者之間各異的操作風格，提高治療的一致性。\n\t•\t限制：需注意本研究為單中心的小樣本前瞻性系列（僅22例），缺乏隨機對照，因而無法進行嚴格的統計學比較來評估各步驟的獨立貢獻及病人的臨床結局 。病例組成上主要是顱內M1段栓塞（ADAPT技術已知成功率較高的部位），對於其他部位栓塞的適用性還不明確：例如本組僅有1例基底動脈後循環栓塞也取得了抽吸成功，再灌流效果尚需更多病例驗證 。另外，一些特殊情況如顱外段頸動脈合併閉塞（tandem病變）或亞急性/慢性血栓並未納入本研究，CANADAPT對這類複雜病變的效果仍是未知 。因此，作者強調還需要更大規模和更廣泛病變類型的研究來確認CANADAPT的有效性，並進一步優化操作細節。例如，根據患者血管直徑選擇最大內腔且不至於完全阻斷血流的抽吸導管，以同時最大化抽吸拉力和血流推力，被認為是關鍵但尚需後續研究證實的策略 。\n\t8.\t結論與臨床應用建議：CANADAPT作為一種標準化的「直接抽吸優先通路」，在急性缺血性中風取栓中展現了良好的安全性、效率和效果 。基於初步經驗，作者建議將CANADAPT應用於大血管（及近端中等血管）閉塞取栓的首次嘗試 。該技術可在提高再灌流成功率的同時降低器材使用和成本，一旦遇到難以抽吸的頑固血栓，再隨時轉換為傳統支架取栓（SOLUMBRA）作為補救，以確保總體治療成功率接近90%  。總而言之，像CANADAPT這樣的標準化抽吸優先術式有望提升機械取栓治療的一致性和效率，作者也呼籲在臨床實踐中考慮採用。但仍需要更多前瞻研究來擴充證據，特別是評估其在不同栓塞部位及複雜情況下的效果，以及進一步完善操作細節以制定最佳化的治療規範  。",
+  "category": "02_stroke_thrombectomy"
+ },
+ {
+  "id": "N52",
+  "title": "#angio BTO",
+  "date": "2025-05-12",
+  "case": null,
+  "text": "BTO\nSector balloon vs Eclipse balloon\nSpector 比較會打破但好prepare\n\nThe Scepter balloon and Eclipse balloon are both dual-lumen balloon microcatheters used in neurovascular interventions, but they differ in design, manufacturer, flexibility, and use cases. Here’s a detailed comparison:\n\n⸻\n\n1. Scepter Balloon\n\t•\tFull Name: Scepter C or Scepter XC Balloon\n\t•\tManufacturer: MicroVention (Terumo)\n\t•\tLumen: Dual-lumen (one for inflation, one for guidewire/injection)\n\t•\tBalloon Material: Compliant (low-pressure, conformable)\n\t•\tCompatibility:\n\t•\tScepter C: More compliant (used in fragile vessels, AVMs)\n\t•\tScepter XC: Extra-compliant (better for aneurysm coiling or embolization)\n\t•\tGuidewire: 0.014”\n\t•\tUses:\n\t•\tBalloon-assisted coiling\n\t•\tBalloon test occlusion (BTO)\n\t•\tAVM embolization (Onyx delivery)\n\t•\tFlow control for liquid embolics\n\t•\tStrengths:\n\t•\tExcellent trackability in tortuous anatomy\n\t•\tCompatible with Onyx and DMSO\n\t•\tHigh control and repositionability\n\t•\tUsed frequently for CC fistula embolization\n\n⸻\n\n2. Eclipse Balloon\n\t•\tFull Name: Eclipse 2L Dual-Lumen Occlusion Balloon Microcatheter\n\t•\tManufacturer: Balt Extrusion\n\t•\tLumen: Dual-lumen\n\t•\tBalloon Material: Compliant\n\t•\tCompatibility:\n\t•\tGuidewire: 0.014”\n\t•\tInner lumen: suitable for Onyx\n\t•\tUses:\n\t•\tAVM embolization\n\t•\tBalloon-assisted embolization\n\t•\tCarotid or venous test occlusion\n\t•\tStrengths:\n\t•\tLarger balloon size options\n\t•\tHigh balloon visibility\n\t•\tAlso compatible with DMSO and Onyx\n\t•\tSlightly larger distal tip than Scepter; may affect navigation\n\n⸻\n\nComparison Table\n\nFeature\tScepter Balloon\tEclipse Balloon\nManufacturer\tMicroVention\tBalt Extrusion\nBalloon Type\tCompliant (C, XC types)\tCompliant\nLumen\tDual-lumen\tDual-lumen\nGuidewire Compatibility\t0.014”\t0.014”\nOnyx / DMSO Compatible\tYes\tYes\nTrackability\tExcellent\tGood\nVisibility\tModerate\tHigh\nUse in Tortuous Anatomy\tMore flexible\tSlightly stiffer tip\nCommon Use\tAVMs, CC fistula, BTO, coiling\tAVMs, BTO, embolization\n\n⸻\n\nSummary:\n\t•\tScepter is preferred for maneuverability and flexibility, particularly in tortuous intracranial vessels.\n\t•\tEclipse may be chosen for larger balloons or high-visibility needs, but may be slightly stiffer at the tip.\n\nWould you like clinical images or procedural tips comparing them in specific cases like AVM or CCF embolization?",
+  "category": "04_dAVF_CCF"
+ },
+ {
+  "id": "N53",
+  "title": "#angio",
+  "date": "2025-05-05",
+  "case": "c10",
+  "text": "LCI STENT 2.5 ml/s 50ml\n\nIA \nICA Occlusion \n\n我問黃醫師 他說 如果一開始就total occlusion可以先thrombectomy 再放stent\n\n如果是tight stenosis\n不要pre dilation wire能過就先放EPD+stent \n之後做post dilation \n\nEven from collateral.Poor Acom and pcom so need IA Thrombectomy\n\nCervical ICA occlusion from angio means\nTrue ICA occlusion/ pseudo occlusion from above lesion , like T zone.  \nOr tandem lesions \n\nNeuro Max 088吸吸看\n6F heart care DAC \nIf 吸通 可以放filter device 再 放stent for severe stenosis or angioplasty\n\nIf intra cranial ICAD after ICA Thrombectomy. Then can perform angioplasty \n\n用neuro088 勾上左CCA \n原本想用heart care 6Fr去吸 cervical ICA occlusion 105cm就夠\n後來發現 105cm一下子就過occlusion site \n換成 red 072 比較長可以吸更遠端ICA的阻塞\n但是sphon 過不去 換red 43用 014 wire 配 headway21 一直探不過 ICA distal bifurcation 換 硬一點PT2 014wire去探 過了之後  後來吸通了\n\n比較硬的014wire 去探狹窄或阻塞的地方\n\n後來是 pseudo occlusion 在 ophthamic seg \nTandem lesion \nCCA and ophthalmic seg ICAD\n\nAortagram 1000psi\nFemoral 800psi\nIntra cranial 300psi\n\n用 Ryurei PTA for 顱內 wire 可用205cm就可以 不需要300公分\n\n剛剛用300是怕 043撤出後會進不到原本的位置",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N54",
+  "title": "Intraconal tumor",
+  "date": "2025-04-30",
+  "case": null,
+  "text": "Intraconal tumor\n\n92688902",
+  "category": "06_pediatric"
+ },
+ {
+  "id": "N55",
+  "title": "#angio",
+  "date": "2025-04-21",
+  "case": "c09",
+  "text": "Right cavernous segment ICA aneurysm, unruptured\nFor stent assisted coiling \n22380567 ○○ \n\nMaterials:\nLong femoral sheath (Shuttle Cook)\nNavien 72 \nDiagnostic catheter H1\nMicrocatheter headway17\nSynchroTM\nExcelsior XT-17 microcatheter\nTarget coils\nStent Neuroform stent 4.5x21mm \n\nSteps: \nRight femoral artery puncture\nDo DSA with 3D\n\nRight ICA cavernous segment aneurysm directed medially with neck measuring 3.0mm\n\nInsert long femoral sheath (Shuttle Cook) before carotid canal with navien 72 going to right ICA cavernous segment\n\nReshaped headway 17 to J shape tip with steam\n\nDo roadmap with ff position\nLAO 30\nCRA 0\nRAO 90\nCAU 27\n\nInsert Headway 17 up to aneurysm sac then Insert another microcatheter (Excelsior XT 17) for stent up to M1\n\nPlace 3D framing coil to aneurysm sac (target coil) \n\nInsert stent (Neuroform Atlas TM without tip 4.5mmx21mm) and deploy at cavernous segment\n\nContinue coiling\n\nAdjust setting to F-Sub for final coiling\n\nPost coiling DSA\n\nEnterprise stent 並不是 open cell stent，而是屬於 closed-cell design 的 intracranial stent。\n\n這種設計的特點是：\n\t•\t支撐力較強，對血管的 wall apposition 比較穩定\n\t•\t孔洞較小，較能防止 coil prolapse\n\t•\t柔軟度較低，彎曲血管處的 conformability 較差，可能比較不服貼\n\n相較之下，像 Neuroform Atlas 則是 open-cell design，更適合彎曲血管和需要高 flexibility 的情境。\n\n如果你是要考慮支架輔助栓塞（stent-assisted coiling）或對照不同支架的血管適應性，可再告訴我你用在哪裡的血管或病灶，我可以幫你更精確分析。",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N56",
+  "title": "Right cavernous segment ICA aneurysm, unruptured",
+  "date": "2025-04-21",
+  "case": "c09",
+  "text": "Right cavernous segment ICA aneurysm, unruptured\nFor stent assisted coiling \n22380567 ○○ \n\nMaterials:\nLong femoral sheath (Shuttle Cook)\nNavien 72 \nDiagnostic catheter H1\nMicrocatheter headway17\nSynchroTM\nExcelsior XT-17 microcatheter\nTarget coils\nStent Neuroform stent 4.5x21mm \n\nSteps: \nRight femoral artery puncture\nDo DSA with 3D\n\nRight ICA cavernous segment aneurysm directed medially with neck measuring 3.0mm\n\nInsert long femoral sheath (Shuttle Cook) before carotid canal with navien 72 going to right ICA cavernous segment\n\nReshaped headway 17 to J shape tip with steam\n\nDo roadmap with ff position\nLAO 30\nCRA 0\nRAO 90\nCAU 27\n\nInsert Headway 17 up to aneurysm sac then Insert another microcatheter (Excelsior XT 17) for stent up to M1\n\nPlace 3D framing coil to aneurysm sac (target coil) \n\nInsert stent (Neuroform Atlas TM without tip 4.5mmx21mm) and deploy at cavernous segment\n\nContinue coiling\n\nAdjust setting to F-Sub for final coiling\n\nPost coiling DSA",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N57",
+  "title": "#angio",
+  "date": "2025-04-21",
+  "case": null,
+  "text": "Carotid cave unruptured aneurysm\n\nShuttle 6F 80cm /H1 100cm\nNavian 72 \nStent assisted coil\n\nhttps://youtu.be/sZeX7X799F0?si=SNdPc7ht4GNK1eR2",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N58",
+  "title": "#angio",
+  "date": "2025-04-21",
+  "case": "c08",
+  "text": "Basilar tip aneurysm & bilateral MCA bifurcation aneurysm, unruptured\nS/p coiling of Right Pcom aneurysm\n59/F ○○\n\n1458408\nFor repeat DSA with balloon occlusion test of basilar artery to check patency / flow of left Pcom artery\nFor stent pConus assisted coiling of basilar Giant aneurysm and left MCA aneurysm \n\n \n\nMaterials\nLong sheath Infinitiny AXS 80cm\nDiagnostic catheter H1\nNavien 72 \nMicrocatheter Phenom 21 \nSynchro2 or Transcend2\npConus 2 stent\nCoils \nScepter balloon \n\nSteps\nBilateral FA puncture\n1 navien at right vert artery, 1 navien at left vert artery\nInsert 2 phenom microcatheters at left VA upto aneurysm: 1 for pConus and 1 for coiling\n\nDeploy pConus petals near neck ostium. Do 3D DSA to confirm \n\n \n\nPlace 2 coils (3D coils) to stabilize pConus then deploy fully the pConus stent. Re-insert inside the aneurysm thru the pConus stent the microcatheter used for pConus and positioned inferior and posteriorly then continue coiling simultaneously (sequential double catheters technique) \n\nDetach pConus then remove microcatheter.\n1 phenom 21 at anteriosuperior and insert another 1 phenom 21 at posterioinferior (see drawing). Continue coiling one after the other.\nTotal 27 coils\nPost coiling 3D DSA\n\nStill with left MCA trifurcation aneurysm, unruptured. Proceeded with stent assisted coiling",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N59",
+  "title": "#angio 4/7",
+  "date": "2025-04-07",
+  "case": null,
+  "text": "4/7\nCervical tight stenosis \n\n如果一開始就total occlusion可以先thrombectomy 再放stent\n\n如果是tight stenosis\n不要pre dilation wire能過就先放EPD+stent\n\nVA Injection 3/ total 5 or 看打過對 3/ total 8\n\nSimmon 2 Catheter how to reform",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N60",
+  "title": "#angio 3/31",
+  "date": "2025-03-31",
+  "case": "c07",
+  "text": "3/31\nLeft unrupture ophthalmic aneurysm\n\nRight paraclinoid ICA unruptured aneurysm March 31\n44814 ○○ 72/F\n\nMaterials\n\t1.\tLong sheath 6F shuttle (80cm)\n\t2.\tH1 for DSA\n\t3.\tNavien 0.058 guiding catheter\n\t4.\tPhenom microcatheter  21 \n\t5.\tSynchro2 microwire 0.014\n\t6.\tPED with shield \n\nSteps\n\t1.\tUnder GA\n\t2.\tRight femoral artery puncture then femoral sheath & H1 catheter for DSA. Right ICA 3D (3ml/s for total of 15ml)\n\n3D measurement of ICA \n3.5mm distal diameter of ICA\n4.5mm proximal diameter of ICA\nsmall aneurysm at ophthalmic segment of ICA\nlength: 22mm\nPED chosen: 4.5mm diameter x 20mm length \n\nSelecting view for deployment of FDS, lateral view for distal location deployment with \nLAO 80\nCRA 20\n\nAfter DSA, change to shuttle (long sheath) 6F 80cm up to before the lacerum ICA segment (extracranial) then Navien 058 (guiding catheter) up to petrous ICA. Then phenom 27 up to MCA, insert FDS system (PED with shield 4.5mm diameter x 20mm length).\n\nDeploying the FDS (see video below)\n\n3D post FDS deployment\n\nProximal diameter of FDS at ICA is 4.5mm\nDistal diameter of FDS at ICA is 3.7mm \n\nFinal right ICA 3D DSA\n\nDo CT plain scan for checking of ICH. \nUse angioseal for femoral artery puncture. \nEnd of procedure.\n\n-Jared Golidtum\n\nGiant aneurysm 要不要放coil 看顯影劑的inflow or outflow 如果很多inflow 就放滿coil\n\n如果像thrombotic 就直接FD\n\n這是什麼technique",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N61",
+  "title": "#angio stenting",
+  "date": "2025-03-17",
+  "case": null,
+  "text": "stenting",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N62",
+  "title": "#angio",
+  "date": "2025-03-17",
+  "case": null,
+  "text": "#angio",
+  "category": "07_unclassified_general"
+ },
+ {
+  "id": "N63",
+  "title": "#angio",
+  "date": "2025-03-03",
+  "case": null,
+  "text": "Duran AVF 分類\n\n放carotid stent if arch很彎可以先用短sheath 加 088 +navian 072 再用 .014 wire 放 5F 7mm stent 之後post stent angioplasty",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N64",
+  "title": "#angio",
+  "date": "2025-02-17",
+  "case": null,
+  "text": "Femoral A puncture 鋼針如果miss 不要再用wire retry. 直接拔掉再重新\nonyx 不要transvenous approach\nTransvenous 用 coil 才安全",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N65",
+  "title": "#angio",
+  "date": "2025-02-10",
+  "case": null,
+  "text": "intracranial angioplasty\n\nMCA IA 在distal M1可以直接用Red 68 72 直接吸 很大機會first pass\n\n打DMSO  有時候會bradycardia",
+  "category": "03_stenosis_ICAD_carotid"
+ },
+ {
+  "id": "N66",
+  "title": "#angio",
+  "date": "2025-01-06",
+  "case": null,
+  "text": "Tentorium dAVF",
+  "category": "04_dAVF_CCF"
+ },
+ {
+  "id": "N67",
+  "title": "#angio",
+  "date": "2024-12-09",
+  "case": null,
+  "text": "Neuro angio\n2235482 IA Distal BA to SCA\n取栓 aspiration cath 如果pump吸完 不拿出\n用50cc 吸一下 當通一下管子\n再接pump 吸一下\n\n———————————————\nmicrocather 後面先接3cc syringe\n放進中繼管後反抽有回血再接加壓水跟microwire \n\nLeft M1 occlusion\n22721377\n\n菲利浦機器 \nStart燈號按掉才按數字\nR 73 H 76 L 74\nBiplane 71 transfer 77 \n圓球控制床\nFOV 8~12 通常用10\n把板子向病人靠近減少x ray exposure \nJoystick 勾起來 按 控制 AP or LA\n\n3D",
+  "category": "02_stroke_thrombectomy"
+ },
+ {
+  "id": "N68",
+  "title": "#angio",
+  "date": "2024-12-30",
+  "case": null,
+  "text": "MCA accessory MCA 是frontal /branch 有 \n                Dulication 怎麼分\n\n打local時 先確定位置 大約需要10cc\n揉一揉 再puncture 如果還是打不到用\nFluoro 照一下\n\n止血 6F 前3分鐘把血管壓扁 之後半壓扁 5分鐘",
+  "category": "07_unclassified_general"
+ },
+ {
+  "id": "N69",
+  "title": "#angio",
+  "date": "2024-12-16",
+  "case": null,
+  "text": "FD 在follow up 3D的變化",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N70",
+  "title": "#angio",
+  "date": "2024-12-02",
+  "case": null,
+  "text": "Radial puncture snuffbox\n先用echo評估血管大小，如果小於2mm就不建議做，\n接著用micropuncture set裡面21G的針進行puncture(先打麻藥，在echo底下puncture),\n 順利進去之後把set裡面的.018guide wire送進去，接著把set裡面的dilator順著wire 放進去\nDilator進去之後，把dilator內的stylet取出，然候順著dilator推radial cocktail （0.2mg/0.4mL NTG + 2.5md/1mL verapamil + 2000IU/0.4mL), total 1.8ml\n推的時候注意不要太用力，稍微回拉，推，拉，推，反覆到全部的藥都進入artery\nSheath那一包裡面有附一根.038的guidewire, 但是不好用，因為tip是一個U turn, 建議自己另外開一根.035的guidewire, 把.035 guidewire順著dilator放進去，然候dilator退出來之後，最後就可以把sheath放進去\n\nAngioseal 最好在Common femoral A puncture才用。deep FA 用要小心\n\nCheck femoral A. Turn left 55 LAO check puncture site 在 CFA 才用\n\n1293526\n\nFD DFT 64 \n3942186\n20314311\n.35 Wire 出來先用濕紗布 避免血塊殘留\nWire拿出可以用紗布包起來然後壓著\n3way可同時接2組在延長管 代替3way\n從手echo guide \npuncture 6Fr 先用.018 wire stiffer\nPICC Kit 當一開始的puncture needle ?\n\nRight 容易上VA \nLeft容易往下到femoral A for pseudoaneurysm\n\nPCA Infarction 抽吸管可直接裸奔 \n避免clot distal migration \nRed 68 先 再套 48",
+  "category": "01_aneurysm"
+ },
+ {
+  "id": "N71",
+  "title": "4th ventricular tumor",
+  "date": "2022-07-31",
+  "case": null,
+  "text": "4th ventricular tumor",
+  "category": "06_pediatric"
+ }
+]

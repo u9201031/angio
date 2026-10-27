@@ -33,7 +33,7 @@ export function MediaGrid({ items, onOpen, emptyHint }: Props) {
               <span className="media-tile__badge">影片</span>
             </div>
           )}
-          <span className="media-tile__name">{item.name}</span>
+          <span className="media-tile__name">{item.caption ? `${item.caption} · ` : ''}{item.name}</span>
         </button>
       ))}
     </div>

@@ -1,4 +1,4 @@
-import type { CaseRecord, CategoryId, MediaItem, Pearl } from '../types'
+import type { CaseRecord, CategoryId, MediaItem, NoteText, Pearl } from '../types'
 import { categoryLabel } from './categories'
 
 /** Works on local `/` and GitHub Pages `/angio/` */
@@ -119,6 +119,7 @@ export function mediaKind(name: string): 'image' | 'video' | null {
 
 interface Manifest {
   cases: Record<string, { folder: string; files: string[] }>
+  captions?: Record<string, string>
 }
 
 export async function loadManifestMedia(): Promise<MediaItem[]> {
@@ -136,6 +137,7 @@ export async function loadManifestMedia(): Promise<MediaItem[]> {
         name: file,
         url: assetUrl(`media/${entry.folder}/${encodeURIComponent(file)}`),
         kind,
+        caption: manifest.captions?.[`${entry.folder}/${file}`],
       })
     }
   }
@@ -156,4 +158,10 @@ export function caseSearchBlob(c: CaseRecord) {
   ]
     .join(' ')
     .toLowerCase()
+}
+
+export async function loadNotes(): Promise<NoteText[]> {
+  const res = await fetch(assetUrl('angio_index/notes.json'))
+  if (!res.ok) return []
+  return (await res.json()) as NoteText[]
 }

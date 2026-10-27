@@ -5,11 +5,13 @@ import {
   loadCases,
   loadManifestMedia,
   loadPearls,
+  loadNotes,
 } from './data/load'
 import type {
   CaseRecord,
   CategoryId,
   MediaItem,
+  NoteText,
   Pearl,
   ViewTab,
 } from './types'
@@ -29,6 +31,7 @@ export default function App() {
   const [cases, setCases] = useState<CaseRecord[]>([])
   const [pearls, setPearls] = useState<Pearl[]>([])
   const [media, setMedia] = useState<MediaItem[]>([])
+  const [notes, setNotes] = useState<NoteText[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -51,6 +54,7 @@ export default function App() {
           loadPearls(),
           loadManifestMedia(),
         ])
+        loadNotes().then((n) => { if (!cancelled) setNotes(n) })
         if (cancelled) return
         setCases(c)
         setPearls(p)
@@ -89,9 +93,11 @@ export default function App() {
     return media.filter((m) => {
       if (m.caseId !== 'general' && !caseIds.has(m.caseId)) return false
       if (!q) return true
-      return m.name.toLowerCase().includes(q)
+      return (m.name + ' ' + (m.caption ?? '')).toLowerCase().includes(q)
     })
   }, [media, filteredCases, q])
+
+  const learnNotes = useMemo(() => notes.filter((n) => !n.case && (category === 'all' || n.category === category) && (!q || (n.title + ' ' + n.text).toLowerCase().includes(q))), [notes, category, q])
 
   const selected = cases.find((c) => c.id === selectedId) ?? null
   const selectedMedia = useMemo(
@@ -220,6 +226,22 @@ export default function App() {
               {filteredPearls.length === 0 && (
                 <p className="empty-hint">沒有符合的 pearls。</p>
               )}
+              <li><h3 className="learn-head">學習技巧（筆記原文 {learnNotes.length}）</h3></li>
+              {CATEGORIES.map((c) => {
+                const g = learnNotes.filter((n) => n.category === c.id)
+                if (!g.length) return null
+                return (
+                  <li key={c.id} className="learn-group">
+                    <h4>{c.label}</h4>
+                    {g.map((n) => (
+                      <details key={n.id} className="pearl-card">
+                        <summary>{n.title}（{n.date}）— {n.text.split('\n').find((l) => l.trim())?.slice(0, 60)}</summary>
+                        <pre className="note-text">{n.text}</pre>
+                      </details>
+                    ))}
+                  </li>
+                )
+              })}
             </ul>
           )}
 
@@ -248,6 +270,7 @@ export default function App() {
             caseRecord={selected}
             media={selectedMedia}
             pearls={pearls}
+            notes={notes}
             onOpenMedia={openMedia}
             onClose={() => setSelectedId(null)}
           />

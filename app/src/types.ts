@@ -35,6 +35,16 @@ export interface MediaItem {
   url: string
   kind: 'image' | 'video'
   ephemeral?: boolean
+  caption?: string
 }
 
 export type ViewTab = 'cases' | 'pearls' | 'media' | 'plist'
+
+export interface NoteText {
+  id: string
+  title: string
+  date: string
+  case: string | null
+  category: CategoryId
+  text: string
+}

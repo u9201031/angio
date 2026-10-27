@@ -546,3 +546,9 @@
 .plist { overflow-x: auto; }
 .plist__table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 0.5rem; }
 .plist__table th, .plist__table td { border-bottom: 1px solid rgba(128,128,128,.25); padding: 4px 6px; text-align: left; vertical-align: top; }
+
+.note-text { white-space: pre-wrap; word-break: break-word; font-family: inherit; font-size: 0.85rem; margin: 0.4rem 0 0; }
+.learn-head { margin: 1rem 0 0.25rem; }
+.learn-group { list-style: none; }
+.learn-group h4 { margin: 0.75rem 0 0.25rem; }
+.learn-group summary { cursor: pointer; }
