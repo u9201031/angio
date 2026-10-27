@@ -1,146 +1,286 @@
 {
- "version": 1,
- "note": "Images de-identified: patient names (Chinese/English) black-boxed; chart numbers not masked per owner. Images showing a different patient than the case were moved to 'general'. Verified by OCR (eng+chi_tra) against mapping/schedule names plus visual review.",
- "cases": {
-  "c01": {
-   "folder": "c01",
-   "files": [
-    "01_report_carotid_angiography.jpg"
-   ]
-  },
-  "c02": {
-   "folder": "c02",
-   "files": []
-  },
-  "c03": {
-   "folder": "c03",
-   "files": []
-  },
-  "c04": {
-   "folder": "c04",
-   "files": []
-  },
-  "c05": {
-   "folder": "c05",
-   "files": []
-  },
-  "c06": {
-   "folder": "c06",
-   "files": []
-  },
-  "c07": {
-   "folder": "c07",
-   "files": [
-    "01_dsa_lao70.jpg",
-    "02_3d_rotational.jpg",
-    "03_device_ied_coil.jpg"
-   ]
-  },
-  "c08": {
-   "folder": "c08",
-   "files": [
-    "01_3d_ba_tip_aneurysm.jpg",
-    "02_3d_pacs.jpg",
-    "03_3d_pacs_lateral.jpg",
-    "04_3d_pacs_oblique.jpg",
-    "05_roadmap.jpg",
-    "06_coiling_unsub_ap.jpg",
-    "07_coiling_unsub.jpg",
-    "08_dsa_post_stent.jpg",
-    "09_dsa_screens_post_coil.jpg",
-    "10_sketch_pconus_coiling.jpg",
-    "11_device_axs_infinity.jpg"
-   ]
-  },
-  "c09": {
-   "folder": "c09",
-   "files": [
-    "01_mra_pacs.jpg",
-    "02_3d_cavernous_ica.jpg",
-    "03_dsa_screens.jpg",
-    "04_dsa_screens_room.jpg",
-    "05_dsa_lateral.jpg",
-    "06_device_excelsior_xt17.jpg"
-   ]
-  },
-  "c10": {
-   "folder": "c10",
-   "files": [
-    "01_device_ryurei_balloon.jpg"
-   ]
-  },
-  "c11": {
-   "folder": "c11",
-   "files": [
-    "01_device_log.jpg"
-   ]
-  },
-  "c12": {
-   "folder": "c12",
-   "files": [
-    "01_cta_sagittal.jpg"
-   ]
-  },
-  "c13": {
-   "folder": "c13",
-   "files": []
-  },
-  "c14": {
-   "folder": "c14",
-   "files": [
-    "01_dsa_screens.jpg",
-    "02_3d.jpg",
-    "03_device_scepter_c.jpg",
-    "04_device_eclipse_2l.jpg"
-   ]
-  },
-  "c15": {
-   "folder": "c15",
-   "files": [
-    "01_3d.jpg"
-   ]
-  },
-  "c16": {
-   "folder": "c16",
-   "files": []
-  },
-  "c17": {
-   "folder": "c17",
-   "files": []
-  },
-  "general": {
-   "folder": "general",
-   "files": [
-    "01_dsa_pacs_ica.jpg",
-    "02_dsa_pacs_4up.jpg",
-    "03_dsa_series_list_cca_stent.jpg",
-    "04_dsa_mechanical_thrombectomy.jpg",
-    "05_dsa_pacs_4up.jpg",
-    "06_3d_aneurysm.jpg",
-    "07_dsa_coiling.jpg",
-    "08_dsa_screens.jpg",
-    "09_3d_flow_diverter_case.jpg",
-    "10_dsa_3d_pacs.jpg",
-    "11_dsa_lateral.jpg",
-    "12_3d_indirect_ccf.jpg",
-    "13_dsa_screens_indirect_ccf.jpg",
-    "14_3d_icad.jpg",
-    "15_device_gateway_balloon.jpg",
-    "16_3d.jpg",
-    "17_dsa_pacs.jpg",
-    "18_dsa_lateral.jpg",
-    "19_dsa_pacs.jpg",
-    "20_3d_mpr_screens.jpg",
-    "21_device_enterprise2.jpg",
-    "22_device_micropuncture_pedal.jpg",
-    "23_dsa_pacs_coil_series.jpg",
-    "24_dsa_screens_ap_lat.jpg",
-    "25_dsa_ap.jpg",
-    "26_dsa_screens.jpg",
-    "27_3d_vessel_analysis.jpg",
-    "28_dsa_mma.jpg",
-    "29_dsa_mma_catheter.jpg"
-   ]
+  "version": 1,
+  "note": "Images de-identified: patient names (Chinese/English) black-boxed; chart numbers not masked per owner. Images showing a different patient than the case were moved to 'general'. Verified by OCR (eng+chi_tra) against mapping/schedule names plus visual review.",
+  "cases": {
+    "c01": {
+      "folder": "c01",
+      "files": [
+        "01_report_carotid_angiography.jpg"
+      ]
+    },
+    "c02": {
+      "folder": "c02",
+      "files": [
+        "01_his_report.jpg"
+      ]
+    },
+    "c03": {
+      "folder": "c03",
+      "files": [
+        "01_his_report.jpg"
+      ]
+    },
+    "c04": {
+      "folder": "c04",
+      "files": []
+    },
+    "c05": {
+      "folder": "c05",
+      "files": []
+    },
+    "c06": {
+      "folder": "c06",
+      "files": []
+    },
+    "c07": {
+      "folder": "c07",
+      "files": [
+        "01_dsa_lao70.jpg",
+        "02_3d_rotational.jpg",
+        "03_device_ied_coil.jpg",
+        "04_lecture_fd_giant_aneurysm.jpg",
+        "05_lecture_fd_limitations.jpg",
+        "06_teach_vasa_vasorum.jpg",
+        "07_lecture_antiplatelet.jpg",
+        "08_lecture_background.jpg",
+        "09_lecture_case.jpg"
+      ]
+    },
+    "c08": {
+      "folder": "c08",
+      "files": [
+        "01_3d_ba_tip_aneurysm.jpg",
+        "02_3d_pacs.jpg",
+        "03_3d_pacs_lateral.jpg",
+        "04_3d_pacs_oblique.jpg",
+        "05_roadmap.jpg",
+        "06_coiling_unsub_ap.jpg",
+        "07_coiling_unsub.jpg",
+        "08_dsa_post_stent.jpg",
+        "09_dsa_screens_post_coil.jpg",
+        "10_sketch_pconus_coiling.jpg",
+        "11_device_axs_infinity.jpg",
+        "12_device_h1_catheter.jpg",
+        "13_device_navien072.jpg",
+        "14_device_excelsior_sl10.jpg",
+        "15_device_phenom21.jpg",
+        "16_device_synchro2.jpg",
+        "17_device_transend.jpg"
+      ]
+    },
+    "c09": {
+      "folder": "c09",
+      "files": [
+        "01_mra_pacs.jpg",
+        "02_3d_cavernous_ica.jpg",
+        "03_dsa_screens.jpg",
+        "04_dsa_screens_room.jpg",
+        "05_dsa_lateral.jpg",
+        "06_device_excelsior_xt17.jpg",
+        "07_device_h1_catheter.jpg",
+        "08_device_synchro2.jpg",
+        "09_device_flexor_shuttle.jpg",
+        "10_device_navien072.jpg",
+        "11_device_catheter_teal.jpg",
+        "12_3d_mpr.jpg",
+        "13_3d_vr_pacs.jpg",
+        "14_device_log.jpg"
+      ]
+    },
+    "c10": {
+      "folder": "c10",
+      "files": [
+        "01_device_ryurei_balloon.jpg",
+        "02_ct_pacs_worklist.jpg",
+        "03_teach_pt2_wire.jpg",
+        "04_room_injector_desk.jpg",
+        "05_room_operator.jpg",
+        "06_device_pt2_wire.jpg",
+        "07_teach_microcatheter_carotid_stenting.jpg",
+        "08_teach_ryurei.jpg",
+        "09_teach_device_comparison.jpg"
+      ]
+    },
+    "c11": {
+      "folder": "c11",
+      "files": [
+        "01_device_log.jpg"
+      ]
+    },
+    "c12": {
+      "folder": "c12",
+      "files": [
+        "01_cta_sagittal.jpg",
+        "02_teach_balloon_anchoring.jpg"
+      ]
+    },
+    "c13": {
+      "folder": "c13",
+      "files": [
+        "01_his_report_list.jpg",
+        "02_his_report_embolization.jpg",
+        "03_his_report_embolization_2.jpg",
+        "04_his_report.jpg",
+        "05_teach_pcom_stenting.jpg"
+      ]
+    },
+    "c14": {
+      "folder": "c14",
+      "files": [
+        "01_dsa_screens.jpg",
+        "02_3d.jpg",
+        "03_device_scepter_c.jpg",
+        "04_device_eclipse_2l.jpg",
+        "05_teach_bosphere_embolic_chart.jpg",
+        "06_dsa_screen.jpg"
+      ]
+    },
+    "c15": {
+      "folder": "c15",
+      "files": [
+        "01_3d.jpg",
+        "02_teach_dissection_imaging.jpg"
+      ]
+    },
+    "c16": {
+      "folder": "c16",
+      "files": [
+        "01_teach_dissection_vs_icad.jpg",
+        "02_teach_catheter_shapes.jpg",
+        "03_dsa_spot.jpg",
+        "04_room_workstation.jpg",
+        "05_dsa_screens.jpg"
+      ]
+    },
+    "c17": {
+      "folder": "c17",
+      "files": []
+    },
+    "general": {
+      "folder": "general",
+      "files": [
+        "01_dsa_pacs_ica.jpg",
+        "02_dsa_pacs_4up.jpg",
+        "03_dsa_series_list_cca_stent.jpg",
+        "04_dsa_mechanical_thrombectomy.jpg",
+        "05_dsa_pacs_4up.jpg",
+        "06_3d_aneurysm.jpg",
+        "07_dsa_coiling.jpg",
+        "08_dsa_screens.jpg",
+        "09_3d_flow_diverter_case.jpg",
+        "10_dsa_3d_pacs.jpg",
+        "11_dsa_lateral.jpg",
+        "12_3d_indirect_ccf.jpg",
+        "13_dsa_screens_indirect_ccf.jpg",
+        "14_3d_icad.jpg",
+        "15_device_gateway_balloon.jpg",
+        "16_3d.jpg",
+        "17_dsa_pacs.jpg",
+        "18_dsa_lateral.jpg",
+        "19_dsa_pacs.jpg",
+        "20_3d_mpr_screens.jpg",
+        "21_device_enterprise2.jpg",
+        "22_device_micropuncture_pedal.jpg",
+        "23_dsa_pacs_coil_series.jpg",
+        "24_dsa_screens_ap_lat.jpg",
+        "25_dsa_ap.jpg",
+        "26_dsa_screens.jpg",
+        "27_3d_vessel_analysis.jpg",
+        "28_dsa_mma.jpg",
+        "29_dsa_mma_catheter.jpg",
+        "30_patient_list_n1_a2.jpg",
+        "31_dsa_4up_ref.jpg",
+        "32_dsa_room_3d.jpg",
+        "33_device_wire_saline_bowl.jpg",
+        "34_dsa_4up.jpg",
+        "35_ct_pacs_brain.jpg",
+        "36_patient_list_n3_a1.jpg",
+        "37_teach_pca_reference.jpg",
+        "38_dsa_4up.jpg",
+        "39_patient_list_n5_a3.jpg",
+        "40_patient_list_n7_a1.jpg",
+        "41_patient_list_n8_a1.jpg",
+        "42_patient_list_n9_a2.jpg",
+        "43_patient_list_n10_a9.jpg",
+        "44_report_pacs_embolization.jpg",
+        "45_patient_list_n11_a2.jpg",
+        "46_dsa_ap.jpg",
+        "47_lecture_dft_slide.jpg",
+        "48_dsa_lateral.jpg",
+        "49_mri_sagittal_pacs.jpg",
+        "50_xray_slip_n11_a10.jpg",
+        "51_dsa_ap_late.jpg",
+        "52_teach_serpentine.jpg",
+        "53_mri_axial_pacs.jpg",
+        "54_patient_list_n12_a1.jpg",
+        "55_xray_slip_n12_a2.jpg",
+        "56_teach_carotid_web.jpg",
+        "57_teach_scepter_balloon.jpg",
+        "58_teach_scepter_c.jpg",
+        "59_3d_pacs_4up.jpg",
+        "60_patient_list_n15_a3.jpg",
+        "61_teach_mma_onyx_anatomy.jpg",
+        "62_teach_carotid_bifurcation.jpg",
+        "63_device_willskey_microcatheter.jpg",
+        "64_device_willskey_access.jpg",
+        "65_device_asahi_chikai.jpg",
+        "66_dsa_screens_eca.jpg",
+        "67_teach_facial_nerve_artery.jpg",
+        "68_device_enterprise2.jpg",
+        "69_patient_list_n17_a1.jpg",
+        "70_teach_evt_handbook.jpg",
+        "71_patient_list_n20_a1.jpg",
+        "72_patient_list_n20_a3.jpg",
+        "73_patient_list_n22_a1.jpg",
+        "74_fluoro_cspine_room.jpg",
+        "75_dsa_ap_unsub.jpg",
+        "76_3d_vr.jpg",
+        "77_device_pipeline_vantage.jpg",
+        "78_order_screen.jpg",
+        "79_patient_list_n27_a1.jpg",
+        "80_patient_list_n29_a1.jpg",
+        "81_teach_ptta.jpg",
+        "82_patient_list_n31_a2.jpg",
+        "83_device_argon_snare.jpg",
+        "84_teach_waffle_cone.jpg",
+        "85_3d_mpr_4up.jpg",
+        "86_patient_list_n33_a2.jpg",
+        "87_device_eclipse_balloon.jpg",
+        "88_patient_list_n37_a1.jpg",
+        "89_patient_list_n44_a3.jpg",
+        "90_xray_slip_n44_a6.jpg",
+        "91_teach_eca_flow.jpg",
+        "92_teach_eca_anatomy.jpg",
+        "93_teach_textbook_page.jpg",
+        "94_patient_list_n48_a4.jpg",
+        "95_teach_meningeal_branches_ica.jpg",
+        "96_teach_davf_types.jpg",
+        "97_teach_carotid_anatomy.jpg",
+        "98_teach_ica_segments.jpg",
+        "99_teach_bernasconi_cassinari.jpg",
+        "100_patient_list_n50_a1.jpg",
+        "101_teach_sov_thrombosis.jpg",
+        "102_dsa_pacs.jpg",
+        "103_teach_oa_va_anastomosis.jpg",
+        "104_device_envoy_mpc.jpg",
+        "105_device_echelon_micro.jpg",
+        "106_device_shelf.jpg",
+        "107_teach_eca_atlas.jpg",
+        "108_teach_cavernous_sinus.jpg",
+        "109_teach_ccf_tae_video.jpg",
+        "110_patient_list_n50_a14.jpg",
+        "111_teach_neck_anatomy_3d.jpg",
+        "112_teach_p2y12.jpg",
+        "113_patient_list_n52_a3.jpg",
+        "114_device_microez_introducer.jpg",
+        "115_control_panel.jpg",
+        "116_device_hemostasis_introducer.jpg",
+        "117_device_4f_catheter.jpg",
+        "118_his_report.jpg",
+        "119_patient_list_n54_a8.jpg",
+        "120_teach_snuffbox_puncture.jpg",
+        "121_teach_3way_stopcock.jpg"
+      ]
+    }
   }
- }
 }
