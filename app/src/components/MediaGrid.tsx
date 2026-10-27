@@ -34,6 +34,16 @@ export function MediaGrid({ items, onOpen, emptyHint }: Props) {
             </div>
           )}
           <span className="media-tile__name">{item.caption ? `${item.caption} · ` : ''}{item.name}</span>
+          {item.near && item.near.length > 0 && (
+            <span className="media-tile__near">
+              {item.near.slice(0, 4).map((n, j) => (
+                <span key={j} className="chip">
+                  {n.delta === 0 ? '同日' : `${n.delta > 0 ? '+' : ''}${n.delta}天`} {n.d.slice(5)} {n.case ? n.case.toUpperCase() + ' ' : ''}{n.mrn} {n.label}
+                </span>
+              ))}
+              {item.near.length > 4 && <span className="chip">+{item.near.length - 4}</span>}
+            </span>
+          )}
         </button>
       ))}
     </div>

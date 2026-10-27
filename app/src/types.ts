@@ -36,6 +36,8 @@ export interface MediaItem {
   kind: 'image' | 'video'
   ephemeral?: boolean
   caption?: string
+  date?: string
+  near?: { d: string; delta: number; case?: string; mrn?: string; label: string }[]
 }
 
 export type ViewTab = 'cases' | 'pearls' | 'media' | 'plist'

@@ -120,6 +120,7 @@ export function mediaKind(name: string): 'image' | 'video' | null {
 interface Manifest {
   cases: Record<string, { folder: string; files: string[] }>
   captions?: Record<string, string>
+  related?: Record<string, { date: string; near: NonNullable<MediaItem['near']> }>
 }
 
 export async function loadManifestMedia(): Promise<MediaItem[]> {
@@ -138,6 +139,8 @@ export async function loadManifestMedia(): Promise<MediaItem[]> {
         url: assetUrl(`media/${entry.folder}/${encodeURIComponent(file)}`),
         kind,
         caption: manifest.captions?.[`${entry.folder}/${file}`],
+        date: manifest.related?.[`${entry.folder}/${file}`]?.date,
+        near: manifest.related?.[`${entry.folder}/${file}`]?.near,
       })
     }
   }

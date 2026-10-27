@@ -553,3 +553,5 @@
 .learn-group { list-style: none; }
 .learn-group h4 { margin: 0.75rem 0 0.25rem; }
 .learn-group summary { cursor: pointer; }
+
+.media-tile__near{display:flex;flex-wrap:wrap;gap:.25rem;padding:.3rem .4rem;font-size:.72rem;text-align:left}

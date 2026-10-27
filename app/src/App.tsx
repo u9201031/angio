@@ -93,7 +93,7 @@ export default function App() {
     return media.filter((m) => {
       if (m.caseId !== 'general' && !caseIds.has(m.caseId)) return false
       if (!q) return true
-      return (m.name + ' ' + (m.caption ?? '')).toLowerCase().includes(q)
+      return (m.name + ' ' + (m.caption ?? '') + ' ' + (m.near ?? []).map((n) => n.mrn + ' ' + n.label + ' ' + n.d).join(' ')).toLowerCase().includes(q)
     })
   }, [media, filteredCases, q])
 
@@ -101,7 +101,7 @@ export default function App() {
 
   const selected = cases.find((c) => c.id === selectedId) ?? null
   const selectedMedia = useMemo(
-    () => (selected ? media.filter((m) => m.caseId === selected.id) : []),
+    () => (selected ? media.filter((m) => m.caseId === selected.id || m.near?.some((n) => n.case === selected.id)) : []),
     [media, selected],
   )
 
