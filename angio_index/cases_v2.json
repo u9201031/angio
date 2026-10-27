@@ -58,7 +58,30 @@
 ],
 "plist": [
 79
-]
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Envoy"
+],
+"micro": [
+"Echelon",
+"Apollo"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils",
+"Onyx"
+],
+"balloon": [],
+"closure": [
+"VasSeal"
+],
+"size": []
+},
+"loc": "Tentorial/T-S",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P021",
@@ -98,7 +121,31 @@
 "images": []
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Phenom Plus"
+],
+"micro": [
+"Echelon"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Melphalan",
+"Topotecan",
+"Carboplatin"
+],
+"balloon": [],
+"closure": [
+"QuickClot",
+"Manual compression"
+],
+"size": []
+},
+"loc": "Retinoblastoma",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P072",
@@ -218,7 +265,31 @@
 "links": [],
 "plist": [
 91
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Infinity",
+"Catalyst"
+],
+"micro": [
+"XT-27"
+],
+"wire": [],
+"implant": [
+"FD Elite⚠️"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"4*17mm"
 ]
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P027",
@@ -373,7 +444,32 @@
 ],
 "plist": [
 87
-]
+],
+"stack": {
+"sheath": [
+"4/5F sheath"
+],
+"guide": [
+"Phenom Plus"
+],
+"micro": [
+"Headway 17"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Melphalan",
+"Topotecan",
+"Carboplatin"
+],
+"balloon": [],
+"closure": [
+"Manual compression"
+],
+"size": []
+},
+"loc": "Retinoblastoma",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P020",
@@ -465,7 +561,28 @@
 ],
 "plist": [
 75
-]
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [],
+"micro": [
+"Echelon",
+"Apollo"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils",
+"Onyx"
+],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Face/orbit",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P024",
@@ -587,7 +704,31 @@
 ],
 "plist": [
 88
-]
+],
+"stack": {
+"sheath": [
+"4/5F sheath"
+],
+"guide": [
+"Phenom Plus"
+],
+"micro": [
+"Headway 17"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Melphalan",
+"Topotecan"
+],
+"balloon": [],
+"closure": [
+"Manual compression"
+],
+"size": []
+},
+"loc": "Retinoblastoma",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P025",
@@ -714,7 +855,32 @@
 ],
 "plist": [
 87
-]
+],
+"stack": {
+"sheath": [
+"4/5F sheath"
+],
+"guide": [
+"Phenom Plus"
+],
+"micro": [
+"Headway 17"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Melphalan",
+"Topotecan",
+"Carboplatin"
+],
+"balloon": [],
+"closure": [
+"Manual compression"
+],
+"size": []
+},
+"loc": "Retinoblastoma",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "C17",
@@ -1000,7 +1166,30 @@
 ],
 "plist": [
 79
-]
+],
+"stack": {
+"sheath": [
+"6F sheath"
+],
+"guide": [],
+"micro": [
+"Echelon",
+"Apollo"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils",
+"Onyx"
+],
+"balloon": [],
+"closure": [
+"QuickClot"
+],
+"size": []
+},
+"loc": "Tentorial/T-S",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P071",
@@ -1132,7 +1321,31 @@
 ]
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien",
+"Infinity"
+],
+"micro": [
+"Phenom 21"
+],
+"wire": [],
+"implant": [
+"FD Vantage"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"2.5*14mm"
+]
+},
+"loc": "PCA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P022",
@@ -1196,7 +1409,30 @@
 ],
 "plist": [
 83
-]
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Phenom Plus"
+],
+"micro": [
+"Headway 17"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Melphalan",
+"Topotecan",
+"Carboplatin"
+],
+"balloon": [],
+"closure": [
+"Manual compression"
+],
+"size": []
+},
+"loc": "Retinoblastoma",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P070",
@@ -1308,7 +1544,28 @@
 "plist": [
 78,
 84
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Infinity"
+],
+"micro": [],
+"wire": [],
+"implant": [
+"FD Derivo"
+],
+"embolic": [],
+"balloon": [
+"Balloon"
+],
+"closure": [],
+"size": [
+"3.5*15mm"
 ]
+},
+"loc": "Basilar",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P023",
@@ -1348,7 +1605,27 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [
+"SL-10"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"NBCA",
+"Lipiodol"
+],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Intracranial tumor",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P069",
@@ -1386,7 +1663,26 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [
+"Phenom 27"
+],
+"wire": [],
+"implant": [
+"FD Shield"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P010",
@@ -1460,7 +1756,22 @@
 ],
 "plist": [
 79
-]
+],
+"stack": {
+"sheath": [
+"6F sheath"
+],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Tentorial/T-S",
+"ap2": "經靜脈・股動脈"
 },
 {
 "id": "P017",
@@ -1500,7 +1811,24 @@
 ],
 "plist": [
 75
-]
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Face/orbit",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "C14",
@@ -1659,7 +1987,32 @@
 ],
 "plist": [
 83
-]
+],
+"stack": {
+"sheath": [
+"4/5F sheath"
+],
+"guide": [
+"Phenom Plus"
+],
+"micro": [
+"Marathon"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Melphalan",
+"Topotecan",
+"Carboplatin"
+],
+"balloon": [],
+"closure": [
+"Manual compression"
+],
+"size": []
+},
+"loc": "Retinoblastoma",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P060",
@@ -1712,7 +2065,30 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 27"
+],
+"wire": [],
+"implant": [
+"FD Shield"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"4*16mm"
+]
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P001",
@@ -1763,7 +2139,30 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien"
+],
+"micro": [
+"Marathon"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Onyx",
+"NBCA",
+"Lipiodol"
+],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Galen type",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P035",
@@ -1801,7 +2200,22 @@
 "label": "同病歷號"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [
+"FD Vantage"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "AComA/ACA",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "C13",
@@ -1917,7 +2331,26 @@
 "images": []
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [
+"Headway 21"
+],
+"wire": [],
+"implant": [
+"FD p64"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": [
+"4.5*15mm"
+]
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P034",
@@ -1958,7 +2391,29 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [
+"8F sheath"
+],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [
+"FD Shield",
+"FD Pipeline"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"4x18mm"
+]
+},
+"loc": "ICA PComA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P040",
@@ -2075,7 +2530,30 @@
 ],
 "plist": [
 85
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien"
+],
+"micro": [
+"XT-27"
+],
+"wire": [],
+"implant": [
+"FD Derivo"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"4.5*15mm"
 ]
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P041",
@@ -2131,7 +2609,29 @@
 ],
 "plist": [
 1
+],
+"stack": {
+"sheath": [
+"8F sheath"
+],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [
+"FD Derivo",
+"Cover stent"
+],
+"embolic": [],
+"balloon": [
+"Balloon"
+],
+"closure": [],
+"size": [
+"7*40mm"
 ]
+},
+"loc": "Cervical ICA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P009",
@@ -2167,7 +2667,33 @@
 "links": [],
 "plist": [
 66
+],
+"stack": {
+"sheath": [
+"6F sheath",
+"8F sheath"
+],
+"guide": [],
+"micro": [
+"SL-10"
+],
+"wire": [],
+"implant": [
+"FD Shield"
+],
+"embolic": [
+"Coils"
+],
+"balloon": [
+"HyperGlide"
+],
+"closure": [],
+"size": [
+"4.75* 16mm"
 ]
+},
+"loc": "Cavernous/CCF",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P039",
@@ -2292,7 +2818,28 @@
 ],
 "plist": [
 62
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien"
+],
+"micro": [],
+"wire": [
+"Transend"
+],
+"implant": [
+"FD Silk"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": [
+"2.2*15mm"
 ]
+},
+"loc": "MCA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P042",
@@ -2418,7 +2965,28 @@
 ],
 "plist": [
 63
-]
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 27"
+],
+"wire": [],
+"implant": [
+"FD Shield"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "ICA PComA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P036",
@@ -2551,7 +3119,28 @@
 "links": [],
 "plist": [
 58
-]
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 27"
+],
+"wire": [],
+"implant": [
+"FD Shield"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P043",
@@ -2633,7 +3222,27 @@
 ]
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [
+"FD Pipeline"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"2.75x14mm",
+"2.75x14mm"
+]
+},
+"loc": "MCA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P038",
@@ -2720,7 +3329,24 @@
 "links": [],
 "plist": [
 57
-]
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien"
+],
+"micro": [
+"Headway 21"
+],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "ICA posterior genu",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P003",
@@ -2814,7 +3440,22 @@
 ]
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Cavernous/CCF",
+"ap2": "經靜脈・未記載"
 },
 {
 "id": "P044",
@@ -2860,7 +3501,30 @@
 ]
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien",
+"Infinity"
+],
+"micro": [
+"Headway 21"
+],
+"wire": [],
+"implant": [
+"FD p64"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": [
+"3.5*15mm",
+"4*15mm"
+]
+},
+"loc": "ICA PComA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P045",
@@ -2916,7 +3580,24 @@
 ],
 "plist": [
 54
-]
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils"
+],
+"balloon": [
+"Balloon"
+],
+"closure": [],
+"size": []
+},
+"loc": "ICA PComA",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P046",
@@ -3007,7 +3688,32 @@
 ],
 "plist": [
 53
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien"
+],
+"micro": [
+"Headway",
+"SL-10"
+],
+"wire": [],
+"implant": [
+"FD p64"
+],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [],
+"size": [
+"4*15mm",
+"4.5*15mm"
 ]
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P047",
@@ -3060,7 +3766,28 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 27"
+],
+"wire": [],
+"implant": [
+"FD Shield"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "ICA SHA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P048",
@@ -3111,7 +3838,30 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 21"
+],
+"wire": [],
+"implant": [
+"FD Vantage"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": [
+"3.25*16mm"
+]
+},
+"loc": "ICA PComA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P033",
@@ -3155,7 +3905,24 @@
 "links": [],
 "plist": [
 50
-]
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils",
+"NBCA",
+"Lipiodol"
+],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Glomus/paraganglioma",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P052",
@@ -3192,7 +3959,35 @@
 "images": []
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 27",
+"Phenom 21",
+"SL-10"
+],
+"wire": [],
+"implant": [
+"FD Shield",
+"FD Vantage"
+],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [],
+"size": [
+"3*14mm"
+]
+},
+"loc": "ICA AChoA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P019",
@@ -3241,7 +4036,28 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [],
+"micro": [
+"Marathon",
+"SL-10"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils",
+"NBCA"
+],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Face/orbit",
+"ap2": "經靜脈・股動脈"
 },
 {
 "id": "P051",
@@ -3284,7 +4100,26 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Envoy"
+],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"4*20mm"
+]
+},
+"loc": "ICA cavernous",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P053",
@@ -3331,7 +4166,20 @@
 ],
 "plist": [
 43
-]
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "MCA",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P054",
@@ -3385,7 +4233,28 @@
 ],
 "plist": [
 43
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [
+"FD p64"
+],
+"embolic": [],
+"balloon": [
+"Balloon"
+],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"4.5*18mm"
 ]
+},
+"loc": "MCA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P016",
@@ -3579,7 +4448,26 @@
 ]
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien",
+"Infinity"
+],
+"micro": [
+"Apollo",
+"Marathon"
+],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Cerebral",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P032",
@@ -3822,7 +4710,24 @@
 ],
 "plist": [
 39
-]
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils",
+"NBCA",
+"Lipiodol"
+],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Head-neck cancer/metastasis",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P055",
@@ -4062,7 +4967,26 @@
 ],
 "plist": [
 41
-]
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "ICA AChoA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P030",
@@ -4178,7 +5102,26 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"NBCA"
+],
+"balloon": [
+"Balloon"
+],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Glomus/paraganglioma",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P031",
@@ -4293,7 +5236,28 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Ethanol"
+],
+"balloon": [
+"Scepter"
+],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Hemangioma (limb)",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P056",
@@ -4405,7 +5369,22 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "C10",
@@ -4733,7 +5712,34 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Headway 17"
+],
+"wire": [],
+"implant": [
+"Neuroform/Atlas"
+],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"4.5*21mm"
+]
+},
+"loc": "MCA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "C08",
@@ -4954,7 +5960,20 @@
 ],
 "plist": [
 28
-]
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Cerebral",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P057",
@@ -5086,7 +6105,32 @@
 ],
 "plist": [
 29
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 27"
+],
+"wire": [],
+"implant": [
+"FD Shield"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"4.5*20mm"
 ]
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P049",
@@ -5204,7 +6248,22 @@
 ],
 "plist": [
 24
-]
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [
+"FD p64"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "ICA PComA",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P050",
@@ -5377,7 +6436,29 @@
 "plist": [
 20,
 27
-]
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom"
+],
+"wire": [],
+"implant": [
+"FD Shield",
+"Wingspan"
+],
+"embolic": [],
+"balloon": [
+"Balloon"
+],
+"closure": [],
+"size": []
+},
+"loc": "MCA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P058",
@@ -5501,7 +6582,31 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Headway 17",
+"SL-10"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "ICA PComA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P067",
@@ -5626,7 +6731,32 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Headway 21"
+],
+"wire": [],
+"implant": [
+"FD Vantage"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"3*14mm"
+]
+},
+"loc": "AComA/ACA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P004",
@@ -5730,7 +6860,22 @@
 ]
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Cavernous/CCF",
+"ap2": "經靜脈・未記載"
 },
 {
 "id": "P002",
@@ -5832,7 +6977,28 @@
 ],
 "plist": [
 22
-]
+],
+"stack": {
+"sheath": [
+"8F sheath"
+],
+"guide": [],
+"micro": [
+"Marathon"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Tentorial/T-S",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P059",
@@ -5934,7 +7100,28 @@
 ],
 "plist": [
 21
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [
+"Headway 21"
+],
+"wire": [],
+"implant": [
+"FD p64"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"5*18mm"
 ]
+},
+"loc": "ICA posterior genu",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "C06",
@@ -6243,7 +7430,25 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"NBCA",
+"Lipiodol"
+],
+"balloon": [
+"Balloon"
+],
+"closure": [],
+"size": []
+},
+"loc": "Head-neck cancer/metastasis",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P029",
@@ -6441,7 +7646,30 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Phenom Plus"
+],
+"micro": [
+"Marathon"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Melphalan",
+"Topotecan",
+"Carboplatin"
+],
+"balloon": [],
+"closure": [
+"Manual compression"
+],
+"size": []
+},
+"loc": "Retinoblastoma",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P062",
@@ -6644,7 +7872,30 @@
 "label": "同日"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 27"
+],
+"wire": [],
+"implant": [
+"FD Shield"
+],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [],
+"size": [
+"3.25*16mm"
+]
+},
+"loc": "ICA SHA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P006",
@@ -6840,7 +8091,24 @@
 ]
 },
 "links": [],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Cavernous/CCF",
+"ap2": "經靜脈・未記載"
 },
 {
 "id": "P005",
@@ -6993,7 +8261,28 @@
 ],
 "plist": [
 16
-]
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Envoy"
+],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Onyx"
+],
+"balloon": [
+"Balloon"
+],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Cavernous/CCF",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P064",
@@ -7141,7 +8430,26 @@
 ],
 "plist": [
 15
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [
+"Phenom 27"
+],
+"wire": [],
+"implant": [
+"FD Shield"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": [
+"4.75*14mm"
 ]
+},
+"loc": "ICA PComA",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P008",
@@ -7247,7 +8555,22 @@
 "label": "同病歷號"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [
+"Onyx"
+],
+"balloon": [],
+"closure": [],
+"size": []
+},
+"loc": "Galen type",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P065",
@@ -7337,7 +8660,31 @@
 ],
 "plist": [
 8
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 27"
+],
+"wire": [],
+"implant": [
+"FD Vantage"
+],
+"embolic": [],
+"balloon": [],
+"closure": [],
+"size": [
+"5*14mm",
+"5*14mm"
 ]
+},
+"loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P066",
@@ -7428,7 +8775,32 @@
 ],
 "plist": [
 7
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"micro": [
+"Phenom 21"
+],
+"wire": [],
+"implant": [
+"FD Vantage"
+],
+"embolic": [],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"3.25*20mm"
 ]
+},
+"loc": "MCA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P068",
@@ -7519,7 +8891,26 @@
 ],
 "plist": [
 6
-]
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"micro": [],
+"wire": [],
+"implant": [
+"FD p64"
+],
+"embolic": [
+"Coils"
+],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "MCA",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "C04",
@@ -8158,6 +9549,27 @@
 "label": "同病歷號"
 }
 ],
-"plist": []
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Infinity"
+],
+"micro": [
+"Apollo"
+],
+"wire": [],
+"implant": [],
+"embolic": [
+"Onyx"
+],
+"balloon": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Galen type",
+"ap2": "經動脈・股動脈"
 }
 ]
