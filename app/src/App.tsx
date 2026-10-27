@@ -172,7 +172,7 @@ export default function App() {
         </div>
       </nav>
 
-      <main className={`main${selected ? ' has-detail' : ''}`}>
+      <main className={`main${selected ? ' has-detail' : ''}${selectedMedia.length ? ' has-split' : ''}`}>
         <section className="list-pane">
           {loading && <p className="empty-hint">載入中…</p>}
           {error && <p className="error">{error}</p>}

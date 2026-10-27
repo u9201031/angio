@@ -65,8 +65,10 @@ export function CaseDetail({
     [caseRecord.id, onAddMedia],
   )
 
+  const hasMedia = media.length > 0
   return (
-    <aside className="detail">
+    <aside className={`detail${hasMedia ? ' detail--split' : ''}`}>
+      <div className="detail__notes-col">
       <header className="detail__head">
         <div>
           <p className="detail__id">{caseRecord.id.toUpperCase()}</p>
@@ -123,6 +125,7 @@ export function CaseDetail({
           </ul>
         )}
       </section>
+      </div>
 
       <section className="detail__media">
         <div className="detail__media-head">
