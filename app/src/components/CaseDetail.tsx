@@ -1,7 +1,5 @@
-import { useCallback, useRef, useState } from 'react'
 import type { CaseRecord, MediaItem, Pearl } from '../types'
 import { categoryShort } from '../data/categories'
-import { mediaKind } from '../data/load'
 import { MediaGrid } from './MediaGrid'
 
 interface Props {
@@ -9,7 +7,6 @@ interface Props {
   media: MediaItem[]
   pearls: Pearl[]
   onOpenMedia: (items: MediaItem[], index: number) => void
-  onAddMedia: (caseId: string, items: MediaItem[]) => void
   onClose: () => void
 }
 
@@ -35,34 +32,10 @@ export function CaseDetail({
   media,
   pearls,
   onOpenMedia,
-  onAddMedia,
   onClose,
 }: Props) {
-  const inputRef = useRef<HTMLInputElement>(null)
-  const [dragging, setDragging] = useState(false)
   const relatedPearls = pearls.filter((p) =>
     caseRecord.categories.includes(p.category),
-  )
-
-  const ingestFiles = useCallback(
-    (files: FileList | File[]) => {
-      const list = Array.from(files)
-      const next: MediaItem[] = []
-      for (const file of list) {
-        const kind = mediaKind(file.name)
-        if (!kind) continue
-        next.push({
-          id: `${caseRecord.id}:local:${file.name}:${file.lastModified}`,
-          caseId: caseRecord.id,
-          name: file.name,
-          url: URL.createObjectURL(file),
-          kind,
-          ephemeral: true,
-        })
-      }
-      if (next.length) onAddMedia(caseRecord.id, next)
-    },
-    [caseRecord.id, onAddMedia],
   )
 
   const hasMedia = media.length > 0
@@ -130,46 +103,12 @@ export function CaseDetail({
       <section className="detail__media">
         <div className="detail__media-head">
           <h3>圖片 / 影片</h3>
-          <button
-            type="button"
-            className="btn"
-            onClick={() => inputRef.current?.click()}
-          >
-            加入本機檔案
-          </button>
-          <input
-            ref={inputRef}
-            type="file"
-            accept="image/*,video/*"
-            multiple
-            hidden
-            onChange={(e) => {
-              if (e.target.files) ingestFiles(e.target.files)
-              e.target.value = ''
-            }}
-          />
-        </div>
-
-        <div
-          className={`dropzone${dragging ? ' is-drag' : ''}`}
-          onDragOver={(e) => {
-            e.preventDefault()
-            setDragging(true)
-          }}
-          onDragLeave={() => setDragging(false)}
-          onDrop={(e) => {
-            e.preventDefault()
-            setDragging(false)
-            if (e.dataTransfer.files.length) ingestFiles(e.dataTransfer.files)
-          }}
-        >
-          拖放圖片或影片到這裡（僅本次瀏覽有效）
         </div>
 
         <MediaGrid
           items={media}
           onOpen={(i) => onOpenMedia(media, i)}
-          emptyHint="此病例尚無媒體。可拖放檔案，或放到 public/media 後更新 manifest。"
+          emptyHint="此病例尚無媒體。"
         />
       </section>
     </aside>

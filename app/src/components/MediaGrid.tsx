@@ -11,7 +11,7 @@ export function MediaGrid({ items, onOpen, emptyHint }: Props) {
     return (
       <p className="empty-hint">
         {emptyHint ??
-          '尚無媒體。可把檔案放進 public/media/{病例id}/ 並更新 manifest.json，或直接拖放到病例詳情。'}
+          '尚無媒體。'}
       </p>
     )
   }

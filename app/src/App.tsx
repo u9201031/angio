@@ -98,16 +98,6 @@ export default function App() {
     [media, selected],
   )
 
-  const addMedia = useCallback((caseId: string, items: MediaItem[]) => {
-    setMedia((prev) => {
-      const ids = new Set(prev.map((m) => m.id))
-      const fresh = items.filter((i) => !ids.has(i.id))
-      return [...prev, ...fresh]
-    })
-    setSelectedId(caseId)
-    setTab('cases')
-  }, [])
-
   const openMedia = useCallback((items: MediaItem[], index: number) => {
     setLightbox({ items, index })
   }, [])
@@ -245,7 +235,6 @@ export default function App() {
             media={selectedMedia}
             pearls={pearls}
             onOpenMedia={openMedia}
-            onAddMedia={addMedia}
             onClose={() => setSelectedId(null)}
           />
         )}
