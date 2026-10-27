@@ -86,7 +86,7 @@ export default function App() {
   const filteredMedia = useMemo(() => {
     const caseIds = new Set(filteredCases.map((c) => c.id))
     return media.filter((m) => {
-      if (!caseIds.has(m.caseId)) return false
+      if (m.caseId !== 'general' && !caseIds.has(m.caseId)) return false
       if (!q) return true
       return m.name.toLowerCase().includes(q)
     })
