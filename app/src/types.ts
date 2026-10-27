@@ -64,4 +64,5 @@ export interface Case2 {
   merged: { id: string; date: string; mrn: string; mrnRaw: string; dx: string; tx: string; devices: string; outcome: string }[]
   supp: { notes: SuppRef[]; images: SuppRef[] }
   links: { id: string; label: string }[]
+  plist: number[]
 }

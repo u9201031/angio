@@ -4,7 +4,7 @@ import { loadCases2, loadManifestMedia, loadNotes, loadPearls, loadRules } from 
 import type { Case2, DiseaseId, MediaItem, NoteText, Pearl } from './types'
 import { MediaGrid } from './components/MediaGrid'
 import { MediaLightbox } from './components/MediaLightbox'
-import { PatientList } from './components/PatientList'
+import { PatientList, PlistTable, type PRow } from './components/PatientList'
 import './App.css'
 import './v2.css'
 
@@ -56,7 +56,8 @@ function Summary({ c }: { c: Case2 }) {
   )
 }
 
-function CaseView({ c, media, notes, onMedia, prev, next, go, compact }: {
+function CaseView({ c, media, notes, onMedia, prev, next, go, compact, plist }: {
+  plist: PRow[]
   c: Case2; media: Map<string, MediaItem>; notes: Map<string, NoteText>
   onMedia: (items: MediaItem[], i: number) => void
   prev?: Case2; next?: Case2; go: (id: string) => void; compact?: boolean
@@ -105,6 +106,7 @@ function CaseView({ c, media, notes, onMedia, prev, next, go, compact }: {
           </details>
         )
       })}
+      {c.plist.length > 0 && <details className="cv__fold" open><summary>病人清單紀錄（{c.plist.length}）</summary><PlistTable rows={c.plist.map((i) => plist[i]).filter(Boolean)} onOpenCase={go} /></details>}
       {c.links.length > 0 && <div className="chips">相關病例：{c.links.map((l) => <button key={l.id} className="dchip link" onClick={() => go(l.id)}>{l.id} {l.label}</button>)}</div>}
     </article>
   )
@@ -116,6 +118,8 @@ export default function App() {
   const [notes, setNotes] = useState<NoteText[]>([])
   const [pearls, setPearls] = useState<Pearl[]>([])
   const [rules, setRules] = useState('')
+  const [plist, setPlist] = useState<PRow[]>([])
+  const [plDis, setPlDis] = useState('all')
   const [tab, setTab] = useState<Tab>('aneurysm')
   const [sel, setSel] = useState<string | null>(null)
   const [cmp, setCmp] = useState<string[]>([])
@@ -125,6 +129,7 @@ export default function App() {
 
   useEffect(() => {
     loadCases2().then((c) => { setCases(c); const h = decodeURIComponent(location.hash.slice(1)); if (h.startsWith('case=')) { const x = c.find((y) => y.id === h.slice(5)); if (x) { setSel(x.id); setTab(x.disease) } } }); loadManifestMedia().then(setMedia); loadNotes().then(setNotes); loadPearls().then(setPearls); loadRules().then(setRules)
+    fetch(`${import.meta.env.BASE_URL}angio_index/patient_list.json`).then((r) => r.json()).then((d) => setPlist(d.rows))
   }, [])
   const mediaMap = useMemo(() => new Map(media.map((m) => [m.key ?? m.id, m])), [media])
   const noteMap = useMemo(() => new Map(notes.map((n) => [n.id, n])), [notes])
@@ -140,7 +145,7 @@ export default function App() {
   const go = (id: string) => { const c = cases.find((x) => x.id === id); if (c) { setSel(id); setTab(c.disease); history.replaceState(null, '', '#case=' + id); window.scrollTo({ top: 0 }) } }
   const legacyMap = useMemo(() => { const m = new Map<string, string>(); cases.forEach((c) => c.merged.forEach((l) => m.set(l.id, c.id))); return m }, [cases])
   const toggleCmp = (id: string) => setCmp((p) => (p.includes(id) ? p.filter((x) => x !== id) : p.length >= 3 ? p : [...p, id]))
-  const switchTab = (t: Tab) => { setTab(t); setSel(null); setCmpMode(false); setCmp([]) }
+  const switchTab = (t: Tab) => { if (DISEASES.some((d) => d.id === t)) setPlDis(t); else if (t === 'plist' && tab === 'plist') setPlDis('all'); setTab(t); setSel(null); setCmpMode(false); setCmp([]) }
   const dRule = DISEASES.find((d) => d.id === tab)?.rule
   const ruleKey = dRule ? Object.keys(ruleSecs).find((k) => k.startsWith(dRule)) : undefined
   const learn = notes.filter((n) => !n.case)
@@ -154,11 +159,11 @@ export default function App() {
             onChange={(e) => { setQ(e.target.value); if (e.target.value) { setTab('search'); setSel(null) } }} />
         </div>
         <nav className="dnav">
-          {DISEASES.map((d) => <button key={d.id} className={tab === d.id ? 'on' : ''} onClick={() => switchTab(d.id)}>{d.label} <small>{byDis(d.id).length}</small></button>)}
+          {DISEASES.map((d) => <button key={d.id} className={tab === d.id ? 'on' : ''} onClick={() => switchTab(d.id)}>{d.label} <small>{byDis(d.id).length}{plist.length > 0 && `・清單${plist.filter((r) => r.disease === d.id).length}`}</small></button>)}
           <span className="sep" />
           <button className={tab === 'pearls' ? 'on' : ''} onClick={() => switchTab('pearls')}>學習技巧</button>
           <button className={tab === 'media' ? 'on' : ''} onClick={() => switchTab('media')}>媒體 <small>{media.length}</small></button>
-          <button className={tab === 'plist' ? 'on' : ''} onClick={() => switchTab('plist')}>病人清單</button>
+          <button className={tab === 'plist' ? 'on' : ''} onClick={() => switchTab('plist')}>病人清單 <small>{plist.length}</small></button>
         </nav>
       </header>
 
@@ -166,14 +171,14 @@ export default function App() {
         {selected ? (
           <>
             <button className="back" onClick={() => setSel(null)}>← 回列表</button>
-            <CaseView c={selected} media={mediaMap} notes={noteMap} onMedia={(items, index) => setLb({ items, index })}
+            <CaseView plist={plist} c={selected} media={mediaMap} notes={noteMap} onMedia={(items, index) => setLb({ items, index })}
               prev={sibs[si - 1]} next={sibs[si + 1]} go={go} />
           </>
         ) : cmpMode && cmp.length > 1 ? (
           <>
             <button className="back" onClick={() => setCmpMode(false)}>← 結束比較</button>
             <div className={`cmp cmp--${cmp.length}`}>
-              {cmp.map((id) => { const c = cases.find((x) => x.id === id)!; return <CaseView key={id} c={c} compact media={mediaMap} notes={noteMap} onMedia={(items, index) => setLb({ items, index })} go={go} /> })}
+              {cmp.map((id) => { const c = cases.find((x) => x.id === id)!; return <CaseView plist={plist} key={id} c={c} compact media={mediaMap} notes={noteMap} onMedia={(items, index) => setLb({ items, index })} go={go} /> })}
             </div>
           </>
         ) : (tab === 'search' || isDis) ? (
@@ -181,6 +186,7 @@ export default function App() {
             {ruleKey && <details className="rules" open><summary>規則歸納：{ruleKey}</summary><Md text={ruleSecs[ruleKey]} /></details>}
             {isDis && !ruleKey && <p className="hint">此類別目前只有舊筆記病例，沒有掃描報告，所以沒有規則歸納。</p>}
             {tab === 'search' && <p className="hint">搜尋「{q}」：{hits.length} 例</p>}
+            {isDis && <p className="hint">病人清單中此類 {plist.filter((r) => r.disease === tab).length} 筆 <button className="dchip link" onClick={() => { setTab('plist'); setPlDis(tab) }}>查看</button></p>}
             {isDis && list.length > 1 && (
               <div className="cmpbar">比較模式：勾選 2–3 例（已選 {cmp.length}）
                 <button disabled={cmp.length < 2} onClick={() => setCmpMode(true)}>並排比較</button>
@@ -222,7 +228,7 @@ export default function App() {
         ) : tab === 'media' ? (
           <MediaGrid items={media} onOpen={(i) => setLb({ items: media, index: i })} />
         ) : (
-          <PatientList query={q} onOpenCase={(id) => go(legacyMap.get(id) ?? id.toUpperCase())} onOpenImage={() => {}} />
+          <PatientList rows={plist} query={q} dis={plDis} setDis={setPlDis} diseases={DISEASES} onOpenCase={(id) => go(legacyMap.get(id) ?? id)} />
         )}
       </main>
       {lb && <MediaLightbox items={lb.items} index={lb.index} onClose={() => setLb(null)} onIndex={(index) => setLb((p) => (p ? { ...p, index } : p))} />}

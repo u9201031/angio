@@ -61,3 +61,7 @@ pre{white-space:pre-wrap;word-break:break-word;font-family:inherit;font-size:14p
 }
 .tl li{min-width:0}.v2,.body{overflow-x:clip}
 @media (max-width:760px){.tl{grid-template-columns:minmax(0,1fr)}.cv__text pre{font-size:15px}}
+.dchip.on{background:#0b6e75;color:#fff}.plist .chips{margin-bottom:6px}button.dchip{cursor:pointer}
+.plist__table{width:100%;border-collapse:collapse;font-size:13px;background:#fff}.plist__table td,.plist__table th{border-bottom:1px solid #e5ecea;padding:4px 6px;text-align:left;vertical-align:top}
+.cv .plist__table{margin-top:4px}
+@media (max-width:760px){.plist__table thead{display:none}.plist__table tr{display:block;border-bottom:1px solid #dde5e3;padding:4px 0}.plist__table td{display:inline-block;border:0;padding:2px 4px}}
