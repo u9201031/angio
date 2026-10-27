@@ -11,7 +11,11 @@
    "category": "其他",
    "image": "",
    "source": "n54_a8",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2024-12-02",
@@ -25,7 +29,10 @@
    "source": "n54_a8",
    "cases": [
     "c01"
-   ]
+   ],
+   "linkCase": "C01",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2024-12-02",
@@ -37,7 +44,11 @@
    "category": "TAE",
    "image": "",
    "source": "n54_a8",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2024-12-02",
@@ -51,7 +62,10 @@
    "source": "n54_a8",
    "cases": [
     "c03"
-   ]
+   ],
+   "linkCase": "C03",
+   "disease": "other",
+   "linkBy": "MRN"
   },
   {
    "date": "2024-12-02",
@@ -63,7 +77,11 @@
    "category": "其他",
    "image": "",
    "source": "n54_a8",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "未記載項目"
   },
   {
    "date": "2024-12-02",
@@ -75,7 +93,11 @@
    "category": "其他",
    "image": "",
    "source": "n54_a8",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "未記載項目"
   },
   {
    "date": "2024-12-09",
@@ -87,7 +109,10 @@
    "category": "其他",
    "image": "",
    "source": "n52_a3",
-   "cases": []
+   "cases": [],
+   "linkCase": "P068",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2024-12-09",
@@ -99,7 +124,10 @@
    "category": "TAE",
    "image": "",
    "source": "n52_a3",
-   "cases": []
+   "cases": [],
+   "linkCase": "P066",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2024-12-09",
@@ -111,7 +139,10 @@
    "category": "TAE",
    "image": "",
    "source": "n52_a3",
-   "cases": []
+   "cases": [],
+   "linkCase": "P065",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-01-13",
@@ -123,7 +154,11 @@
    "category": "其他",
    "image": "",
    "source": "n12_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-01-13",
@@ -135,7 +170,11 @@
    "category": "其他",
    "image": "",
    "source": "n12_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-01-13",
@@ -147,7 +186,11 @@
    "category": "TAE",
    "image": "",
    "source": "n12_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2025-01-13",
@@ -159,7 +202,11 @@
    "category": "其他",
    "image": "",
    "source": "n12_a1",
-   "cases": []
+   "cases": [],
+   "disease": "stenosis",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "PTA/stent"
   },
   {
    "date": "2025-01-13",
@@ -171,7 +218,11 @@
    "category": "其他",
    "image": "",
    "source": "n12_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "其他血管攝影"
   },
   {
    "date": "2025-02-10",
@@ -183,7 +234,11 @@
    "category": "其他",
    "image": "",
    "source": "n50_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-02-10",
@@ -195,7 +250,10 @@
    "category": "TAE",
    "image": "",
    "source": "n50_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P064",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-02-10",
@@ -207,7 +265,10 @@
    "category": "TAE",
    "image": "",
    "source": "n50_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P005",
+   "disease": "davf",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-02-10",
@@ -219,7 +280,11 @@
    "category": "其他",
    "image": "",
    "source": "n50_a10",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "CTA"
   },
   {
    "date": "2025-02-03",
@@ -231,7 +296,11 @@
    "category": "其他",
    "image": "",
    "source": "n50_a3",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "未記載項目"
   },
   {
    "date": "2025-03-03",
@@ -243,7 +312,11 @@
    "category": "其他",
    "image": "",
    "source": "n48_a4",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-03-03",
@@ -255,7 +328,10 @@
    "category": "其他",
    "image": "",
    "source": "n48_a4",
-   "cases": []
+   "cases": [],
+   "linkCase": "P050",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-03-03",
@@ -267,7 +343,10 @@
    "category": "TAE",
    "image": "",
    "source": "n48_a4",
-   "cases": []
+   "cases": [],
+   "linkCase": "P059",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-03-03",
@@ -279,7 +358,10 @@
    "category": "TAE",
    "image": "",
    "source": "n48_a4",
-   "cases": []
+   "cases": [],
+   "linkCase": "P002",
+   "disease": "davf",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-03-03",
@@ -291,7 +373,11 @@
    "category": "其他",
    "image": "",
    "source": "n48_a4",
-   "cases": []
+   "cases": [],
+   "disease": "stenosis",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "PTA/stent"
   },
   {
    "date": "2025-03-24",
@@ -303,7 +389,10 @@
    "category": "其他",
    "image": "",
    "source": "n31_a2",
-   "cases": []
+   "cases": [],
+   "linkCase": "P049",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-03-24",
@@ -315,7 +404,11 @@
    "category": "其他",
    "image": "",
    "source": "n31_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-03-24",
@@ -327,7 +420,11 @@
    "category": "TAE",
    "image": "",
    "source": "n31_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2025-03-24",
@@ -339,7 +436,10 @@
    "category": "TAE",
    "image": "",
    "source": "n31_a2",
-   "cases": []
+   "cases": [],
+   "linkCase": "P050",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-03-30",
@@ -351,7 +451,10 @@
    "category": "其他",
    "image": "",
    "source": "n44_a6",
-   "cases": []
+   "cases": [],
+   "linkCase": "P015",
+   "disease": "avm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-03-31",
@@ -365,7 +468,10 @@
    "source": "n44_a3",
    "cases": [
     "c07"
-   ]
+   ],
+   "linkCase": "P057",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-03-31",
@@ -377,7 +483,11 @@
    "category": "TAE",
    "image": "",
    "source": "n44_a3",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2025-05-05",
@@ -389,7 +499,10 @@
    "category": "其他",
    "image": "",
    "source": "n37_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "C10",
+   "disease": "stroke",
+   "linkBy": "date"
   },
   {
    "date": "2025-05-05",
@@ -401,7 +514,10 @@
    "category": "其他",
    "image": "",
    "source": "n37_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "C10",
+   "disease": "stroke",
+   "linkBy": "date"
   },
   {
    "date": "2025-05-05",
@@ -413,7 +529,10 @@
    "category": "TAE",
    "image": "",
    "source": "n37_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "C10",
+   "disease": "stroke",
+   "linkBy": "date"
   },
   {
    "date": "2025-05-05",
@@ -425,7 +544,10 @@
    "category": "其他",
    "image": "",
    "source": "n37_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "C10",
+   "disease": "stroke",
+   "linkBy": "date"
   },
   {
    "date": "2025-05-05",
@@ -437,7 +559,10 @@
    "category": "其他",
    "image": "",
    "source": "n37_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "C10",
+   "disease": "stroke",
+   "linkBy": "date"
   },
   {
    "date": "2025-05-05",
@@ -449,7 +574,10 @@
    "category": "其他",
    "image": "",
    "source": "n37_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "C10",
+   "disease": "stroke",
+   "linkBy": "date"
   },
   {
    "date": "2025-05-26",
@@ -463,7 +591,10 @@
    "source": "n33_a2",
    "cases": [
     "c03"
-   ]
+   ],
+   "linkCase": "C03",
+   "disease": "other",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-05-26",
@@ -475,7 +606,11 @@
    "category": "其他",
    "image": "",
    "source": "n33_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-05-26",
@@ -487,7 +622,10 @@
    "category": "TAE",
    "image": "",
    "source": "n33_a2",
-   "cases": []
+   "cases": [],
+   "linkCase": "P032",
+   "disease": "tumor",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-05-26",
@@ -499,7 +637,11 @@
    "category": "TAE",
    "image": "",
    "source": "n33_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2025-05-26",
@@ -511,7 +653,10 @@
    "category": "其他",
    "image": "",
    "source": "n33_a2",
-   "cases": []
+   "cases": [],
+   "linkCase": "P055",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-06-16",
@@ -523,7 +668,11 @@
    "category": "其他",
    "image": "",
    "source": "n29_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-06-16",
@@ -535,7 +684,10 @@
    "category": "TAE",
    "image": "",
    "source": "n29_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P053",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-06-23",
@@ -547,7 +699,11 @@
    "category": "其他",
    "image": "",
    "source": "n27_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-06-23",
@@ -559,7 +715,11 @@
    "category": "其他",
    "image": "",
    "source": "n27_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-06-23",
@@ -571,7 +731,11 @@
    "category": "其他",
    "image": "",
    "source": "n27_a1",
-   "cases": []
+   "cases": [],
+   "disease": "stenosis",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "PTA/stent"
   },
   {
    "date": "2025-06-23",
@@ -583,7 +747,11 @@
    "category": "其他",
    "image": "",
    "source": "n27_a1",
-   "cases": []
+   "cases": [],
+   "disease": "stenosis",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "PTA/stent"
   },
   {
    "date": "2025-08-04",
@@ -595,7 +763,11 @@
    "category": "其他",
    "image": "",
    "source": "n15_a3",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-08-04",
@@ -607,7 +779,11 @@
    "category": "其他",
    "image": "",
    "source": "n15_a3",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-08-04",
@@ -619,7 +795,10 @@
    "category": "TAE",
    "image": "",
    "source": "n15_a3",
-   "cases": []
+   "cases": [],
+   "linkCase": "P033",
+   "disease": "tumor",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-08-04",
@@ -631,7 +810,11 @@
    "category": "其他",
    "image": "",
    "source": "n15_a3",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "其他血管攝影"
   },
   {
    "date": "2025-08-04",
@@ -643,7 +826,11 @@
    "category": "TAE",
    "image": "",
    "source": "n15_a3",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2025-09-01",
@@ -655,7 +842,10 @@
    "category": "TAE",
    "image": "",
    "source": "n22_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P046",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-09-01",
@@ -667,7 +857,10 @@
    "category": "其他",
    "image": "",
    "source": "n22_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P045",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-11-10",
@@ -679,7 +872,11 @@
    "category": "其他",
    "image": "",
    "source": "n20_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-11-10",
@@ -691,7 +888,11 @@
    "category": "其他",
    "image": "",
    "source": "n20_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2025-11-10",
@@ -703,7 +904,10 @@
    "category": "TAE",
    "image": "",
    "source": "n20_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P038",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-11-10",
@@ -715,7 +919,10 @@
    "category": "其他",
    "image": "",
    "source": "n20_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P036",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-11-10",
@@ -727,7 +934,11 @@
    "category": "其他",
    "image": "",
    "source": "n20_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "未記載項目"
   },
   {
    "date": "2025-11-10",
@@ -739,7 +950,11 @@
    "category": "其他",
    "image": "",
    "source": "n20_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "未記載項目"
   },
   {
    "date": "2025-11-10",
@@ -751,7 +966,11 @@
    "category": "其他",
    "image": "",
    "source": "n20_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "未記載項目"
   },
   {
    "date": "2025-12-15",
@@ -763,7 +982,10 @@
    "category": "TAE",
    "image": "",
    "source": "n17_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P039",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-12-15",
@@ -775,7 +997,10 @@
    "category": "TAE",
    "image": "",
    "source": "n17_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P042",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2025-12-15",
@@ -787,7 +1012,11 @@
    "category": "TAE",
    "image": "",
    "source": "n17_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2026-01-05",
@@ -799,7 +1028,11 @@
    "category": "其他",
    "image": "",
    "source": "n3_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2026-01-05",
@@ -811,7 +1044,10 @@
    "category": "TAE",
    "image": "",
    "source": "n3_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P009",
+   "disease": "davf",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-01-05",
@@ -823,7 +1059,11 @@
    "category": "TAE",
    "image": "",
    "source": "n3_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2026-04-13",
@@ -835,7 +1075,11 @@
    "category": "其他",
    "image": "",
    "source": "n11_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2026-04-13",
@@ -847,7 +1091,11 @@
    "category": "TAE",
    "image": "",
    "source": "n11_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2026-04-13",
@@ -859,7 +1107,11 @@
    "category": "TAE",
    "image": "",
    "source": "n11_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2026-04-13",
@@ -871,7 +1123,11 @@
    "category": "TAE",
    "image": "",
    "source": "n11_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2026-04-13",
@@ -883,7 +1139,11 @@
    "category": "其他",
    "image": "",
    "source": "n11_a10",
-   "cases": []
+   "cases": [],
+   "disease": "davf",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2026-05-25",
@@ -895,7 +1155,10 @@
    "category": "其他",
    "image": "",
    "source": "n10_a9",
-   "cases": []
+   "cases": [],
+   "linkCase": "C14",
+   "disease": "mma",
+   "linkBy": "date"
   },
   {
    "date": "2026-05-25",
@@ -907,7 +1170,10 @@
    "category": "其他",
    "image": "",
    "source": "n10_a9",
-   "cases": []
+   "cases": [],
+   "linkCase": "C14",
+   "disease": "mma",
+   "linkBy": "date"
   },
   {
    "date": "2026-05-25",
@@ -919,7 +1185,10 @@
    "category": "TAE",
    "image": "",
    "source": "n10_a9",
-   "cases": []
+   "cases": [],
+   "linkCase": "P017",
+   "disease": "avm",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-05-25",
@@ -931,7 +1200,10 @@
    "category": "TAE",
    "image": "",
    "source": "n10_a9",
-   "cases": []
+   "cases": [],
+   "linkCase": "C14",
+   "disease": "mma",
+   "linkBy": "date"
   },
   {
    "date": "2026-06-01",
@@ -943,7 +1215,11 @@
    "category": "其他",
    "image": "",
    "source": "n9_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2026-06-01",
@@ -955,7 +1231,10 @@
    "category": "其他",
    "image": "",
    "source": "n9_a2",
-   "cases": []
+   "cases": [],
+   "linkCase": "P070",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-06-01",
@@ -967,7 +1246,10 @@
    "category": "TAE",
    "image": "",
    "source": "n9_a2",
-   "cases": []
+   "cases": [],
+   "linkCase": "P010",
+   "disease": "davf",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-06-01",
@@ -979,7 +1261,11 @@
    "category": "TAE",
    "image": "",
    "source": "n9_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   },
   {
    "date": "2026-06-26",
@@ -991,7 +1277,11 @@
    "category": "其他",
    "image": "",
    "source": "n8_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2026-06-26",
@@ -1003,7 +1293,11 @@
    "category": "其他",
    "image": "",
    "source": "n8_a1",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2026-06-26",
@@ -1015,7 +1309,10 @@
    "category": "TAE",
    "image": "",
    "source": "n8_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P022",
+   "disease": "tumor",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-06-26",
@@ -1027,7 +1324,10 @@
    "category": "TAE",
    "image": "",
    "source": "n8_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P070",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-07-20",
@@ -1039,7 +1339,10 @@
    "category": "其他",
    "image": "",
    "source": "n7_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P040",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-07-20",
@@ -1051,7 +1354,10 @@
    "category": "其他",
    "image": "",
    "source": "n7_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "C17",
+   "disease": "tumor",
+   "linkBy": "date"
   },
   {
    "date": "2026-07-20",
@@ -1063,7 +1369,10 @@
    "category": "TAE",
    "image": "",
    "source": "n7_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P025",
+   "disease": "tumor",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-07-20",
@@ -1075,7 +1384,10 @@
    "category": "TAE",
    "image": "",
    "source": "n7_a1",
-   "cases": []
+   "cases": [],
+   "linkCase": "P024",
+   "disease": "tumor",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-08-31",
@@ -1087,7 +1399,11 @@
    "category": "其他",
    "image": "",
    "source": "n5_a3",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2026-08-31",
@@ -1099,7 +1415,11 @@
    "category": "其他",
    "image": "",
    "source": "n5_a3",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "診斷性 DSA"
   },
   {
    "date": "2026-08-31",
@@ -1111,7 +1431,10 @@
    "category": "TAE",
    "image": "",
    "source": "n5_a3",
-   "cases": []
+   "cases": [],
+   "linkCase": "P072",
+   "disease": "aneurysm",
+   "linkBy": "MRN"
   },
   {
    "date": "2026-09-07",
@@ -1123,7 +1446,11 @@
    "category": "TAE",
    "image": "",
    "source": "n1_a2",
-   "cases": []
+   "cases": [],
+   "disease": "other",
+   "linkBy": "inferred",
+   "linkCase": null,
+   "inferNote": "TAE（未對到病例）"
   }
  ]
 }
