@@ -7,6 +7,8 @@ export const CATEGORIES: { id: CategoryId; label: string; short: string }[] = [
   { id: '04_dAVF_CCF', label: 'dAVF / CCF', short: 'dAVF' },
   { id: '05_MMA_embolization', label: 'MMA embolization', short: 'MMA' },
   { id: '06_pediatric', label: '小兒 Pediatric', short: '小兒' },
+  { id: '08_AVM', label: 'AVM 動靜脈畸形', short: 'AVM' },
+  { id: '09_tumor', label: '腫瘤栓塞 / SOAI', short: '腫瘤' },
   { id: '07_unclassified_general', label: '未分類 / 通用技術', short: '通用' },
 ]
 

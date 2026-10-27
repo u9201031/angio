@@ -138,6 +138,7 @@ export async function loadManifestMedia(): Promise<MediaItem[]> {
         name: file,
         url: assetUrl(`media/${entry.folder}/${encodeURIComponent(file)}`),
         kind,
+        key: `${entry.folder}/${file}`,
         caption: manifest.captions?.[`${entry.folder}/${file}`],
         date: manifest.related?.[`${entry.folder}/${file}`]?.date,
         near: manifest.related?.[`${entry.folder}/${file}`]?.near,
@@ -167,4 +168,13 @@ export async function loadNotes(): Promise<NoteText[]> {
   const res = await fetch(assetUrl('angio_index/notes.json'))
   if (!res.ok) return []
   return (await res.json()) as NoteText[]
+}
+
+export async function loadCases2(): Promise<import('../types').Case2[]> {
+  const res = await fetch(assetUrl('angio_index/cases_v2.json'))
+  return res.ok ? res.json() : []
+}
+export async function loadRules(): Promise<string> {
+  const res = await fetch(assetUrl('angio_index/rules_by_disease.md'))
+  return res.ok ? res.text() : ''
 }

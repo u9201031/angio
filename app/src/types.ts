@@ -6,6 +6,8 @@ export type CategoryId =
   | '05_MMA_embolization'
   | '06_pediatric'
   | '07_unclassified_general'
+  | '08_AVM'
+  | '09_tumor'
 
 export interface CaseRecord {
   id: string
@@ -37,6 +39,7 @@ export interface MediaItem {
   ephemeral?: boolean
   caption?: string
   date?: string
+  key?: string
   near?: { d: string; delta: number; case?: string; mrn?: string; label: string }[]
 }
 
@@ -49,4 +52,16 @@ export interface NoteText {
   case: string | null
   category: CategoryId
   text: string
+}
+
+export type DiseaseId = 'aneurysm' | 'davf' | 'avm' | 'tumor' | 'stroke' | 'stenosis' | 'mma' | 'other'
+export interface SuppRef { id?: string; key?: string; group: 'MRN' | 'same' | 'near'; label: string; delta: number | null }
+export interface Case2 {
+  id: string; kind: 'pdf' | 'note'; disease: DiseaseId; category: CategoryId
+  date: string; mrn: string; dx: string; impression: string; treatment: string
+  modality: string[]; devices: string[]; approach: string[]; flags: string[]
+  text: string; pages: number; outcome?: string
+  merged: { id: string; date: string; mrn: string; mrnRaw: string; dx: string; tx: string; devices: string; outcome: string }[]
+  supp: { notes: SuppRef[]; images: SuppRef[] }
+  links: { id: string; label: string }[]
 }
