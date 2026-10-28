@@ -13,6 +13,8 @@ const DISEASES: { id: DiseaseId; label: string; rule?: string }[] = [
   { id: 'davf', label: 'Dural AVF', rule: 'Dural AVF' },
   { id: 'avm', label: 'AVM', rule: 'AVM' },
   { id: 'tumor', label: 'Tumor', rule: 'Tumor' },
+  { id: 'ia', label: 'IA 取栓', rule: 'IA' },
+  { id: 'stenting', label: 'Stenting', rule: 'Stenting' },
   { id: 'stroke', label: 'Stroke/MT' },
   { id: 'stenosis', label: 'Stenosis' },
   { id: 'mma', label: 'MMA' },
@@ -35,7 +37,7 @@ function Md({ text }: { text: string }) {
   )
 }
 
-const STK: Record<string, string> = { sheath: '鞘', guide: '導引/中間', micro: '微導管', wire: '導絲', implant: '植入', embolic: '栓塞', balloon: '球囊', closure: '止血' }
+const STK: Record<string, string> = { sheath: '鞘', guide: '導引/中間', aspiration: '抽吸導管', retriever: '取栓支架', micro: '微導管', wire: '導絲', implant: '植入', embolic: '栓塞', balloon: '球囊', drug: '藥物', closure: '止血' }
 
 function Summary({ c }: { c: Case2 }) {
   const out = c.impression || c.outcome || c.merged[0]?.outcome || ''

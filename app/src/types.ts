@@ -54,7 +54,7 @@ export interface NoteText {
   text: string
 }
 
-export type DiseaseId = 'aneurysm' | 'davf' | 'avm' | 'tumor' | 'stroke' | 'stenosis' | 'mma' | 'other'
+export type DiseaseId = 'aneurysm' | 'davf' | 'avm' | 'tumor' | 'stroke' | 'stenosis' | 'ia' | 'stenting' | 'mma' | 'other'
 export interface SuppRef { id?: string; key?: string; group: 'MRN' | 'same' | 'near'; label: string; delta: number | null }
 export interface Case2 {
   stack?: Record<string, string[] | string>; loc?: string; ap2?: string
