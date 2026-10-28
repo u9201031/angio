@@ -145,6 +145,8 @@ export default function App() {
   const byDis = (d: DiseaseId) => cases.filter((c) => c.disease === d)
   const ql = q.trim().toLowerCase()
   const hits = useMemo(() => !ql ? [] : ql.startsWith('dev:') ? cases.filter((c) => c.stack && Object.values(c.stack).some((v) => Array.isArray(v) && v.some((d) => d.toLowerCase() === ql.slice(4)))) : cases.filter((c) => [c.id, c.mrn, c.date, c.dx, c.impression, c.treatment, c.devices.join(' '), c.text, ...c.merged.map((m) => m.dx + m.tx + m.devices + m.mrnRaw)].join(' ').toLowerCase().includes(ql)), [cases, ql])
+  const noteHits = useMemo(() => !ql || ql.startsWith('dev:') ? [] : notes.filter((n) => (n.title + ' ' + n.date + ' ' + n.text).toLowerCase().includes(ql)), [notes, ql])
+  const mediaHits = useMemo(() => !ql || ql.startsWith('dev:') ? [] : media.filter((m) => (m.name + ' ' + (m.caption ?? '')).toLowerCase().includes(ql)), [media, ql])
   const isDis = DISEASES.some((d) => d.id === tab)
   const list = tab === 'search' ? hits : isDis ? byDis(tab as DiseaseId) : []
   const selected = cases.find((c) => c.id === sel) ?? null
@@ -198,7 +200,7 @@ export default function App() {
               {combos[tab].pairs.length > 0 && <><b>配對（n/N）</b><ul>{combos[tab].pairs.map((p) => <li key={p}>{p.replace(/\*\*/g, '')}</li>)}</ul></>}
               <p className="hint">n 小，僅反映本批病例習慣；決策式規則見「學習技巧」。點病例頁器材 chip 可篩選。</p></details>}
             {isDis && !ruleKey && <p className="hint">此類別目前只有舊筆記病例，沒有掃描報告，所以沒有規則歸納。</p>}
-            {tab === 'search' && <p className="hint">{q.startsWith('dev:') ? `使用器材「${q.slice(4)}」` : `搜尋「${q}」`}：{hits.length} 例</p>}
+            {tab === 'search' && <p className="hint">{q.startsWith('dev:') ? `使用器材「${q.slice(4)}」` : `搜尋「${q}」`}：病例 {hits.length}・筆記 {noteHits.length}・圖片 {mediaHits.length}</p>}
             {isDis && <p className="hint">病人清單中此類 {plist.filter((r) => r.disease === tab).length} 筆 <button className="dchip link" onClick={() => { setTab('plist'); setPlDis(tab) }}>查看</button></p>}
             {isDis && list.length > 1 && (
               <div className="cmpbar">比較模式：勾選 2–3 例（已選 {cmp.length}）
@@ -223,7 +225,12 @@ export default function App() {
                 </li>
               ))}
             </ol>
-            {list.length === 0 && <p className="hint">沒有病例。</p>}
+            {list.length === 0 && tab !== 'search' && <p className="hint">沒有病例。</p>}
+            {tab === 'search' && noteHits.length > 0 && <div className="learn"><h3>筆記與學習技巧</h3>{noteHits.map((n) => { const i = n.text.toLowerCase().indexOf(ql); return (
+              <details key={n.id} className="pearl-card"><summary>{n.title}（{n.date}）— …{n.text.slice(Math.max(0, i - 40), i + 80)}…</summary><pre className="note-text">{n.text}</pre></details>) })}</div>}
+            {tab === 'search' && mediaHits.length > 0 && <div><h3>圖片</h3><div className="media-grid">{mediaHits.map((m, i) => (
+              <button key={m.id} type="button" className="media-tile" onClick={() => setLb({ items: mediaHits, index: i })}><img src={m.url} alt={m.name} loading="lazy" /><span className="media-tile__name">{m.caption}</span></button>))}</div></div>}
+            {tab === 'search' && hits.length + noteHits.length + mediaHits.length === 0 && <p className="hint">找不到結果。</p>}
           </>
         ) : tab === 'pearls' ? (
           <div className="learn">
