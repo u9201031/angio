@@ -48,11 +48,11 @@
 },
 "links": [
 {
-"id": "P010",
+"id": "P011",
 "label": "同病歷號"
 },
 {
-"id": "P011",
+"id": "P010",
 "label": "同病歷號"
 }
 ],
@@ -81,6 +81,73 @@
 "size": []
 },
 "loc": "Tentorial/T-S",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P091",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2026-09-15",
+"mrn": "",
+"dx": "",
+"impression": "1) Right carotid stenosis S/P CAS; 2) Previous left subclavian artery",
+"treatment": "CAS + PTA",
+"modality": [
+"CAS + PTA"
+],
+"devices": [
+"Balloon",
+"Stent: Wallstent",
+"Stent: BMS/balloon-expandable",
+"Balloon: Sterling",
+"Guide: Mach",
+"Closure: VasClose"
+],
+"approach": [
+"經股動脈 femoral",
+"局部麻醉"
+],
+"flags": [
+"頁首裁切：日期依報告日期推定",
+"頁首裁切：病歷號未見"
+],
+"text": "Patient unde local anesthesia.\n\n7F MACH catheter introduce to right CCA from right femoral arterial access.\n\nA stent (Wallstent 7*40mm) was navigated across the stenosis segment and\ndeployed subsequently.\n\nPost stenting PTA with balloon (Sterling 4.5*20mm), maxium pressure to 12 atm.\nMLD was dilated from 0.9mm to 4mm utimately.\n\nThe procedure is smooth and no neurological deficit.\n\nHe was sent back to ward after hemostasis of closure device (VasClose)\n\nIMP: 1) Right carotid stenosis S/P CAS; 2) Previous left subclavian artery\nstenosis S/P BMS, patent without in-stent stenosis on this 1.5 year follow up.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [],
+"images": []
+},
+"links": [],
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"MACH"
+],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Wallstent",
+"BMS"
+],
+"embolic": [],
+"balloon": [
+"Sterling"
+],
+"drug": [],
+"closure": [
+"VasClose"
+],
+"size": [
+"7*40mm",
+"4.5*20mm"
+]
+},
+"loc": "Cervical ICA（CAS）",
 "ap2": "經動脈・股動脈"
 },
 {
@@ -120,7 +187,12 @@
 ],
 "images": []
 },
-"links": [],
+"links": [
+{
+"id": "P097",
+"label": "同日"
+}
+],
 "plist": [],
 "stack": {
 "sheath": [],
@@ -146,6 +218,66 @@
 },
 "loc": "Retinoblastoma",
 "ap2": "經動脈・股動脈"
+},
+{
+"id": "P097",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2026-09-14",
+"mrn": "22352918",
+"dx": "right proximal cervical ICA high grade stenosis",
+"impression": "",
+"treatment": "CAS + PTA",
+"modality": [
+"CAS + PTA"
+],
+"devices": [
+"Stent: LVIS"
+],
+"approach": [],
+"flags": [],
+"text": "< 檢查目的及病程摘要 >\n\nright proximal cervical ICA high grade stenosis\n<A>\n\n<P>\n\n| X75-890 名稱 Stenting for head & neck vessel (one vessel)\n人名稱 :Percutaneous Transluminal Angioplasty (PTA)\n852 名稱 Carotid Arteriography (Both Side)\n\nX75-853 名稱 : Vertebral Arteriography (One Side)\n\n| X75-882 47% : Angiography of Pelvis\n\n之報告內容 > 收件號 : 26091432361\n\nA 62 Y/O male;\n\nClinical Information:\n\nright proximal cervical ICA high grade stenosis\n\nRadiography of Stenting for head & neck vessel (one vessel),Percutaneous\nTOAshuminal Angioplasty (PTA),Carotid Arteriography (Both Side)\n\n, Vertebral\n\nArteriography (One Side)\n\nAngiography of Pelvis Show:\n\nAngiographic findings:\nPost stenting at left subclavian artery without in-stent stenosis.\nPatent of left subclavian artery and vertebral artery.\n\nTight stenosis of right cervical ICA\nDiameter of right ICA 3.5mm, MLD 0.9mm, CCA 6.6mm; Stenotic index: 74% (NASCET)\n\nNormal diameter of left cervical ICA without stenosis. |\nNormal perfusion of bilateral carotid and vertebrobasilar system.\nNo definite intracranial aneurysm or vascular malformation.\n\nPatent of venosinus system.\n\nInterventional findings:\nPTA and right CAS was performed after having the informed consent from patient\n\nand his family.\n1/2\n\nabout:blank",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N8",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": []
+},
+"links": [
+{
+"id": "P021",
+"label": "同日"
+},
+{
+"id": "P086",
+"label": "同病歷號"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "Cervical ICA（CAS）",
+"ap2": "經動脈・未記載"
 },
 {
 "id": "P072",
@@ -440,6 +572,10 @@
 {
 "id": "P025",
 "label": "同病歷號"
+},
+{
+"id": "P079",
+"label": "同日"
 }
 ],
 "plist": [
@@ -469,6 +605,109 @@
 "size": []
 },
 "loc": "Retinoblastoma",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P079",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2026-08-17",
+"mrn": "1331880",
+"dx": "...Left MCA occlusion",
+"impression": "AIS, left ICA LVO (Atherosclerosis with cervical tight stenosis) and MCA",
+"treatment": "Aspiration (ADAPT) + TICI 2C",
+"modality": [
+"Aspiration (ADAPT)",
+"TICI 2C"
+],
+"devices": [
+"Asp: RED",
+"Stent: Wallstent",
+"Balloon: NC/coronary"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "之報告內容 >> 收件號 : 26081731499\n\nRadiography of MECHANICAL THROMBECTOMY FOR STROKE( 限林口 ),Carotid Arteriography\n(Both Side)\n\nVertebral Arteriography (One Side)\nShow:\n\n< 檢查目的及病程摘要 >\n...Left MCA occlusion\n\n<A>\n\n<p>\nS55-00SA-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE( 限林口 )\nX75-852 名稱 : Carotid Arteriography (Both Side)\n\nas853 名稱 : Vertebral Arteriography (One Side)\n\nAngiographic findings:\nAIS; Occlusion of left carotid artery.\n\nInterventional findings:\n\nEmergency thrombectomy was performed after having the informed consent from\npit and his family.\n\nPatient under general anesthesia.\n\n6F Cerebase long sheath introduce to left carotid artery from right femoral\narterial access.\n\nTight stenosis of left cervical ICA and manage with CAS (Wallstent 7*40mm)\nSupselective with a aspiration catheter (RED 072) up left MI segment, ADAPT with\nsuction pump.\n\nIt is because MeVo was noted after first pass, we change another aspiration\ncatheter (RED 043) navigated to the occluded branch (posterior parietal, angular\nand temporo-occipital arteries) and recanalization and removal of thromus in\nseveral pass\n\nHowever, there is still some DeVo with paucity of brain stain at left\ntemporo-occipital region.\n\nContrast extravasation in angular sulci.\n\nNo obvious ICH or SAH after EVT.\n\nIMP: AIS, left ICA LVO (Atherosclerosis with cervical tight stenosis) and MCA\n(inferior division) MeVO; S/P EVT with TICI 2C result.\n\nAngioroom arrival time: 12:30",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N7",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N18",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N7_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N7_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N7_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N18_01.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+},
+{
+"key": "general/n2_N18_02.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+]
+},
+"links": [
+{
+"id": "P027",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Wallstent"
+],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": [
+"7*40mm"
+]
+},
+"loc": "Tandem ICA + MCA",
 "ap2": "經動脈・股動脈"
 },
 {
@@ -841,12 +1080,12 @@
 },
 "links": [
 {
-"id": "P024",
-"label": "同日"
-},
-{
 "id": "P027",
 "label": "同病歷號"
+},
+{
+"id": "P024",
+"label": "同日"
 },
 {
 "id": "C17",
@@ -1156,11 +1395,11 @@
 },
 "links": [
 {
-"id": "P010",
+"id": "P013",
 "label": "同病歷號"
 },
 {
-"id": "P013",
+"id": "P010",
 "label": "同病歷號"
 }
 ],
@@ -1399,12 +1638,12 @@
 },
 "links": [
 {
-"id": "P026",
-"label": "同病歷號"
-},
-{
 "id": "P070",
 "label": "同日"
+},
+{
+"id": "P026",
+"label": "同病歷號"
 }
 ],
 "plist": [
@@ -1603,6 +1842,10 @@
 {
 "id": "P069",
 "label": "同日"
+},
+{
+"id": "P096",
+"label": "同日"
 }
 ],
 "plist": [],
@@ -1661,6 +1904,10 @@
 {
 "id": "P023",
 "label": "同日"
+},
+{
+"id": "P096",
+"label": "同日"
 }
 ],
 "plist": [],
@@ -1682,6 +1929,75 @@
 "size": []
 },
 "loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P096",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2026-06-15",
+"mrn": "20850026",
+"dx": "left MCA M1 occlusion for TAE",
+"impression": "",
+"treatment": "Intracranial PTA + stent (Credo)",
+"modality": [
+"Intracranial PTA + stent (Credo)"
+],
+"devices": [
+"Balloon",
+"Stent: Credo",
+"Guide: Infinity",
+"Guide: Extraflex",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "| < 檢查目的及病程摘要 >\n| left MCA M1 occlusion for TAE\n\n| <A>\n\n| <P>\nX75-852 44% : Carotid Arteriography (Both Side)\n\n| X75-853 名稱 : Vertebral Arteriography (One Side)\n\n| X75-890 名稱 : Stenting for head & neck vessel (one vessel)\n| X75-895 47% : Percutaneous Transluminal Angioplasty (PTA)\n\n< 報告內容 > 收件號 : 26061531617\nA47Y/O female;\n\nClinical Information:\nleft MCA M1 occlusion for TAE\n\nRadiography of Stenting for head & neck vessel (one vessel),Percutaneous\nTransluminal Angioplasty (PTA),Carotid Arteriography (Both Side)\n\n, Vertebral\n\nArteriography (One Side)\n\nShow:\n\nAngiography findings:\n\nTight stenosis of left M1 segment (>70%)\n\nDiameter: Proximal M1 2.2mm, MLD 0.9mm\n\nNormal perfusion of right carotid and vertebrobasilar system.\nPatent of venosinus system.\n\nInterventional findings:\n\nIntracranial PTA & stenting was performed after having the informed consent from\npatient and her family.\n\nPatient under general anesthesia.\n\nTri-axial guide catheter system (6F Infinity & 5F Extraflex) introduced to left\nICA from right femoral arterial access.\n\nAfter microcatheter along with micro-guide wire traverse the stenotic segment\nand navigated to temporo-occipital artery, we performed guidewire exchange\ntechnique followed by balloon (2.5*15mm) angioplasty with maxium pressure to\n6atm.\n\nA intracranial stent (Credo 3*15mm) was deployed across the stenotic segment\nafter PTA.\n\nMLD was dilated from 0.9mm to 1.5mm utimately.\n\nIn addition, better opacification of the lenticulostriated arteries afier the\nprocedure.\n\nPatient recovery without neurological deficit.\n\nShe was sent to POR after hemostasis of the arteriotomy with closure device.\n(AngioSeal).",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [],
+"images": []
+},
+"links": [
+{
+"id": "P023",
+"label": "同日"
+},
+{
+"id": "P069",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Infinity",
+"Extraflex"
+],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Credo"
+],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"3*15mm"
+]
+},
+"loc": "Intracranial MCA",
 "ap2": "經動脈・股動脈"
 },
 {
@@ -1746,12 +2062,16 @@
 },
 "links": [
 {
+"id": "P013",
+"label": "同病歷號"
+},
+{
 "id": "P011",
 "label": "同病歷號"
 },
 {
-"id": "P013",
-"label": "同病歷號"
+"id": "P085",
+"label": "同日"
 }
 ],
 "plist": [
@@ -1772,6 +2092,83 @@
 },
 "loc": "Tentorial/T-S",
 "ap2": "經靜脈・股動脈"
+},
+{
+"id": "P085",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2026-06-01",
+"mrn": "92695330",
+"dx": "G",
+"impression": "Braid deformation of FD with in-stent stenosis and fish mouth; S/P PTA with",
+"treatment": "Intracranial stent (Pegasus) + PTA",
+"modality": [
+"Intracranial stent (Pegasus)",
+"PTA"
+],
+"devices": [
+"Balloon",
+"Stent: Pegasus",
+"Sheath: Shuttle",
+"Balloon: Scepter",
+"Balloon: Gateway",
+"Guide: Navien",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "<A>\n\n<P>\nX75-890 478 : Stenting for head & neck vessel (one vessel)\n| -X75-895 名稱 Percutaneous Transluminal Angioplasty (PTA)\n\n| SFRAAA> 收件號 : 26060132473\n\n| A 42 Y/O female;\n\n| Clinical Information:\n\n| Braid deformation with in-stent stenosis and fish mouth of left intracranial ICA\nFD.\n\nRadiography of Stenting for head & neck vessel (one vessel),Percutaneous\n| Transluminal Angioplasty (PTA) Show:\n\nAngiographic findings:\nPost embolization of left ICA (carotid cave) aneurysm with FMD.\n\nComplete occlusion of the aneurysm.\nBraid deformation with in-stent stenosis and fish mouth.\nSevere arterial stenosis at proximal FD edge.\n\nInterventional findings:\nPTA was performed after having the informed consent from patient and her family.\n\nPatient under general anesthesia.\nTri-axial guide catheter (6F shuttle & Navien 058) introduce to left ICA from\n\nleft femoral arterial access.\nIt is because tight stenosis at the proximal FD edge, PTA was performed with\n\nScepter balloon (4*11mm) and Gateway balloon (3*15mm) with maxium pressure to 7\n\natm.\nA intracranial stent (Pegasus 4.5*20mm) was deployed across the proximal end of\n\nFD to avoid restenosis.\nThe procedure is smooth and patient recovery without neurological deficit.\nShe was sent to POR after hemostasis of the arteriotomy with closure device.\n\n(AngioSeal).\n\nIMP: Braid deformation of FD with in-stent stenosis and fish mouth; S/P PTA with\nballoon and stent.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [],
+"images": []
+},
+"links": [
+{
+"id": "P010",
+"label": "同日"
+}
+],
+"plist": [
+74,
+80
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [
+"Navien"
+],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Pegasus"
+],
+"embolic": [],
+"balloon": [
+"Gateway",
+"Scepter"
+],
+"drug": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"4*11mm",
+"3*15mm",
+"4.5*20mm"
+]
+},
+"loc": "Intracranial ICA（FD 近端狹窄）",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P017",
@@ -2091,6 +2488,64 @@
 "ap2": "經動脈・股動脈"
 },
 {
+"id": "P095",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2026-03-30",
+"mrn": "21448943",
+"dx": "j1lateral CCA stenosis",
+"impression": "1) Post radiation arteritis with left carotid stenosis S/P CAS, 2) Post CAS",
+"treatment": "CAS + PTA",
+"modality": [
+"CAS + PTA"
+],
+"devices": [
+"Balloon",
+"Stent: Wallstent",
+"Guide: Mach",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"局部麻醉"
+],
+"flags": [],
+"text": "= 檢查目的及病程摘要 >\n\nj1lateral CCA stenosis\n\n<A>\n\n<P>\n(75-852 4 #8 : Carotid Arteriography (Both Side)\n\n(75-890 名稱 :Stenting for head & neck vessel (one vessel)\n“Se 4478 : Percutaneous Transluminal Angioplasty (PTA)\n\nCRENA> 收件號 > 26033032459\n\n.adiography of Percutaneous Transluminal Angioplasty (PTA),Stenting for head &\neck vessel (one vessel),Carotid Arteriography (Both Side)\n\nVertebral\n\nurteriography (One Side)\n\nhow:\n\ningiogrpahic findings:\n\n‘ost right CAS without in-stent stenosis.\nevere arterial stenosis at left cervical ICA and CCA respectively. |\nirterial stenosis at right CCA.\n\nate tional findings:\n‘TA and CAS was performed after having the informed consent from patient and his |\n\namily. |\natient under local anesthesia. ;\nF guide catheter (MACH) introduced to left CCA from right femoral arterial i\nccess.\n\n‘wo Wallstent (7*40 mm) was deploy telescopically from left cervical to CCA and |\nover both stenotic segment subsequently.\n‘ost stenting PTA with balloon (Stering 4*20mm).\n\n‘he procedure is smooth and patient tolerate well.\nfe was sent back to ward after hemostasis of the arteriotomy with closure\n\nevice. (AngioSeal). |\n\nMP: 1) Post radiation arteritis with left carotid stenosis S/P CAS, 2) Post CAS\nt right carotid, stationary without in-stent stenosis. 3) Radiation arteritis\n\nvith right CCA stenosis.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [],
+"images": []
+},
+"links": [],
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"MACH"
+],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Wallstent"
+],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"7*40 mm"
+]
+},
+"loc": "Cervical ICA（CAS）",
+"ap2": "經動脈・股動脈"
+},
+{
 "id": "P001",
 "kind": "pdf",
 "disease": "davf",
@@ -2127,16 +2582,16 @@
 },
 "links": [
 {
-"id": "P007",
-"label": "同病歷號"
+"id": "P035",
+"label": "同日"
 },
 {
 "id": "P008",
 "label": "同病歷號"
 },
 {
-"id": "P035",
-"label": "同日"
+"id": "P007",
+"label": "同病歷號"
 }
 ],
 "plist": [],
@@ -2664,7 +3119,12 @@
 "notes": [],
 "images": []
 },
-"links": [],
+"links": [
+{
+"id": "P087",
+"label": "同日"
+}
+],
 "plist": [
 66
 ],
@@ -2693,6 +3153,73 @@
 ]
 },
 "loc": "Cavernous/CCF",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P087",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2026-01-05",
+"mrn": "60766598",
+"dx": "ft CCA and proximal ICA stenosis",
+"impression": "Left carotid radiation arteriopathy with tight stenosis at cervical",
+"treatment": "CAS + PTA",
+"modality": [
+"CAS + PTA"
+],
+"devices": [
+"Balloon",
+"Stent: Wallstent",
+"Stent: Xact",
+"Balloon: Sterling",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "A> |\n\n人\n| '5-852 名稱 :Carotid Arteriography (Both Side)\n\n'5-853 名稱 : Vertebral Arteriography (One Side)\n\n| 5-890 名稱 Stenting for head & neck vessel (one vessel)\n\"5-895 24 #§ : Percutancous Transluminal Angioplasty (PTA)\n\n| a... 收件號 > 26010531995\nphy of Carotid Arteriography (Both Side)\nsrtebral Arteriography (One\nle)\nenting for head & neck vessel (one vessel),Percutaneous Transluminal\nigioplasty (PTA) Show:\n\nstory: Left buccal CA S/P; with irradiation arteriopathy.\n\nigiographic findings:\n\nzht stenosis of left cervical ICA\nameter of distal cervical ICA; 4.7mm, MLD: 0.8mm, proximal cervical ICA (7mm);\n|. motic index: 82% NASCET\n“egular outline with moderate stenosis of distal left CCA.\n\ncal dolichoectasis of right CCA is considered.\n\nerventional findings:\n\nft carotid PTA and stenting was performed after having the informed consent\nm patient and his family.\n\ntient under general anesthesia.\n\nght femoral arterial access and long sheath introduce to CCA.\n\n\\S was performed with two stents (XAct 8-6*30mm and Wallstent 7*40) was\n\npl¢™ at cervical ICA and CCA respectively.\ncnting PTA with balloon (Sterling 5*20).\nLD was dilated from 0.8mm to 4mm consequently.\ntient recovery without neurological deficit and sent to POR after hemostasis\n\nthe arteriotomy with closure device. (AngioSeal).\n\n(P: Left carotid radiation arteriopathy with tight stenosis at cervical\nsment; S/P CAS at cervical and CCA respectively.\n\n摘要六\n\n\n射師 : 林君恆 RT3106 放字第 012876 號 / 報告日期 : 2026/01/06 10:38",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [],
+"images": []
+},
+"links": [
+{
+"id": "P009",
+"label": "同日"
+}
+],
+"plist": [
+67
+],
+"stack": {
+"sheath": [],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Wallstent",
+"Xact"
+],
+"embolic": [],
+"balloon": [
+"Sterling"
+],
+"drug": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"6*30mm"
+]
+},
+"loc": "Cervical ICA（CAS）",
 "ap2": "經動脈・股動脈"
 },
 {
@@ -3116,7 +3643,12 @@
 }
 ]
 },
-"links": [],
+"links": [
+{
+"id": "P089",
+"label": "同日"
+}
+],
 "plist": [
 58
 ],
@@ -3140,6 +3672,159 @@
 "size": []
 },
 "loc": "ICA ophthalmic",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P089",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2025-12-08",
+"mrn": "4507004",
+"dx": "GHT neck proximal ICA significant focal stenosis (at least 82% stenosis b",
+"impression": "Right carotid tight stenosis (89%) S/P CAS.",
+"treatment": "CAS + PTA + EPD",
+"modality": [
+"CAS + PTA",
+"EPD"
+],
+"devices": [
+"Balloon",
+"Stent: Wallstent",
+"EPD: filter",
+"Balloon: Sterling",
+"Guide: Mach"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "檢查目的及病程摘要 >\n\nGHT neck proximal ICA significant focal stenosis (at least 82% stenosis b\n\\SCET)\n\nA>\n\nP>\n\n‘5-895 447 : Percutaneous Transluminal Angioplasty (PTA)\n5-890 #8 : Stenting for head & neck vessel (one vessel)\n\n報告內容六收件號 : 25120832098\n30 Y/O male;\ninical Information:\n\nSQ proximal ICA significant focal stenosis (at least 82% stenosis by\n\\S@® )\n\n_ diography of Percutaneous Transluminal Angioplasty (PTA),Stenting for head &\n2k vessel (one vessel) Show:\n\nigiographic findings:\n‘mmon orifice of left common carotid artery and brachiocephalic artery.\nherosclerosis with tight stenosis at right proximal cervical ICA.\n\nameter of right CCA; 7.1mm, MLD: 0.6mm, ICA: 5.3mm. Stenotic index: 89%\n\nerventional findings:\n\nght CAS was performed after having the informed consent from patient and his\nnily.\n\ntient under general anesthesia.\n\nzuide catheter (7F Mach) introduce to right CCA from right femoral arterial\n2eSs.\n\nter a filter wire ( 5mm SpiderFX) deployed at distal cervical ICA, a Wallstent\n*40mm) was deployed across the stenotic segment subsequently.\n\nst stenting angioplasty with balloon (Sterling 5*20mm) with maxium pressure to\natm.\n\nLD was dilated from 0.6mm to 4.4mm ultimately.\n\ntient recovery without neurological deficit.\n\niw t to POR after hemostasis of the arteriotomy with closure device.\n\nngiowcal).\n\n(P: Right carotid tight stenosis (89%) S/P CAS.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N31",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N29",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"id": "N30",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+],
+"images": [
+{
+"key": "general/n2_N31_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N31_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N31_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N31_04.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N31_05.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N31_06.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N31_07.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N32_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N32_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N32_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N32_04.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+}
+]
+},
+"links": [
+{
+"id": "P036",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"MACH"
+],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Wallstent"
+],
+"embolic": [
+"EPD filter"
+],
+"balloon": [
+"Sterling"
+],
+"drug": [],
+"closure": [],
+"size": [
+"5*20mm"
+]
+},
+"loc": "Cervical ICA（CAS）",
 "ap2": "經動脈・股動脈"
 },
 {
@@ -3221,7 +3906,12 @@
 }
 ]
 },
-"links": [],
+"links": [
+{
+"id": "P098",
+"label": "同日"
+}
+],
 "plist": [],
 "stack": {
 "sheath": [],
@@ -3242,6 +3932,123 @@
 ]
 },
 "loc": "MCA",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P098",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2025-11-24",
+"mrn": "22593317",
+"dx": "ht carotid stenosis",
+"impression": "Right carotid tight stenosis S/P CAS.",
+"treatment": "CAS + PTA",
+"modality": [
+"CAS + PTA"
+],
+"devices": [
+"Balloon",
+"Microcath: SL-10",
+"Balloon: Ryurei",
+"Stent: Wallstent",
+"Guide: Neuron MAX"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "A>\n\nP>\n5-852 4% : Carotid Arteriography (Both Side)\n\n'S-853 #8 : Vertebral Arteriography (One Side)\n\n5-890 #8 : Stenting for head & neck vessel (one vessel)\n\"5-895 244% : Percutaneous Transluminal Angioplasty (PTA)\n\nRIDE> 收件號 2 25112431528\n32 YO female;\n\ninical Information:\n\nht carotid stenosis\n\ndiography of Carotid Arteriography (Both Side)\n\nsrtebral Arteriography (One\n\nle)\n\nenting for head & neck vessel (one vessel),Percutaneous Transluminal\nigioplasty (PTA) Show:\n\nigiographic findings:\n\nrtuousity of aortic arch, type III arch.\n\nzht stenosis of right carotid bifurcation.\n\nameter of right CCA: 6.4mm, MLD:0.1mm, ICA: 3.5mm. Stenotic index: 97%\n\nccessory right MCA.\n\n) definite intracranial aneurysm or vascular malformation. |\nght inguinal mass due to previous angiography but no vascular abnormality in\n\nht femoral artery.\n\nerventional findings:\nght CAS was performed after having the informed consent from patient and her\n\nni\nti der general anesthesia.\n(ong sheath (Neuron MX88) was navigated to right CCA from left femoral\n\nerial access.\nnicrocatheter (SL-10) was sent to distal cervical ICA with microguide wire\n\nsverse the stenotic segment in co-axial system.\n: use exchange guide wire technique and a balloon (Ryurei 3*15mm) to stenotic\n\nzment and performed PTA.\n\n¢ balloon was burst while pressure to 10 atm.\n\nWallstent (7*40mm) was then deployed across the stenotic segment and post\nnt PTA with another 5*20 balloon subsequently.\n\nLD was dilated from 0.1mm to 3.5mm consequently.\n\n¢ procedure is smooth and patient recovery without neurological deficit.\n\ne was sent to POR after hemostasis of the arteriotomy with closure device.\n\nngioSeal).\n\n(P: Right carotid tight stenosis S/P CAS.\n\n摘要六\n\n射師 : 陳偉翔 RT3105 放字第 012782 號 / 報告日期 : 2025/11/24 18:12",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N33",
+"group": "same",
+"label": "同日",
+"delta": 0
+}
+],
+"images": [
+{
+"key": "general/n2_N33_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N33_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N33_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N33_04.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N33_05.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N33_06.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N33_07.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+}
+]
+},
+"links": [
+{
+"id": "P043",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [
+"SL-10"
+],
+"wire": [],
+"implant": [
+"Wallstent"
+],
+"embolic": [],
+"balloon": [
+"Ryurei"
+],
+"drug": [],
+"closure": [],
+"size": [
+"3*15mm",
+"7*40mm"
+]
+},
+"loc": "Cervical ICA（CAS）",
 "ap2": "經動脈・股動脈"
 },
 {
@@ -3326,7 +4133,12 @@
 }
 ]
 },
-"links": [],
+"links": [
+{
+"id": "P084",
+"label": "同日"
+}
+],
 "plist": [
 57
 ],
@@ -3347,6 +4159,85 @@
 },
 "loc": "ICA posterior genu",
 "ap2": "經動脈・未記載"
+},
+{
+"id": "P084",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2025-11-10",
+"mrn": "21790864",
+"dx": "5789 其他腦血管疾病",
+"impression": "1) Rt MCA (MI segment) LVO S/P EVT (ADPAT) with TICI3 result, 2) Left ICA",
+"treatment": "Aspiration (ADAPT) + TICI 3",
+"modality": [
+"Aspiration (ADAPT)",
+"TICI 3"
+],
+"devices": [
+"Asp: RED",
+"Guide: Neuron MAX"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "檢查目的及病程摘要六\n\nA>\n5789 其他腦血管疾病\n\np>\n5-00SA-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE (BRAKE)\n'S-852 名稱 :Carotid Arteriography (Both Side)\n\n\"5-853 FR : Vertebral Arteriography (One Side)\n\nFRA AAD> 收件號 : 25111032007\n30 Y/O male;\n\n; CA M1 occlusion with right cerebral hemipshere infarction, LNT:\nssible 2025/11/10 0830, NIHSS=18, mRS=5\n\niggestion]\n\n7 tPA is not indicated due to LNT was not sure and also family refused due to\nk of hemorrhage\n\n\\ thrombectomy is indicated\n\nilready informed the possibility of hemorrhage transformation, major\n\nceding, herniation, stroke-in evolution, and cerebral edema. His family could\n\nderstand and agreed with above management and 同意自費 20000-30000 NTD\n\n7F with NS 40cc/hr\ndm\n\ndiography of MECHANICAL THROMBECTOMY FOR STROKE( 限林口 ),Carotid Arteriography\noth Side)\n\n:Ttebral Arteriography (One Side)\n\now:\n\nst Normal Time: 2025/11/10 0830\nHSS score was 18\n\nrival fine: 14:20\n\nnen re: 14:55\n\ncanalization time: 15:20\n\nigiographic findings:\n\nrtuousity of aortic arch (Type 3 arch)\nght MI bifurcation LVO\n\n‘undibular dilatation of left PComA\n\njderate arterial stenosis at left ICA ophthalmic segment and le3ft VA\ntradural segment)\n\nerventional findings:\n\naergency thrombectomy was performed after having the informed consent from\ntient and his family.\n\ntient under general anesthesia.\n\nng sheath (8F arterial sheath, Neuron MX88) assisted with intermediate\n\nheter (Extra-flex 6F 125) was introduced to right ICA from right femoral\n\nerial access.\npselective with a aspiration catheter (RED 062) assisted with microguide wire\n\nd microcatheter.\n\nAPT with suction pump.\ntal recanalization and removal of thromus in one pass with TICI3 result.\n\nntrast extravasation in right basal ganglion.\n» obvious ICH or SAH after EVT.\n\n(P: 1) Rt MCA (MI segment) LVO S/P EVT (ADPAT) with TICI3 result, 2) Left ICA\n\njindihular dilatatian 2) Atherosclerosis with THICA fanhthalmie seoment) and",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N36",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N36_01.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+},
+{
+"key": "general/n2_N36_02.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+]
+},
+"links": [
+{
+"id": "P038",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX",
+"8F sheath"
+],
+"guide": [],
+"aspiration": [
+"RED 062"
+],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "Tandem ICA + MCA",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P003",
@@ -4122,6 +5013,163 @@
 "ap2": "經動脈・股動脈"
 },
 {
+"id": "P088",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2025-06-23",
+"mrn": "3778607",
+"dx": "tal occlusion (~100%) of left MCA MI",
+"impression": "",
+"treatment": "Intracranial PTA + stent (Credo)",
+"modality": [
+"Intracranial PTA + stent (Credo)"
+],
+"devices": [
+"Balloon",
+"Stent: Credo",
+"Sheath: Shuttle",
+"Balloon: Ryurei",
+"Closure: Obtura"
+],
+"approach": [],
+"flags": [],
+"text": "檢查目的及病程摘要 >\ntal occlusion (~100%) of left MCA MI\n\nA>\n\nP>\n5-890 498 : Stenting for head & neck vessel (one vessel)\n\"5-895 4441 : Percutaneous Transluminal Angioplasty (PTA)\n\n報告內容六收件號 : 25062331809\nY/O male;\n\nycedure: right carotid angiography and CAS.\n\nigigsraphic findings:\nnd. \\igh-grade stenosis at right ICA ophthalmic and communicating segment\nclusion of right ACA with pial collateral from MCA and PCA.\n\nerventional findings:\n\ntient was under gencral anesthesia.\n\nght groin puncture\n\n80cm shuttle sheath\n\n2-stent dilatation (+), Ryurei 2.5x15mm, 3x15mm balloon, 4bar\nmt: selft-expanding Credo stent 4x20mm\n\nst-stent dilation (+): 3x15mm balloon, 4bar\n\nLD: 0.5 --> 1.6mm\n\nsidual stenosis: 38%\n\nmplication: nil\n\nmostasis of the arteriostomy with closure device (Obtura 6F)\n\n[P: Tandem high-grade stenosis at right ICA ophthalmic and communicating\nsment. S/P angioplasty and stenting (Credo stent 4x20mm)\n\nE>\n\n§f, 李權月 RT3A57 放字第 007278 號 / 報告日期 :2025/06/24 10:50",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N44",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N45",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": []
+},
+"links": [
+{
+"id": "P092",
+"label": "同日"
+}
+],
+"plist": [
+47
+],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Credo"
+],
+"embolic": [],
+"balloon": [
+"Ryurei"
+],
+"drug": [],
+"closure": [
+"Obtura"
+],
+"size": [
+"2.5x15mm",
+"4x20mm",
+"4x20mm"
+]
+},
+"loc": "Intracranial ICA",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P092",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2025-06-23",
+"mrn": "4883217",
+"dx": "\\ stenosis, consult for PTA & intracranial stenting (WS have been permited fro",
+"impression": "Atherosclerosis with arterial stenosis at basilar artery and left M1; S/P",
+"treatment": "Intracranial PTA + stent",
+"modality": [
+"Intracranial PTA + stent"
+],
+"devices": [
+"Balloon",
+"Guide: Infinity",
+"Balloon: Gateway",
+"Guide: Navien"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "檢查目的及病程摘要 >\n\n\\ stenosis, consult for PTA & intracranial stenting (WS have been permited fro\nII)\n\nA>\n\nP>\n\n'5-890 438 : Stenting for head & neck vessel (one vessel)\n\"5-895 4478 : Percutancous Transluminal Angioplasty (PTA)\n\"5-852 4498 : Carotid Arteriography (Both Side)\n\n'$-853 2478 : Vertebral Arteriography (One Side)\n\n和他 ~ 收件號 :25062331038\n\ndiography of Stenting for head & neck vessel (one vessel),Percutaneous\nainsluminal Angioplasty (PTA),Carotid Arteriography (Both Side)\n:rtebral\n\nteriography (One Side)\now:\n\nigiographic findings:\n\nherosclerosis with tight stenosis at mid basilar artery.\n\nameter of proximal basilar artery: 3.8mm; MLD: 1.4mm. Stenotic index; 63%\nId arterial stenosis of left M1\n\nameter of proximal M1: 4mm; MLD: 1.5mm. Stenotic index; 62.5%\n\ntal type left PCA.\n\nerventional findings:\n\n\\ PTA and stenting was performed after having the informed consent from patient\ndhis family.\n\ntient under general anesthesia.\n\n-axial guide catheter system (6F infinity & Navien 058) introduce to left VA\n\nm right femoral arterial access.\n\n‘A was performed with balloon (Gateway 2.5*15mm) with maxium pressure to 6 atm.\nst ingspan 3.5*15mm) was deployed after PTA.\n\nLD was dilated from 1.4mm to 2.3mm utimately.\n\ntient recovery without neurological deficit.\n_s was sent to NICU after hemostasis of the arteriotomy with closure device.\n\nngioSeal).\n\n(P: Atherosclerosis with arterial stenosis at basilar artery and left M1; S/P\nS at basilar artery.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N44",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N45",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": []
+},
+"links": [
+{
+"id": "P088",
+"label": "同日"
+}
+],
+"plist": [
+46
+],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien",
+"Infinity"
+],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [
+"Gateway"
+],
+"drug": [],
+"closure": [],
+"size": [
+"2.5*15mm"
+]
+},
+"loc": "Basilar",
+"ap2": "經動脈・股動脈"
+},
+{
 "id": "P053",
 "kind": "pdf",
 "disease": "aneurysm",
@@ -4447,7 +5495,16 @@
 }
 ]
 },
-"links": [],
+"links": [
+{
+"id": "P073",
+"label": "同日"
+},
+{
+"id": "P075",
+"label": "同日"
+}
+],
 "plist": [],
 "stack": {
 "sheath": [],
@@ -4467,6 +5524,460 @@
 "size": []
 },
 "loc": "Cerebral",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P073",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2025-06-02",
+"mrn": "20182832",
+"dx": "",
+"impression": "",
+"treatment": "Aspiration (ADAPT)",
+"modality": [
+"Aspiration (ADAPT)"
+],
+"devices": [
+"Microcath: Headway",
+"Asp: REACT",
+"Guide: Neuron MAX"
+],
+"approach": [
+"經股動脈 femoral"
+],
+"flags": [],
+"text": "croguidewire: Transend EX 0.014 inch , Syncho 0.014 inch\n\n栓導管 (Aspiration catheter)pREACT...\n\n5od clot obtained: RED clot(s) was/were aspirated\n\nwing of Onset to needle: 3 hr 23 mins\n\nning of recanalization: 20 mins\n\ntial/Final Thrombolysis in Cerebral Infarction perfusion (TICI) grading:[ 0 /\n\n檢查目的及病程摘要 >>\n\nA>\n5789 其他腦血管疾病\n\nP>\n\n5-00SA-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE( 限林口 )\n\"5-852 名稱 : Carotid Arteriography (Both Side)\n\n'$-853 名稱 : Vertebral Arteriography (One Side)\n\n報告內容 > 收件號 : 25060231887\ndiography of MECHANICAL THROMBECTOMY FOR STROKE( 限林口 ),Carotid Arteriography\n\noth»)\nsrtebral Arteriography (One Side)\now:\n\n性缺血性腦中風神經介入動脈血栓移除治療 Intra-arterial endovascular\n\nombectomy/thromboretreival therapy for acute ischemic stroke\n\n前診斷 (ICD-10): 163312 Cerebral infarction due to thrombosis of left middle\n‘ebral artery\n\n後診斷 (ICD-10): 163312 Cerebral infarction due to thrombosis of left middle\n‘ebral artery\n\n]\n\ndiography of MECHANICAL THROMBECTOMY FOR STROKE, Carotid Arteriography (Both\nie) , Vertebral Arteriography Show:\n\ninical presentations:right side weakness since 11:00pm (6/1)\n\niset time and duration to ER: 2025/6/1 11:00pm, last normal time (wake up\n\nok€ arrival time at ER 10:37AM\n\n%S 5 before this event: Hypertension (), DM (), Hyperlipidemia(), AF), CADQ,\nDO\n\nHSS at ER and angioroom: 20\n\nravenous r-tPA therapy: Yes, hours from onset\n‘A: timing 11:53AM\n\n“A/MRA findings: Lt M1 occlusion\n2dications:\n\nigiographic findings: Lt M1 occlusion\nchnique: ADAPT\n\nparinization: None\n\nmoral Sheath: Right femoral artery Fr8\n\ntiding Catheter: Neuron Max 088 Fr 8 90cm\n\nermediate catheter: (-)\ncrocatheter: Headway 21\n\n(CI grade 0: no flow; grade I; minimal recanalization; grade Ila: partial\naller than fwa third or territaru: orade Ih: nearly camnletely or\n\ning cm",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N46",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N49",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N46_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_04.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_05.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_06.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_07.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_08.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_09.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_10.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_11.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_12.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_13.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_14.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_15.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_16.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_17.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_18.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_19.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_20.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_21.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_22.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_23.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_24.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_25.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+}
+]
+},
+"links": [
+{
+"id": "P016",
+"label": "同日"
+},
+{
+"id": "P075",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX",
+"8F sheath"
+],
+"guide": [],
+"aspiration": [
+"REACT"
+],
+"retriever": [],
+"micro": [
+"Headway 21"
+],
+"wire": [
+"Transend"
+],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "MCA M1",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P075",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2025-06-02",
+"mrn": "20165385",
+"dx": "5789 其他腦血管疾病",
+"impression": "",
+"treatment": "Aspiration (ADAPT) + Rescue PTA + TICI 3",
+"modality": [
+"Aspiration (ADAPT)",
+"Rescue PTA",
+"TICI 3"
+],
+"devices": [
+"Guide: Neuron MAX"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "檢查目的及病程摘要 >\n\nA>\n\n5789 其他腦血管疾病\n2 頭量及目眩\n\nP>\n'5-852 4478 : Carotid Arteriography (Both Side)\n\n‘5-853 498 : Vertebral Arteriography (One Side)\n\n5-00SA-X 44% : MECHANICAL THROMBECTOMY FOR STROKE( 限林口 )\n\nREAA> 收件號 : 25060232490\nsony of Carotid Arteriography (Both Side)\nsrtebral Arteriography (One\n\nje)\n\nECHANICAL THROMBECTOMY FOR STROKE( 限林口 ) Show:\n\ninical information:\n\nam: cerebral angiography and endovascular thrombectomy (EVT).\n\nidings:\nSA]\nclusion of right MCA (M2 segment, superior division)\n\nVT]\n\ntient under general anesthesia\n\nng sheath (Neuron MX88) from right femoral artery\n\npiration Catheter (RED 043, 138cm); ADAPT 3 times with partial recanalization.\nAD at proximal M2\n\n‘A with DEB (Selution.2* 1.5mm), maxium pressure.to.4,atm\n\nA paper and TICI 3 resulted. (Reperfusion time: 50 minutes)\n\n» cb. vast extravasation or ICH in CBCT\n\ntient sent to NICU after hemostasis of the arteriotomy with clsoure device.\nngioSeal)\n\npression: AIS, Rt M2 occlusion S/P EVT and PTA\n\nigioroom arrival time: 15:29:00\noin puncture time: 16:08:00\nperfusion:TICI:3, time: 16:15:17\n\n\n摘要六\n\n\nSth : SEK RT3101 放字第 012261 號 / 報告日期 : 2025/06/02 19:08",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N46",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N49",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N46_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_04.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_05.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_06.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_07.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_08.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_09.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_10.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_11.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_12.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_13.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_14.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_15.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_16.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_17.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_18.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_19.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_20.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_21.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_22.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_23.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_24.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N46_25.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+}
+]
+},
+"links": [
+{
+"id": "P016",
+"label": "同日"
+},
+{
+"id": "P073",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "MCA M2",
 "ap2": "經動脈・股動脈"
 },
 {
@@ -5387,6 +6898,128 @@
 "ap2": "經動脈・未記載"
 },
 {
+"id": "P082",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2025-05-12",
+"mrn": "",
+"dx": "",
+"impression": "AIS, Left ICA and MCA occlusion, S/P EVT with CanADAPT.",
+"treatment": "Aspiration (ADAPT) + TICI 3",
+"modality": [
+"Aspiration (ADAPT)",
+"TICI 3"
+],
+"devices": [
+"Asp: RED",
+"Guide: Neuron MAX"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [
+"頁首裁切：日期依收件號推定",
+"頁首裁切：病歷號未見"
+],
+"text": "iggestion]\n\"tPA was NOT indicated due to out of time window.\nVT wa\n\niven IV fluid adequately\n\nontrol BP<180/105mmHg before EVT.\n\ndmitted to our NMICU for after EVT.\n\n2025/05/12 10:20:15)\n| IBJECT:\n\n立病患自費切結同意書\n\nA> |\n5789 其他腦血管疾病\n\nP>\n5-005A-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE( 限林口 )\n'5-852 7% : Carotid Arteriography (Both Side)\n\n'5-853 447% : Vertebral Arteriography (One Side)\n\n報告內容 > 收件號 : 25051230799\n\ndiography ofMECHANICALTHROMBECTOMY FOR STROKE( 限林口 ),Carotid Arteriography\noth Side)\n\n2rtebral Arteriography (One Side)\n\now:\n\nute right hemiplegia with dysarthria, CTA: Left ICA and MCA M1 occlusion with\nt MCA territory infarction, NIHSS: 13, last normal time: 05/11 22:30, mRS 5;\n\n2S E4V5M6\n\nrival time: 10:15\n\nncture time: 10:50\n\ncanalization time: 11:20\n\nAPT: R 72 & 48; totally 3 passes.\n| iesthesia: GA\n\n| igiographic findings:\n\nigiographic findings:\nterial occlusion of left ICA and MCA with poor collateral.\ntremarkable of right carotid and vertebrobasilar system.\n\nerventional findings:\n\naergency thrombectomy was performed after having the informed consent from\ntient and his family. :\n\ntient under general anesthesia.\n\nng sheath (Neuron MX88 ) was introduced to left ICA from right femoral\n\nerial access.\n\n+ use RED 72 for aspiration up to left M1 for two passes.\n\ns because some thrombus within M2 that supply parietal lobe is still\n\nsognised, the occluded MCA branch (MeVO) was supselective with another\nyiration catheter (RED 043) negoitated to the target artery along with the\ncro-guidewire.\n\ntal recanalization and removal of thromus in one pass. TICI3 result.\n\ne procedure is smooth and no extravasation or SAH disclose in cone beam CT,\n\n(P: AIS, Left ICA and MCA occlusion, S/P EVT with CanADAPT.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N51",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N52",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N50",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+],
+"images": [
+{
+"key": "general/n2_N51_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N51_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N51_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N50_01.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N50_02.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N50_03.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N50_04.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N50_05.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+]
+},
+"links": [],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "Tandem ICA + MCA",
+"ap2": "經動脈・股動脈"
+},
+{
 "id": "C10",
 "kind": "note",
 "disease": "stroke",
@@ -5532,7 +7165,12 @@
 ]
 },
 "outcome": "抽吸後打通",
-"links": [],
+"links": [
+{
+"id": "P083",
+"label": "同日"
+}
+],
 "plist": [
 31,
 32,
@@ -5541,6 +7179,114 @@
 35,
 36
 ]
+},
+{
+"id": "P083",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2025-05-05",
+"mrn": "22430486",
+"dx": "單科別 : 急診內科開單醫師 : MAR 醫囑日期 : 2025/05/05",
+"impression": "1) Left ICA (cavernous segment) occlusion, probably ICAD with thrombus. S/P",
+"treatment": "Rescue PTA + TICI 3",
+"modality": [
+"Rescue PTA",
+"TICI 3"
+],
+"devices": [
+"Balloon",
+"Balloon: Ryurei",
+"Guide: Neuron MAX",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "報告內容 > 收件號 : 25050531187\n\ninical information:\n\nute right side weakness and aphasia, with left ICA occlusion/critical\n\nnosis, favored infarction over left hemisphere.\nHENS. last normal time: 2025/05/05 22:00, mRS 5.\n\nA>\n5789 其他腦血管疾病\n\nP>\n5-00SA-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE( 限林口 )\n\"5-852 名稱 : Carotid Arteriography (Both Side)\n\n'S-853 名稱 : Vertebral Arteriography (One Side)\n\nrival time: 10:55\nncture time: 11:30\ncanalization time: 12:10\n\nigiographic findings:\n\nrtuousity of aortic arch.\n\nclusion of left ICA (cervical segment).\n\niall caliber of right Al and left PComA result poor collateral to left MCA.\negular outline with arterial stenois at right carotid bifurcation.\n\nerventional findings:\n\nICA thrombectomy was performed after having the informed consent from\n\ntients family.\n\ntient under general anesthesia.\n\n(ong sheath (Neuron MX88) was introduced to left ICA from right femoral\n\nerial access.\n\nDAP was performed with RED (072) but failured to advance at cavernous segment.\nzht stenosis at anterior siphon resulted from ICAD and some thrombus was noted\n\nophthalmic segment.\n\nider this condition, we change to RED (043) with supporting guide catheter\noO 115) trasverse the stenotic segment along with the micro-wire for\n)\n\ncanalization of the left ICA was achieved after balloon (Ryurei 2.5*15mm)\n\nlation with maxium pressure to 7 atm. :\ne procedure is smooth and patient was sent to ICU after hemostasis of the\n\neriotomy with closure device. (AngioSeal).\naddition, left carotid bifurcation (cervical ICA) stenosis is noted after\n\nombectomy.\n\n(P: 1) Left ICA (cavernous segment) occlusion, probably ICAD with thrombus. S/P\nrombectomy with ADAP; TICI 3 result. 2) ICAD with bilateral carotid stenosis.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N54",
+"group": "near",
+"label": "-5天",
+"delta": -5
+},
+{
+"id": "N51",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"id": "N52",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+],
+"images": [
+{
+"key": "general/n2_N54_01.jpg",
+"group": "near",
+"label": "-5天",
+"delta": -5
+},
+{
+"key": "general/n2_N51_01.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N51_02.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N51_03.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+]
+},
+"links": [
+{
+"id": "C10",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [
+"Ryurei"
+],
+"drug": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"2.5*15mm"
+]
+},
+"loc": "ICA（ICAD）",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P063",
@@ -6859,7 +8605,12 @@
 }
 ]
 },
-"links": [],
+"links": [
+{
+"id": "P094",
+"label": "同日"
+}
+],
 "plist": [],
 "stack": {
 "sheath": [],
@@ -6876,6 +8627,142 @@
 },
 "loc": "Cavernous/CCF",
 "ap2": "經靜脈・未記載"
+},
+{
+"id": "P094",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2025-03-17",
+"mrn": "1668320",
+"dx": "1nitus, Suspect right ITV stenosis",
+"impression": "Rt IJV stenosis S/P PTA with Stent.",
+"treatment": "Venous stent (jugular)",
+"modality": [
+"Venous stent (jugular)"
+],
+"devices": [
+"Sheath: Shuttle",
+"Stent: Wallstent",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "檢查目的及病程摘要 >\n\n1nitus, Suspect right ITV stenosis\n\nA>\n\nP>\n\n'$-852 & #8 : Carotid Arteriography (Both Side)\n'5-853 名稱 Vertebral Anteriography (One Side)\n\n'5-895 S37 : Percutaneous Transluminal Angioplasty (PTA)\n'5-890 名稱 : Stenting for head & neck vessel (one vessel)\n\n報告內容 > 收件號 : 25031731125\n\ndiography of Carotid Arteriography (Both Side)\n\natte Arteriography (One\n\nsrcutaneous Transluminal Angioplasty (PTA),Stenting for head & neck\nssel (one vessel) Show:\n\nigiographic findings:\n\n‘poplasia/tight stenosis of left jugular bulb and prdominant of right T-S\nus.\n\nvoid shape with medial compression of right IJV at C1 level.\n\nirma] perfusion of bilateral carotid and vertebrobasilar system.\n\n2As in midline without shift.\n\n) definite intracranial aneurysm or vascular malformation.\n\nerventional findings:\n‘A and stenting was performed after having the informed consent from patient\n\nd her family.\ntient under general anesthesia.\nght femoral venous and arterial approach with 6F shuttle shealth introduce to\n\nht IJV and left carotid artery respectively.\n\nnography was performed with pigtail at right transverse sinus.\n\ne pressure at Rt TS, SS and IJV was measured as 14 mmHg.\n\nWall stent (9*50mm) was deployed in IJV from occipitocondylar to C2 level.\ne lure is smooth and patient sent to POR after hemostasis of the\n\neri y with closure device. (AngioSeal).\n\n(P: Rt IJV stenosis S/P PTA with Stent.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N61",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N62",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N47",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+],
+"images": [
+{
+"key": "general/n2_N61_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N61_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N61_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N61_04.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N61_05.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N61_06.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N61_07.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N61_08.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N61_09.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+}
+]
+},
+"links": [
+{
+"id": "P004",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Wallstent"
+],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"9*50mm"
+]
+},
+"loc": "Venous（jugular bulb/IJV）",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P002",
@@ -8090,7 +9977,12 @@
 }
 ]
 },
-"links": [],
+"links": [
+{
+"id": "P090",
+"label": "同日"
+}
+],
 "plist": [],
 "stack": {
 "sheath": [],
@@ -8109,6 +10001,231 @@
 },
 "loc": "Cavernous/CCF",
 "ap2": "經靜脈・未記載"
+},
+{
+"id": "P090",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2025-02-17",
+"mrn": "21050442",
+"dx": "gh-grade stenosis at right ICA proximal cervical segment and petrous segment",
+"impression": "Right carotid tandem stenotsis at petrous and cervical segment; S/P CAS at",
+"treatment": "CAS + PTA",
+"modality": [
+"CAS + PTA"
+],
+"devices": [
+"Balloon",
+"Stent: Wallstent",
+"Balloon: Sterling"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "A>\n\nP>\n'5-852 名稱 : Carotid Arteriography (Both Side) |\n\n'5-853 名稱 : Vertebral Arteriography (One Side)\n\n'5-890 27H : Stenting for head & neck vessel (one vessel) |\n, : . |\n5-895 名稱 : Percutaneous Transluminal Angioplasty (PTA) |\n\n報告內容 > 收件號 : 25021731209\ndiography of Carotid Arteriography (Both Side)\n\nx y Arteriography (One\nley\n\nenting for head & neck vessel (one vessel),Percutaneous Transluminal\nigioplasty (PTA) Show:\n\nigiographic findings:\n\nndem tight stenosis at right ICA (petrous segment and cervical segment).\n\nmosis of cervical ICA >70% and petrous segment >80% |\n\n‘crease blood flow in right hemsiphere. |\n|\n\n)rma] perfusion of vertebrobasilar system.\n\ntent of venosinus system.\n) intracranial aneurysm or vascular malformation. |\nerventional findings:\n\nCAS was performed after having the informed consent from patient and his\n\nnily,\n\ntient under general anesthesia.\n\nguide catheter introduce to right CCA from right femoral arterial access.\ncarotid stent (Wallstent 5*30mm) across the cervical stenotic region along |\n\nth micro-guidewire (Choice PT) and deployed smoothly.\nst stenting PTA with balloon (Sterling 4*20mm) with maxium pressure to 10 atm. |\n\nLD was dilated to 3.5mm utimately, |\n€ dure is smooth and patient recovery unremarkably. |\n4 ent to POR after hemostasis of the arteriotomy with closure device.\n\nngioSeal).\n\n(P: Right carotid tandem stenotsis at petrous and cervical segment; S/P CAS at\nht cervical segment.\n\nuggestion> Apply intracranial stent and balloon from NHI for further\ninagement of petrous stenotic segment in second slage.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N64",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N43",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"id": "N65",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N64_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_04.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_05.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_06.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_07.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_08.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_09.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_10.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_11.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_12.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_13.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_14.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_15.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N43_01.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N43_02.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N43_03.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N43_04.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N43_05.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N43_06.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N43_07.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N43_08.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N65_01.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+]
+},
+"links": [
+{
+"id": "P006",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Wallstent"
+],
+"embolic": [],
+"balloon": [
+"Sterling"
+],
+"drug": [],
+"closure": [],
+"size": [
+"5*30mm",
+"4*20mm"
+]
+},
+"loc": "Cervical ICA（CAS）",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P005",
@@ -8256,6 +10373,14 @@
 "links": [
 {
 "id": "P064",
+"label": "同日"
+},
+{
+"id": "P077",
+"label": "同日"
+},
+{
+"id": "P080",
 "label": "同日"
 }
 ],
@@ -8426,6 +10551,14 @@
 {
 "id": "P005",
 "label": "同日"
+},
+{
+"id": "P077",
+"label": "同日"
+},
+{
+"id": "P080",
+"label": "同日"
 }
 ],
 "plist": [
@@ -8450,6 +10583,456 @@
 },
 "loc": "ICA PComA",
 "ap2": "經動脈・未記載"
+},
+{
+"id": "P077",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2025-02-10",
+"mrn": "22725015",
+"dx": "單科別 : 恬學 X 光檢查區開單醫師 : BWIMAHA : 2025/02/10",
+"impression": "AIS with right M1 occlusion S/P EVT; TICI3 result.",
+"treatment": "Aspiration (ADAPT) + TICI 3",
+"modality": [
+"Aspiration (ADAPT)",
+"TICI 3"
+],
+"devices": [
+"Asp: RED",
+"Guide: Neuron MAX"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "A>\n\nP>\n'5-852 478 : Carotid Arteriography (Both Side)\n\n'5-853 名稱 Vertebral Arteriography (One Side)\n\n5-005A-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE( 限林口 )\n\n報告內容 > WHE : 25021033143\n\ndiography of Carotid Arteriography (Both Side)\niTtebral Arteriography (One\n\nle)\n\nECHANICAL THROMBECTOMY FOR STROKE( 限林口 ) Show:\n\nnie aformation: Rt M1 occlusion, right hemisphere infarction, last normal\nye 2024/02/10 unknown?, NIHSS=33, mRS=5\n\nncture time: 16:00\nperfusion time: 16:08\nsult: TICI3\n\nigiographic findings:\n\ntal occlusion at proximal third right M1 segment.\n\nme collateral flow to right MCA territory from right ACA.\nimal perfusion of left carotid and vertebrobasilar system.\n\nerventional findings:\n\n1ergeny intra-arterial thrombectomy was performed after having the informed\nasent from patient's family.\n\ntient under general anesthesia.\n\nng sheath (Neuron MX88) introduce to right ICA from right femoral arterial\n2ess.\n\naspiration catheter (RED 72) navigated to right M1 and successfully aspirate\n\n: thrombus.\n\ncanalization of right MCA (TICT3) achieved in first pass.\n\nm trast extravasation at right frontal, parietal and temporal was noted in\n\nx reperfusion.\n» mass effect or compression to right lateral ventricle.\n\n(P: AIS with right M1 occlusion S/P EVT; TICI3 result.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N65",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N64",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+],
+"images": [
+{
+"key": "general/n2_N64_01.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_02.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_03.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_04.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_05.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_06.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_07.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_08.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_09.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_10.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_11.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_12.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_13.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_14.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N64_15.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N65_01.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+}
+]
+},
+"links": [
+{
+"id": "P005",
+"label": "同日"
+},
+{
+"id": "P064",
+"label": "同日"
+},
+{
+"id": "P080",
+"label": "同日"
+}
+],
+"plist": [
+17
+],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "MCA M1",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P080",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2025-02-10",
+"mrn": "22564006",
+"dx": "5789 其他腦血管疾病",
+"impression": "AIS with right M1 occlusion S/P EVT; TICI3 result.",
+"treatment": "Aspiration (ADAPT) + TICI 3",
+"modality": [
+"Aspiration (ADAPT)",
+"TICI 3"
+],
+"devices": [
+"Asp: RED",
+"Guide: Neuron MAX"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "查時間 : 17:08:06 RS : LEIOC 急件 *\n\n檢查目的及病程摘要 >\n\nA>\n5789 其他腦血管疾病\n19 高血壓性心臟病 * 無心臟衰喝\n\nP>\n'5-852 名稱 : Carotid Arteriography (Both Side)\n\n'5-853 名稱 Vertebral Arteriography (One Side)\n5-005A-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE( 限林口 )\n\n報告內容 > 收件號 : 25021033590\n\ndiography of Carotid Arteriography (Both Side)\n\nartebral Arteriography (One\n\nBan\nECiiANICAL THROMBECTOMY FOR STROKE(SR #410) Show:\n\ninical information: Right hemisphere infarction, onset time 2025/02/10 11:00,\nHSS=15,mRS=5\n\nncture time: 18:00\nperfusion time: 18:09\nsult: TICI3\n\nigiographic findings:\n\ntal occlusion at proximal third right MI segment.\n\nme collateral to right hemisphere from right PCA (parietooccipital branches)\n2As in mdiline without shift.\n\nmal perfusion of left carotid and vertebrobasilar system.\n\nerventional findings:\n1ergeny intra-arterial thrombectomy was performed after having the informed\n\nasent from patient's family.\ntient under general anesthesia.\nng sheath (Neuron MX88) introduce to right ICA from right femoral arterial\n\n2es Z\n3 人 5 catheter (RED 68) navigated to right MI and successfully aspirate\n\n: thrombus.\ncanalization of right MCA (TICI3) achieved in first pass.\n\n* shows no definite extravasation, ICH or SAH after reperfusion.\n) mass effect or compression to right lateral ventricle.\n\n(P: AIS with right M1 occlusion S/P EVT; TICI3 result.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N65",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N64",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+],
+"images": [
+{
+"key": "general/n2_N65_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N64_01.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_02.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_03.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_04.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_05.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_06.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_07.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_08.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_09.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_10.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_11.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_12.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_13.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_14.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N64_15.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+]
+},
+"links": [
+{
+"id": "P005",
+"label": "同日"
+},
+{
+"id": "P064",
+"label": "同日"
+},
+{
+"id": "P077",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [
+"RED 068"
+],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "MCA M1",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P093",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2025-01-13",
+"mrn": "1545489",
+"dx": "ght cervical ICA stenosis",
+"impression": "Rt carotid stenosis S/P PTA & CAS.",
+"treatment": "CAS + PTA",
+"modality": [
+"CAS + PTA"
+],
+"devices": [
+"Balloon",
+"Stent: Xact",
+"Balloon: Sterling",
+"Guide: Neuron MAX",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"局部麻醉"
+],
+"flags": [
+"病歷號欄位 OCR 不清（推定 1545489），請核對"
+],
+"text": "檢查目的及病程摘要 >\n\nght cervical ICA stenosis\n\nA>\n\nP>\n\n\"5-890 名稱 : Stenting for head & neck vessel (one vessel)\n\"5-895 名稱 : Percutancous Transluminal Angioplasty (PTA)\n'5-852 & 44 : Carotid Arteriography (Both Side)\n\n\"5-853 名稱 : Vertebral Arteriography (One Side)\n\n報告內容 > 收件號 : 25011332413\ndiography of Stenting for head & neck vessel (one vessel),Percutaneous\nGo ansluminal Angioplasty (PTA),Carotid Arteriography (Both Side)\né ortebral\nteriography (One Side)\now:\n\nigiographic findings:\n\nterial stenosis at right cervical ICA.\n\nameter of proximal ICA: 5mm, MLD: 1.5mm, CCA: 5.8mm. Stenotic index: 70%\nght fetal type PCA.\n\nimal perfusion of bilateral carotid arteries and left vertebrobasilar system.\n\ntent of venosinus system.\n\nerventional findings:\n\n‘A and CAS was performed after hanving the informed consent from patient and\n\nt family.\n\ntent under local anesthesia.\n\nlong sheath Neuron MX88 introduced to right CCA from right femoral arterial\n2ess.\n\nter wire (+)\n\nXACT stent (6/8 * 30mm) was navigated across the stenotic segment and deployed\n\noothly.\nst stenting angioplasty with balloon (Sterling 4.5*20mm), maxium pressure to\n\natm.\n® LD was dilated from 1.5mm to 4mm untimately.\ne procedural is smooth and patient tolerate well\n\n» neurological complication after CAS.\ntient was sent back to ward after hemostasis of the arteriotomy with closure\n\nvicel (AngioSeal).\n\n(P: Rt carotid stenosis S/P PTA & CAS.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N26",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N66",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N66_01.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N66_02.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N66_03.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+}
+]
+},
+"links": [],
+"plist": [
+12
+],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Xact"
+],
+"embolic": [],
+"balloon": [
+"Sterling"
+],
+"drug": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"8 * 30mm",
+"4.5*20mm"
+]
+},
+"loc": "Cervical ICA（CAS）",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P008",
@@ -8553,6 +11136,10 @@
 {
 "id": "P007",
 "label": "同病歷號"
+},
+{
+"id": "P086",
+"label": "同日"
 }
 ],
 "plist": [],
@@ -8571,6 +11158,484 @@
 },
 "loc": "Galen type",
 "ap2": "經動脈・未記載"
+},
+{
+"id": "P086",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2025-01-06",
+"mrn": "22352918",
+"dx": "射線治療後之頭頸部動脈狹窄 ( 含頸動脈 、 椎動脈及鎖骨下動脈)",
+"impression": "",
+"treatment": "Subclavian PTA + stent",
+"modality": [
+"Subclavian PTA + stent"
+],
+"devices": [
+"Balloon",
+"Sheath: Shuttle",
+"Stent: BMS/balloon-expandable",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "檢查目的及病程摘要 >\n射線治療後之頭頸部動脈狹窄 ( 含頸動脈 、 椎動脈及鎖骨下動脈)\n\nA>\n\nP>\n'S-890 名稱 : Stenting for head & neck vessel (one vessel)\n'5-852 & #4 : Carotid Arteriography (Both Side)\n\n'5-853 名稱 : Vertebral Arteriography (One Side)\n'5-895 名稱 : Percutaneous Transluminal Angioplasty (PTA)\n\n報告內容 > 收件號 : 25010631323\ndiography of Stenting for head & neck vessel (one vessel),Carotid\nteriography (Both Side)\nEd srtebral Arteriography (One Side)\n3 srcutaneous\ninsluminal Angioplasty (PTA) Show:\n\nigiographic findings:\n\nterial stenosis at proximal left subclavian artery.\n\nameter of SCA: 7mm, MLD: 3mm.\n\nId arterial stenosis at bilateral cervical ICAs and right VA (V1 segment).\nmal perfusion of bilateral carotid and vertebrobasilar system.\n\ntent of venosinus system.\n\nerventional findings:\n\n‘A and stenting was performed after having the informed consent from patient\ndhis family.\n\ntient under general anesthesia.\n\nshuttle sheath introduced to left SCA from right femoral arterial access.\n23alloon mounted stent (Express 8*27mm) was navigated across the stenotic\n\nsment.\nploy the stent with balloon inflatation to 18 atm.\n\nLD was dilated from 3mm to 7mm consequently.\ntient recovery unremarkably and sent to POR after hemostasis of the\neriotomy with closure device. (AngioSeal).\n\n人 @ [P: Atherosclerosis and irradiatation arteritis; Left subclavian artery\nnosis S/P BES",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N66",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N26",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"id": "N68",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N66_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N66_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N66_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N68_01.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+},
+{
+"key": "general/n2_N68_02.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+},
+{
+"key": "general/n2_N68_03.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+},
+{
+"key": "general/n2_N68_04.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+},
+{
+"key": "general/n2_N68_05.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+]
+},
+"links": [
+{
+"id": "P008",
+"label": "同日"
+},
+{
+"id": "P097",
+"label": "同病歷號"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "Subclavian",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P078",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2024-12-23",
+"mrn": "",
+"dx": "",
+"impression": "",
+"treatment": "Aspiration (ADAPT) + Stent retriever + Combined + Rescue PTA + GP IIb/IIIa",
+"modality": [
+"Aspiration (ADAPT)",
+"Stent retriever",
+"Combined",
+"Rescue PTA",
+"GP IIb/IIIa"
+],
+"devices": [
+"Balloon",
+"Microcath: Phenom",
+"Sheath: Shuttle",
+"SR: Solitaire",
+"Asp: RED",
+"Drug: Tirofiban",
+"Guide: Neuron MAX",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [
+"頁首裁切：病歷號未見",
+"頁首裁切：日期依醫囑日期/收件號 241223 推定"
+],
+"text": "ir. Lent iviCA Intarcuon\n\n/R comment and teaching:\nrange Brain CTA\n\n2024/\n\n13 10:26:30)\nSUBJECT :\n\nveration indication was informed by surgeon\nange pre-op preparement\n\n2024/12/23 14:22:46]\n)BJECT :\n\nWZ ACUTE ISCHEMIC STROKE THERAPY TREATMENT FEE\n應症 : SATA ARIS IRB (33 143B) «\n\nA>\n5789 其他腦血管疾病\n\nP>\n'5-852 & 4% : Carotid Arteriography (Both Side)\n\n@ \"5-853 27% : Vertebral Arteriography (One Side)\n\n5-005-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE | 三 \\ a\n\n報告內容 > WAS : 24122331142\n\ndiography of Carotid Arteriography (Both Side)\n\n:rtebral Arteriography (One\n\nje)\n\nECHANICALTHROMBECTOMY FOR STROKE Show:\n\ninical information:Acute right hemiplegia and aphasia withiLt M1 occlusion and\nt terminus ICA occlusion , last normal time: iz\n\n24/12/23 4am, NIHSS 19, mRS 5\n\nlmission time: 9:25\n\nigiography findings:\nute occlusion of left ICA distal to AChoA.\n\nerventional findings:\n\n人 S with EVT was performed after having the informed consent from patient's\nnily.\ntient under general anesthesia.\nshuttle sheath insert to right femoral artery and Neuron MX88 introduce to\ntICA.\naspiration catheter RED 062 navigated only to ophthalmic segment and failure\nthrombus aspiration.\nider this condition, we use micrcatheter (Phenom 21) naivgated to left M1\nmporo-occipital artery) and deployed Stent retriever (Solitaire 4*20mm ) from\n| to communicating segment.\nthough some thrombus was retrieved but the ICA was still occluded.\nAggrastat 0.5mg/10mL was infused within 3 minutes.\n‘A with balloon inflated with maxium pressure to 7 atm and susccessfuly\nvasculatization of ICA.\ncentric filling defect at vental communicating segment, suggest\n\\erosclerotic stenosis.\ns because occlusion of the superior division of left MCA, further MeVO\ninagement of another smaller aspiration catheter (RED 043) was performed\nsequently,\nCI 2b was resulted utimately.\nst EVT CT shows some contrast extravasation in left sylvian fissure.\ntient was sent back to ER after hemostasis of the arteriotomy with closure\nvice. (AngioSeal).",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N48",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N68",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"id": "N69",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N68_01.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N68_02.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N68_03.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N68_04.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N68_05.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N69_01.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+},
+{
+"key": "general/n2_N69_02.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+},
+{
+"key": "general/n2_N69_03.jpg",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+]
+},
+"links": [],
+"plist": [],
+"stack": {
+"sheath": [
+"Shuttle",
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [
+"RED 062"
+],
+"retriever": [
+"Solitaire"
+],
+"micro": [
+"Phenom 21"
+],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [
+"Tirofiban"
+],
+"closure": [
+"AngioSeal"
+],
+"size": []
+},
+"loc": "ICA terminus/T",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P099",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2024-12-16",
+"mrn": "22627405",
+"dx": "right MCA intracranial stenting nad possible left ICA stenting",
+"impression": "Atherosclerosis, right M1 stenosis S/P WS.",
+"treatment": "Intracranial PTA + stent",
+"modality": [
+"Intracranial PTA + stent"
+],
+"devices": [
+"Balloon",
+"Guide: Infinity",
+"Balloon: Gateway",
+"Guide: Navien"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "檢查目的及病程摘要 >\n‘right MCA intracranial stenting nad possible left ICA stenting\n\nA>\n\nP>\n\n‘5-890 名稱 : Stenting for head & neck vessel (one vessel)\n'S-895 8H : Percutancous Transluminal Angioplasty (PTA)\n\n報告內容 > 收件號 : 24121631858\n\ndiography of Stenting for head & neck vessel (one vessel),Percutaneous\ninsluminal Angioplasty (PTA) Show:\n\n\\giographic findings:\nderate arterial stenosis at right proximal M1.\n\ner€bnal findings:\n\n\\gioplasty and stenting of right MCA was performed after having the informed\nasent from patient.\n\ntient under general anesthesia.\n\n| jFaxial guide catheter system (GF Infinity and Navien 058) introduced to right\n“A from right femoral arterial access.\ncrocatheter (SL=10) navigated to/right M2 exchange to 300cm microguide wire.\n‘A was performed with balloon (Gateway 2*15mm), maxium pressure to 6 atm.\nintracranial stent (WS 3*15mm) was deployed from MI to ICA after PTA.\n€ procedure is smooth and MLD was dilated from 1.8mm to 2mm.\ntient recovery without neurological deficit.\n\n: Was sent to POR after hemostasis of the arteriotomy with closure device.\nngioSeal).\n\n(P: Atherosclerosis, right M1 stenosis S/P WS.",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N69",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N48",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"id": "N67",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N69_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N69_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N69_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+}
+]
+},
+"links": [
+{
+"id": "P100",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [
+"Navien",
+"Infinity"
+],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [
+"Gateway"
+],
+"drug": [],
+"closure": [],
+"size": [
+"2*15mm"
+]
+},
+"loc": "Intracranial MCA",
+"ap2": "經動脈・股動脈"
+},
+{
+"id": "P100",
+"kind": "pdf",
+"disease": "stenting",
+"category": "03_stenosis_ICAD_carotid",
+"date": "2024-12-16",
+"mrn": "21755294",
+"dx": "症狀的頸動脈狹窄大於 80% 以上",
+"impression": "Left carotid stenosis S/P CAS with DEB (Elutax)",
+"treatment": "CAS + PTA",
+"modality": [
+"CAS + PTA"
+],
+"devices": [
+"Balloon",
+"Stent: Wallstent",
+"Balloon: Sterling",
+"Guide: Neuron MAX",
+"Closure: AngioSeal"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "檢查目的及病程摘要 >\n症狀的頸動脈狹窄大於 80% 以上\n\nA>\n\nP>\n\n'$-895 & fH : Percutaneous Transluminal Angioplasty (PTA)\n'5-890 4H : Stenting for head & neck vessel (one vessel)\n'5-852 & 78 : Carotid Arteriography (Both Side)\n\n‘5-853 & fH : Vertebral Arteriography (One Side)\n\n報告內容 > 收件號 : 24121631217\n\n上 diography of Percutaneous Transluminal Angioplasty (PTA),Stenting for head &\nzk vessel (one vessel),Carotid Arteriography (Both Side)\n\not\noR ny (One Side)\n\now:\n\nigiographic findings:\n\nzht stenosis of the left cervical ICA (carotid bifurcation).\n\nameter of left ICA: 4.5mm, MLD: 1.5, CCA: 5.3mm. Stenotic index: 67% (NASCET)\nmal perfusion of bilateral carotid and vertebrobasilar system.\n\n) definite intracranial aneurysm.\n\n\"poplasia of left transverse sinus.\n\nerventional findings:\n\n‘A and CAS was performed after having the informed consent from patient and his\nnily.\n\ntient under general anesthesia.\n\nlong shealth (Neuron MX88) introduce to left CCA from right femoral arterial\nzess.\n\nterwire (-)\n\n2-stent PTA with DEB (Eluxtax 4*20mm) followed by Wallstent (7*30mm) deployed\n‘oss the stenotic segment.\n\nst-stent PTA with balloon (Sterling 4.5*20mm).\n\nLD was dilated from 1.5 to 4mm utimately.\n\novery unremarkably and sent to POR after hemostasis of the arteriotomy\nsure device. (AngioSeal).\n\n(P: Left carotid stenosis S/P CAS with DEB (Elutax)",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N69",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N48",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"id": "N67",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N69_01.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N69_02.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"key": "general/n2_N69_03.jpg",
+"group": "same",
+"label": "同日",
+"delta": 0
+}
+]
+},
+"links": [
+{
+"id": "P099",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [
+"Wallstent"
+],
+"embolic": [],
+"balloon": [
+"Sterling"
+],
+"drug": [],
+"closure": [
+"AngioSeal"
+],
+"size": [
+"7*30mm",
+"4.5*20mm"
+]
+},
+"loc": "Cervical ICA（CAS）",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "P065",
@@ -8655,6 +11720,14 @@
 },
 {
 "id": "C05",
+"label": "同日"
+},
+{
+"id": "P074",
+"label": "同日"
+},
+{
+"id": "P076",
 "label": "同日"
 }
 ],
@@ -8771,6 +11844,14 @@
 {
 "id": "C05",
 "label": "同日"
+},
+{
+"id": "P074",
+"label": "同日"
+},
+{
+"id": "P076",
+"label": "同日"
 }
 ],
 "plist": [
@@ -8886,6 +11967,14 @@
 },
 {
 "id": "C05",
+"label": "同日"
+},
+{
+"id": "P074",
+"label": "同日"
+},
+{
+"id": "P076",
 "label": "同日"
 }
 ],
@@ -9006,6 +12095,14 @@
 {
 "id": "C05",
 "label": "同日"
+},
+{
+"id": "P074",
+"label": "同日"
+},
+{
+"id": "P076",
+"label": "同日"
 }
 ],
 "plist": []
@@ -9101,9 +12198,250 @@
 {
 "id": "C04",
 "label": "同日"
+},
+{
+"id": "P074",
+"label": "同日"
+},
+{
+"id": "P076",
+"label": "同病歷號"
 }
 ],
 "plist": []
+},
+{
+"id": "P074",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2024-12-09",
+"mrn": "2255482",
+"dx": "16789 其他腦血管疾病 ocho: if mip c 2mm, mek re comm end",
+"impression": "AIS of basilar and right PCAs; S/P EVT with TICI 3 result. P",
+"treatment": "Aspiration (ADAPT) + TICI 3",
+"modality": [
+"Aspiration (ADAPT)",
+"TICI 3"
+],
+"devices": [
+"Asp: RED",
+"Guide: Neuron MAX"
+],
+"approach": [
+"經橈動脈 radial",
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [],
+"text": "= 報告內容 > 收件號 : 24120931430\n\n‘adiography of Carotid Arteriography (Both Side)\n\nVertebral Arteriography (One\n\nide)\nMECHANICAL THROMBECTOMY FOR STROKE( 限林口 ) Show:\n\n: 檢查目的及病程摘要 >\n<A>\n| 16789 其他腦血管疾病 ocho: if mip c 2mm, mek re comm end\n<P> VTG\n(75-852 名稱 Carotid Arteriography (Both Side) Radi Wwe Eta | OE ea\n\n> yore pani\n(75-853 名稱 : Vertebral Arteriography (One Side) (0 r jeoprw )\n\n| 55-005A-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE( 限林口 )\n\n‘linical findings: Acute dysarthria and consciosuness disturbance, favored\nsasilar artery occlusion related, NIHSS 15, last normal time: 2024/ 12/08 21:30,\n\niRS 5\n‘uncture time: 13:00\n\n\\spiration catheter: 14:00\n‘ecanalization time: 14:11\n\ningiographic findings: @ |\nicute occlusion of basilarartery at SCA level. Ss\n\naterventional findings:\n\nJS with EVT was performed after having the informed consent from patient |\n\namily.\n\natient under general anesthesia. |\night radial artery (Snuff Box) puncture under Echo guidance and vascular\n\nubclavian artery and right VA.\n\n‘rossover from right femoral arterial access.\nTi-axial guide catheter system (Neuron MX88 ) introduce to left VA and H\nspiration catheter (RED 072) to basilar artery.\n‘omplete aspiration of thrmous in basilar artery and right PCA with RED 072 in\n\nccess from right vertbral artery but failure becuase tortuousity of right |\n\nirst pass. 上\nICI 3 resulted Recanalization time 10 minutes. |\n‘ost EVT CT (extravasation at right cerebellum); no significant ICH. 上\nMP: AIS of basilar and right PCAs; S/P EVT with TICI 3 result. P",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N67",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N69",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"id": "N70",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N69_01.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N69_02.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"key": "general/n2_N69_03.jpg",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+]
+},
+"links": [
+{
+"id": "P065",
+"label": "同日"
+},
+{
+"id": "P066",
+"label": "同日"
+},
+{
+"id": "P068",
+"label": "同日"
+},
+{
+"id": "C04",
+"label": "同日"
+},
+{
+"id": "C05",
+"label": "同日"
+},
+{
+"id": "P076",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "Basilar",
+"ap2": "經動脈・橈動脈"
+},
+{
+"id": "P076",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2024-12-09",
+"mrn": "22721377",
+"dx": "HBAS : 急診內科開單醫師 : MAR 醫囑日期 : 2024/12/09",
+"impression": "",
+"treatment": "Aspiration (ADAPT)",
+"modality": [
+"Aspiration (ADAPT)"
+],
+"devices": [
+"Asp: RED",
+"Balloon: NC/coronary",
+"Guide: Neuron MAX"
+],
+"approach": [
+"經股動脈 femoral",
+"全身麻醉"
+],
+"flags": [
+"病歷號 OCR 讀成 ZZ27Z1377，推定 22721377"
+],
+"text": "<A>\n16789 其他腦血管疾病\n9600 急性呼吸衰竭 * 示明示是否伴有缺氧或高碳酸血症\n\n<P>\n(75-852 47% : Carotid Arteriography (Both Side)\n\n(75-853 名稱 : Vertebral Arteriography (One Side)\n\n55-005A-X 名稱 : MECHANICAL THROMBECTOMY FOR STROKE( 限林口 )\n\nREAR > 收件號 : 24120932744\n\n.adiography of Carotid Arteriography (Both Side)\n\nVertebral Arteriography (One\n\nide)\n\nMECHANICAL THROMBECTOMY FOR STROKE( 限林口 ) Show:\n\n‘linical Presentation: Acute consciosuness disturbance and right hemiplegia,\navored left MCA MI occlusion, Last normal time: 2024/12/08 22:30, NIHSS 26,\n\nARS: 5\n\ningiographic findings:\n\n‘atient with intubation.\n\n‘illing defect in distal/M1.,\n\n‘artial occlusion of left M1 and paucity of vessels and brain stain at left @\n\niferior frontal region.\n‘rominent of cortical vein particularly at left sylvian. |\n\naterventional findings:\n\\IS with emergency EVT was performed under general anesthesia. |\n\n. long sheath (Neuron MX88) introduce to left ICA from right femoral arterial\n\nccess.\n\n. aspiration catheter (RED 062) navigated to left M1 and continue suction with |\nump.\n\nOme thrombus (white clot) was aspirated in the first pass.\n\n‘ecanalization of the left MCA after one pass.\n\ndiffuse pial AV fistula in late capilllary phase in left cortical region.\n\nuggest DSA follow up.\n\n‘arotid stenosis at left carotid bifurcation.\n\n‘uncture time: 19:15\n\nind of procedure: 20:05\n\\spiration time: 15 minutes.\n‘ocedure time: 60 minutes",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N67",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"id": "N69",
+"group": "near",
+"label": "+7天",
+"delta": 7
+},
+{
+"id": "N70",
+"group": "near",
+"label": "-7天",
+"delta": -7
+}
+],
+"images": [
+{
+"key": "general/n2_N69_01.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N69_02.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+},
+{
+"key": "general/n2_N69_03.jpg",
+"group": "MRN",
+"label": "病歷號相符",
+"delta": null
+}
+]
+},
+"links": [
+{
+"id": "P065",
+"label": "同日"
+},
+{
+"id": "P066",
+"label": "同日"
+},
+{
+"id": "P068",
+"label": "同日"
+},
+{
+"id": "C04",
+"label": "同日"
+},
+{
+"id": "C05",
+"label": "同病歷號"
+},
+{
+"id": "P074",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [
+"Neuron MAX"
+],
+"guide": [],
+"aspiration": [
+"RED 062"
+],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "MCA M1",
+"ap2": "經動脈・股動脈"
 },
 {
 "id": "C01",
@@ -9177,6 +12515,10 @@
 {
 "id": "C03",
 "label": "同日"
+},
+{
+"id": "P081",
+"label": "同日"
 }
 ],
 "plist": [
@@ -9249,6 +12591,10 @@
 },
 {
 "id": "C03",
+"label": "同日"
+},
+{
+"id": "P081",
 "label": "同日"
 }
 ],
@@ -9501,12 +12847,96 @@
 {
 "id": "C02",
 "label": "同日"
+},
+{
+"id": "P081",
+"label": "同日"
 }
 ],
 "plist": [
 3,
 37
 ]
+},
+{
+"id": "P081",
+"kind": "pdf",
+"disease": "ia",
+"category": "02_stroke_thrombectomy",
+"date": "2024-12-02",
+"mrn": "",
+"dx": "",
+"impression": "AIS of basilar and bilateral PCAs; S/P EVT with TICI 3 result.",
+"treatment": "Aspiration (ADAPT) + TICI 3",
+"modality": [
+"Aspiration (ADAPT)",
+"TICI 3"
+],
+"devices": [
+"Asp: RED"
+],
+"approach": [
+"經橈動脈 radial",
+"全身麻醉"
+],
+"flags": [
+"頁首裁切：日期依報告日期推定",
+"頁首裁切：病歷號未見"
+],
+"text": "nn  —— ———————EEEeeeeO7OoO\n\ningiographic findings:\n‘ight stenosis of left VB junction.\ncute occlusion of basilar artery at SCA level.\n\naterventional findings:\nIS with EVT was performed after having the informed consent from patient\n\namily.\n_ ‘atient under general anesthesia.\ntight radial artery (Snuff Box) puncture under Echo guidance and vascular\n\nccess from right vertbral artery with aspiration catheter (RED 068) to basilar\n\n_ rtery.\n‘omplete aspiration of thrmous in basilar artery with RED 068 in first pass, but\n\ntill thrombus in bilaterl distal PCA branches.\nInder this condition, thrombectomy of DMVO was performed with RED 048.\n\nICI 3 resulted after several attempt.\n‘ecanalization time 50 mintes.\n\nMP: AIS of basilar and bilateral PCAs; S/P EVT with TICI 3 result.\n\n\n父射師 : 林冠宇 RT3A42 放字第 004876 號 / 報告日期 : 2024/12/02 21:51",
+"pages": 1,
+"merged": [],
+"supp": {
+"notes": [
+{
+"id": "N70",
+"group": "same",
+"label": "同日",
+"delta": 0
+},
+{
+"id": "N67",
+"group": "near",
+"label": "+7天",
+"delta": 7
+}
+],
+"images": []
+},
+"links": [
+{
+"id": "C01",
+"label": "同日"
+},
+{
+"id": "C02",
+"label": "同日"
+},
+{
+"id": "C03",
+"label": "同日"
+}
+],
+"plist": [],
+"stack": {
+"sheath": [],
+"guide": [],
+"aspiration": [
+"RED 068",
+"RED 048"
+],
+"retriever": [],
+"micro": [],
+"wire": [],
+"implant": [],
+"embolic": [],
+"balloon": [],
+"drug": [],
+"closure": [],
+"size": []
+},
+"loc": "Basilar",
+"ap2": "經動脈・橈動脈"
 },
 {
 "id": "P007",

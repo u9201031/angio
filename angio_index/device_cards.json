@@ -1,1 +1,480 @@
-{"aneurysm": {"top": [{"stack": "Navien + Phenom 27 + FD Shield", "n": 6, "ids": "P062、P057、P047、P036、P042、P060"}, {"stack": "FD p64", "n": 3, "ids": "P068、P049、P054"}, {"stack": "Navien + Phenom 21 + FD Vantage", "n": 2, "ids": "P066、P048"}, {"stack": "Phenom 27 + FD Shield", "n": 2, "ids": "P064、P069"}, {"stack": "Headway 21 + FD p64", "n": 2, "ids": "P059、P037"}], "rows": [{"loc": "ICA ophthalmic", "n": 10, "ap": "經動脈 10/10", "stack": "Navien 6/10；Infinity 1/10；Phenom 27 5/10；XT-27 2/10；FD Shield 4/10；FD p64 2/10；Coils 2/10；AngioSeal 5/10", "ids": "P065、P057、P056、P046、P036、P040、P037、P060、P069、P072"}, {"loc": "MCA", "n": 8, "ap": "經動脈 8/8", "stack": "Navien 4/8；Phenom 21 1/8；Phenom 1/8；FD p64 2/8；FD Vantage 1/8；Coils 2/8；AngioSeal 5/8", "ids": "P066、P068、P050、P063、P053、P054、P043、P039"}, {"loc": "ICA PComA", "n": 8, "ap": "經動脈 8/8", "stack": "Navien 4/8；Infinity 1/8；Phenom 27 2/8；Headway 17 1/8；FD Shield 3/8；FD p64 2/8；Coils 2/8；AngioSeal 2/8", "ids": "P064、P049、P058、P048、P045、P044、P042、P034"}, {"loc": "ICA SHA", "n": 2, "ap": "經動脈 2/2", "stack": "Navien 2/2；Phenom 27 2/2；FD Shield 2/2；Coils 1/2", "ids": "P062、P047"}, {"loc": "ICA posterior genu", "n": 2, "ap": "經動脈 2/2", "stack": "Navien 1/2；Headway 21 2/2；FD p64 1/2；AngioSeal 1/2", "ids": "P059、P038"}, {"loc": "AComA/ACA", "n": 2, "ap": "經動脈 2/2", "stack": "Navien 1/2；Headway 21 1/2；FD Vantage 2/2；AngioSeal 1/2", "ids": "P067、P035"}, {"loc": "ICA AChoA", "n": 2, "ap": "經動脈 2/2", "stack": "Navien 2/2；Phenom 27 1/2；Phenom 21 1/2；FD Shield 1/2；FD Vantage 1/2；Coils 2/2", "ids": "P055、P052"}, {"loc": "ICA cavernous", "n": 1, "ap": "經動脈 1/1", "stack": "Envoy 1/1；AngioSeal 1/1", "ids": "P051"}, {"loc": "Cervical ICA", "n": 1, "ap": "經動脈 1/1", "stack": "FD Derivo 1/1；Cover stent 1/1", "ids": "P041"}, {"loc": "Basilar", "n": 1, "ap": "經動脈 1/1", "stack": "Infinity 1/1；FD Derivo 1/1", "ids": "P070"}, {"loc": "PCA", "n": 1, "ap": "經動脈 1/1", "stack": "Navien 1/1；Infinity 1/1；Phenom 21 1/1；FD Vantage 1/1；AngioSeal 1/1", "ids": "P071"}], "pairs": ["FD Pipeline → closure 常用 **AngioSeal**：2/2", "FD Shield → micro 常用 **Phenom 27**：9/11", "FD Shield → closure 常用 **AngioSeal**：4/11", "FD Shield → sheath 常用 **Shuttle**：5/11", "FD Shield → guide 常用 **Navien**：8/11", "FD Vantage → micro 常用 **Phenom 21**：4/7", "FD Vantage → closure 常用 **AngioSeal**：3/7", "FD Vantage → sheath 常用 **Shuttle**：5/7", "FD Vantage → guide 常用 **Navien**：6/7", "FD p64 → micro 常用 **Headway 21**：3/7"]}, "davf": {"top": [{"stack": "Coils", "n": 3, "ids": "P006、P004、P003"}, {"stack": "Infinity + Apollo + Onyx", "n": 1, "ids": "P007"}, {"stack": "Onyx", "n": 1, "ids": "P008"}, {"stack": "Envoy + Onyx", "n": 1, "ids": "P005"}, {"stack": "Marathon + Coils", "n": 1, "ids": "P002"}], "rows": [{"loc": "Cavernous/CCF", "n": 5, "ap": "經靜脈 3/5", "stack": "Envoy 1/5；SL-10 1/5；FD Shield 1/5；Coils 4/5；Onyx 1/5；AngioSeal 2/5", "ids": "P005、P006、P004、P003、P009"}, {"loc": "Tentorial/T-S", "n": 4, "ap": "經動脈 3/4", "stack": "Envoy 1/4；Echelon 2/4；Apollo 2/4；Coils 3/4；Onyx 2/4；AngioSeal 1/4；QuickClot 1/4", "ids": "P002、P010、P011、P013"}, {"loc": "Galen type", "n": 3, "ap": "經動脈 3/3", "stack": "Infinity 1/3；Navien 1/3；Apollo 1/3；Marathon 1/3；Onyx 3/3；NBCA 1/3；AngioSeal 2/3", "ids": "P007、P008、P001"}], "pairs": ["Coils → micro 常用 **Echelon**：2/7", "Coils → closure 常用 **AngioSeal**：2/7", "Coils → sheath 常用 **8F sheath**：2/7", "Onyx → micro 常用 **Apollo**：3/6", "Onyx → closure 常用 **AngioSeal**：3/6", "Onyx → guide 常用 **Envoy**：2/6"]}, "avm": {"top": [{"stack": "—（未抽到器材）", "n": 2, "ids": "P015、P017"}, {"stack": "Navien/Infinity + Apollo/Marathon", "n": 1, "ids": "P016"}, {"stack": "Marathon/SL-10 + Coils/NBCA", "n": 1, "ids": "P019"}, {"stack": "Echelon/Apollo + Coils/Onyx", "n": 1, "ids": "P020"}], "rows": [{"loc": "Face/orbit", "n": 3, "ap": "經動脈 2/3", "stack": "Marathon 1/3；SL-10 1/3；Coils 2/3；NBCA 1/3；AngioSeal 1/3", "ids": "P019、P017、P020"}, {"loc": "Cerebral", "n": 2, "ap": "經動脈 2/2", "stack": "Navien 1/2；Infinity 1/2；Apollo 1/2；Marathon 1/2", "ids": "P015、P016"}], "pairs": ["Coils → sheath 常用 **Shuttle**：2/2"]}, "tumor": {"top": [{"stack": "Phenom Plus + Headway 17 + Melphalan/Topotecan", "n": 4, "ids": "P022、P024、P025、P027"}, {"stack": "Phenom Plus + Marathon + Melphalan/Topotecan", "n": 2, "ids": "P029、P026"}, {"stack": "Coils/NBCA", "n": 2, "ids": "P032、P033"}, {"stack": "NBCA/Lipiodol", "n": 1, "ids": "P028"}, {"stack": "NBCA", "n": 1, "ids": "P030"}], "rows": [{"loc": "Retinoblastoma", "n": 7, "ap": "經動脈 7/7", "stack": "Phenom Plus 7/7；Headway 17 4/7；Marathon 2/7；Melphalan 7/7；Topotecan 7/7；Manual compression 7/7；QuickClot 1/7", "ids": "P029、P026、P022、P024、P025、P027、P021"}, {"loc": "Head-neck cancer/metastasis", "n": 2, "ap": "經動脈 2/2", "stack": "NBCA 2/2；Lipiodol 2/2", "ids": "P028、P032"}, {"loc": "Glomus/paraganglioma", "n": 2, "ap": "經動脈 2/2", "stack": "NBCA 2/2；Coils 1/2；AngioSeal 1/2", "ids": "P030、P033"}, {"loc": "Hemangioma (limb)", "n": 1, "ap": "經動脈 1/1", "stack": "Ethanol 1/1；AngioSeal 1/1", "ids": "P031"}, {"loc": "Intracranial tumor", "n": 1, "ap": "經動脈 1/1", "stack": "SL-10 1/1；NBCA 1/1；Lipiodol 1/1；AngioSeal 1/1", "ids": "P023"}], "pairs": ["Carboplatin → micro 常用 **Headway 17**：3/6", "Carboplatin → closure 常用 **Manual compression**：6/6", "Carboplatin → sheath 常用 **4/5F sheath**：3/6", "Carboplatin → guide 常用 **Phenom Plus**：6/6", "Melphalan → micro 常用 **Headway 17**：4/7", "Melphalan → closure 常用 **Manual compression**：7/7", "Melphalan → sheath 常用 **4/5F sheath**：4/7", "Melphalan → guide 常用 **Phenom Plus**：7/7", "NBCA → closure 常用 **AngioSeal**：2/5", "Topotecan → micro 常用 **Headway 17**：4/7"]}}
+{
+ "aneurysm": {
+  "top": [
+   {
+    "stack": "Navien + Phenom 27 + FD Shield",
+    "n": 6,
+    "ids": "P062、P057、P047、P036、P042、P060"
+   },
+   {
+    "stack": "FD p64",
+    "n": 3,
+    "ids": "P068、P049、P054"
+   },
+   {
+    "stack": "Navien + Phenom 21 + FD Vantage",
+    "n": 2,
+    "ids": "P066、P048"
+   },
+   {
+    "stack": "Phenom 27 + FD Shield",
+    "n": 2,
+    "ids": "P064、P069"
+   },
+   {
+    "stack": "Headway 21 + FD p64",
+    "n": 2,
+    "ids": "P059、P037"
+   }
+  ],
+  "rows": [
+   {
+    "loc": "ICA ophthalmic",
+    "n": 10,
+    "ap": "經動脈 10/10",
+    "stack": "Navien 6/10；Infinity 1/10；Phenom 27 5/10；XT-27 2/10；FD Shield 4/10；FD p64 2/10；Coils 2/10；AngioSeal 5/10",
+    "ids": "P065、P057、P056、P046、P036、P040、P037、P060、P069、P072"
+   },
+   {
+    "loc": "MCA",
+    "n": 8,
+    "ap": "經動脈 8/8",
+    "stack": "Navien 4/8；Phenom 21 1/8；Phenom 1/8；FD p64 2/8；FD Vantage 1/8；Coils 2/8；AngioSeal 5/8",
+    "ids": "P066、P068、P050、P063、P053、P054、P043、P039"
+   },
+   {
+    "loc": "ICA PComA",
+    "n": 8,
+    "ap": "經動脈 8/8",
+    "stack": "Navien 4/8；Infinity 1/8；Phenom 27 2/8；Headway 17 1/8；FD Shield 3/8；FD p64 2/8；Coils 2/8；AngioSeal 2/8",
+    "ids": "P064、P049、P058、P048、P045、P044、P042、P034"
+   },
+   {
+    "loc": "ICA SHA",
+    "n": 2,
+    "ap": "經動脈 2/2",
+    "stack": "Navien 2/2；Phenom 27 2/2；FD Shield 2/2；Coils 1/2",
+    "ids": "P062、P047"
+   },
+   {
+    "loc": "ICA posterior genu",
+    "n": 2,
+    "ap": "經動脈 2/2",
+    "stack": "Navien 1/2；Headway 21 2/2；FD p64 1/2；AngioSeal 1/2",
+    "ids": "P059、P038"
+   },
+   {
+    "loc": "AComA/ACA",
+    "n": 2,
+    "ap": "經動脈 2/2",
+    "stack": "Navien 1/2；Headway 21 1/2；FD Vantage 2/2；AngioSeal 1/2",
+    "ids": "P067、P035"
+   },
+   {
+    "loc": "ICA AChoA",
+    "n": 2,
+    "ap": "經動脈 2/2",
+    "stack": "Navien 2/2；Phenom 27 1/2；Phenom 21 1/2；FD Shield 1/2；FD Vantage 1/2；Coils 2/2",
+    "ids": "P055、P052"
+   },
+   {
+    "loc": "ICA cavernous",
+    "n": 1,
+    "ap": "經動脈 1/1",
+    "stack": "Envoy 1/1；AngioSeal 1/1",
+    "ids": "P051"
+   },
+   {
+    "loc": "Cervical ICA",
+    "n": 1,
+    "ap": "經動脈 1/1",
+    "stack": "FD Derivo 1/1；Cover stent 1/1",
+    "ids": "P041"
+   },
+   {
+    "loc": "Basilar",
+    "n": 1,
+    "ap": "經動脈 1/1",
+    "stack": "Infinity 1/1；FD Derivo 1/1",
+    "ids": "P070"
+   },
+   {
+    "loc": "PCA",
+    "n": 1,
+    "ap": "經動脈 1/1",
+    "stack": "Navien 1/1；Infinity 1/1；Phenom 21 1/1；FD Vantage 1/1；AngioSeal 1/1",
+    "ids": "P071"
+   }
+  ],
+  "pairs": [
+   "FD Pipeline → closure 常用 **AngioSeal**：2/2",
+   "FD Shield → micro 常用 **Phenom 27**：9/11",
+   "FD Shield → closure 常用 **AngioSeal**：4/11",
+   "FD Shield → sheath 常用 **Shuttle**：5/11",
+   "FD Shield → guide 常用 **Navien**：8/11",
+   "FD Vantage → micro 常用 **Phenom 21**：4/7",
+   "FD Vantage → closure 常用 **AngioSeal**：3/7",
+   "FD Vantage → sheath 常用 **Shuttle**：5/7",
+   "FD Vantage → guide 常用 **Navien**：6/7",
+   "FD p64 → micro 常用 **Headway 21**：3/7"
+  ]
+ },
+ "davf": {
+  "top": [
+   {
+    "stack": "Coils",
+    "n": 3,
+    "ids": "P006、P004、P003"
+   },
+   {
+    "stack": "Infinity + Apollo + Onyx",
+    "n": 1,
+    "ids": "P007"
+   },
+   {
+    "stack": "Onyx",
+    "n": 1,
+    "ids": "P008"
+   },
+   {
+    "stack": "Envoy + Onyx",
+    "n": 1,
+    "ids": "P005"
+   },
+   {
+    "stack": "Marathon + Coils",
+    "n": 1,
+    "ids": "P002"
+   }
+  ],
+  "rows": [
+   {
+    "loc": "Cavernous/CCF",
+    "n": 5,
+    "ap": "經靜脈 3/5",
+    "stack": "Envoy 1/5；SL-10 1/5；FD Shield 1/5；Coils 4/5；Onyx 1/5；AngioSeal 2/5",
+    "ids": "P005、P006、P004、P003、P009"
+   },
+   {
+    "loc": "Tentorial/T-S",
+    "n": 4,
+    "ap": "經動脈 3/4",
+    "stack": "Envoy 1/4；Echelon 2/4；Apollo 2/4；Coils 3/4；Onyx 2/4；AngioSeal 1/4；QuickClot 1/4",
+    "ids": "P002、P010、P011、P013"
+   },
+   {
+    "loc": "Galen type",
+    "n": 3,
+    "ap": "經動脈 3/3",
+    "stack": "Infinity 1/3；Navien 1/3；Apollo 1/3；Marathon 1/3；Onyx 3/3；NBCA 1/3；AngioSeal 2/3",
+    "ids": "P007、P008、P001"
+   }
+  ],
+  "pairs": [
+   "Coils → micro 常用 **Echelon**：2/7",
+   "Coils → closure 常用 **AngioSeal**：2/7",
+   "Coils → sheath 常用 **8F sheath**：2/7",
+   "Onyx → micro 常用 **Apollo**：3/6",
+   "Onyx → closure 常用 **AngioSeal**：3/6",
+   "Onyx → guide 常用 **Envoy**：2/6"
+  ]
+ },
+ "avm": {
+  "top": [
+   {
+    "stack": "—（未抽到器材）",
+    "n": 2,
+    "ids": "P015、P017"
+   },
+   {
+    "stack": "Navien/Infinity + Apollo/Marathon",
+    "n": 1,
+    "ids": "P016"
+   },
+   {
+    "stack": "Marathon/SL-10 + Coils/NBCA",
+    "n": 1,
+    "ids": "P019"
+   },
+   {
+    "stack": "Echelon/Apollo + Coils/Onyx",
+    "n": 1,
+    "ids": "P020"
+   }
+  ],
+  "rows": [
+   {
+    "loc": "Face/orbit",
+    "n": 3,
+    "ap": "經動脈 2/3",
+    "stack": "Marathon 1/3；SL-10 1/3；Coils 2/3；NBCA 1/3；AngioSeal 1/3",
+    "ids": "P019、P017、P020"
+   },
+   {
+    "loc": "Cerebral",
+    "n": 2,
+    "ap": "經動脈 2/2",
+    "stack": "Navien 1/2；Infinity 1/2；Apollo 1/2；Marathon 1/2",
+    "ids": "P015、P016"
+   }
+  ],
+  "pairs": [
+   "Coils → sheath 常用 **Shuttle**：2/2"
+  ]
+ },
+ "tumor": {
+  "top": [
+   {
+    "stack": "Phenom Plus + Headway 17 + Melphalan/Topotecan",
+    "n": 4,
+    "ids": "P022、P024、P025、P027"
+   },
+   {
+    "stack": "Phenom Plus + Marathon + Melphalan/Topotecan",
+    "n": 2,
+    "ids": "P029、P026"
+   },
+   {
+    "stack": "Coils/NBCA",
+    "n": 2,
+    "ids": "P032、P033"
+   },
+   {
+    "stack": "NBCA/Lipiodol",
+    "n": 1,
+    "ids": "P028"
+   },
+   {
+    "stack": "NBCA",
+    "n": 1,
+    "ids": "P030"
+   }
+  ],
+  "rows": [
+   {
+    "loc": "Retinoblastoma",
+    "n": 7,
+    "ap": "經動脈 7/7",
+    "stack": "Phenom Plus 7/7；Headway 17 4/7；Marathon 2/7；Melphalan 7/7；Topotecan 7/7；Manual compression 7/7；QuickClot 1/7",
+    "ids": "P029、P026、P022、P024、P025、P027、P021"
+   },
+   {
+    "loc": "Head-neck cancer/metastasis",
+    "n": 2,
+    "ap": "經動脈 2/2",
+    "stack": "NBCA 2/2；Lipiodol 2/2",
+    "ids": "P028、P032"
+   },
+   {
+    "loc": "Glomus/paraganglioma",
+    "n": 2,
+    "ap": "經動脈 2/2",
+    "stack": "NBCA 2/2；Coils 1/2；AngioSeal 1/2",
+    "ids": "P030、P033"
+   },
+   {
+    "loc": "Hemangioma (limb)",
+    "n": 1,
+    "ap": "經動脈 1/1",
+    "stack": "Ethanol 1/1；AngioSeal 1/1",
+    "ids": "P031"
+   },
+   {
+    "loc": "Intracranial tumor",
+    "n": 1,
+    "ap": "經動脈 1/1",
+    "stack": "SL-10 1/1；NBCA 1/1；Lipiodol 1/1；AngioSeal 1/1",
+    "ids": "P023"
+   }
+  ],
+  "pairs": [
+   "Carboplatin → micro 常用 **Headway 17**：3/6",
+   "Carboplatin → closure 常用 **Manual compression**：6/6",
+   "Carboplatin → sheath 常用 **4/5F sheath**：3/6",
+   "Carboplatin → guide 常用 **Phenom Plus**：6/6",
+   "Melphalan → micro 常用 **Headway 17**：4/7",
+   "Melphalan → closure 常用 **Manual compression**：7/7",
+   "Melphalan → sheath 常用 **4/5F sheath**：4/7",
+   "Melphalan → guide 常用 **Phenom Plus**：7/7",
+   "NBCA → closure 常用 **AngioSeal**：2/5",
+   "Topotecan → micro 常用 **Headway 17**：4/7"
+  ]
+ },
+ "ia": {
+  "top": [
+   {
+    "stack": "—",
+    "n": 4,
+    "ids": "P074、P075、P077、P082"
+   },
+   {
+    "stack": "RED 062",
+    "n": 2,
+    "ids": "P076、P084"
+   },
+   {
+    "stack": "REACT",
+    "n": 1,
+    "ids": "P073"
+   },
+   {
+    "stack": "RED 062 + Solitaire",
+    "n": 1,
+    "ids": "P078"
+   },
+   {
+    "stack": "Wallstent",
+    "n": 1,
+    "ids": "P079"
+   },
+   {
+    "stack": "RED 068",
+    "n": 1,
+    "ids": "P080"
+   }
+  ],
+  "rows": [
+   {
+    "loc": "MCA M1",
+    "n": 4,
+    "ap": "股動脈 4/4",
+    "stack": "Neuron MAX 4/4；8F sheath 1/4；REACT 1/4；RED 062 1/4；RED 068 1/4；Headway 21 1/4",
+    "ids": "P073、P076、P077、P080"
+   },
+   {
+    "loc": "Tandem ICA + MCA",
+    "n": 3,
+    "ap": "股動脈 3/3",
+    "stack": "Neuron MAX 2/3；8F sheath 1/3；RED 062 1/3；Wallstent 1/3",
+    "ids": "P079、P082、P084"
+   },
+   {
+    "loc": "Basilar",
+    "n": 2,
+    "ap": "橈動脈 2/2",
+    "stack": "Neuron MAX 1/2；RED 068 1/2；RED 048 1/2",
+    "ids": "P074、P081"
+   },
+   {
+    "loc": "ICA terminus/T",
+    "n": 1,
+    "ap": "股動脈 1/1",
+    "stack": "Shuttle 1/1；Neuron MAX 1/1；RED 062 1/1；Solitaire 1/1；Phenom 21 1/1；Tirofiban 1/1；AngioSeal 1/1",
+    "ids": "P078"
+   },
+   {
+    "loc": "ICA（ICAD）",
+    "n": 1,
+    "ap": "股動脈 1/1",
+    "stack": "Neuron MAX 1/1；Ryurei 1/1；AngioSeal 1/1",
+    "ids": "P083"
+   },
+   {
+    "loc": "MCA M2",
+    "n": 1,
+    "ap": "股動脈 1/1",
+    "stack": "Neuron MAX 1/1",
+    "ids": "P075"
+   }
+  ],
+  "pairs": [
+   "MT 首選 **ADAPT 直接抽吸**：11/12 例（Neuron MAX 長鞘 + RED 062/068 或 REACT）",
+   "Stent retriever（Solitaire）只在 ICA-T 合併用（P078，combined + Tirofiban）",
+   "ICAD 再閉塞 → **Rescue PTA**（Ryurei 2.5×15，P075、P083）",
+   "Tandem 病灶 → 頸部先放 **Wallstent 7×40**（P079）",
+   "後循環 basilar 4 例全部 ADAPT，P081 經橈動脈（RED 068/048）"
+  ]
+ },
+ "stenting": {
+  "top": [
+   {
+    "stack": "—",
+    "n": 2,
+    "ids": "P086、P097"
+   },
+   {
+    "stack": "Wallstent + Sterling",
+    "n": 2,
+    "ids": "P090、P100"
+   },
+   {
+    "stack": "Navien + Infinity + Gateway",
+    "n": 2,
+    "ids": "P092、P099"
+   },
+   {
+    "stack": "Navien + Pegasus + Gateway + Scepter",
+    "n": 1,
+    "ids": "P085"
+   },
+   {
+    "stack": "Wallstent + Xact + Sterling",
+    "n": 1,
+    "ids": "P087"
+   },
+   {
+    "stack": "Credo + Ryurei",
+    "n": 1,
+    "ids": "P088"
+   }
+  ],
+  "rows": [
+   {
+    "loc": "Cervical ICA（CAS）",
+    "n": 9,
+    "ap": "股動脈 8/9",
+    "stack": "Neuron MAX 3/9；MACH 3/9；SL-10 1/9；Wallstent 7/9；Xact 2/9；BMS 1/9；EPD filter 1/9；Sterling 6/9；Ryurei 1/9；AngioSeal 4/9；VasClose 1/9",
+    "ids": "P087、P089、P090、P091、P093、P095、P097、P098、P100"
+   },
+   {
+    "loc": "Intracranial MCA",
+    "n": 2,
+    "ap": "股動脈 2/2",
+    "stack": "Infinity 2/2；Extraflex 1/2；Navien 1/2；Credo 1/2；Gateway 1/2；AngioSeal 1/2",
+    "ids": "P096、P099"
+   },
+   {
+    "loc": "Intracranial ICA",
+    "n": 1,
+    "ap": "股動脈 1/1",
+    "stack": "Shuttle 1/1；Credo 1/1；Ryurei 1/1；Obtura 1/1",
+    "ids": "P088"
+   },
+   {
+    "loc": "Basilar",
+    "n": 1,
+    "ap": "股動脈 1/1",
+    "stack": "Navien 1/1；Infinity 1/1；Gateway 1/1",
+    "ids": "P092"
+   },
+   {
+    "loc": "Venous（jugular bulb/IJV）",
+    "n": 1,
+    "ap": "股動脈 1/1",
+    "stack": "Shuttle 1/1；Wallstent 1/1；AngioSeal 1/1",
+    "ids": "P094"
+   },
+   {
+    "loc": "Intracranial ICA（FD 近端狹窄）",
+    "n": 1,
+    "ap": "股動脈 1/1",
+    "stack": "Shuttle 1/1；Navien 1/1；Pegasus 1/1；Gateway 1/1；Scepter 1/1；AngioSeal 1/1",
+    "ids": "P085"
+   },
+   {
+    "loc": "Subclavian",
+    "n": 1,
+    "ap": "股動脈 1/1",
+    "stack": "Shuttle 1/1；AngioSeal 1/1",
+    "ids": "P086"
+   }
+  ],
+  "pairs": [
+   "頸動脈 CAS（10 例）→ **Wallstent** 為主（7/10），Xact 2 例；post-dilate 常用 **Sterling 4–4.5×20**",
+   "Guide 常用 **MACH** 或 **Neuron MAX**；Shuttle 用於 intracranial / subclavian / venous",
+   "顱內狹窄 → **Gateway** 或 Ryurei 預擴 + **Credo**（P088、P096）或 Pegasus（P085）",
+   "EPD filter 只明寫 1 例（P089）",
+   "止血：AngioSeal 為主，另有 VasClose、Obtura 各 1 例"
+  ]
+ }
+}

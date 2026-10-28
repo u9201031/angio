@@ -1,6 +1,6 @@
 # 器材組合規則（依疾病／位置）
 
-> 資料來源：68 份掃描報告 OCR，以關鍵字抽出器材。n 很小，只代表本院這批病例的習慣，不是指引。⚠️ = OCR 不確定。「—」= 報告沒寫到或 OCR 沒抓到。核心組合 = 中間導管/guide + 微導管 + 植入物/栓塞物。
+> 資料來源：96 份掃描報告 OCR，以關鍵字抽出器材。n 很小，只代表本院這批病例的習慣，不是指引。⚠️ = OCR 不確定。「—」= 報告沒寫到或 OCR 沒抓到。核心組合 = 中間導管/guide + 微導管 + 植入物/栓塞物。
 
 ## Aneurysm（38 例）
 
@@ -158,3 +158,60 @@
 - 器材是用關鍵字從 OCR 文字抓出來的。報告沒寫、或 OCR 糊掉，就會漏掉（「—」）。
 - 尺寸只在部分報告出現，例如 FD 4.5×20mm（P057）、Vantage 3.25×16/20mm。
 - 「Phenom」沒寫 21 或 27 時只記 Phenom。Elite（P072）與 P009 的 Shield 為 ⚠️ OCR 不確定。
+
+## IA（取栓 Mechanical thrombectomy）（12 例）
+
+### 最常見核心組合
+- **—** — 4 例（P074、P075、P077、P082）
+- **RED 062** — 2 例（P076、P084）
+- **REACT** — 1 例（P073）
+- **RED 062 + Solitaire** — 1 例（P078）
+- **Wallstent** — 1 例（P079）
+- **RED 068** — 1 例（P080）
+
+### 位置 × 典型組合
+
+| 位置 | n | 途徑 | 典型組合（次數） | 病例 |
+|---|---|---|---|---|
+| MCA M1 | 4 | 股動脈 4/4 | Neuron MAX 4/4；8F sheath 1/4；REACT 1/4；RED 062 1/4；RED 068 1/4；Headway 21 1/4 | P073、P076、P077、P080 |
+| Tandem ICA + MCA | 3 | 股動脈 3/3 | Neuron MAX 2/3；8F sheath 1/3；RED 062 1/3；Wallstent 1/3 | P079、P082、P084 |
+| Basilar | 2 | 橈動脈 2/2 | Neuron MAX 1/2；RED 068 1/2；RED 048 1/2 | P074、P081 |
+| ICA terminus/T | 1 | 股動脈 1/1 | Shuttle 1/1；Neuron MAX 1/1；RED 062 1/1；Solitaire 1/1；Phenom 21 1/1；Tirofiban 1/1；AngioSeal 1/1 | P078 |
+| ICA（ICAD） | 1 | 股動脈 1/1 | Neuron MAX 1/1；Ryurei 1/1；AngioSeal 1/1 | P083 |
+| MCA M2 | 1 | 股動脈 1/1 | Neuron MAX 1/1 | P075 |
+
+### 配對規則
+- MT 首選 **ADAPT 直接抽吸**：11/12 例（Neuron MAX 長鞘 + RED 062/068 或 REACT）
+- Stent retriever（Solitaire）只在 ICA-T 合併用（P078，combined + Tirofiban）
+- ICAD 再閉塞 → **Rescue PTA**（Ryurei 2.5×15，P075、P083）
+- Tandem 病灶 → 頸部先放 **Wallstent 7×40**（P079）
+- 後循環 basilar 4 例全部 ADAPT，P081 經橈動脈（RED 068/048）
+
+## Stenting（16 例）
+
+### 最常見核心組合
+- **—** — 2 例（P086、P097）
+- **Wallstent + Sterling** — 2 例（P090、P100）
+- **Navien + Infinity + Gateway** — 2 例（P092、P099）
+- **Navien + Pegasus + Gateway + Scepter** — 1 例（P085）
+- **Wallstent + Xact + Sterling** — 1 例（P087）
+- **Credo + Ryurei** — 1 例（P088）
+
+### 位置 × 典型組合
+
+| 位置 | n | 途徑 | 典型組合（次數） | 病例 |
+|---|---|---|---|---|
+| Cervical ICA（CAS） | 9 | 股動脈 8/9 | Neuron MAX 3/9；MACH 3/9；SL-10 1/9；Wallstent 7/9；Xact 2/9；BMS 1/9；EPD filter 1/9；Sterling 6/9；Ryurei 1/9；AngioSeal 4/9；VasClose 1/9 | P087、P089、P090、P091、P093、P095、P097、P098、P100 |
+| Intracranial MCA | 2 | 股動脈 2/2 | Infinity 2/2；Extraflex 1/2；Navien 1/2；Credo 1/2；Gateway 1/2；AngioSeal 1/2 | P096、P099 |
+| Intracranial ICA | 1 | 股動脈 1/1 | Shuttle 1/1；Credo 1/1；Ryurei 1/1；Obtura 1/1 | P088 |
+| Basilar | 1 | 股動脈 1/1 | Navien 1/1；Infinity 1/1；Gateway 1/1 | P092 |
+| Venous（jugular bulb/IJV） | 1 | 股動脈 1/1 | Shuttle 1/1；Wallstent 1/1；AngioSeal 1/1 | P094 |
+| Intracranial ICA（FD 近端狹窄） | 1 | 股動脈 1/1 | Shuttle 1/1；Navien 1/1；Pegasus 1/1；Gateway 1/1；Scepter 1/1；AngioSeal 1/1 | P085 |
+| Subclavian | 1 | 股動脈 1/1 | Shuttle 1/1；AngioSeal 1/1 | P086 |
+
+### 配對規則
+- 頸動脈 CAS（10 例）→ **Wallstent** 為主（7/10），Xact 2 例；post-dilate 常用 **Sterling 4–4.5×20**
+- Guide 常用 **MACH** 或 **Neuron MAX**；Shuttle 用於 intracranial / subclavian / venous
+- 顱內狹窄 → **Gateway** 或 Ryurei 預擴 + **Credo**（P088、P096）或 Pegasus（P085）
+- EPD filter 只明寫 1 例（P089）
+- 止血：AngioSeal 為主，另有 VasClose、Obtura 各 1 例
