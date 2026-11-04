@@ -4,18 +4,20 @@ export type PRow = {
   date: string; mrn: string; code: string; procedure: string; note: string
   attending: string; category: 'TAE' | '其他'; image: string; source: string; cases: string[]
   disease: string; linkCase: string | null; linkBy: 'MRN' | 'date' | 'inferred'; inferNote?: string
+  room?: string; bed?: string; age?: string; sex?: string; surgeryNo?: string; consult?: boolean; mrnUnknown?: boolean; flags?: string[]; status?: string
 }
 const BY: Record<string, string> = { MRN: '病歷號', date: '同日', inferred: '推定' }
 
 export function PlistTable({ rows, onOpenCase }: { rows: PRow[]; onOpenCase: (id: string) => void }) {
   return (
     <table className="plist__table">
-      <thead><tr><th>日期</th><th>病歷號</th><th>項目</th><th>分類</th><th>病例</th></tr></thead>
+      <thead><tr><th>日期</th><th>病歷號</th><th>房間</th><th>床號</th><th>年齡/性別</th><th>手術編號</th><th>項目</th><th>分類</th><th>病例</th></tr></thead>
       <tbody>
         {rows.map((r, i) => (
           <tr key={i}>
-            <td>{r.date}</td><td className="mono">{r.mrn}</td>
-            <td>{r.code} {r.procedure}{r.category === 'TAE' && <span className="dchip">TAE</span>}{r.note && <small> {r.note}</small>}</td>
+            <td>{r.date}</td><td className="mono">{r.mrnUnknown ? <span className="tag tag--near">未知</span> : r.mrn}</td>
+            <td>{r.room || '—'}</td><td className="mono">{r.bed || '—'}</td><td>{r.age ? `${r.age}${r.sex ? '/' + r.sex : ''}` : '—'}</td><td className="mono">{r.surgeryNo || '—'}</td>
+            <td>{r.code} {r.procedure}{r.category === 'TAE' && <span className="dchip">TAE</span>}{r.note && <small> {r.note}</small>}{r.consult && <span className="dchip">會診</span>}{r.status && <span className="tag tag--near" title={r.flags?.join('；')}>⚠ {r.status}</span>}</td>
             <td>{r.disease}{r.linkBy === 'inferred' && <span className="tag tag--near" title={r.inferNote}>推定</span>}{r.inferNote && <small> {r.inferNote}</small>}</td>
             <td>{r.linkCase ? <button className="dchip link" onClick={() => onOpenCase(r.linkCase!)}>{r.linkCase}・{BY[r.linkBy]}</button> : '—'}</td>
           </tr>
@@ -34,7 +36,7 @@ export function PatientList({ rows, query, dis, setDis, diseases, onOpenCase }: 
   const label = (id: string) => diseases.find((d) => d.id === id)?.label ?? id
   const shown = useMemo(() => rows.filter((r) =>
     (dis === 'all' || r.disease === dis) && (tae === 'all' || r.category === tae) &&
-    (!q || [r.date, r.mrn, r.code, r.procedure, r.note, r.linkCase ?? ''].join(' ').toLowerCase().includes(q))
+    (!q || [r.date, r.mrn, r.code, r.procedure, r.note, r.room ?? '', r.bed ?? '', r.surgeryNo ?? '', r.status ?? '', r.linkCase ?? ''].join(' ').toLowerCase().includes(q))
   ).map((r) => ({ ...r, disease: label(r.disease) })), [rows, dis, tae, q])
   return (
     <div className="plist">
